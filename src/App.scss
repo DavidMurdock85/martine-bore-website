@@ -1,0 +1,126 @@
+/*Media Queries*/
+
+@media only screen and (max-width: 600px) {
+  .banner h1{
+font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .banner h1{
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .banner h1{
+    font-size: 4rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .banner h1{
+    font-size: 5rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .banner h1{
+    font-size: 6rem;
+  }
+}
+@media screen and (min-width: 1400px) { 
+  .banner h1{
+    font-size: 7rem;
+  } 
+}
+
+/*Imports*/
+
+@import "~bootstrap/scss/bootstrap";
+@import "layout";
+
+/*General*/
+
+body{
+  /*background-color: #fadadd;*/
+  background-color:#e9f1f8;
+}
+
+/* Header */
+.header {
+  margin-top: 40px;
+}
+
+.banner {
+  padding-top: 70px;
+  height: 180px;
+  max-width: 100%;
+  text-align: center;
+  font-weight: 100;
+  color:black;
+}
+
+.banner2{
+  padding-top: 20px;
+  height: 90px;
+  max-width: 100%;
+  text-align: center;
+  font-weight: 100;
+  color:black;
+}
+
+.banner3 {
+  padding-top: 20px;
+  height: 90px;
+  max-width: 100%;
+  text-align: center;
+  font-weight: 100;
+  color:black;
+}
+
+/* header - nav bar */
+
+.main-nav {
+  //position: absolute;
+  width: 100%;
+  background-color:#e9f1f8 !important;
+
+  .basic-nav-dropdown {
+    background-color:#e9f1f8 !important;
+  }
+
+  &.navbar {
+   
+  }
+  .nav-link {
+    color: black !important;
+  }
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+/*Body*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#FDFFD5;
+  background-image: url("/images/about-image.jpeg");
+  background-size: contain;
+  
+
+  height: 900px;
+  max-width: 100%;
+  padding-top: 4rem;
+}
+
+/* Footer */
+
+.social-nav {
+  height: 400px;
+  max-width: 50%;
+}
+
+/* Body */
+
+/*Classes*/

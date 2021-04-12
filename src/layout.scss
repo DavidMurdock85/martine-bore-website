@@ -1,0 +1,472 @@
+
+
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.spaced-group {
+  :not(:first-child) {
+    margin-left: 1rem !important;
+  }
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+@media (min-width: $md) {
+  .page-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-gap: 24px;
+  }
+}
+
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.a-full {
+  height: 100%;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--grid-min, 320px), 1fr));
+  grid-gap: var(--grid-gap, 24px);
+}
+
+.img-fill {
+  object-fit: fill;
+}
+
+.img-contain {
+  object-fit: contain;
+}
+
+.img-cover {
+  object-fit: cover;
+}
+
+.m {
+  margin: var(--m-val);
+
+  @media (min-width: $xs) {
+    margin: var(--m-val-xs, var(--m-val));
+  }
+
+  @media (min-width: $sm) {
+    margin: var(--m-val-sm, var(--m-val-xs, var(--m-val)));
+  }
+
+  @media (min-width: $md) {
+    margin: var(--m-val-md, var(--m-val-sm, var(--m-val-xs, var(--m-val))));
+  }
+
+  @media (min-width: $lg) {
+    margin: var(--m-val-lg, var(--m-val-md, var(--m-val-sm, var(--m-val-xs, var(--m-val)))));
+  }
+
+  @media (min-width: $xl) {
+    margin: var(--m-val-xl, var(--m-val-lg, var(--m-val-md, var(--m-val-sm, var(--m-val-xs, var(--m-val))))));
+  }
+}
+
+.mx {
+  margin-left: var(--mx-val);
+  margin-right: var(--mx-val);
+
+  @media (min-width: $xs) {
+    margin-left: var(--mx-val-xs, var(--mx-val));
+    margin-right: var(--mx-val-xs, var(--mx-val));
+  }
+
+  @media (min-width: $sm) {
+    margin-left: var(--mx-val-sm, var(--mx-val-xs, var(--mx-val)));
+    margin-right: var(--mx-val-sm, var(--mx-val-xs, var(--mx-val)));
+  }
+
+  @media (min-width: $md) {
+    margin-left: var(--mx-val-md, var(--mx-val-sm, var(--mx-val-xs, var(--mx-val))));
+    margin-right: var(--mx-val-md, var(--mx-val-sm, var(--mx-val-xs, var(--mx-val))));
+  }
+
+  @media (min-width: $lg) {
+    margin-left: var(--mx-val-lg, var(--mx-val-md, var(--mx-val-sm, var(--mx-val-xs, var(--mx-val)))));
+    margin-right: var(--mx-val-lg, var(--mx-val-md, var(--mx-val-sm, var(--mx-val-xs, var(--mx-val)))));
+  }
+
+  @media (min-width: $xl) {
+    margin-left: var(
+      --mx-val-xl,
+      var(--mx-val-lg, var(--mx-val-md, var(--mx-val-sm, var(--mx-val-xs, var(--mx-val)))))
+    );
+    margin-right: var(
+      --mx-val-xl,
+      var(--mx-val-lg, var(--mx-val-md, var(--mx-val-sm, var(--mx-val-xs, var(--mx-val)))))
+    );
+  }
+}
+
+.my {
+  margin-top: var(--my-val);
+  margin-bottom: var(--my-val);
+
+  @media (min-width: $xs) {
+    margin-top: var(--my-val-xs, var(--my-val));
+    margin-bottom: var(--my-val-xs, var(--my-val));
+  }
+
+  @media (min-width: $sm) {
+    margin-top: var(--my-val-sm, var(--my-val-xs, var(--my-val)));
+    margin-bottom: var(--my-val-sm, var(--my-val-xs, var(--my-val)));
+  }
+
+  @media (min-width: $md) {
+    margin-top: var(--my-val-md, var(--my-val-sm, var(--my-val-xs, var(--my-val))));
+    margin-bottom: var(--my-val-md, var(--my-val-sm, var(--my-val-xs, var(--my-val))));
+  }
+
+  @media (min-width: $lg) {
+    margin-top: var(--my-val-lg, var(--my-val-md, var(--my-val-sm, var(--my-val-xs, var(--my-val)))));
+    margin-bottom: var(--my-val-lg, var(--my-val-md, var(--my-val-sm, var(--my-val-xs, var(--my-val)))));
+  }
+
+  @media (min-width: $xl) {
+    margin-top: var(--my-val-xl, var(--my-val-lg, var(--my-val-md, var(--my-val-sm, var(--my-val-xs, var(--my-val))))));
+    margin-bottom: var(
+      --my-val-xl,
+      var(--my-val-lg, var(--my-val-md, var(--my-val-sm, var(--my-val-xs, var(--my-val)))))
+    );
+  }
+}
+
+.mt {
+  margin-top: var(--mt-val);
+
+  @media (min-width: $xs) {
+    margin-top: var(--mt-val-xs, var(--mt-val));
+  }
+
+  @media (min-width: $sm) {
+    margin-top: var(--mt-val-sm, var(--mt-val-xs, var(--mt-val)));
+  }
+
+  @media (min-width: $md) {
+    margin-top: var(--mt-val-md, var(--mt-val-sm, var(--mt-val-xs, var(--mt-val))));
+  }
+
+  @media (min-width: $lg) {
+    margin-top: var(--mt-val-lg, var(--mt-val-md, var(--mt-val-sm, var(--mt-val-xs, var(--mt-val)))));
+  }
+
+  @media (min-width: $xl) {
+    margin-top: var(--mt-val-xl, var(--mt-val-lg, var(--mt-val-md, var(--mt-val-sm, var(--mt-val-xs, var(--mt-val))))));
+  }
+}
+
+.ml {
+  margin-left: var(--ml-val);
+
+  @media (min-width: $xs) {
+    margin-left: var(--ml-val-xs, var(--ml-val));
+  }
+
+  @media (min-width: $sm) {
+    margin-left: var(--ml-val-sm, var(--ml-val-xs, var(--ml-val)));
+  }
+
+  @media (min-width: $md) {
+    margin-left: var(--ml-val-md, var(--ml-val-sm, var(--ml-val-xs, var(--ml-val))));
+  }
+
+  @media (min-width: $lg) {
+    margin-left: var(--ml-val-lg, var(--ml-val-md, var(--ml-val-sm, var(--ml-val-xs, var(--ml-val)))));
+  }
+
+  @media (min-width: $xl) {
+    margin-left: var(
+      --ml-val-xl,
+      var(--ml-val-lg, var(--ml-val-md, var(--ml-val-sm, var(--ml-val-xs, var(--ml-val)))))
+    );
+  }
+}
+
+.mr {
+  margin-right: var(--mr-val);
+
+  @media (min-width: $xs) {
+    margin-right: var(--mr-val-xs, var(--mr-val));
+  }
+
+  @media (min-width: $sm) {
+    margin-right: var(--mr-val-sm, var(--mr-val-xs, var(--mr-val)));
+  }
+
+  @media (min-width: $md) {
+    margin-right: var(--mr-val-md, var(--mr-val-sm, var(--mr-val-xs, var(--mr-val))));
+  }
+
+  @media (min-width: $lg) {
+    margin-right: var(--mr-val-lg, var(--mr-val-md, var(--mr-val-sm, var(--mr-val-xs, var(--mr-val)))));
+  }
+
+  @media (min-width: $xl) {
+    margin-right: var(
+      --mr-val-xl,
+      var(--mr-val-lg, var(--mr-val-md, var(--mr-val-sm, var(--mr-val-xs, var(--mr-val)))))
+    );
+  }
+}
+
+.mb {
+  margin-bottom: var(--mb-val);
+
+  @media (min-width: $xs) {
+    margin-bottom: var(--mb-val-xs, var(--mb-val));
+  }
+
+  @media (min-width: $sm) {
+    margin-bottom: var(--mb-val-sm, var(--mb-val-xs, var(--mb-val)));
+  }
+
+  @media (min-width: $md) {
+    margin-bottom: var(--mb-val-md, var(--mb-val-sm, var(--mb-val-xs, var(--mb-val))));
+  }
+
+  @media (min-width: $lg) {
+    margin-bottom: var(--mb-val-lg, var(--mb-val-md, var(--mb-val-sm, var(--mb-val-xs, var(--mb-val)))));
+  }
+
+  @media (min-width: $xl) {
+    margin-bottom: var(
+      --mb-val-xl,
+      var(--mb-val-lg, var(--mb-val-md, var(--mb-val-sm, var(--mb-val-xs, var(--mb-val)))))
+    );
+  }
+}
+
+.p {
+  padding: var(--p-val);
+
+  @media (min-width: $xs) {
+    padding: var(--p-val-xs, var(--p-val));
+  }
+
+  @media (min-width: $sm) {
+    padding: var(--p-val-sm, var(--p-val-xs, var(--p-val)));
+  }
+
+  @media (min-width: $md) {
+    padding: var(--p-val-md, var(--p-val-sm, var(--p-val-xs, var(--p-val))));
+  }
+
+  @media (min-width: $lg) {
+    padding: var(--p-val-lg, var(--p-val-md, var(--p-val-sm, var(--p-val-xs, var(--p-val)))));
+  }
+
+  @media (min-width: $xl) {
+    padding: var(--p-val-xl, var(--p-val-lg, var(--p-val-md, var(--p-val-sm, var(--p-val-xs, var(--p-val))))));
+  }
+}
+
+.px {
+  padding-left: var(--px-val);
+  padding-right: var(--px-val);
+
+  @media (min-width: $xs) {
+    padding-left: var(--px-val-xs, var(--px-val));
+    padding-right: var(--px-val-xs, var(--px-val));
+  }
+
+  @media (min-width: $sm) {
+    padding-left: var(--px-val-sm, var(--px-val-xs, var(--px-val)));
+    padding-right: var(--px-val-sm, var(--px-val-xs, var(--px-val)));
+  }
+
+  @media (min-width: $md) {
+    padding-left: var(--px-val-md, var(--px-val-sm, var(--px-val-xs, var(--px-val))));
+    padding-right: var(--px-val-md, var(--px-val-sm, var(--px-val-xs, var(--px-val))));
+  }
+
+  @media (min-width: $lg) {
+    padding-left: var(--px-val-lg, var(--px-val-md, var(--px-val-sm, var(--px-val-xs, var(--px-val)))));
+    padding-right: var(--px-val-lg, var(--px-val-md, var(--px-val-sm, var(--px-val-xs, var(--px-val)))));
+  }
+
+  @media (min-width: $xl) {
+    padding-left: var(
+      --px-val-xl,
+      var(--px-val-lg, var(--px-val-md, var(--px-val-sm, var(--px-val-xs, var(--px-val)))))
+    );
+    padding-right: var(
+      --px-val-xl,
+      var(--px-val-lg, var(--px-val-md, var(--px-val-sm, var(--px-val-xs, var(--px-val)))))
+    );
+  }
+}
+
+.py {
+  padding-top: var(--py-val);
+  padding-bottom: var(--py-val);
+
+  @media (min-width: $xs) {
+    padding-top: var(--py-val-xs, var(--py-val));
+    padding-bottom: var(--py-val-xs, var(--py-val));
+  }
+
+  @media (min-width: $sm) {
+    padding-top: var(--py-val-sm, var(--py-val-xs, var(--py-val)));
+    padding-bottom: var(--py-val-sm, var(--py-val-xs, var(--py-val)));
+  }
+
+  @media (min-width: $md) {
+    padding-top: var(--py-val-md, var(--py-val-sm, var(--py-val-xs, var(--py-val))));
+    padding-bottom: var(--py-val-md, var(--py-val-sm, var(--py-val-xs, var(--py-val))));
+  }
+
+  @media (min-width: $lg) {
+    padding-top: var(--py-val-lg, var(--py-val-md, var(--py-val-sm, var(--py-val-xs, var(--py-val)))));
+    padding-bottom: var(--py-val-lg, var(--py-val-md, var(--py-val-sm, var(--py-val-xs, var(--py-val)))));
+  }
+
+  @media (min-width: $xl) {
+    padding-top: var(
+      --py-val-xl,
+      var(--py-val-lg, var(--py-val-md, var(--py-val-sm, var(--py-val-xs, var(--py-val)))))
+    );
+    padding-bottom: var(
+      --py-val-xl,
+      var(--py-val-lg, var(--py-val-md, var(--py-val-sm, var(--py-val-xs, var(--py-val)))))
+    );
+  }
+}
+
+.pl {
+  padding-left: var(--pl-val);
+
+  @media (min-width: $xs) {
+    padding-left: var(--pl-val-xs, var(--pl-val));
+  }
+
+  @media (min-width: $sm) {
+    padding-left: var(--pl-val-sm, var(--pl-val-xs, var(--pl-val)));
+  }
+
+  @media (min-width: $md) {
+    padding-left: var(--pl-val-md, var(--pl-val-sm, var(--pl-val-xs, var(--pl-val))));
+  }
+
+  @media (min-width: $lg) {
+    padding-left: var(--pl-val-lg, var(--pl-val-md, var(--pl-val-sm, var(--pl-val-xs, var(--pl-val)))));
+  }
+
+  @media (min-width: $xl) {
+    padding-left: var(
+      --pl-val-xl,
+      var(--pl-val-lg, var(--pl-val-md, var(--pl-val-sm, var(--pl-val-xs, var(--pl-val)))))
+    );
+  }
+}
+
+.pr {
+  padding-right: var(--pr-val);
+
+  @media (min-width: $xs) {
+    padding-right: var(--pr-val-xs, var(--pr-val));
+  }
+
+  @media (min-width: $sm) {
+    padding-right: var(--pr-val-sm, var(--pr-val-xs, var(--pr-val)));
+  }
+
+  @media (min-width: $md) {
+    padding-right: var(--pr-val-md, var(--pr-val-sm, var(--pr-val-xs, var(--pr-val))));
+  }
+
+  @media (min-width: $lg) {
+    padding-right: var(--pr-val-lg, var(--pr-val-md, var(--pr-val-sm, var(--pr-val-xs, var(--pr-val)))));
+  }
+
+  @media (min-width: $xl) {
+    padding-right: var(
+      --pr-val-xl,
+      var(--pr-val-lg, var(--pr-val-md, var(--pr-val-sm, var(--pr-val-xs, var(--pr-val)))))
+    );
+  }
+}
+
+.pt {
+  padding-top: var(--pt-val);
+
+  @media (min-width: $xs) {
+    padding-top: var(--pt-val-xs, var(--pt-val));
+  }
+
+  @media (min-width: $sm) {
+    padding-top: var(--pt-val-sm, var(--pt-val-xs, var(--pt-val)));
+  }
+
+  @media (min-width: $md) {
+    padding-top: var(--pt-val-md, var(--pt-val-sm, var(--pt-val-xs, var(--pt-val))));
+  }
+
+  @media (min-width: $lg) {
+    padding-top: var(--pt-val-lg, var(--pt-val-md, var(--pt-val-sm, var(--pt-val-xs, var(--pt-val)))));
+  }
+
+  @media (min-width: $xl) {
+    padding-top: var(
+      --pt-val-xl,
+      var(--pt-val-lg, var(--pt-val-md, var(--pt-val-sm, var(--pt-val-xs, var(--pt-val)))))
+    );
+  }
+}
+
+.pb {
+  padding-bottom: var(--pb-val);
+
+  @media (min-width: $xs) {
+    padding-bottom: var(--pb-val-xs, var(--pb-val));
+  }
+
+  @media (min-width: $sm) {
+    padding-bottom: var(--pb-val-sm, var(--pb-val-xs, var(--pb-val)));
+  }
+
+  @media (min-width: $md) {
+    padding-bottom: var(--pb-val-md, var(--pb-val-sm, var(--pb-val-xs, var(--pb-val))));
+  }
+
+  @media (min-width: $lg) {
+    padding-bottom: var(--pb-val-lg, var(--pb-val-md, var(--pb-val-sm, var(--pb-val-xs, var(--pb-val)))));
+  }
+
+  @media (min-width: $xl) {
+    padding-bottom: var(
+      --pb-val-xl,
+      var(--pb-val-lg, var(--pb-val-md, var(--pb-val-sm, var(--pb-val-xs, var(--pb-val)))))
+    );
+  }
+}
