@@ -1,39 +1,38 @@
 /*Media Queries*/
 
 @media only screen and (max-width: 600px) {
-  .banner h1{
-font-size: 2rem;
+  .banner h1 {
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 600px) {
-  .banner h1{
+  .banner h1 {
     font-size: 3rem;
   }
 }
 @media only screen and (min-width: 768px) {
-  .banner h1{
+  .banner h1 {
     font-size: 4rem;
   }
 }
 @media only screen and (min-width: 992px) {
-  .banner h1{
+  .banner h1 {
     font-size: 5rem;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .banner h1{
+  .banner h1 {
     font-size: 6rem;
   }
 }
-@media screen and (min-width: 1400px) { 
-  .banner h1{
+@media screen and (min-width: 1400px) {
+  .banner h1 {
     font-size: 7rem;
-  } 
+  }
 }
 
-
 @font-face {
-  font-family: 'Canter';
+  font-family: "Canter";
   src: url("/fonts/Parisienne-Regular.ttf") format("off");
 }
 
@@ -44,9 +43,9 @@ font-size: 2rem;
 
 /*General*/
 
-body{
+body {
   /*background-color: #fadadd;*/
-  background-color:#e9f1f8;
+  background-color: #e9f1f8;
 }
 
 /* Header */
@@ -55,23 +54,23 @@ body{
 }
 
 .banner {
-font-family: Parisienne;
+  font-family: Parisienne;
   padding-top: 70px;
   height: 180px;
   max-width: 100%;
   text-align: center;
   font-weight: 100;
-  color:black;
+  color: black;
 }
 
-.banner2{
+.banner2 {
   font-family: Parisienne;
   padding-top: 20px;
   height: 90px;
   max-width: 100%;
   text-align: center;
   font-weight: 100;
-  color:black;
+  color: black;
 }
 
 .banner3 {
@@ -80,28 +79,25 @@ font-family: Parisienne;
   max-width: 100%;
   text-align: center;
   font-weight: 100;
-  color:black;
+  color: black;
 }
 
 /* header - nav bar */
 
 .main-nav {
   //position: absolute;
- 
+
   width: 100%;
-  background-color:#e9f1f8 !important;
-  
+  background-color: #e9f1f8 !important;
+
   .basic-nav-dropdown {
-    background-color:#e9f1f8 !important;
-   
+    background-color: #e9f1f8 !important;
   }
 
-  .basic-nav-link{
-    
+  .basic-nav-link {
   }
 
   &.navbar {
-   
   }
   .nav-link {
     color: black !important;
@@ -114,18 +110,16 @@ font-family: Parisienne;
 
 /*Body*/
 
-.content{
-  
+.content {
 }
 
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color:#FDFFD5;
+  color: #fdffd5;
   background-image: url("/images/about-image.jpeg");
   background-size: contain;
-  
 
   height: 900px;
   max-width: 100%;
@@ -134,13 +128,13 @@ font-family: Parisienne;
 
 /*Images*/
 
-.image-border-deco{
+.image-border-deco {
   border-color: 1px solid #cba135 !important;
 }
 
 /* Footer - Social Media and Maps */
 
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
   height: 400px;
@@ -151,21 +145,21 @@ font-family: Parisienne;
     flex-direction: column;
     justify-content: flex-start;
     max-width: 50%;
-    background-color:#e9f1f8;
+    background-color: #e9f1f8;
   }
-  
+
   .maps-nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     max-width: 50%;
-    background-color:#e9f1f8;
+    background-color: #e9f1f8;
   }
-
 }
 
-
-
+.hidden {
+  display: none;
+}
 
 /* Body */
 
