@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Base, Col, Flex, Row, Split } from "./layout";
 import Modal from "react-bootstrap/Modal";
-import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import "./ProductCategory.scss"
 
@@ -32,29 +31,34 @@ console.log(products)*/}
 
 const ProductItem = ({ product }) => {
   const { images, description, dimensions, price } = product;
-
-  const [showLightBox, setShowLightBox] = useState(false);
-  const photoIndex = 0
+  const [showProductInfo, setShowProductInfo] = useState(false)
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <Col className="product-item" flexDirection="column" xs={12} sm={6} md={4} lg={3} p={2}>
 
-      <Modal show={showLightBox}>
-        <Lightbox className="light-box"
-          mainSrc={images[photoIndex]}
-          nextSrc={images[(photoIndex + 1) % images.length]}
-          prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-          onCloseRequest={() => setShowLightBox(false)}
-        />
+
+
+      <Modal show={showModal}>
+        <Base><img  src={images[0]}></img></Base>
       </Modal>
 
-      <Base onClick={() => setShowLightBox(true)}><Carousel interval={null}>
+
+      <Base className="image-border-deco" onClick={() => setShowModal(true)}><Carousel interval={null}>
         {images.map((image) => <Carousel.Item><img src={image}></img></Carousel.Item>)}
       </Carousel>
+
       </Base>
-      <Base className="product-item-description">{description}</Base>
-      <Base className="product-item-dimensions">{dimensions}</Base>
-      <Base className="product-item-price">{price}</Base>
+
+      {/*Text Section - {description},{dimensions},{price} - need to add an on hover function to display dropdown text otherwise should remain hidded */}
+
+      <Base show={setShowProductInfo} className="product-catagory">
+        <Base>{description}</Base>
+        <Base>{dimensions}</Base>
+        <Base>{price}</Base>
+      </Base>
+
+
     </Col>
   );
 };

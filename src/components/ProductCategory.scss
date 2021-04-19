@@ -3,27 +3,20 @@
 .light-box{
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .product-category {
-  /*image*/
-  .product-item {
-    border: solid 1px #FDFFD5;
+ 
+  border: solid 1px black;
+    font-size: 12px;
     padding: 20px;
-  }
-  /*description*/
-  .product-item-description {
     font-weight: bold black;
-    /*background-color: #f5b799;*/
     text-align: center;
-  }
-  /*price*/
-  .product-item-price {
-    /*background-color: #f5b799;*/
-    text-align: center;
-  }
-  .product-title{
-    text-align: center;
-  }
+    
+}
+
+.image-modal-features{
+  height: 600px;
+  width: 600px;
 }

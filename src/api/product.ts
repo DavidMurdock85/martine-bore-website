@@ -24,7 +24,7 @@ export const products = [
         description:
           "Art Nouveau Bronze Candelabra by Tiffany Studios New York c. 1910",
         dimensions: "13 x 9 x 5 1/2 inches",
-        price: "$5500"
+        price: "inquire"
       },
       {
         images: [
@@ -33,8 +33,8 @@ export const products = [
           "/images/new-arrivals/statues-bronze-marble-french-1910-3.jpg"
         ],
         description: "French Bronze Statue of a Woman dated early 20th c.",
-        dimensions: "",
-        price: ""
+        dimensions: "8 x 6 1/2 x 5 inches",
+        price: "$1200"
       },
       {
         images: [
@@ -45,7 +45,7 @@ export const products = [
         description:
           "19th c. French folk painting by Alex de Andreis titled 'A Gay Party' ",
         dimensions: "30 x 33 x 2 inches",
-        price: "$4500"
+        price: "inquire"
       },
       {
         images: [
@@ -77,48 +77,8 @@ export const products = [
         ],
         description:
           "Pastoral Scottish landscape oil on canvas by John Reid Murray c. 1890.",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: ["/images/new-arrivals/"],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: ["/images/new-arrivals/"],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: ["/images/new-arrivals/"],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: ["/images/new-arrivals/"],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: [
-          "/images/new-arrivals/paintings-portrait-french-19th-1.jpg",
-          "/images/new-arrivals/paintings-portrait-french-19th-2.jpg",
-          "/images/new-arrivals/paintings-portrait-french-19th-3.jpg"
-        ],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: ["/images/", "/images/", "/images/"],
-        description: "",
-        dimensions: "",
-        price: ""
+        dimensions: "27 x 21 x 3 inches",
+        price: "inquire"
       }
     ]
   },
@@ -162,7 +122,7 @@ export const products = [
         description:
           "A Seascape painting oil on board of the Nova Scotia Coast by Frank Shirley Panabaker c. 1930s",
         dimensions: "22 x 17 x 2",
-        price: "$4200"
+        price: "inquire"
       },
       {
         images: [
@@ -173,7 +133,7 @@ export const products = [
         description:
           "Quebec landscape painting titled 'Quebec Solitude' oil on board by Robert Lougheed c. 1950s",
         dimensions: "20 x 13 x 3 inches",
-        price: "$3500"
+        price: "inquire"
       },
       {
         images: [
@@ -217,7 +177,7 @@ export const products = [
         description:
           "Pastel portrait on paper of a Prussian Officer c. 18th c.",
         dimensions: "25 1/2 x 20 x 2",
-        price: "inquire"
+        price: "$2200"
       }
     ]
   },
@@ -278,9 +238,9 @@ export const products = [
           "/images/fine-arts/sculpture/sculpture-bronze-french-lion-2.jpg",
           "/images/fine-arts/sculpture/sculpture-bronze-french-lion-3.jpg"
         ],
-        description: "",
-        dimensions: "",
-        price: "inquire"
+        description: "Dutch bronze statue of a lion c. early 20th c.",
+        dimensions: "10 x 4 inches",
+        price: "$2500"
       },
       {
         images: [
@@ -288,9 +248,9 @@ export const products = [
           "/images/fine-arts/sculpture/sculpture-bronze-child-dog-2.jpg",
           "/images/fine-arts/sculpture/sculpture-bronze-child-dog-3.jpg"
         ],
-        description: "",
-        dimensions: "",
-        price: "inquire"
+        description: "French bronze statue of a boy and his dog by Peiffer c. 19th c.",
+        dimensions: "9 x 4 inches",
+        price: "$2800"
       },
       {
         images: [
@@ -329,39 +289,6 @@ export const products = [
 
   /* Decorative Arts Routes */
 
-  /* Decorative Arts Routes - Lamps */
-
-  {
-    route: "lamps",
-    title: "Lamps",
-    list: [
-      {
-        images: ["/images/green_glasses.jpg"],
-        description: "Lamp",
-        dimensions: "",
-        price: "3.98"
-      },
-      {
-        images: ["/images/norwegian_vase.jpg"],
-        description: "Vase",
-        dimensions: "",
-        price: "3.97"
-      },
-      {
-        images: ["/images/norwegian_enamel.jpg"],
-        description: "Bowl",
-        dimensions: "",
-        price: "3.96"
-      },
-      {
-        images: ["/images/norwegian_bowl.jpg"],
-        description: "Pen",
-        dimensions: "",
-        price: "3.95"
-      }
-    ]
-  },
-
   /* Decorative Arts Routes - Glass */
 
   {
@@ -395,9 +322,9 @@ export const products = [
           "/images//decorative-arts/glass/glass-italian/glass-italian-murano-tazza-gold-white-2.jpeg",
           "/images//decorative-arts/glass/glass-italian/glass-italian-murano-tazza-gold-white-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "gold and white Murano glass tazza centerpiece mid 20th century",
+        dimensions: "9 x 9 x 6 inches",
+        price: "$600"
       },
       {
         images: [
@@ -415,9 +342,9 @@ export const products = [
           "/images//decorative-arts/glass/glass-dutch/glass-dutch-russian-silver-victorian-1.jpeg",
           "/images//decorative-arts/glass/glass-dutch/glass-dutch-russian-silver-victorian-2.jpeg"
         ],
-        description: "",
+        description: "Victorian Era Russian cut Dutch crystal glass and sterling covered dishes c. 19th c.",
         dimensions: "",
-        price: ""
+        price: "$1100"
       },
       {
         images: [
@@ -425,18 +352,18 @@ export const products = [
           "/images//decorative-arts/glass/glass-french/glass-french-art-nouveau/glass-french-galle-art-nouveau-1920s-2.jpeg",
           "/images//decorative-arts/glass/glass-french/glass-french-art-nouveau/glass-french-galle-art-nouveau-1920s-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "French Art Nouveau Gallé cut glass vase c. 1900",
+        dimensions: "6 1/2 x 3 1/2 inches",
+        price: "$2400"
       },
       {
         images: [
           "/images//decorative-arts/glass/glass-american/glass-american-steuben/glass-american-steuben-aurene-carter-vase-1.jpeg",
           "/images//decorative-arts/glass/glass-american/glass-american-steuben/glass-american-steuben-aurene-carter-vase-2.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "Large Art Deco Carder Era Stueben Blue Aurene vase c. 1930s",
+        dimensions: "13 x 6 x 6 inches",
+        price: "inquire"
       }
     ]
   },
@@ -453,9 +380,9 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-spode/porcelain-english-spode-green-floral-19thc-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-spode/porcelain-english-spode-green-floral-19thc-3.jpeg"
         ],
-        description: "",
+        description: "Georgian Era felspar green spode dessert service c. 19th c.",
         dimensions: "",
-        price: ""
+        price: "$2400"
       },
       {
         images: [
@@ -463,19 +390,19 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-hammersley/porcelain-english-hammersley-red-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-hammersley/porcelain-english-hammersley-red-3.jpeg"
         ],
-        description: "",
+        description: "A Hammersley dessert set with plates and centerpiece signed F. Howard c. 1950s",
         dimensions: "",
-        price: ""
+        price: "$800"
       },
       {
         images: [
-          "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-georgian/porcelain-english-georgian-teacup-green-1.jpeg",
-          "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-georgian/porcelain-english-georgian-teacup-green-2.jpeg",
-          "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-georgian/porcelain-english-georgian-teacup-green-3.jpeg"
+          "/images/decorative-arts/porcelain/porcelain-french/porcelain-french-empire/porcelain-french-empire-teacup-green-1.jpeg",
+          "/images/decorative-arts/porcelain/porcelain-french/porcelain-french-empire/porcelain-french-empire-teacup-green-2.jpeg",
+          "/images/decorative-arts/porcelain/porcelain-french/porcelain-french-empire/porcelain-french-empire-teacup-green-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A Georgian Era French teacup and saucer with a portrait of a lady c. 1830s",
+        dimensions: "5 3/4 x 5 3/4 x 4 3/4 inches",
+        price: "$495"
       },
       {
         images: [
@@ -483,9 +410,9 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-meissen/porcelain-german-meissen-blue-onion-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-meissen/porcelain-german-meissen-blue-onion-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "18 piece set of 19th century meissen blue onion plates and bowl with gold accents",
+        dimensions: "set of 6 dessert plates measuring 8 1/2 inches. Set of 6 soup bowls measuring 9 inches and 6 dinner plates measuring 9 3/4 inches",
+        price: "inquire"
       },
       {
         images: [
@@ -493,9 +420,9 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-meissen/porcelain-german-meissen-floral-plates-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-meissen/porcelain-german-meissen-floral-plates-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "Set of 19th century Meissen floral plates",
+        dimensions: "8 1/2 inches",
+        price: "$500"
       },
       {
         images: [
@@ -503,28 +430,18 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-meissen/porcelain-german-meissen-teaset-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-meissen/porcelain-german-meissen-teaset-3.jpeg"
         ],
-        description: "",
+        description: "A 27 piece Meissen floral teaset c. early 20th c.",
         dimensions: "",
-        price: ""
+        price: "inquire"
       },
       {
         images: [
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-meissen/porcelain-german-meissen-rose-1.jpeg",
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-meissen/porcelain-german-meissen-rose-2.jpeg"
         ],
-        description: "",
+        description: "Assorted Meissen Rose pieces early 20th c.",
         dimensions: "",
-        price: ""
-      },
-      {
-        images: [
-          "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-georgian/porcelain-english-georgian-teacup-portrait-orange-1.jpeg",
-          "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-georgian/porcelain-english-georgian-teacup-portrait-orange-2.jpeg",
-          "/images/decorative-arts/porcelain/porcelain-english/porcelain-english-georgian/porcelain-english-georgian-teacup-portrait-orange-3.jpeg"
-        ],
-        description: "",
-        dimensions: "",
-        price: ""
+        price: "$600"
       },
       {
         images: [
@@ -532,9 +449,9 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-bonn/porcelain-german-bonn-pink-19th-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-bonn/porcelain-german-bonn-pink-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A German pink portrait vase by Royal Bonn c. 19th c.",
+        dimensions: "7 1/2 x 4 1/2 x 4 1/2 inches",
+        price: "$600"
       },
       {
         images: [
@@ -542,9 +459,9 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-nymphenburg/porcelain-german-nymphenburg-floral-plates-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-german/porcelain-german-nymphenburg/porcelain-german-nymphenburg-floral-plates-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A exquisite set of handpainted floral dessert plates by Nymphenburg c. early 20th c.",
+        dimensions: "9 inches",
+        price: "$1200"
       },
       {
         images: [
@@ -552,9 +469,9 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-french/porcelain-french-sevres/porcelain-french-sevres-cachepot-blue-18th-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-french/porcelain-french-sevres/porcelain-french-sevres-cachepot-blue-18th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A pair of 18th century French blue cachepots by Sevres" ,
+        dimensions: "4 1/4 x 5 x 5 inches",
+        price: "$2200"
       },
       {
         images: [
@@ -562,9 +479,9 @@ export const products = [
           "/images/decorative-arts/porcelain/porcelain-scandinavian/porcelain-scandinavian-danish-royal-coppenhagen-teaset-1940s-pink-2.jpeg",
           "/images/decorative-arts/porcelain/porcelain-scandinavian/porcelain-scandinavian-danish-royal-coppenhagen-teaset-1940s-pink-3.jpeg"
         ],
-        description: "",
+        description: "A coffee service set in pink by Royal Copenhagen c.1940s",
         dimensions: "",
-        price: ""
+        price: "$850"
       }
     ]
   },
@@ -581,9 +498,9 @@ export const products = [
           "/images/decorative-arts/silver/silver-english/silver-english-ivory-coffee-19th-2.jpeg",
           "/images/decorative-arts/silver/silver-english/silver-english-ivory-coffee-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "English sterling coffee pot early 19th c.",
+        dimensions: "9 1/4 x 8 x 5 inches",
+        price: "$1800"
       },
       {
         images: [
@@ -591,9 +508,9 @@ export const products = [
           "/images/decorative-arts/silver/silver-dutch/silver-dutch-cup-handles-19th-2.jpeg",
           "/images/decorative-arts/silver/silver-dutch/silver-dutch-cup-handles-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "Dutch silver brandy bowl by Alle De Haas c. 1900",
+        dimensions: "6 1/4 x 4 x 1 3/4 inches",
+        price: "$495"
       },
       {
         images: [
@@ -601,9 +518,9 @@ export const products = [
           "/images/decorative-arts/silver/silver-english/silver-english-sugar-cream-victorian-19th-2.jpeg",
           "/images/decorative-arts/silver/silver-english/silver-english-sugar-cream-victorian-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "English sterling cream and sugar c. 19th c.",
+        dimensions: "Sugar is 8 1/4 4 1/4 x 3 inches.  Creamer is 6 x 3 1/4 x 3 inches",
+        price: "$1400"
       },
       {
         images: [
@@ -611,9 +528,9 @@ export const products = [
           "/images/decorative-arts/silver/silver-canadian/silver-canadian-birks-teaspoon-set-1940s-2.jpeg",
           "/images/decorative-arts/silver/silver-canadian/silver-canadian-birks-teaspoon-set-1940s-3.jpeg"
         ],
-        description: "",
+        description: "Birks sterling dessert spoon set of 12 c. 1940s",
         dimensions: "",
-        price: ""
+        price: "$495"
       },
       {
         images: [
@@ -621,9 +538,9 @@ export const products = [
           "/images/decorative-arts/silver/silver-russian/silver-russian-georgian-dish-19th-2.jpeg",
           "/images/decorative-arts/silver/silver-russian/silver-russian-georgian-dish-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "Georgian Era Russian silver centerpiece by Carl Gustav Savary late 18th c.",
+        dimensions: "6 1/2 x 6 1/2 x 4 inches",
+        price: "$1200"
       },
       {
         images: [
@@ -631,9 +548,9 @@ export const products = [
           "/images/decorative-arts/silver/silver-german/silver-german-shoe-19th-2.jpeg",
           "/images/decorative-arts/silver/silver-german/silver-german-shoe-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "German silver shoe from Hanau by Friedrich Reusswig c. 1900.",
+        dimensions: "8 1/4 x 3 1/4 x 2 1/4 inches",
+        price: "$1600"
       },
       {
         images: [
@@ -641,9 +558,9 @@ export const products = [
           "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-2.jpeg",
           "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "Georgian Era sugar caster c. 18th c.",
+        dimensions: "6 1/4 x 2 x 2 inches",
+        price: "$375"
       },
       {
         images: [
@@ -651,9 +568,9 @@ export const products = [
           "/images/decorative-arts/silver/silver-english/silver-english-sterling-spoons-victorian-19th-2.jpeg",
           "/images/decorative-arts/silver/silver-english/silver-english-sterling-spoons-victorian-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "Victorian Era teaspoon set of 2 c. 19th c.",
+        dimensions: "each spoon measures 5 1/2 x 1 1/4 inches",
+        price: "$295"
       }
     ]
   },
@@ -741,8 +658,8 @@ export const products = [
         images: [
           "/images/decorative-arts/clocks/clock_gilded_french_traveling.jpg"
         ],
-        description: "5 1/2 x 4 x 2 1/2",
-        dimensions: "",
+        description: "Gilded Bronze French Empire cabinet clock stamped AD c. 1880",
+        dimensions: "5 x 4 x 2 inches",
         price: "$900"
       },
       {
@@ -754,7 +671,7 @@ export const products = [
         description:
           "Antique French Empire gilded Leroy and Fils clock c. 1870s.  Gilded with hand painted enamel panels.  serviced and measures 15 inches x 10 inches x 5 1/4 incehs ",
         dimensions: "",
-        price: "$5000"
+        price: "inquire"
       },
       {
         images: [
@@ -762,9 +679,9 @@ export const products = [
           "/images/decorative-arts/clocks/clocks-french-gilded-marble-empire-19th-2.jpeg",
           "/images/decorative-arts/clocks/clocks-french-gilded-marble-empire-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "19th c. French gilded bronze and marble mantle clock by A.D. Mougin c. 1870",
+        dimensions: "clock measures 16 x 7 1/5 x 4 1/2 inches. Garnitures measure 13 x 3 1/2 x 3 1/2",
+        price: "$2800"
       },
       {
         images: [
@@ -772,9 +689,9 @@ export const products = [
           "/images/decorative-arts/clocks/clocks-french-bronze-gilded-empire-19th-2.jpeg",
           "/images/decorative-arts/clocks/clocks-french-bronze-gilded-empire-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "French Empire gilded bronze mantle clock c. 1890",
+        dimensions: "18 x 7 1/2 x 4 1/2",
+        price: "inquire"
       },
       {
         images: [
@@ -783,9 +700,9 @@ export const products = [
           "/images/decorative-arts/clocks/clocks-french-gilded-ormolu-victorian-putti-19th-3.jpeg",
           "/images/decorative-arts/clocks/clocks-french-gilded-ormolu-victorian-putti-19th-4.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "Victorian Period French gilded bronze and marble mantle clock with cherubs c. 1890s",
+        dimensions: "Clock measures 18 x 13 x 5 1/2. Candelabras ",
+        price: "inquire"
       },
       {
         images: [
@@ -793,19 +710,9 @@ export const products = [
           "/images/decorative-arts/clocks/clocks-french-gilded-sky-blue-19th-2.jpeg",
           "/images/decorative-arts/clocks/clocks-french-gilded-sky-blue-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: [
-          "/images/decorative-arts/clocks/clocks-french-gilded-ormolu-18th-1.jpeg",
-          "/images/decorative-arts/clocks/clocks-french-gilded-ormolu-18th-2.jpeg",
-          "/images/decorative-arts/clocks/clocks-french-gilded-ormolu-18th-3.jpeg"
-        ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "French empire painted metal and porcelain mantle clock and garnitures c. 1900",
+        dimensions: "Clock measures 16 x 9 x 6. garnitures measure 11 inches",
+        price: "$2200"
       },
       {
         images: [
@@ -813,30 +720,10 @@ export const products = [
           "/images/decorative-arts/clocks/clocks-swiss-leCoultre-atmos-2.jpeg",
           "/images/decorative-arts/clocks/clocks-swiss-leCoultre-atmos-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: [
-          "/images/decorative-arts/clocks/",
-          "/images/decorative-arts/clocks/",
-          "/images/decorative-arts/clocks/"
-        ],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: [
-          "/images/decorative-arts/clocks/",
-          "/images/decorative-arts/clocks/",
-          "/images/decorative-arts/clocks/"
-        ],
-        description: "",
-        dimensions: "",
-        price: ""
-      }
+        description: "le Coultre Atmos mantle clock c. 1970s",
+        dimensions: "9 x 7 1/2 x 5",
+        price: "$2500"
+      } 
     ]
   },
 
@@ -852,9 +739,9 @@ export const products = [
           "/images/decorative-arts/lighting/chandelier/chandelier-italian-murano-pink-2.jpg",
           "/images/decorative-arts/lighting/chandelier/chandelier-italian-murano-pink-3.jpg"
         ],
-        description: "",
+        description: "Handblown Murano chandelier c. 1940s",
         dimensions: "",
-        price: ""
+        price: "inquire"
       },
       {
         images: [
@@ -862,9 +749,9 @@ export const products = [
           "/images/decorative-arts/lighting/chandelier/chandelier-french-gilded-early-20th-2.jpg",
           "/images/decorative-arts/lighting/chandelier/chandelier-french-gilded-early-20th-3.jpg"
         ],
-        description: "",
+        description: "French crystal and gilded bronze chandelier early 20th c.",
         dimensions: "",
-        price: ""
+        price: "$2600"
       },
       {
         images: [
@@ -872,9 +759,9 @@ export const products = [
           "/images/decorative-arts/lighting/chandelier/chandelier-edwardian-crystal-2.jpg",
           "/images/decorative-arts/lighting/chandelier/chandelier-edwardian-crystal-3.jpg"
         ],
-        description: "",
+        description: "French wrought iron crystal chandelier early 20th c.",
         dimensions: "",
-        price: ""
+        price: "inquire"
       },
       {
         images: [
@@ -882,9 +769,9 @@ export const products = [
           "/images/decorative-arts/lighting/chandelier/chandelier-italian-brass-sputnik-1950s-2.jpg",
           "/images/decorative-arts/lighting/chandelier/chandelier-italian-brass-sputnik-1950s-3.jpg"
         ],
-        description: "",
+        description: "Mid Century Italian sputnik chandelier in the style of Fontana Arte c. 1940s/1950s",
         dimensions: "",
-        price: ""
+        price: "$1200"
       },
       {
         images: [
@@ -892,9 +779,9 @@ export const products = [
           "/images/decorative-arts/lighting/chandelier/chandelier-crystal-vintage-2.jpg",
           "/images/decorative-arts/lighting/chandelier/chandelier-crystal-vintage-3.jpg"
         ],
-        description: "",
+        description: "Italian crystal glass chandelier c. 1960s",
         dimensions: "",
-        price: ""
+        price: "inquire"
       },
       {
         images: [
@@ -902,25 +789,18 @@ export const products = [
           "/images/decorative-arts/lighting/lamps/lamps-slag-glass-art-nouveau-2.jpg",
           "/images/decorative-arts/lighting/lamps/lamps-slag-glass-art-nouveau-3.jpg"
         ],
-        description: "",
+        description: "American Art Nouveau slag glass lamp c. 1900",
         dimensions: "",
-        price: ""
-      },
-      {
-        images: [
-          "/images/decorative-arts/lighting/lamps/lamps-murano-1920s-1.jpg",
-          "/images/decorative-arts/lighting/lamps/lamps-murano-1920s-2.jpg",
-          "/images/decorative-arts/lighting/lamps/lamps-murano-1920s-3.jpg"
-        ],
-        description: "",
-        dimensions: "",
-        price: ""
+        price: "$1800"
       },
       {
         images: [
           "/images/decorative-arts/lighting/lamps/lamps-moorcroft-hibiscus-vintage-1.jpg",
           "/images/decorative-arts/lighting/lamps/lamps-moorcroft-hibiscus-vintage-2.jpg"
-        ]
+        ],
+        description: "Pair of Walter Moorcroft green hibicus Lamps c. 1940s",
+        dimensions: "",
+        price: "$2400"
       }
     ]
   },
@@ -1005,9 +885,9 @@ export const products = [
           "/images/objects-de-vertu/objects-de-vertu-minitures/minitures-gilded-portrait-dog-empire-2.jpeg",
           "/images/objects-de-vertu/objects-de-vertu-minitures/minitures-gilded-portrait-dog-empire-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A French Empire gilded bronze and miniture watercolor portrait of a dog in a Neo Classical Style c. 1870s",
+        dimensions: "12 x 10 inches",
+        price: "$1850"
       },
       {
         images: [
@@ -1015,30 +895,19 @@ export const products = [
           "/images/objects-de-vertu/objects-de-vertu-minitures/minitures-gilded-portrait-napolean-19th-2.jpeg",
           "/images/objects-de-vertu/objects-de-vertu-minitures/minitures-gilded-portrait-napolean-19th-3.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A French Empire gilded bronze miniture portrait of Napolean Bonapart c. 1870s",
+        dimensions: "5 1/2 x 3 1/2 inches",
+        price: "$1800"
       },
       {
         images: [
           "/images/objects-de-vertu/objects-de-vertu-minitures/minitures-portrait-french-noble-19th-1.jpeg",
-          "/images/objects-de-vertu/objects-de-vertu-minitures/minitures-portrait-french-noble-19th-2.jpeg",
-          "/images/objects-de-vertu/objects-de-vertu-minitures/minitures-portrait-french-noble-19th-3.jpeg"
+          "/images/objects-de-vertu/objects-de-vertu-minitures/minitures-portrait-french-noble-19th-2.jpeg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: [
-          "/images/minitures/",
-          "/images/minitures/",
-          "/images/minitures/"
-        ],
-        description: "",
-        dimensions: "",
-        price: ""
-      }
+        description: "A 19th century miniture portrait of a French Nobleman",
+        dimensions: "10 3/4 x 8 3/4 x 1 inches",
+        price: "$1800"
+      } 
     ]
   },
 
@@ -1288,9 +1157,9 @@ export const products = [
           "/images/canadian-art/canadian-art-inuit-sculpture-large-3.jpg"
         ],
         description:
-          "A very large carved inuit sculpture in soapstone believed to be by ______________",
-        dimensions: "",
-        price: ""
+          "A very large carved inuit sculpture in soapstone c. 1970s",
+        dimensions: "18 x 13 x 8 inches",
+        price: "$3500"
       },
       {
         images: [
@@ -1300,8 +1169,8 @@ export const products = [
         ],
         description:
           "A Japanese inspired speckled yellow drip vase by one of the important names in contempory British Columbia Ceramics Gorden Hutchens c. 1990s",
-        dimensions: "",
-        price: ""
+        dimensions: "9 1/2 x 8 x 8 inches",
+        price: "$350"
       },
       {
         images: [
@@ -1311,15 +1180,9 @@ export const products = [
         ],
         description:
           "A Canadian studio glass vase by Two Rivers. It was made by Michael Robinson and dated 1975",
-        dimensions: "",
-        price: ""
-      },
-      {
-        images: ["/images"],
-        description: "",
-        dimensions: "",
-        price: ""
-      }
+        dimensions: "8 x 3 x 3 inches",
+        price: "$600"
+      }   
     ]
   },
 
@@ -1339,7 +1202,7 @@ export const products = [
         ],
         description: "Diamond sapphire and 18kt gold cocktail ring by Birks",
         dimensions: "Size 6",
-        price: "$5500"
+        price: "inquire"
       },
       {
         images: [
@@ -1349,7 +1212,7 @@ export const products = [
         ],
         description: "Diamond and gold cocktail ring c. 1960s",
         dimensions: "size 6 1/4",
-        price: "$3200"
+        price: "inquire"
       },
       {
         images: [
@@ -1359,7 +1222,7 @@ export const products = [
         description:
           "Art Deco emerald cabochon, diamond and platinum ring c. 1930s",
         dimensions: "size 4",
-        price: "$3600"
+        price: "inquire"
       },
       {
         images: [
@@ -1380,7 +1243,7 @@ export const products = [
         description:
           "Georgian Era emerald, diamond and 14kt gold cocktail ring c. 19th c.",
         dimensions: "6 1/2",
-        price: "$7000"
+        price: "inquire"
       },
       {
         images: [
@@ -1540,9 +1403,9 @@ export const products = [
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-emerald/necklaces-gold-emerald-diamond-floral-1970s-2.jpg",
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-emerald/necklaces-gold-emerald-diamond-floral-1970s-3.jpg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A stunning emerald, diamond and gold necklace c. 1960s",
+        dimensions: "16 3/4",
+        price: "inquire"
       },
       {
         images: [
@@ -1550,9 +1413,9 @@ export const products = [
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-mixed-precious/necklaces-gold-jade-bead-1950s-2.jpg",
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-mixed-precious/necklaces-gold-jade-bead-1950s-3.jpg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A Jade and  14kt Gold Beaded Necklace c. 1950s",
+        dimensions: "20 inches",
+        price: "$2500"
       },
       {
         images: [
@@ -1560,9 +1423,9 @@ export const products = [
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-metal/necklaces-gold-metal-linked-chain-9kt-1970s-2.jpg",
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-metal/necklaces-gold-metal-linked-chain-9kt-1970s-3.jpg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A 10kt gold link necklace c. 1970s",
+        dimensions: "20 1/2 inches",
+        price: "$2200"
       },
       {
         images: [
@@ -1570,19 +1433,9 @@ export const products = [
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-mixed-precious/necklaces-gold-sapphire-emerald-peacock-1970s-2.jpg",
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-mixed-precious/necklaces-gold-sapphire-emerald-peacock-1970s-3.jpg"
         ],
-        description: "Pen",
-        dimensions: "",
-        price: "3.95"
-      },
-      {
-        images: [
-          "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-pearl/neckalces-gold-pearl-sapphire-ruby-2000s-1.jpg",
-          "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-pearl/neckalces-gold-pearl-sapphire-ruby-2000s-2.jpg",
-          "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-pearl/neckalces-gold-pearl-sapphire-ruby-2000s-3.jpg"
-        ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "An 18kt Sapphire, Emerald and Gold Peacock Necklace by Faberge c. 1970s. Chain not included.",
+        dimensions: "1 1/2 x 1 1/2 inches",
+        price: "inquire"
       },
       {
         images: [
@@ -1590,9 +1443,9 @@ export const products = [
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-mixed-precious/necklaces-gold-amethyst-bead-1930s-2.jpg",
           "/images/jewelry/necklaces/necklaces-gold/necklaces-gold-mixed-precious/necklaces-gold-amethyst-bead-1930s-3.jpg"
         ],
-        description: "",
-        dimensions: "",
-        price: ""
+        description: "A Amethyst and gold beaded necklace c. 1930s",
+        dimensions: "22 inches",
+        price: "$2800"
       }
     ]
   },
@@ -1610,18 +1463,18 @@ export const products = [
           "/images/jewelry/brooches/brooches-gold/brooches-gold-mixed-precious/brooches-gold-emerald-lion-hammerman-3.jpg"
         ],
 
-        dimensions: "unknown",
-        description: "unknown",
-        price: "unknown"
+        description: "A gold diamond, emerald and ruby lion brooch by Hammerman Brothers c. 1960s",
+        dimensions: "",
+        price: ""
       },
       {
         images: [
           "/images/jewelry/brooches/brooches-gold/brooches-gold-pearl/brooches-gold-pearls-1940s-1.jpeg",
           "/images/jewelry/brooches/brooches-gold/brooches-gold-pearl/brooches-gold-pearls-1940s-2.jpeg"
         ],
-        dimensions: "unknown",
-        description: "unknown",
-        price: "unknown"
+        description: "Modernist gold brooch set with 19 pearls c. 1940s",
+        dimensions: "",
+        price: ""
       },
       {
         images: [
@@ -1629,10 +1482,9 @@ export const products = [
           "/images/jewelry/brooches/brooches-gold/brooches-gold-pearl/brooches-gold-pearls-tree-1970s-2.jpeg",
           "/images/jewelry/brooches/brooches-gold/brooches-gold-pearl/brooches-gold-pearls-tree-1970s-3.jpeg"
         ],
-        dimensions: "unknown",
-        description: "unknown",
-
-        price: "unknown"
+        description: "Gold tree brooch set with 7 pearls c. 1970s",
+        dimensions: "",
+        price: ""
       },
       {
         images: [
@@ -1640,9 +1492,9 @@ export const products = [
           "/images/jewelry/brooches/brooches-gold/brooches-gold-cameo/cameo-gold-victorian-1890s-2.jpg",
           "/images/jewelry/brooches/brooches-gold/brooches-gold-cameo/cameo-gold-victorian-1890s-3.jpg"
         ],
-        dimensions: "unknown",
-        description: "unknown",
-        price: "unknown"
+        description: "Victorian cameo and gold brooch c. 1890s",
+        dimensions: "",
+        price: ""
       }
     ]
   },

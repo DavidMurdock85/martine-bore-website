@@ -31,6 +31,12 @@ font-size: 2rem;
   } 
 }
 
+
+@font-face {
+  font-family: 'Canter';
+  src: url("/fonts/Parisienne-Regular.ttf") format("off");
+}
+
 /*Imports*/
 
 @import "~bootstrap/scss/bootstrap";
@@ -49,6 +55,7 @@ body{
 }
 
 .banner {
+font-family: Parisienne;
   padding-top: 70px;
   height: 180px;
   max-width: 100%;
@@ -58,6 +65,7 @@ body{
 }
 
 .banner2{
+  font-family: Parisienne;
   padding-top: 20px;
   height: 90px;
   max-width: 100%;
@@ -79,11 +87,17 @@ body{
 
 .main-nav {
   //position: absolute;
+ 
   width: 100%;
   background-color:#e9f1f8 !important;
-
+  
   .basic-nav-dropdown {
     background-color:#e9f1f8 !important;
+   
+  }
+
+  .basic-nav-link{
+    
   }
 
   &.navbar {
@@ -100,6 +114,10 @@ body{
 
 /*Body*/
 
+.content{
+  
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -114,12 +132,40 @@ body{
   padding-top: 4rem;
 }
 
-/* Footer */
+/*Images*/
 
-.social-nav {
-  height: 400px;
-  max-width: 50%;
+.image-border-deco{
+  border-color: 1px solid #cba135 !important;
 }
+
+/* Footer - Social Media and Maps */
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  max-width: 100%;
+
+  .social-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50%;
+    background-color:#e9f1f8;
+  }
+  
+  .maps-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 50%;
+    background-color:#e9f1f8;
+  }
+
+}
+
+
+
 
 /* Body */
 

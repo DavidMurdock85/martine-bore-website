@@ -3,7 +3,9 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Header } from "./components/Header";
-import { Base } from "./components/layout";
+import { Social } from "./components/Social";
+import { Maps } from "./components/Maps";
+import { Base, Split, Row, Col } from "./components/layout";
 import { About } from "./pages/About";
 import { ArtCategories } from "./pages/ArtCategories";
 import { Home } from "./pages/Home";
@@ -17,9 +19,13 @@ const App = () => {
         {/* Logo/Banner */}
         <Base className="header">
           {/*<img src="/images/banner/banner-4.png"></img>*/}
-          <Base className="banner"><h1>Martine Bore</h1></Base>
-          <Base className="banner2"><h2>Antiques</h2></Base>
-        <Base className="banner3"><h3>Fine French + European Antiques</h3></Base>
+          <Base className="banner">
+            <h1>Martine Boré</h1>
+          </Base>
+          <Base className="banner2">
+            <h2>Antiques</h2>
+          </Base>
+          {/*<Base className="banner3"><h3>Fine French + European Antiques</h3></Base>*/}
         </Base>
 
         {/* Header Navigation */}
@@ -41,11 +47,21 @@ const App = () => {
               component={ArtCategories}
             />
 
-            <Route exact path="/about" component={About} />
+            <Route exact path="/About.jsx" component={About} />
           </Switch>
-        </Base>
 
-        {/* Footer */}
+          {/*Footer*/}
+
+          <Row className="footer">
+            <Col>
+              <Social />
+            </Col>
+
+            <Col>
+              <Maps />
+            </Col>
+          </Row>
+        </Base>
       </Router>
     </Container>
   );

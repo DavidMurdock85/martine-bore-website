@@ -12,12 +12,12 @@ export const Header = (props) => {
   return (
 
     <Navbar className="main-nav" bg="light" expand="lg">
-      <Navbar.Brand href="#home"><img src="images/bore_logo.jpg" alt="logo" /></Navbar.Brand>
+      {/*<Navbar.Brand href="#home"><img src="images/bore_logo.jpg" alt="logo" /></Navbar.Brand>*/}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
 
-          <Nav.Link href="/categories/new-arrivals">New Arrivals</Nav.Link>
+          <Nav.Link className="basic-nav-link" href="/categories/new-arrivals">New Arrivals</Nav.Link>
 
           {/* Navigation Menus */}
 
@@ -107,10 +107,6 @@ export const Header = (props) => {
             </NavDropdown.Item>*/}
           </NavDropdown>
 
-          {/* Canadian Art*/}
-
-          <Nav.Link href="/categories/canadian-art">Canadian Art</Nav.Link>
-
           {/*Dropdown - Jewelry*/}
 
           <NavDropdown title="Jewelry" className="basic-nav-dropdown">
@@ -140,9 +136,32 @@ export const Header = (props) => {
 
           </NavDropdown>
 
-          <Nav.Link href="/categories/sold">Sold</Nav.Link>
+          {/* Canadian Art*/}
 
-          {/*<NavLink to="/About.jsx">About Us</NavLink>*/}
+          <Nav.Link className="basic-nav-link" href="/categories/canadian-art">Canadian Art</Nav.Link>
+
+          <Nav.Link className="basic-nav-link" href="/categories/sold">Sold</Nav.Link>
+
+          {/*Services*/}
+
+          <NavDropdown title="Services" className="basic-nav-dropdown">
+            <NavDropdown.Item>
+              <NavLink to="/categories/">Appaisals</NavLink>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <NavLink to="/categories/">Jewelry Repair</NavLink>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <NavLink to="/categories/">Lamp Repair</NavLink>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <NavLink to="/categories/">Estates</NavLink>
+            </NavDropdown.Item>
+          </NavDropdown>
+
+          <Nav.Link className="basic-nav-link" href="/About.jsx">About Us</Nav.Link>
+
+
 
         </Nav>
 
