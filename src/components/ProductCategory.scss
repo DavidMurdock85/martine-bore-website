@@ -1,22 +1,25 @@
 /*Product Category: image, description, price*/
 
-.light-box{
+.light-box {
   display: flex;
   flex-direction: column;
-
 }
 
 .product-category {
- 
   border: solid 1px black;
-    font-size: 12px;
-    padding: 20px;
-    font-weight: bold black;
-    text-align: center;
-    
+  font-size: 12px;
+  padding: 20px;
+  font-weight: bold black;
+  text-align: center;
 }
 
-.image-modal-features{
+.image-modal-features {
   height: 600px;
   width: 600px;
+}
+
+.image-border-deco {
+  &:hover {
+    opacity: 0.8;
+  }
 }
