@@ -16,16 +16,22 @@ const App = () => {
       <Router>
         {/* Header */}
 
+        <Base className="header-contact">
+          <h6>1462 Marine Dr, West Vancouver | boremartine@gmail.com | (604) 912-0292 </h6>
+        </Base>
+
         {/* Logo/Banner */}
         <Base className="header">
           {/*<img src="/images/banner/banner-4.png"></img>*/}
-          <Base className="banner">
-            <h1>Martine Boré</h1>
+
+          <Base className="banners">
+            <Base className="banner">
+              <h1>Martine Boré</h1>
+            </Base>
+            <Base className="banner2">
+              <h2>Antiques</h2>
+            </Base>
           </Base>
-          <Base className="banner2">
-            <h2>Antiques</h2>
-          </Base>
-          {/*<Base className="banner3"><h3>Fine French + European Antiques</h3></Base>*/}
         </Base>
 
         {/* Header Navigation */}
@@ -37,6 +43,7 @@ const App = () => {
         <Base className="content" expand="width">
           <Switch>
             {/* Homepage  */}
+
             <Route exact path="/" component={Home} />
 
             {/* Catagories and Catagory sub routes */}
@@ -46,21 +53,20 @@ const App = () => {
               path="/categories/:category"
               component={ArtCategories}
             />
-
-            <Route exact path="/About.jsx" component={About} />
+            {/*<Route exact path="/About.jsx" component={About} />*/}
           </Switch>
 
           {/*Footer*/}
 
-          <Row className="footer">
-            <Col>
+          {/*<Row className="footer">
+            <Col className="footer-social">
               <Social />
             </Col>
 
-            <Col>
+            <Col className="footer-">
               <Maps />
             </Col>
-          </Row>
+          </Row>*/}
         </Base>
       </Router>
     </Container>

@@ -144,25 +144,14 @@ export const Header = (props) => {
 
           {/*Services*/}
 
-          <NavDropdown title="Services" className="basic-nav-dropdown">
-            <NavDropdown.Item>
-              <NavLink to="/categories/">Appaisals</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/">Jewelry Repair</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/">Lamp Repair</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/">Estates</NavLink>
-            </NavDropdown.Item>
-          </NavDropdown>
+          {/*
+ <Nav.Link className="basic-nav-link" href="/Services.tsx">Services</Nav.Link>
+*/}
 
-          <Nav.Link className="basic-nav-link" href="/About.jsx">About Us</Nav.Link>
+{/*About Us*/}
 
-
-
+{/*<Nav.Link className="basic-nav-link" href="/About.jsx">About Us</Nav.Link>*/}
+          
         </Nav>
 
         {/*<Form inline>

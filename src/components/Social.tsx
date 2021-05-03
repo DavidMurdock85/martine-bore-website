@@ -5,7 +5,7 @@ export const Social = (props) => {
 
   return (
 <Base className="social-nav">
-<p>Social</p>
+
 </Base>
   )
 }

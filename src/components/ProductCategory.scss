@@ -1,25 +1,48 @@
-/*Product Category: image, description, price*/
-
-.light-box {
-  display: flex;
-  flex-direction: column;
+@font-face {
+  font-family: "Canter";
+  src: url("/fonts/Parisienne-Regular.ttf") format("off");
 }
 
+/*Product Category: image, description, price*/
+
 .product-category {
-  border: solid 1px black;
+  border: solid 1px lightgrey;
   font-size: 12px;
   padding: 20px;
   font-weight: bold black;
   text-align: center;
 }
 
-.image-modal-features {
-  height: 600px;
-  width: 600px;
-}
+// Product Image
 
 .image-border-deco {
   &:hover {
     opacity: 0.8;
   }
+}
+
+.modal-image{
+  border: solid 2px  #e9f1f8;
+}
+
+//Product Image - Modal
+
+.product-image-modal{
+  
+  .product-image-text-title{
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: #e9f1f8;
+  }
+  .product-image-text-dimensions{
+    font-size: 18px;
+    font-weight: lighter;
+    background-color: #e9f1f8;
+  }
+  .product-image-text-price{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e9f1f8;
+  }
+
 }
