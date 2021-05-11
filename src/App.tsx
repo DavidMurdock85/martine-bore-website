@@ -1,12 +1,12 @@
 import "./App.scss";
+
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Header } from "./components/Header";
+
 import { Footer } from "./components/Footer";
-import { Maps } from "./components/Maps";
-import { Base, Split, Row, Col } from "./components/layout";
-import { About } from "./pages/About";
+import { Header } from "./components/Header";
+import { Base } from "./components/layout";
 import { ArtCategories } from "./pages/ArtCategories";
 import { Home } from "./pages/Home";
 
@@ -60,8 +60,8 @@ const App = () => {
 
           {/*Footer*/}
 
-         {/*<Footer/>*/} 
-
+         {/*<Footer/>*/}
+         <Footer/>
         </Base>
       </Router>
     </Container>
