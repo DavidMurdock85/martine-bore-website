@@ -3,7 +3,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Header } from "./components/Header";
-import { Social } from "./components/Social";
+import { Footer } from "./components/Footer";
 import { Maps } from "./components/Maps";
 import { Base, Split, Row, Col } from "./components/layout";
 import { About } from "./pages/About";
@@ -16,9 +16,11 @@ const App = () => {
       <Router>
         {/* Header */}
 
+{/*
         <Base className="header-contact">
-          <h6>1462 Marine Dr, West Vancouver | boremartine@gmail.com | (604) 912-0292 </h6>
+          <h6>1462 Marine Dr, West Vancouver | info@martineboreantiques.com | (604) 912-0292 </h6>
         </Base>
+*/}
 
         {/* Logo/Banner */}
         <Base className="header">
@@ -58,15 +60,8 @@ const App = () => {
 
           {/*Footer*/}
 
-          {/*<Row className="footer">
-            <Col className="footer-social">
-              <Social />
-            </Col>
+         {/*<Footer/>*/} 
 
-            <Col className="footer-">
-              <Maps />
-            </Col>
-          </Row>*/}
         </Base>
       </Router>
     </Container>

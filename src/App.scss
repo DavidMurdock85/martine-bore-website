@@ -2,24 +2,18 @@
 
 @media only screen and (max-width: 600px) {
   .banner h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .banner h2 {
-    font-size: 1rem;
-  }
-  .banner h3 {
-    font-size: 0.5rem;
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 600px) {
   .banner h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .banner h2 {
     font-size: 2rem;
-  }
-  .banner h3 {
-    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -27,43 +21,31 @@
     font-size: 4rem;
   }
   .banner h2 {
-    font-size: 3rem;
-  }
-  .banner h3 {
     font-size: 2rem;
   }
 }
 @media only screen and (min-width: 992px) {
   .banner h1 {
-    font-size: 5rem;
-  }
-  .banner h2 {
     font-size: 4rem;
   }
-  .banner h3 {
-    font-size: 3rem;
+  .banner h2 {
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 1200px) {
   .banner h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   .banner h2 {
-    font-size: 5rem;
-  }
-  .banner h3 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 @media screen and (min-width: 1400px) {
   .banner h1 {
-    font-size: 7rem;
+    font-size: 4rem;
   }
   .banner h2 {
-    font-size: 6rem;
-  }
-  .banner h3 {
-    font-size: 5rem;
+    font-size: 2rem;
   }
 }
 
@@ -85,35 +67,30 @@ body {
 }
 
 /* Header */
-.header {
-  //margin-top: 40px;
-}
 
 .banners{
+  //border: solid 1px lightgrey;
   font-family: Parisienne;
   font-weight: 100;
   color: black;
   text-align: center;
-  max-width: 100%;
   
-  .banner {  
-    padding-top: 60px;
-    height: 180px;
+  .banner h1{  
+    padding-top: 80px;
   }
+  .banner2 h2{
   
-  .banner2 {
-    padding-top: 15px;
-    height: 90px; 
+    height: 70px; 
   }
 }
 
 .header-contact {
-  font-family: Parisienne;
+  //font-family: Parisienne;
   font-weight: 100;
   color: black;
   padding-top: 10px;
   height: 50px;
-  
+  font-size: 10px;
 }
 
 
@@ -125,22 +102,6 @@ body {
   width: 100%;
   background-color: #e9f1f8 !important;
 
-  .basic-nav-dropdown {
-  }
-
-  .basic-navbar-nav{
-    
-  }
-
-  .mr-auto{
-    
-  }
-
-  .basic-nav-link {
-  }
-
-  &.navbar {
-  }
   .nav-link {
     color: black !important;
   }
@@ -151,9 +112,6 @@ body {
 }
 
 /*Body*/
-
-.content {
-}
 
 .about {
   display: flex;

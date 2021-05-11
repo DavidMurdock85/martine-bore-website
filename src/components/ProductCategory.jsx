@@ -1,10 +1,8 @@
 import "./ProductCategory.scss";
 import "react-image-lightbox/style.css";
-
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Modal from "react-bootstrap/Modal";
-
 import { Base, Col, Flex, Row, Split } from "./layout";
 
 /* Product Catgory */

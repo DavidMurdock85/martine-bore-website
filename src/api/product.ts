@@ -98,7 +98,7 @@ export const products = [
           "/images/fine-arts/paintings/paintings-english/paintings-english-harold-goldthwait-near-pateham-sussex-3.jpeg"
         ],
         description:
-          "An Impressionist English landscape painting oil on board by Harold Goldthait titled 'Near Pateham Sussex' c. 1900",
+          "An Impressionist English landscape painting oil on board by Harold Goldthwait titled 'Near Pateham Sussex' c. 1900",
         dimensions: "20 x 14 x 1 inches",
         price: "$2400"
       },
@@ -164,7 +164,7 @@ export const products = [
           "/images/fine-arts/paintings/paintings-english/paintings-english-harold-goldthwait-golden-3.jpg"
         ],
         description:
-          "An Impressionist English landscape painting oil on board by Harold Goldthait c. 1900",
+          "An Impressionist English landscape painting oil on board by Harold Goldtwhait c. 1900",
         dimensions: "21 1/2 x 16 x 2 1/2",
         price: "$2400"
       },

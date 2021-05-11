@@ -11,7 +11,7 @@ export const Header = (props) => {
 
   return (
 
-    <Navbar className="main-nav" bg="light" expand="lg">
+    <Navbar className="main-nav" bg="light" expand="lg" >
       {/*<Navbar.Brand href="#home"><img src="images/bore_logo.jpg" alt="logo" /></Navbar.Brand>*/}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -81,7 +81,7 @@ export const Header = (props) => {
 
           <NavDropdown title="Objet De Vertu" className="basic-nav-dropdown">
             <NavDropdown.Item>
-              <NavLink to="/categories/minitures">Minitures</NavLink>
+              <NavLink to="/categories/minitures">Miniatures</NavLink>
             </NavDropdown.Item>
             {/*<NavDropdown.Item>
               <NavLink to="/categories/perfume-bottles">Perfume Bottles</NavLink>
