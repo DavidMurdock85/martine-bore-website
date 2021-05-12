@@ -46,9 +46,11 @@ const ProductItem = ({ product }) => {
         <Carousel interval={null}>
           {images.map((image) => <Carousel.Item className="modal-image" ><img src={image}></img></Carousel.Item>)}
         </Carousel>
+        <Base className="modal-text">
         <Modal.Title className="product-image-text-title">{product.description}</Modal.Title>
         <Modal.Title className="product-image-text-dimensions">{product.dimensions}</Modal.Title>
         <Modal.Title className="product-image-text-price">{product.price}</Modal.Title>
+        </Base>
       </Modal>
 
       <Base

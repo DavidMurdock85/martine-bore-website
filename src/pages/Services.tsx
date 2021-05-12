@@ -7,17 +7,29 @@ export const Services = () => {
     <Col>
       <Row>
         <img src=""></img>
-        <Base></Base>
+        <Base>
+          this is a page about about our story and the history of our business
+          over the past 4 decades in the city of west vancouver selling
+          antiques.
+        </Base>
       </Row>
 
       <Row>
         <img src=""></img>
-        <Base></Base>
+        <Base>
+          this is a page about about our story and the history of our business
+          over the past 4 decades in the city of west vancouver selling
+          antiques.
+        </Base>
       </Row>
 
       <Row>
         <img src=""></img>
-        <Base></Base>
+        <Base>
+          this is a page about about our story and the history of our business
+          over the past 4 decades in the city of west vancouver selling
+          antiques.
+        </Base>
       </Row>
     </Col>
   );

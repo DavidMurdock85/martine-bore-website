@@ -1,7 +1,7 @@
 .footer {
   color: white;
   font-weight: 200;
-  background-color: blue;
+  background-color:  #e9f1f8;
 
   img {
     color: white;
@@ -16,7 +16,7 @@
       width: 100%;
     }*/
     a {
-      color: white;
+      color: black;
 
       &:not(:first-child) {
         margin-top: 1rem;
@@ -41,8 +41,7 @@
       }
 
       svg {
-        color: white;
-
+        color: black;
         width: 2rem;
         height: 2rem;
       }

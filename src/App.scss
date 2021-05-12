@@ -64,51 +64,7 @@
 body {
   /*background-color: #fadadd;*/
   background-color: #e9f1f8;
-}
 
-/* Header */
-
-.banners{
-  //border: solid 1px lightgrey;
-  font-family: Parisienne;
-  font-weight: 100;
-  color: black;
-  text-align: center;
-  
-  .banner h1{  
-    padding-top: 80px;
-  }
-  .banner2 h2{
-  
-    height: 70px; 
-  }
-}
-
-.header-contact {
-  //font-family: Parisienne;
-  font-weight: 100;
-  color: black;
-  padding-top: 10px;
-  height: 50px;
-  font-size: 10px;
-}
-
-
-/* header - nav bar */
-
-.main-nav {
-  //position: absolute;
-
-  width: 100%;
-  background-color: #e9f1f8 !important;
-
-  .nav-link {
-    color: black !important;
-  }
-  img {
-    height: 30px;
-    width: 30px;
-  }
 }
 
 /*Body*/
@@ -120,7 +76,6 @@ body {
   color: #fdffd5;
   background-image: url("/images/about-image.jpeg");
   background-size: contain;
-
   height: 900px;
   max-width: 100%;
   padding-top: 4rem;
@@ -130,35 +85,6 @@ body {
 
 .image-border-deco {
   border-color: 1px solid #cba135 !important;
-}
-
-/* Footer - Social Media and Maps */
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  height: 400px;
-  max-width: 100%;
-  background-color: #e9f1f8;
-  border: solid 1px black;
-
-  .social-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    background-color: #e9f1f8;
-    border: solid 1px black;
-  }
-
-  .maps-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
-    background-color: #e9f1f8;
-    border: solid 1px black;
-  }
 }
 
 .hidden {
