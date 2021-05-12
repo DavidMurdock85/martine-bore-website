@@ -3,6 +3,7 @@ import "./App.scss";
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Base } from "./components/layout";
@@ -59,7 +60,7 @@ const App = () => {
 
           {/*Footer*/}
 
-         {/*<Footer/>*/}
+          <Footer/>
         </Base>
       </Router>
     </Container>

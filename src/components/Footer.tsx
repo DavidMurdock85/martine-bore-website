@@ -1,13 +1,15 @@
 import "./Footer.scss";
+
 import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { NavLink } from "react-router-dom";
-//import svgZwLogo from "../../assets/svgs/zw_logo_white.svg";
-import { Image, Link } from "./elements";
-import { Base, Col, Flex, Row, Split } from "./layout";
 
-const Footer: React.FC = () => {
+import { Link } from "./elements";
+import { Col, Flex, Row, Split } from "./layout";
+
+//import svgZwLogo from "../../assets/svgs/zw_logo_white.svg";
+export const Footer: React.FC = () => {
   return (
     <Row tag="footer" className="footer" p={{ xs: 2, md: 8 }}>
       <Col flexDirection="column" xs={12} md={6} pr={10}>
@@ -45,4 +47,3 @@ const Footer: React.FC = () => {
   );
 };
 
-export default Footer;
