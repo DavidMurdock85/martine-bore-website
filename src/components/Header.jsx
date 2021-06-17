@@ -42,9 +42,6 @@ export const Header = (props) => {
           {/* Dropdown - Decorative Arts  */}
 
           <NavDropdown title="Decorative Arts" className="basic-nav-dropdown">
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/lamps">Lamps</NavLink>
-            </NavDropdown.Item>*/}
             <NavDropdown.Item>
               <NavLink to="/categories/glass">Glass</NavLink>
             </NavDropdown.Item>
@@ -54,21 +51,27 @@ export const Header = (props) => {
             <NavDropdown.Item>
               <NavLink to="/categories/porcelain">Porcelain</NavLink>
             </NavDropdown.Item>
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/bronze">Bronze</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/carpets">Carpets</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/boxes">Boxes</NavLink>
-            </NavDropdown.Item>*/}
+            <NavDropdown.Item>
+              <NavLink to="/categories/gilded-bronze-ormolu">Gilded Bronze and Ormolu</NavLink>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <NavLink to="/categories/tableware">Tableware</NavLink>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <NavLink to="/categories/stemware">Stemware</NavLink>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <NavLink to="/categories/teacups">Teacups</NavLink>
+            </NavDropdown.Item>
             <NavDropdown.Item>
               <NavLink to="/categories/clocks">Clocks</NavLink>
             </NavDropdown.Item>
             <NavDropdown.Item>
               <NavLink to="/categories/lighting">Lighting</NavLink>
             </NavDropdown.Item>
+            {/*<NavDropdown.Item>
+              <NavLink to="/categories/carpets">Carpets</NavLink>
+            </NavDropdown.Item>*/}
             {/*<NavDropdown.Item>
               <NavLink to="/categories/furniture">Furniture</NavLink>
             </NavDropdown.Item>*/}
@@ -78,13 +81,18 @@ export const Header = (props) => {
 
           </NavDropdown>
 
-          {/* Dropdown - Object De Vertu */}
+          {/* Dropdown - Objet'd Art */}
 
-
-          <NavDropdown title="Objet De Vertu" className="basic-nav-dropdown">
+          <NavDropdown title="Objet'd Art" className="basic-nav-dropdown">
             <NavDropdown.Item>
-              <NavLink to="/categories/minitures">Miniatures</NavLink>
+              <NavLink to="/categories/miniatures">Miniatures</NavLink>
             </NavDropdown.Item>
+            <NavDropdown.Item>
+              <NavLink to="/categories/figurines">Figurines</NavLink>
+            </NavDropdown.Item>
+            {/*<NavDropdown.Item>
+              <NavLink to="/categories/boxes">Boxes</NavLink>
+            </NavDropdown.Item>*/}
             {/*<NavDropdown.Item>
               <NavLink to="/categories/perfume-bottles">Perfume Bottles</NavLink>
             </NavDropdown.Item>*/}
@@ -138,9 +146,40 @@ export const Header = (props) => {
 
           </NavDropdown>
 
+          {/*Asian Art*/}
+
+          <NavDropdown title="Asian Art" className="basic-nav-dropdown">
+            <NavDropdown.Item>
+              <NavLink to="/categories/japanese-art">Japanese Art</NavLink>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <NavLink to="/categories/chinese-art">Chinese Art</NavLink>
+            </NavDropdown.Item>
+            {/*<NavDropdown.Item>
+              <NavLink to="/categories/southeast-asian">Southeast Asian Art</NavLink>
+            </NavDropdown.Item>
+*/}
+          </NavDropdown>
+
+          {/* Link - Art Nouveau */}
+
+          <Nav.Link className="basic-nav-link" href="/categories/art-nouveau">Art Nouveau</Nav.Link>
+
+          {/* Link - Art Deco */}
+
+          <Nav.Link className="basic-nav-link" href="/categories/art-deco">Art Deco</Nav.Link>
+
+          {/* Link - Mid Century Art */}
+
+          <Nav.Link className="basic-nav-link" href="/categories/modern-art">Modern Art</Nav.Link>
+
           {/* Canadian Art*/}
 
           <Nav.Link className="basic-nav-link" href="/categories/canadian-art">Canadian Art</Nav.Link>
+
+          <Nav.Link className="basic-nav-link" href="/categories/moorcroft">Moorcroft</Nav.Link>
+
+          <Nav.Link className="basic-nav-link" href="/categories/lalique">Lalique</Nav.Link>
 
           <Nav.Link className="basic-nav-link" href="/categories/sold">Sold</Nav.Link>
 
@@ -150,10 +189,10 @@ export const Header = (props) => {
  <Nav.Link className="basic-nav-link" href="/Services.tsx">Services</Nav.Link>
 */}
 
-{/*About Us*/}
+          {/*About Us*/}
 
-{/*<Nav.Link className="basic-nav-link" href="/About.jsx">About Us</Nav.Link>*/}
-          
+          {/*<Nav.Link className="basic-nav-link" href="/About.jsx">About Us</Nav.Link>*/}
+
         </Nav>
 
         {/*<Form inline>

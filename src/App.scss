@@ -91,4 +91,31 @@ body {
   display: none;
 }
 
+//upper section of header
+
+.upper-header{
+  background-color:  white;
+  border: solid 1px lightgray;
+  color: black;
+  display: inline-block;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  
+  .upper-header-text{
+    padding-left: 4px;
+    font-size: 15px;  
+  }
+  .upper-header-links{
+    .upper-header-link{
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 15px;  
+    }
+  }
+}
+
 

@@ -1,14 +1,13 @@
 import "./App.scss";
-
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
-import { Base } from "./components/layout";
+import { Base, Col, Flex, Row, Split } from "./components/layout";
 import { ArtCategories } from "./pages/ArtCategories";
 import { Home } from "./pages/Home";
+import { NavLink } from "react-router-dom";
 
 const App = () => {
   return (
@@ -16,16 +15,21 @@ const App = () => {
       <Router>
         {/* Header */}
 
-{/*
-        <Base className="header-contact">
-          <h6>1462 Marine Dr, West Vancouver | info@martineboreantiques.com | (604) 912-0292 </h6>
-        </Base>
-*/}
+        {/*Header - Contact */}
+        <Col className="upper-header">
+          <Split>
+            <Base className="upper-header-text">
+              <p> info@martineboreantiques.com | (604) 912-0292</p>
+            </Base>
+            <Base className="upper-header-links">
+              {/*<NavLink className="upper-header-link" to="/components/About">About Us</NavLink>*/}
+              {/*<NavLink className="upper-header-link" to="/Services">Services</NavLink>*/}
+            </Base>
+          </Split>
+        </Col>
 
         {/* Logo/Banner */}
         <Base className="header">
-          {/*<img src="/images/banner/banner-4.png"></img>*/}
-
           <Base className="banners">
             <Base className="banner">
               <h1>Martine Boré</h1>
@@ -60,7 +64,7 @@ const App = () => {
 
           {/*Footer*/}
 
-          <Footer/>
+          <Footer />
         </Base>
       </Router>
     </Container>

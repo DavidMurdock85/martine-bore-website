@@ -18,11 +18,11 @@ console.log(products)*/}
 
     <Flex className="product-category" expand="width" flexDirection="column">
 
-      {/*<Split expand="width">
-        <Base>breadcrumbs</Base>
-        <Base>{title}</Base>
-      </Split>
-      <Base mt={2}>Sorting and Filtering</Base>*/}
+      <Split expand="width">
+        {/*<Base>breadcrumbs</Base>*/}
+        {/*<Base mt={2}>Sorting and Filtering</Base>*/}
+  </Split>
+      <Base className="product-section-title">{title}</Base>
 
       <Row mt={2}>
         {products.map((product) => <ProductItem product={product} />)}
@@ -46,21 +46,21 @@ const ProductItem = ({ product }) => {
         <Carousel interval={null}>
           {images.map((image) => <Carousel.Item className="modal-image" ><img src={image}></img></Carousel.Item>)}
         </Carousel>
-        <Base className="modal-text">
-        <Modal.Title className="product-image-text-title">{product.description}</Modal.Title>
-        <Modal.Title className="product-image-text-dimensions">{product.dimensions}</Modal.Title>
-        <Modal.Title className="product-image-text-price">{product.price}</Modal.Title>
+        <Base className="modal-text" p={2}>
+          <Modal.Title className="product-image-text-title">{product.description}</Modal.Title>
+          <Modal.Title className="product-image-text-dimensions">{product.dimensions}</Modal.Title>
+          <Modal.Title className="product-image-text-price">{product.price}</Modal.Title>
         </Base>
       </Modal>
 
       <Base
         className="image-border-deco"
         onClick={() => setShowModal(true)}
-        
-        
-        //onMouseEnter={() => setShowProductInfo(true)}
-        //onMouseLeave={() => setShowProductInfo(false)}
-      
+
+
+      //onMouseEnter={() => setShowProductInfo(true)}
+      //onMouseLeave={() => setShowProductInfo(false)}
+
 
       >
         <Carousel interval={null}>
