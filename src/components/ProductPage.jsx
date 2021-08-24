@@ -1,25 +1,30 @@
 import "./ProductCategory.scss";
 import "react-image-lightbox/style.css";
-import { Breadcrumb } from "./Breadcrumbs";
+
 import React from "react";
+import Carousel from "react-bootstrap/Carousel";
 import { useParams } from "react-router-dom";
-import { Base, Col, Row, Split } from "../components/layout";
+
 import { categories } from "../api/categories";
 import { products } from "../api/products";
+import { Base, Col, Row, Split } from "../components/layout";
+import { Breadcrumb } from "./Breadcrumbs";
 import { Image } from "./elements";
-import Carousel from 'react-bootstrap/Carousel';
 
 export const ProductPage = () => {
 
     const { productId } = useParams();
 
-    const product = products[productId]
+    const product = products[productId];
+
+    const breadcrumbs = categories[product.category].breadcrumbs;
+    breadcrumbs.push({ url:`/products/${productId}`, name: product.productTitle });
 
     return (
         <Base>
-            <Split expand="width">
+            <Split expand="width" mt={2}>
                 <Base tag="h6">
-                    <Breadcrumb breadcrumbItems={categories[product.category]} />
+                    <Breadcrumb breadcrumbItems={ breadcrumbs } />
                 </Base>
                 <Base/>
             </Split>
