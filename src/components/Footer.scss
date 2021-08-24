@@ -1,60 +1,64 @@
+/*Media Queries*/
 
-h6{
-color: black;
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 30px !important;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .footer {
+    padding: 30px !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
+}
+
+/*Imports*/
+
+@import "~bootstrap/scss/bootstrap";
+
+h6 {
+  color: black;
+  font-weight: bold;
+  font-family: "Josefin Sans";
 }
 
 .footer {
-  color: white;
-  font-weight: 400;
-  background-color:  white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 0.5px;
-  margin-right: 0.5px;
-  border: solid 1px lightgray;
+  padding: none;
+  //border: solid 1px lightgray;
+
+  .title {
+    font-weight: bold;
+    font-family: "Josefin Sans";
+    text-decoration: underline 1px;
+  }
 
   img {
     color: white;
     width: 18rem;
   }
 
-  .sitemap {
-    max-width: 25rem;
-
-    /* @media  {
-      max-width: none;
-      width: 100%;
-    }*/
-    a {
-      color: black;
-
-      &:not(:first-child) {
-        margin-top: 1rem;
-      }
-    }
+  .footer-link {
+    display: flex;
+    justify-content: left;
+    color: black;
   }
 
-  .right {
-    max-width: 40rem;
-    height: 100%;
-    justify-content: space-between;
+  .footer-social {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
 
-    /* @media (max-width: $md) {
-      height: 12rem;
-    }*/
-
-    .social {
-      z-index: 1;
-
-      a {
-        margin-right: 2rem;
-      }
-
-      svg {
-        color: black;
-        width: 2rem;
-        height: 2rem;
-      }
+    svg {
+      color: black;
+      width: 2rem;
+      height: 2rem;
     }
   }
 }

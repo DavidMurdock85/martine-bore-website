@@ -1,67 +1,63 @@
 @font-face {
-  font-family: "Canter";
-  src: url("/fonts/Parisienne-Regular.ttf") format("off");
+  font-family: "" Josefin Sans "";
+  src: url("/fonts/"JosefinSans"-Thin.ttf") format("off");
 }
 
 /*Product Category: image, description, price*/
 
-.product-category {
-  border: solid 1px lightgrey;
-  font-size: 12px;
+.close-btn {
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
   padding: 20px;
-  text-align: center;
+  color: black;
+  font-size: 35px;
 }
 
-.product-section-title{
-  font-size: 40px;
-  color: grey;
-  display: inline-block;
-  border: solid 1px lightgray;
-  background-color:  white;
-  //font-family: Parisienne;
-      font-weight: 100;
-      color: black;
-      padding-top: 3px;
-      padding-bottom: 3px;
+.product-category {
+  padding: 20px;
+  text-align: center;
+  font-family: "Josefin Sans";
+}
 
+.product-section-title {
+  text-decoration: underline 1px;
+  padding-top: 10px;
 }
 
 // Product Image
 
 .image-border-deco {
   border: solid 1px lightgray;
+  box-shadow: 1px 2px grey;
   &:hover {
     opacity: 0.8;
   }
 }
 
-.modal-image{
-  border: solid 2px  #e9f1f8;
+.modal-image {
+  z-index: 1;
+  border: solid 2px #e9f1f8;
 }
 
 //Product Image - Modal
 
-.product-image-modal{
+.product-image-modal {
+  position: relative;
 
-  .modal-text{
-    background-color: #e9f1f8;
-  }
-
-  .product-image-text-title{
+  .product-image-text-title {
     font-size: 18px;
     font-weight: lighter;
-    
+    font-family: "Josefin Sans";
   }
-  .product-image-text-dimensions{
+  .product-image-text-dimensions {
     font-size: 18px;
     font-weight: lighter;
-    
   }
-  .product-image-text-price{
+  .product-image-text-price {
     font-size: 18px;
     font-weight: bold;
-    
+    font-family: "Josefin Sans";
   }
-
 }
-

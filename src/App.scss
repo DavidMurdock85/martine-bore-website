@@ -1,57 +1,135 @@
 /*Media Queries*/
 
 @media only screen and (max-width: 600px) {
-  .banner h1 {
-    font-size: 4rem;
+  p {
+    font-size: 1.1rem;
   }
-  .banner h2 {
-    font-size: 2rem;
+  h1 {
+    font-size: 2.3rem !important;
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+  h3 {
+    font-size: 1.4rem !important;
+  }
+  h6 {
+    font-size: 1rem !important;
+  }
+  .upper-header-text,
+  h5 {
+    font-size: 1rem !important;
   }
 }
 @media only screen and (min-width: 600px) {
-  .banner h1 {
-    font-size: 4rem;
+  p {
+    font-size: 1.1rem;
   }
-  .banner h2 {
-    font-size: 2rem;
+  h1 {
+    font-size: 2.4rem !important;
+  }
+  h2 {
+    font-size: 2.1rem !important;
+  }
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  h6 {
+    font-size: 0.9rem !important;
+  }
+  .upper-header-text,
+  h5 {
+    font-size: 1rem !important;
   }
 }
 @media only screen and (min-width: 768px) {
-  .banner h1 {
-    font-size: 4rem;
+  p {
+    font-size: 1.3rem;
   }
-  .banner h2 {
-    font-size: 2rem;
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  h2 {
+    font-size: 2.2rem !important;
+  }
+  h3 {
+    font-size: 1.6rem !important;
+  }
+  h6 {
+    font-size: 1rem !important;
+  }
+  .upper-header-text,
+  h5 {
+    font-size: 1.15rem !important;
   }
 }
 @media only screen and (min-width: 992px) {
-  .banner h1 {
-    font-size: 4rem;
+  p {
+    font-size: 1.3rem;
   }
-  .banner h2 {
-    font-size: 2rem;
+  h1 {
+    font-size: 2.6rem !important;
+  }
+  h2 {
+    font-size: 2.3rem !important;
+  }
+  h3 {
+    font-size: 1.7rem !important;
+  }
+  h6 {
+    font-size: 1.1rem !important;
+  }
+  .upper-header-text,
+  h5 {
+    font-size: 1.15rem !important;
   }
 }
 @media only screen and (min-width: 1200px) {
-  .banner h1 {
-    font-size: 4rem;
+  p {
+    font-size: 1.3rem;
   }
-  .banner h2 {
-    font-size: 2rem;
+  h1 {
+    font-size: 2.7rem !important;
+  }
+  h2 {
+    font-size: 2.4rem !important;
+  }
+  h3 {
+    font-size: 1.8rem !important;
+  }
+  h6 {
+    font-size: 1.2rem !important;
+  }
+  .upper-header-text,
+  h5 {
+    font-size: 1.15rem !important;
   }
 }
 @media screen and (min-width: 1400px) {
-  .banner h1 {
-    font-size: 4rem;
+  p {
+    font-size: 1.3rem;
   }
-  .banner h2 {
-    font-size: 2rem;
+  h1 {
+    font-size: 2.8rem !important;
+  }
+  h2 {
+    font-size: 2.5rem !important;
+  }
+  h3 {
+    font-size: 1.9rem !important;
+  }
+  h6 {
+    font-size: 1.3rem !important;
+  }
+  .upper-header-text,
+  h5 {
+    font-size: 1.15rem !important;
   }
 }
 
 @font-face {
-  font-family: "Canter";
-  src: url("/fonts/Parisienne-Regular.ttf") format("off");
+  font-family: "" Josefin Sans "";
+  src: url("/fonts/"JosefinSans"-Thin.ttf") format("off");
 }
 
 /*Imports*/
@@ -61,61 +139,69 @@
 
 /*General*/
 
-body {
-  /*background-color: #fadadd;*/
-  background-color: #e9f1f8;
-
-}
-
 /*Body*/
 
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fdffd5;
-  background-image: url("/images/about-image.jpeg");
-  background-size: contain;
-  height: 900px;
-  max-width: 100%;
-  padding-top: 4rem;
-}
+body {
+  font-family: "Josefin Sans", sans-serif;
 
-/*Images*/
-
-.image-border-deco {
-  border-color: 1px solid #cba135 !important;
-}
-
-.hidden {
-  display: none;
-}
-
-//upper section of header
-
-.upper-header{
-  background-color:  white;
-  border: solid 1px lightgray;
-  color: black;
-  display: inline-block;
-  font-weight: 400;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  width: 100%;
-  
-  .upper-header-text{
-    padding-left: 4px;
-    font-size: 15px;  
+  .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
-  .upper-header-links{
-    .upper-header-link{
-      padding-left: 5px;
-      padding-right: 5px;
-      font-size: 15px;  
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fdffd5;
+    background-image: url("/images/about-image.jpeg");
+    background-size: contain;
+    height: 900px;
+    max-width: 100%;
+    padding-top: 4rem;
+  }
+
+  /*Images*/
+
+  .image-border-deco {
+    border-color: 1px solid #cba135 !important;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  //upper section of header
+
+  .upper-header {
+    border: solid 1px lightgray;
+    color: black;
+    display: inline-block;
+    font-weight: 400;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+
+    .upper-header-text {
+      padding-left: 4px;
+      font-size: 15px;
+      font-family: "Josefin Sans";
+    }
+    .upper-header-links {
+      font-family: "Josefin Sans";
+      font-size: 15px;
+      .upper-header-link {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 15px;
+      }
     }
   }
+
+  .banners {
+    display: inline-block;
+    font-family: "Josefin Sans";
+    color: black;
+  }
 }
-
-

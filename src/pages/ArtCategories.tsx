@@ -1,18 +1,17 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import { products } from "../api/product";
+
+import { categories } from "../api/categories";
 import { Flex } from "../components/layout";
 import { ProductCategory } from "../components/ProductCategory";
+
 
 export const ArtCategories = () => {
   return (
     <Flex flexDirection="column" expand="width">
-      {products.map((product) => {
-
-/*console.log(product.route)*/
-
-        return <Route path={`/categories/${product.route}`} component={() => {
-          return <ProductCategory title={product.title} products={product.list}/>
+      {Object.values(categories).map((categories) => {
+        return <Route path={`/categories/${categories.route}`} component={() => {
+          return <ProductCategory title={categories.title} categoryProducts={categories.list} breadcrumbs={categories.breadcrumbs ? categories.breadcrumbs : []} />
         }} />
       })}
     </Flex>

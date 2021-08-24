@@ -1,13 +1,9 @@
 import "./Header.scss";
 import React from "react";
-import { NavLink } from "react-router-dom"
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
-
+import { Base, Col, Flex, Row, Split } from "./layout";
 
 export const Header = (props) => {
 
@@ -15,193 +11,204 @@ export const Header = (props) => {
 
     <Navbar className="main-nav" bg="light" expand="lg" >
       {/*<Navbar.Brand href="#home"><img src="images/bore_logo.jpg" alt="logo" /></Navbar.Brand>*/}
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle className="main-nav-t" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-
-          <Nav.Link className="basic-nav-link" href="/categories/new-arrivals">New Arrivals</Nav.Link>
+        <Nav className="m-auto">
 
           {/* Navigation Menus */}
 
+          <Base tag="h5">
+            <Nav.Link className="basic-nav-link" href="/categories/new-arrivals">New Arrivals</Nav.Link>
+          </Base>
+
           {/* Dropdown - Fine Arts  */}
 
-          <NavDropdown title="Fine Arts" className="basic-nav-dropdown">
-            <NavDropdown.Item>
-              <NavLink to="/categories/paintings">Paintings</NavLink>
-            </NavDropdown.Item>
-            {/* 
-            <NavDropdown.Item>
-              <NavLink to="/categories/works-on-paper/">Works on Paper</NavLink>
-            </NavDropdown.Item>
-            */}
-            <NavDropdown.Item>
-              <NavLink to="/categories/sculpture/">Sculpture</NavLink>
-            </NavDropdown.Item>
-          </NavDropdown>
+          <Base tag="h5">
+            <NavDropdown title="Fine Arts" className="basic-nav-dropdown">
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/paintings">Paintings</NavDropdown.Item>
+              </Base>
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/watercolors">Watercolors</NavDropdown.Item>
+              </Base>*/}
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/pastels">Pastels</NavDropdown.Item>
+              </Base>*/}
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/prints">Prints</NavDropdown.Item>
+              </Base>*/}
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/miniatures">Miniatures</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/sculpture">Sculpture</NavDropdown.Item>
+              </Base>
+            </NavDropdown>
+          </Base>
 
           {/* Dropdown - Decorative Arts  */}
 
-          <NavDropdown title="Decorative Arts" className="basic-nav-dropdown">
-            <NavDropdown.Item>
-              <NavLink to="/categories/glass">Glass</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/silver">Silver</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/porcelain">Porcelain</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/gilded-bronze-ormolu">Gilded Bronze and Ormolu</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/tableware">Tableware</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/stemware">Stemware</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/teacups">Teacups</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/clocks">Clocks</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/lighting">Lighting</NavLink>
-            </NavDropdown.Item>
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/carpets">Carpets</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/furniture">Furniture</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/misc">Misc</NavLink>
-            </NavDropdown.Item>*/}
+          <Base tag="h5">
+            <NavDropdown title="Decorative Arts" className="basic-nav-dropdown">
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/glass">Glass</NavDropdown.Item>
+              </Base>*/}
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/porcelain">Porcelain</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/clocks">Clocks</NavDropdown.Item>
+              </Base>
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/boxes">Boxes</NavDropdown.Item>
+              </Base>*/}
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/lighting">Lighting</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/moorcroft">Moorcroft</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/lalique">Lalique</NavDropdown.Item >
+              </Base>
+              {/*
+             <Base tag="h5">
+                <NavDropdown.Item href="/categories/clarice-cliff">Clarice Cliff</NavDropdown.Item >
+              </Base>
+             */}
+            </NavDropdown>
+          </Base>
 
-          </NavDropdown>
+          {/* Dropdown - Art by Period */}
 
-          {/* Dropdown - Objet'd Art */}
+          <Base tag="h5">
+            <NavDropdown title="Art by Period" className="basic-nav-dropdown">
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/georgian">Georgian</NavDropdown.Item>
+              </Base>*/}
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/victorian">Victorian</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/aesthetic-movement">Aesthetic Movement</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/art-nouveau">Art Nouveau</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/art-deco">Art Deco</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/modern-art">Modern Art</NavDropdown.Item>
+              </Base>
+            </NavDropdown>
+          </Base>
 
-          <NavDropdown title="Objet'd Art" className="basic-nav-dropdown">
-            <NavDropdown.Item>
-              <NavLink to="/categories/miniatures">Miniatures</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/figurines">Figurines</NavLink>
-            </NavDropdown.Item>
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/boxes">Boxes</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/perfume-bottles">Perfume Bottles</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/sugar-castors">Sugar Castors</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/ink-wells">Ink Wells</NavLink>
-            </NavDropdown.Item>
-            */}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/snuff-boxes">Snuff Boxes</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/powder-boxes">Powder Boxes</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/combs">Combs</NavLink>
-            </NavDropdown.Item>*/}
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/tea-caddies">Tea Caddies</NavLink>
-            </NavDropdown.Item>*/}
-          </NavDropdown>
+          {/*Dropdown - Art by Category*/}
+
+          <Base tag="h5">
+            <NavDropdown title="Art by Category" className="basic-nav-dropdown">
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/japanese-art">Japanese Art</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/chinese-art">Chinese Art</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/canadian-art">Canadian Art</NavDropdown.Item>
+              </Base>
+            </NavDropdown>
+          </Base>
+
+          {/* Dropdown - Figurines */}
+
+          <Base tag="h5">
+            <NavDropdown title="Figurines" className="basic-nav-dropdown">
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/european-figurines">European Figurines</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/royal-doulton-figurines">Royal Doulton Figurines</NavDropdown.Item>
+              </Base>
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/royal-worcester-figurines">Royal Worcester Figurines</NavDropdown.Item>
+              </Base>*/}
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/animal-figurines">Animal Figurines</NavDropdown.Item>
+              </Base>
+            </NavDropdown>
+          </Base>
+
+          {/* Dropdown - Tableware */}
+
+          <Base tag="h5">
+            <NavDropdown title="Tableware" className="basic-nav-dropdown">
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/plates">Plates</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/stemware">Stemware</NavDropdown.Item>
+              </Base>
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/">Flatware</NavDropdown.Item>
+              </Base>*/}
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/tea-service">Tea Service</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/teacups">Teacups</NavDropdown.Item>
+              </Base>
+            </NavDropdown>
+          </Base>
+
+          {/* Dropdown - Silver */}
+
+          <Base tag="h5">
+            <NavDropdown title="Silver" className="basic-nav-dropdown">
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/candle-sticks">Candle Sticks</NavDropdown.Item>
+              </Base>
+              {/*<Base tag="h5">
+                <NavDropdown.Item href="/categories/sugar-castors">Sugar Castors</NavDropdown.Item>
+              </Base>*/}
+            </NavDropdown>
+          </Base>
 
           {/*Dropdown - Jewelry*/}
 
-          <NavDropdown title="Jewelry" className="basic-nav-dropdown">
-            <NavDropdown.Item>
-              <NavLink to="/categories/rings">Rings</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/bracelets">Bracelets</NavLink>
-            </NavDropdown.Item>
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/earrings">Earrings</NavLink>
-            </NavDropdown.Item>*/}
-            <NavDropdown.Item>
-              <NavLink to="/categories/necklaces">Necklaces</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/brooches">Pins and Brooches</NavLink>
-            </NavDropdown.Item>
+          <Base tag="h5">
+            <NavDropdown title="Jewelry" className="basic-nav-dropdown">
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/rings">Rings</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/bracelets">Bracelets</NavDropdown.Item>
+              </Base>
+              {/*
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/earrings">Earrings</NavDropdown.Item>
+              </Base>
+              */}
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/necklaces">Necklaces</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/brooches">Brooches</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/silver-jewelry">Silver Jewelry</NavDropdown.Item>
+              </Base>
+            </NavDropdown>
+          </Base>
 
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/costume">Costume</NavLink>
-            </NavDropdown.Item>*/}
+          {/*Link - Sold*/}
 
-            {/* <NavDropdown.Item>
-              <NavLink to="/categories/misc-jewelry">Misc</NavLink>
-            </NavDropdown.Item>*/}
-
-          </NavDropdown>
-
-          {/*Asian Art*/}
-
-          <NavDropdown title="Asian Art" className="basic-nav-dropdown">
-            <NavDropdown.Item>
-              <NavLink to="/categories/japanese-art">Japanese Art</NavLink>
-            </NavDropdown.Item>
-            <NavDropdown.Item>
-              <NavLink to="/categories/chinese-art">Chinese Art</NavLink>
-            </NavDropdown.Item>
-            {/*<NavDropdown.Item>
-              <NavLink to="/categories/southeast-asian">Southeast Asian Art</NavLink>
-            </NavDropdown.Item>
-*/}
-          </NavDropdown>
-
-          {/* Link - Art Nouveau */}
-
-          <Nav.Link className="basic-nav-link" href="/categories/art-nouveau">Art Nouveau</Nav.Link>
-
-          {/* Link - Art Deco */}
-
-          <Nav.Link className="basic-nav-link" href="/categories/art-deco">Art Deco</Nav.Link>
-
-          {/* Link - Mid Century Art */}
-
-          <Nav.Link className="basic-nav-link" href="/categories/modern-art">Modern Art</Nav.Link>
-
-          {/* Canadian Art*/}
-
-          <Nav.Link className="basic-nav-link" href="/categories/canadian-art">Canadian Art</Nav.Link>
-
-          <Nav.Link className="basic-nav-link" href="/categories/moorcroft">Moorcroft</Nav.Link>
-
-          <Nav.Link className="basic-nav-link" href="/categories/lalique">Lalique</Nav.Link>
-
-          <Nav.Link className="basic-nav-link" href="/categories/sold">Sold</Nav.Link>
-
-          {/*Services*/}
-
-          {/*
- <Nav.Link className="basic-nav-link" href="/Services.tsx">Services</Nav.Link>
-*/}
-
-          {/*About Us*/}
-
-          {/*<Nav.Link className="basic-nav-link" href="/About.jsx">About Us</Nav.Link>*/}
-
+          <Base tag="h5">
+            <Nav.Link className="basic-nav-link" href="/categories/sold">Sold</Nav.Link>
+          </Base>
         </Nav>
-
-        {/*<Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-success">Search</Button>
-        </Form>*/}
-
-      </Navbar.Collapse>
-    </Navbar>
+      </Navbar.Collapse >
+    </Navbar >
   )
 }
 
