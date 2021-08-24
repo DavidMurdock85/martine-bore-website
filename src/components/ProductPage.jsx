@@ -1,13 +1,13 @@
 import "./ProductCategory.scss";
 import "react-image-lightbox/style.css";
-
+import { Breadcrumb } from "./Breadcrumbs";
 import React from "react";
 import { useParams } from "react-router-dom";
-
+import { Base, Col, Row, Split } from "../components/layout";
 import { categories } from "../api/categories";
 import { products } from "../api/products";
 import { Image } from "./elements";
-import { Base } from "./layout";
+import Carousel from 'react-bootstrap/Carousel';
 
 export const ProductPage = () => {
 

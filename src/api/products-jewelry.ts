@@ -4,6 +4,7 @@ export const jewelry = {
   // Jewelry - Rings
 
   "rings-cocktail-gold-diamonds": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-cocktail-gold-diamonds-1.jpeg",
       "/images/jewelry/rings/rings-cocktail-gold-diamonds-2.jpeg",
@@ -17,6 +18,7 @@ export const jewelry = {
     //productId: "rings-cocktail-gold-diamonds"
   },
   "rings-emerald-diamonds-oval-cabochon-art-deco": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-emerald-diamonds-oval-cabochon-art-deco-1.jpeg",
       "/images/jewelry/rings/rings-emerald-diamonds-oval-cabochon-art-deco-2.jpeg"
@@ -29,6 +31,7 @@ export const jewelry = {
     //productId: "rings-emerald-diamonds-oval-cabochon-art-deco"
   },
   "rings-emerald-square-victorian": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-emerald-square-victorian-1.jpeg",
       "/images/jewelry/rings/rings-emerald-square-victorian-2.jpeg",
@@ -42,6 +45,7 @@ export const jewelry = {
     //productId: "rings-emerald-square-victorian"
   },
   "rings-emerald-diamonds-heart-georgian-era": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-1.jpeg",
       "/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-2.jpeg",
@@ -55,6 +59,7 @@ export const jewelry = {
     //productId: "rings-emerald-diamonds-heart-georgian-era"
   },
   "rings-cocktail-gold-diamond-cluster": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-1.jpeg",
       "/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-2.jpeg",
@@ -67,6 +72,7 @@ export const jewelry = {
     //productId: "rings-cocktail-gold-diamond-cluster"
   },
   "rings-cocktail-emerald-diamond": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-cocktail-emerald-diamond-1.jpeg",
       "/images/jewelry/rings/rings-cocktail-emerald-diamond-2.jpeg",
@@ -79,6 +85,7 @@ export const jewelry = {
     //productId: "rings-cocktail-emerald-diamond"
   },
   "rings-amethyst-diamond-brutalist": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-amethyst-diamond-brutalist-1.jpeg",
       "/images/jewelry/rings/rings-amethyst-diamond-brutalist-2.jpeg",
@@ -93,6 +100,7 @@ export const jewelry = {
     //productId: "rings-amethyst-diamond-brutalist"
   },
   "rings-cocktail-sapphire-art-deco": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-cocktail-sapphire-art-deco-1.jpeg",
       "/images/jewelry/rings/rings-cocktail-sapphire-art-deco-2.jpeg",
@@ -106,6 +114,7 @@ export const jewelry = {
     //productId: "rings-cocktail-sapphire-art-deco"
   },
   "rings-jade-oval": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-jade-oval-1.jpeg",
       "/images/jewelry/rings/rings-jade-oval-2.jpeg",
@@ -119,6 +128,7 @@ export const jewelry = {
     //productId: "rings-jade-oval"
   },
   "rings-amethyst-diamond-gold-brutalist": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-1.jpeg",
       "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-2.jpeg",
@@ -132,6 +142,7 @@ export const jewelry = {
     //productId: "rings-amethyst-diamond-gold-brutalist"
   },
   "rings-emerald-diamond-brutalist": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-emerald-diamond-brutalist-1.jpeg",
       "/images/jewelry/rings/rings-emerald-diamond-brutalist-2.jpeg",
@@ -145,6 +156,7 @@ export const jewelry = {
     //productId: "rings-emerald-diamond-brutalist"
   },
   "rings-amethyst-diamond-snake": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-amethyst-diamond-snake-1.jpeg",
       "/images/jewelry/rings/rings-amethyst-diamond-snake-2.jpeg",
@@ -158,6 +170,7 @@ export const jewelry = {
     //productId: "rings-amethyst-diamond-snake"
   },
   "rings-wedding-diamond-cluster": {
+    category: "rings",
     images: [
       "/images/jewelry/rings/rings-wedding-diamond-cluster-1.jpeg",
       "/images/jewelry/rings/rings-wedding-diamond-cluster-2.jpeg",
@@ -174,6 +187,7 @@ export const jewelry = {
   // Jewelry Routes - Bracelets
 
   "bracelets-pearls-ruby": {
+    category: "bracelets",
     images: [
       "/images/jewelry/bracelets/bracelets-pearls-ruby-1.jpeg",
       "/images/jewelry/bracelets/bracelets-pearls-ruby-2.jpeg",
@@ -187,6 +201,7 @@ export const jewelry = {
     //productId: "bracelets-pearls-ruby"
   },
   "bracelets-diamonds-gold-hinged-bangle": {
+    category: "bracelets",
     images: [
       "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-1.jpeg",
       "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-2.jpeg",
@@ -202,6 +217,7 @@ export const jewelry = {
 
   /*
   "bracelets-gold-amethyst-edwardian": {
+    category: "bracelets",
     images: [
       "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-1.jpeg",
       "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-2.jpeg",
@@ -216,6 +232,7 @@ export const jewelry = {
 */
 
   "bracelets-heart-chain-gold-victorian": {
+    category: "bracelets",
     images: [
       "/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-1.jpeg",
       "/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-2.jpeg",
@@ -229,6 +246,7 @@ export const jewelry = {
     //productId: "bracelets-heart-chain-gold-victorian"
   },
   "bracelets-heart-chain-clasp-gold-victorian": {
+    category: "bracelets",
     images: [
       "/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-1.jpeg",
       "/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-2.jpeg",
@@ -242,6 +260,7 @@ export const jewelry = {
     //productId: "bracelets-heart-chain-clasp-gold-victorian"
   },
   "bracelets-heart-gold-victorian": {
+    category: "bracelets",
     images: [
       "/images/jewelry/bracelets/bracelets-heart-gold-victorian-1.jpeg",
       "/images/jewelry/bracelets/bracelets-heart-gold-victorian-2.jpeg",
@@ -260,6 +279,7 @@ export const jewelry = {
   /*
 
   "": {
+    category: "earrings",
     images: [
       "/images/earrings/earrings-emerald-diamond-loop-front.jpg",
       "/images/earrings/earrings-emerald-diamond-loop-back.jpg"
@@ -271,6 +291,7 @@ export const jewelry = {
     //productId: ""
   },
   "": {
+    category: "earrings",
     images: [
       "/images/earrings/earrings-emerald-diamond-flower-front.jpg",
       "/images/earrings/earrings-emerald-diamond-flower-back.jpg"
@@ -282,6 +303,7 @@ export const jewelry = {
     //productId: ""
   },
   "": {
+    category: "earrings",
     images: [
       "/images/earrings/earrings-emerald-diamond-rectangle-front.jpg",
       "/images/earrings/earrings-emerald-diamond-rectangle-back.jpg"
@@ -293,6 +315,7 @@ export const jewelry = {
     //productId: ""
   },
   "": {
+    category: "earrings",
     images: ["", ""],
     productTitle: "",
     description: "unknown",
@@ -305,6 +328,7 @@ export const jewelry = {
   // Jewelry Routes - Necklaces
 
   "necklaces-emerald-diamond-floral": {
+    category: "necklaces",
     images: [
       "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-1.jpeg",
       "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-2.jpeg",
@@ -318,6 +342,7 @@ export const jewelry = {
     //productId: "necklaces-emerald-diamond-floral"
   },
   "necklaces-jade-bead-gold": {
+    category: "necklaces",
     images: [
       "/images/jewelry/necklaces/necklaces-jade-bead-gold-1.jpeg",
       "/images/jewelry/necklaces/necklaces-jade-bead-gold-2.jpeg",
@@ -330,6 +355,7 @@ export const jewelry = {
     //productId: "necklaces-jade-bead-gold"
   },
   "necklaces-linked-chain-gold": {
+    category: "necklaces",
     images: [
       "/images/jewelry/necklaces/necklaces-linked-chain-gold-1.jpeg",
       "/images/jewelry/necklaces/necklaces-linked-chain-gold-2.jpeg",
@@ -342,6 +368,7 @@ export const jewelry = {
     //productId: "necklaces-linked-chain-gold"
   },
   "necklaces-sapphire-emerald-peacock-faberge": {
+    category: "necklaces",
     images: [
       "/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-1.jpg",
       "/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-2.jpg",
@@ -358,6 +385,7 @@ export const jewelry = {
   // Jewelry Routes - Brooches
 
   "brooches-lion-emerald-ruby-hammerman": {
+    category: "brooches",
     images: [
       "/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-1.jpeg",
       "/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-2.jpeg",
@@ -371,6 +399,7 @@ export const jewelry = {
     //productId: "brooches-lion-emerald-ruby-hammerman"
   },
   "brooches-citrine-rubys-pearls-edwardian": {
+    category: "brooches",
     images: [
       "/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-1.jpeg",
       "/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-2.jpeg",
@@ -384,6 +413,7 @@ export const jewelry = {
     //productId: "brooches-citrine-rubys-pearls-edwardian"
   },
   "brooches-amethyst-victorian-aesthetic-movement": {
+    category: "brooches",
     images: [
       "/images/jewelry/brooches/brooches-amethyst-victorian-aesthetic-movement-1.jpeg",
       "/images/jewelry/brooches/brooches-amethyst-victorian-aesthetic-movement-2.jpeg",
@@ -397,6 +427,7 @@ export const jewelry = {
     //productId: "brooches-amethyst-victorian-aesthetic-movement"
   },
   "brooches-ribbon-pearls": {
+    category: "brooches",
     images: [
       "/images/jewelry/brooches/brooches-ribbon-pearls-1.jpeg",
       "/images/jewelry/brooches/brooches-ribbon-pearls-2.jpeg"
@@ -409,6 +440,7 @@ export const jewelry = {
     //productId: "brooches-ribbon-pearls"
   },
   "brooches-tree-pearls": {
+    category: "brooches",
     images: [
       "/images/jewelry/brooches/brooches-tree-pearls-1.jpeg",
       "/images/jewelry/brooches/brooches-tree-pearls-2.jpeg",
@@ -424,6 +456,7 @@ export const jewelry = {
   // Jewelry - Silver
 
   "silver-jewelry-bangle-tiffany": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-2.jpeg",
@@ -437,6 +470,7 @@ export const jewelry = {
     // productId: "silver-jewelry-bangle-tiffany"
   },
   "silver-jewelry-necklace-amber-poland": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-2.jpeg",
@@ -450,6 +484,7 @@ export const jewelry = {
     // productId: "silver-jewelry-necklace-amber-poland"
   },
   "silver-jewelry-necklace-modernist-choker": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-2.jpeg",
@@ -463,6 +498,7 @@ export const jewelry = {
     // productId: "silver-jewelry-necklace-modernist-choker"
   },
   "silver-bracelet-turquoise-southwest": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-2.jpeg",
@@ -476,6 +512,7 @@ export const jewelry = {
     // productId: "silver-bracelet-turquoise-southwest"
   },
   "silver-turquoise-coral-bangle-southwest": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-2.jpeg",
@@ -489,6 +526,7 @@ export const jewelry = {
     // productId: "silver-turquoise-coral-bangle-southwest"
   },
   "silver-necklace-pendant-turquiose-orlando-crespin": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-2.jpeg",
@@ -503,6 +541,7 @@ export const jewelry = {
     // productId: "silver-necklace-pendant-turquiose-orlando-crespin"
   },
   "silver-necklace-turquiose-beads": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-2.jpeg",
@@ -515,6 +554,7 @@ export const jewelry = {
     // productId: "silver-necklace-turquiose-beads"
   },
   "silver-bracelet-northwest-native": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-2.jpeg",
@@ -528,6 +568,7 @@ export const jewelry = {
     // productId: "silver-bracelet-northwest-native"
   },
   "silver-bracelet-mexican": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-bracelet-mexican-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-bracelet-mexican-2.jpeg",
@@ -541,6 +582,7 @@ export const jewelry = {
     // productId: "silver-bracelet-mexican"
   },
   "silver-bracelet-birks": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-bracelet-birks-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-bracelet-birks-2.jpeg",
@@ -554,6 +596,7 @@ export const jewelry = {
     // productId: "silver-bracelet-birks"
   },
   "silver-necklace-semi-precious-yellow": {
+    category: "silver-jewelry",
     images: [
       "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-1.jpeg",
       "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-2.jpeg",
@@ -567,11 +610,12 @@ export const jewelry = {
     // productId: "silver-necklace-semi-precious-yellow"
   },
   "silver-necklace-brutalist": {
-    images: [
-      "/images/jewelry/silver-jewelry/silver-necklace-brutalist-1.jpeg"
-    ],
-    productTitle: "Brutalist Modern Silver Sculptural Linked Necklace c. 1960s ",
-    description: "A sculptural linked necklace in the brutalist style, mid 20th century",
+    category: "silver-jewelry",
+    images: ["/images/jewelry/silver-jewelry/silver-necklace-brutalist-1.jpeg"],
+    productTitle:
+      "Brutalist Modern Silver Sculptural Linked Necklace c. 1960s ",
+    description:
+      "A sculptural linked necklace in the brutalist style, mid 20th century",
     dimensions: "",
     price: "inquire"
     // productId: "silver-necklace-brutalist"

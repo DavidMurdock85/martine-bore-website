@@ -1,6 +1,5 @@
 import React from "react";
 import { Route } from "react-router-dom";
-
 import { categories } from "../api/categories";
 import { Flex } from "../components/layout";
 import { ProductCategory } from "../components/ProductCategory";

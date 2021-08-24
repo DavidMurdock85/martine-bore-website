@@ -4,6 +4,7 @@ export const fineArts = {
   // Fine Arts - Paintings
 
   "paintings-english-harold-goldthwait-near-pateham-sussex": {
+    category: "paintings",
     images: [
       "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-1.jpeg",
       "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-2.jpeg",
@@ -18,6 +19,7 @@ export const fineArts = {
     //productId: "paintings-english-harold-goldthwait-near-pateham-sussex"
   },
   "paintings-portrait-victorian-english-laslett-john-pott": {
+    category: "paintings",
     images: [
       "/images/fine-arts/paintings/paintings-portrait-victorian-english-laslett-john-pott-1.jpeg",
       "/images/fine-arts/paintings/paintings-portrait-victorian-english-laslett-john-pott-2.jpeg",
@@ -32,6 +34,7 @@ export const fineArts = {
     //productId: "paintings-portrait-victorian-english-laslett-john-pott"
   },
   "paintings-landscape-impressionist-fairlie-harmar": {
+    category: "paintings",
     images: [
       "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-1.jpeg",
       "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-2.jpeg",
@@ -46,6 +49,7 @@ export const fineArts = {
     //productId: "paintings-landscape-impressionist-fairlie-harmar"
   },
   "paintings-portrait-regency-period": {
+    category: "paintings",
     images: [
       "/images/fine-arts/paintings/paintings-portrait-regency-period-1.jpeg",
       "/images/fine-arts/paintings/paintings-portrait-regency-period-2.jpeg",
@@ -58,6 +62,7 @@ export const fineArts = {
     //productId: "paintings-portrait-regency-period"
   },
   "paintings-english-harold-goldthwait": {
+    category: "paintings",
     images: [
       "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-1.jpg",
       "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-2.jpg",
@@ -76,6 +81,7 @@ export const fineArts = {
   // Fine Arts - Pastels
 
   "pastels-portrait-prussian-officer": {
+    category: "pastels",
     images: [
       "/images/fine-arts/pastels/pastels-portrait-prussian-officer-1.jpg",
       "/images/fine-arts/pastels/pastels-portrait-prussian-officer-2.jpg",
@@ -93,6 +99,7 @@ export const fineArts = {
   // Fine Arts - Miniatures
 
   "miniatures-portrait-dog-french-empire": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-dog-french-empire-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-dog-french-empire-2.jpeg",
@@ -107,6 +114,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-dog-french-empire"
   },
   "miniatures-portrait-napolean-french-empire": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-napolean-french-empire-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-napolean-french-empire-2.jpeg",
@@ -121,6 +129,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-napolean-french-empire"
   },
   "miniatures-portrait-girls-edwardian": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-2.jpeg",
@@ -134,6 +143,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-girls-edwardian"
   },
   "miniatures-portrait-lady-cartier-victorian": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-2.jpeg",
@@ -147,6 +157,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-lady-cartier-victorian"
   },
   "miniatures-portrait-woman-oval-frame-edwardian": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-2.jpeg",
@@ -160,6 +171,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-woman-oval-frame-edwardian"
   },
   "miniatures-portrait-pauline-bonaparte": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-2.jpeg",
@@ -173,6 +185,7 @@ export const fineArts = {
     //productId: "minitures-portrait-pauline-bonaparte"
   },
   "miniatures-portrait-woman-blue-ivory-frame": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-2.jpeg",
@@ -187,6 +200,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-woman-blue-ivory-frame"
   },
   "miniatures/miniatures-portrait-lady-graham-victorian": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-lady-graham-victorian-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-lady-graham-victorian-2.jpeg",
@@ -200,6 +214,7 @@ export const fineArts = {
     //productId: "miniatures/miniatures-portrait-lady-graham-victorian"
   },
   "miniatures-portrait-helene-sedlmayr-victorian": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-2.jpeg",
@@ -213,6 +228,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-helene-sedlmayr-victorian"
   },
   "miniatures-portrait-woman-hat-victorian": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-woman-hat-victorian-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-woman-hat-victorian-2.jpeg",
@@ -226,6 +242,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-woman-hat-victorian"
   },
   "miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-2.jpeg",
@@ -240,6 +257,7 @@ export const fineArts = {
     //productId: "miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi"
   },
   "miniatures-portrait-george-II": {
+    category: "miniatures",
     images: [
       "/images/fine-arts/miniatures/miniatures-portrait-george-II-1.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-george-II-2.jpeg"
@@ -255,6 +273,7 @@ export const fineArts = {
   // Fine Arts - Sculpture
 
   "sculpture-bronze-cherub-after-jean-baptiste-pigalle": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-cherub-after-jean-baptiste-pigalle-1.jpg",
       "/images/fine-arts/sculpture/sculpture-bronze-cherub-after-jean-baptiste-pigalle-2.jpg"
@@ -268,6 +287,7 @@ export const fineArts = {
     //productId: "sculpture-bronze-cherub-after-jean-baptiste-pigalle"
   },
   "sculpture-marble-italian-venus-after-canova": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-1.jpg",
       "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-2.jpg",
@@ -282,6 +302,7 @@ export const fineArts = {
     //productId: "sculpture-marble-italian-venus-after-canova"
   },
   "sculpture-bronze-cherubs-french-empire": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-cherubs-french-empire-1.jpg",
       "/images/fine-arts/sculpture/sculpture-bronze-cherubs-french-empire-2.jpg",
@@ -295,6 +316,7 @@ export const fineArts = {
     //productId: "sculpture-bronze-cherubs-french-empire"
   },
   "sculpture-bronze-french-greyhound-by-pierre-jules-mene": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-1.jpg",
       "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-2.jpg",
@@ -309,6 +331,7 @@ export const fineArts = {
     //productId: "sculpture-bronze-french-greyhound-by-pierre-jules-mene"
   },
   "sculpture-bronze-boy-by-george-omerth": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-1.jpeg",
       "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-2.jpeg",
@@ -322,6 +345,7 @@ export const fineArts = {
     //productId: "sculpture-bronze-boy-by-george-omerth"
   },
   "sculpture-bronze-lion-john-mayne-van-der-kemp": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-1.jpg",
       "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-2.jpg",
@@ -336,6 +360,7 @@ export const fineArts = {
     // productId: "sculpture-bronze-lion-john-mayne-van-der-kemp"
   },
   "sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire-1.jpeg",
       "/images/fine-arts/sculpture/sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire-2.jpeg",
@@ -350,6 +375,7 @@ export const fineArts = {
     // productId: "sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire"
   },
   "sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire-1.jpg",
       "/images/fine-arts/sculpture/sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire-2.jpg",
@@ -364,6 +390,7 @@ export const fineArts = {
     // productId: "sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire"
   },
   "sculpture-bronze-maiden": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-maiden-1.jpg",
       "/images/fine-arts/sculpture/sculpture-bronze-maiden-2.jpg",
@@ -376,6 +403,7 @@ export const fineArts = {
     // productId: "sculpture-bronze-maiden"
   },
   "sculpture-bronze-children-after-moreau": {
+    category: "sculpture",
     images: [
       "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-1.jpg",
       "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-2.jpg",

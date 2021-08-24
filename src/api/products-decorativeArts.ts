@@ -6,6 +6,7 @@ export const decorativeArts = {
   // Decorative Arts - Porcelain
 
   "porcelain-vases-herend-rothschild": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-vases-herend-rothschild-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-vases-herend-rothschild-2.jpeg",
@@ -19,6 +20,7 @@ export const decorativeArts = {
     // productId: "porcelain-vases-herend-rothschild"
   },
   "porcelain-box-hungary-herend-green": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-box-herend-green-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-box-herend-green-2.jpeg",
@@ -31,6 +33,7 @@ export const decorativeArts = {
     // productId: "porcelain-box-hungary-herend-green"
   },
   "porcelain-cabinet-plates-royal-vienna": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-cabinet-plates-royal-vienna-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-cabinet-plates-royal-vienna-2.jpeg",
@@ -44,6 +47,7 @@ export const decorativeArts = {
     // productId: "porcelain-cabinet-plates-royal-vienna"
   },
   "porcelain-box-herend-red": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-box-herend-red-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-box-herend-red-2.jpeg",
@@ -56,6 +60,7 @@ export const decorativeArts = {
     // productId: "porcelain-box-herend-red"
   },
   "porcelain-tray-herend-rothschild": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-tray-herend-rothschild-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-tray-herend-rothschild-2.jpeg",
@@ -68,6 +73,7 @@ export const decorativeArts = {
     // productId: "porcelain-tray-herend-rothschild"
   },
   "porcelain-cache-pot-herend-rothschild": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-cache-pot-herend-rothschild-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-cache-pot-herend-rothschild-2.jpeg",
@@ -80,6 +86,7 @@ export const decorativeArts = {
     // productId: "porcelain-cache-pot-herend-rothschild"
   },
   "porcelain-vase-limoges-blue-golse": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-vase-limoges-blue-golse-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-vase-limoges-blue-golse-2.jpeg",
@@ -93,6 +100,7 @@ export const decorativeArts = {
     // productId: "porcelain-vase-limoges-blue-golse"
   },
   "porcelain-vase-paris-grey-floral": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-vase-paris-grey-floral-french-empire-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-vase-paris-grey-floral-french-empire-2.jpeg",
@@ -105,6 +113,7 @@ export const decorativeArts = {
     // productId: "porcelain-vase-paris-grey-floral"
   },
   "porcelain-bud-vase-herend-rothschild": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-bud-vase-herend-rothschild-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-bud-vase-herend-rothschild-2.jpeg",
@@ -117,6 +126,7 @@ export const decorativeArts = {
     // productId: "porcelain-bud-vase-herend-rothschild"
   },
   "porcelain-vase-portrait-royal-bonn-pink": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-vase-portrait-royal-bonn-pink-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-vase-portrait-royal-bonn-pink-2.jpeg",
@@ -130,6 +140,7 @@ export const decorativeArts = {
     // productId: "porcelain-vase-portrait-royal-bonn-pink"
   },
   "porcelain-sevres-cachepot-blue": {
+    category: "porcelain",
     images: [
       "/images/decorative-arts/porcelain/porcelain-sevres-cachepot-blue-1.jpeg",
       "/images/decorative-arts/porcelain/porcelain-sevres-cachepot-blue-2.jpeg",
@@ -146,6 +157,7 @@ export const decorativeArts = {
   // Decorative Arts - Clocks
 
   "clocks-mantle-planchon-au-royal-french-empire": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/clocks/clocks-mantle-planchon-au-royal-french-empire-1.jpeg",
       "/images/decorative-arts/clocks/clocks-mantle-planchon-au-royal-french-empire-2.jpeg",
@@ -160,6 +172,7 @@ export const decorativeArts = {
     // productId: "clocks-mantle-planchon-au-royal-french-empire"
   },
   "clocks-leroy-fils-french-empire": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/clocks/clocks-leroy-fils-french-empire-1.jpeg",
       "/images/decorative-arts/clocks/clocks-leroy-fils-french-empire-2.jpeg",
@@ -173,6 +186,7 @@ export const decorativeArts = {
     // productId: "clocks-leroy-fils-french-empire"
   },
   "clocks-ad-mougin-french-empire": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/clocks/clocks-ad-mougin-french-empire-1.jpeg",
       "/images/decorative-arts/clocks/clocks-ad-mougin-french-empire-2.jpeg",
@@ -188,6 +202,7 @@ export const decorativeArts = {
     // productId: "clocks-ad-mougin-french-empire"
   },
   "clocks-putti-french-empire": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/clocks/clocks-putti-french-empire-1.jpeg",
       "/images/decorative-arts/clocks/clocks-putti-french-empire-2.jpeg",
@@ -202,6 +217,7 @@ export const decorativeArts = {
     // productId: "clocks-putti-french-empire"
   },
   "clocks-french-gilded-sky-blue": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/clocks/clocks-french-gilded-sky-blue-1.jpeg",
       "/images/decorative-arts/clocks/clocks-french-gilded-sky-blue-2.jpeg",
@@ -215,6 +231,7 @@ export const decorativeArts = {
     // productId: "clocks-french-gilded-sky-blue"
   },
   "clocks-swiss-le-coultre-atmos": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/clocks/clocks-swiss-le-coultre-atmos-1.jpeg",
       "/images/decorative-arts/clocks/clocks-swiss-le-coultre-atmos-2.jpeg",
@@ -232,6 +249,7 @@ export const decorativeArts = {
   // Decorative Arts - Lighting
 
   "chandelier-italian-murano-pink": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/lighting/chandelier/chandelier-italian-murano-pink-1.jpg",
       "/images/decorative-arts/lighting/chandelier/chandelier-italian-murano-pink-2.jpg",
@@ -244,6 +262,7 @@ export const decorativeArts = {
     // productId: "chandelier-italian-murano-pink"
   },
   "chandelier-gilt-crystal-french": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/lighting/chandelier/chandelier-gilt-crystal-french-1.jpg",
       "/images/decorative-arts/lighting/chandelier/chandelier-gilt-crystal-french-2.jpg",
@@ -256,6 +275,7 @@ export const decorativeArts = {
     // productId: "chandelier-gilt-crystal-french"
   },
   "chandelier-italian-brass-sputnik": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/lighting/chandelier/chandelier-italian-brass-sputnik-1.jpg",
       "/images/decorative-arts/lighting/chandelier/chandelier-italian-brass-sputnik-2.jpg",
@@ -269,6 +289,7 @@ export const decorativeArts = {
     // productId: "chandelier-italian-brass"
   },
   "chandelier-crystal-italian": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/lighting/chandelier/chandelier-crystal-italian-1.jpg",
       "/images/decorative-arts/lighting/chandelier/chandelier-crystal-italian-2.jpg",
@@ -281,6 +302,7 @@ export const decorativeArts = {
     // productId: "chandelier-crystal-italian"
   },
   "lamps-slag-glass-art-nouveau": {
+    category: "clocks",
     images: [
       "/images/decorative-arts/lighting/lamps/lamps-slag-glass-art-nouveau-1.jpg",
       "/images/decorative-arts/lighting/lamps/lamps-slag-glass-art-nouveau-2.jpg",
@@ -296,6 +318,7 @@ export const decorativeArts = {
   // Decorative Arts - Moorcroft
 
   "moorcroft-vase-yellow-hibicus": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-yellow-hibicus-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-yellow-hibicus-2.jpeg",
@@ -308,6 +331,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-yellow-hibicus"
   },
   "moorcroft-vase-cornflower": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-cornflower-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-cornflower-2.jpeg",
@@ -321,6 +345,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-cornflower"
   },
   "moorcroft-vase-orchid": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-orchid-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-orchid-2.jpeg",
@@ -333,6 +358,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-orchid"
   },
   "moorcroft-vase-pansy": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-pansy-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-pansy-2.jpeg",
@@ -346,6 +372,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-pansy"
   },
   "moorcroft-vase-flambe-large": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-flambe-large-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-flambe-large-2.jpeg",
@@ -359,6 +386,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-flambe-large"
   },
   "moorcroft-vase-pomegranate-small": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-pomegranate-small-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-pomegranate-small-2.jpeg",
@@ -371,6 +399,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-pomegranate-small"
   },
   "moorcroft-vase-pomegranate": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-pomegranate-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-pomegranate-2.jpeg"
@@ -383,6 +412,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-pomegranate"
   },
   "moorcroft-centerpiece-pomegranate-small": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-centerpiece-pomegranate-small-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-centerpiece-pomegranate-small-2.jpeg",
@@ -397,6 +427,7 @@ export const decorativeArts = {
     // productId: "moorcroft-centerpiece-pomegranate-small"
   },
   "moorcroft-candlestick-pomegranate-small": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-candlestick-pomegranate-small-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-candlestick-pomegranate-small-2.jpeg",
@@ -409,6 +440,7 @@ export const decorativeArts = {
     // productId: "moorcroft-candlestick-pomegranate-small"
   },
   "moorcroft-vase-poppy-large": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-poppy-large-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-poppy-large-2.jpeg",
@@ -421,6 +453,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-poppy-large"
   },
   "moorcroft-bowl-yacht": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-bowl-yacht-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-bowl-yacht-2.jpeg",
@@ -433,6 +466,7 @@ export const decorativeArts = {
     // productId: "moorcroft-bowl-yacht"
   },
   "moorcroft-vase-plums-small": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-plums-small-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-plums-small-2.jpeg",
@@ -446,6 +480,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-plums-small"
   },
   "moorcroft-vase-powder-blue-floral": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-powder-blue-floral-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-powder-blue-floral-2.jpeg",
@@ -459,6 +494,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-powder-blue-floral"
   },
   "moorcroft-covered-box-pomegranate": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-covered-box-pomegranate-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-covered-box-pomegranate-2.jpeg",
@@ -471,6 +507,7 @@ export const decorativeArts = {
     // productId: "moorcroft-covered-box-pomegranate"
   },
   "moorcroft-vase-orchid-trumpet": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-orchid-trumpet-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-orchid-trumpet-2.jpeg",
@@ -484,6 +521,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-orchid-trumpet"
   },
   "moorcroft-vase-pomegranate-medium": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-vase-pomegranate-medium-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-pomegranate-medium-2.jpeg",
@@ -496,6 +534,7 @@ export const decorativeArts = {
     // productId: "moorcroft-vase-pomegranate-medium"
   },
   "moorcroft-william-biscut-barrel-florianware": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-william-biscut-barrel-florianware-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-william-biscut-barrel-florianware-2.jpeg",
@@ -508,6 +547,7 @@ export const decorativeArts = {
     // productId: "moorcroft-william-biscut-barrel-florianware"
   },
   "moorcroft-macintyre-william-florainware-white": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-macintyre-william-florainware-white-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-macintyre-william-florainware-white-2.jpeg",
@@ -521,6 +561,7 @@ export const decorativeArts = {
     // productId: "moorcroft-macintyre-william-florainware-white"
   },
   "moorcroft-candlesticks-hibiscus": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-candlesticks-hibiscus-1.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-candlesticks-hibiscus-2.jpeg",
@@ -533,6 +574,7 @@ export const decorativeArts = {
     // productId: "moorcroft-candlesticks-hibiscus"
   },
   "moorcroft-lamps-hibiscus-green": {
+    category: "moorcroft",
     images: [
       "/images/decorative-arts/moorcroft/moorcroft-lamps-hibiscus-green-1.jpg",
       "/images/decorative-arts/moorcroft/moorcroft-lamps-hibiscus-green-2.jpg"
@@ -547,6 +589,7 @@ export const decorativeArts = {
   // Decorative Arts - Lalique
 
   "lalique-vase-art-deco": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-vase-art-deco-1.jpeg",
       "/images/decorative-arts/lalique/lalique-vase-art-deco-2.jpeg",
@@ -560,6 +603,7 @@ export const decorativeArts = {
     // productId: "lalique-vase-art-deco"
   },
   "lalique-vase-gui-art-deco": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-vase-gui-art-deco-1.jpeg",
       "/images/decorative-arts/lalique/lalique-vase-gui-art-deco-2.jpeg",
@@ -573,6 +617,7 @@ export const decorativeArts = {
     // productId: "lalique-vase-gui-art-deco"
   },
   "lalique-bowl-nemours": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-bowl-nemours-1.jpeg",
       "/images/decorative-arts/lalique/lalique-bowl-nemours-2.jpeg",
@@ -586,6 +631,7 @@ export const decorativeArts = {
     // productId: "alique-bowl-nemours"
   },
   "lalique-bowl-pinsons": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-bowl-pinsons-1.jpeg",
       "/images/decorative-arts/lalique/lalique-bowl-pinsons-2.jpeg",
@@ -599,6 +645,7 @@ export const decorativeArts = {
     // productId: "lalique-bowl-pinsons"
   },
   "lalique-vase-bacchantes": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-vase-bacchantes-1.jpeg",
       "/images/decorative-arts/lalique/lalique-vase-bacchantes-2.jpeg",
@@ -612,6 +659,7 @@ export const decorativeArts = {
     // productId: "lalique-vase-bacchantes"
   },
   "lalique-bowl-roscoff": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-bowl-roscoff-1.jpeg",
       "/images/decorative-arts/lalique/lalique-bowl-roscoff-2.jpeg",
@@ -625,6 +673,7 @@ export const decorativeArts = {
     // productId: "lalique-bowl-roscoff"
   },
   "lalique-statue-deux-danseuse": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-statue-deux-danseuse-1.jpeg",
       "/images/decorative-arts/lalique/lalique-statue-deux-danseuse-2.jpeg",
@@ -638,6 +687,7 @@ export const decorativeArts = {
     // productId: "lalique-statue-deux-danseuse"
   },
   "lalique-bowl-hiboux": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-bowl-hiboux-1.jpeg",
       "/images/decorative-arts/lalique/lalique-bowl-hiboux-2.jpeg",
@@ -650,6 +700,7 @@ export const decorativeArts = {
     // productId: "lalique-bowl-hiboux"
   },
   "lalique-bowl-art-deco-opaline": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-bowl-art-deco-opaline-1.jpeg",
       "/images/decorative-arts/lalique/lalique-bowl-art-deco-opaline-2.jpeg",
@@ -663,6 +714,7 @@ export const decorativeArts = {
     // productId: "lalique-bowl-art-deco-opaline"
   },
   "lalique-plate-pissenlit": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-plate-pissenlit-art-deco-1.jpeg",
       "/images/decorative-arts/lalique/lalique-plate-pissenlit-art-deco-2.jpeg",
@@ -676,6 +728,7 @@ export const decorativeArts = {
     // productId: "lalique-plate-pissenlit"
   },
   "lalique-statue-bull": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-statue-bull-1.jpeg",
       "/images/decorative-arts/lalique/lalique-statue-bull-2.jpeg",
@@ -688,6 +741,7 @@ export const decorativeArts = {
     // productId: "lalique-statue-bull"
   },
   "lalique-plate-ondes": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-plate-ondes-1.jpeg",
       "/images/decorative-arts/lalique/lalique-plate-ondes-2.jpeg",
@@ -700,6 +754,7 @@ export const decorativeArts = {
     // productId: "lalique-plate-ondes"
   },
   "lalique-vase-bluets-art-deco": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-vase-bluets-art-deco-1.jpeg",
       "/images/decorative-arts/lalique/lalique-vase-bluets-art-deco-2.jpeg",
@@ -713,6 +768,7 @@ export const decorativeArts = {
     // productId: "lalique-vase-bluets-art-deco"
   },
   "lalique-bowl-nogent": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-bowl-nogent-1.jpeg",
       "/images/decorative-arts/lalique/lalique-bowl-nogent-2.jpeg",
@@ -726,6 +782,7 @@ export const decorativeArts = {
     // productId: "lalique-bowl-nogent"
   },
   "lalique-statue-dragons": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-statue-dragons-1.jpeg",
       "/images/decorative-arts/lalique/lalique-statue-dragons-2.jpeg",
@@ -738,6 +795,7 @@ export const decorativeArts = {
     // productId: "lalique-statue-dragons"
   },
   "lalique-centerpiece-bowl": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-centerpiece-bowl-1.jpeg",
       "/images/decorative-arts/lalique/lalique-centerpiece-bowl-2.jpeg",
@@ -750,6 +808,7 @@ export const decorativeArts = {
     // productId: "lalique-centerpiece-bowl"
   },
   "lalique-vase-vichy-art-deco": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-vase-vichy-art-deco-1.jpeg",
       "/images/decorative-arts/lalique/lalique-vase-vichy-art-deco-2.jpeg",
@@ -763,6 +822,7 @@ export const decorativeArts = {
     // productId: "lalique-vase-vichy-art-deco"
   },
   "lalique-statue-lion": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-statue-lion-1.jpeg",
       "/images/decorative-arts/lalique/lalique-statue-lion-2.jpeg",
@@ -775,6 +835,7 @@ export const decorativeArts = {
     // productId: "lalique-statue-lion"
   },
   "lalique-statue-cat": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-statue-cat-1.jpeg",
       "/images/decorative-arts/lalique/lalique-statue-cat-2.jpeg",
@@ -787,6 +848,7 @@ export const decorativeArts = {
     // productId: "lalique-statue-cat"
   },
   "lalique-bookends-luxembourg": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-bookends-luxembourg-1.jpeg",
       "/images/decorative-arts/lalique/lalique-bookends-luxembourg-2.jpeg",
@@ -800,6 +862,7 @@ export const decorativeArts = {
     // productId: "lalique-bookends-luxembourg"
   },
   "lalique-vase-biches-black": {
+    category: "lalique",
     images: [
       "/images/decorative-arts/lalique/lalique-vase-biches-black-1.jpeg",
       "/images/decorative-arts/lalique/lalique-vase-biches-black-2.jpeg",
@@ -815,6 +878,7 @@ export const decorativeArts = {
   // Decorative Arts - Clarice Cliff
 
   "clarice-cliff-creamer-art-deco": {
+    category: "clarice-cliff",
     images: [
       "/images/decorative-arts/clarice-cliff/clarice-cliff-creamer-art-deco-1.jpeg",
       "/images/decorative-arts/clarice-cliff/clarice-cliff-creamer-art-deco-2.jpeg",
@@ -828,6 +892,7 @@ export const decorativeArts = {
     // productId: "clarice-cliff-creamer-art-deco"
   },
   "clarice-cliff-pitcher-parrots-art-deco": {
+    category: "clarice-cliff",
     images: [
       "/images/decorative-arts/clarice-cliff/clarice-cliff-pitcher-parrots-art-deco-1.jpeg",
       "/images/decorative-arts/clarice-cliff/clarice-cliff-pitcher-parrots-art-deco-2.jpeg",
@@ -840,6 +905,7 @@ export const decorativeArts = {
     // productId: "clarice-cliff-pitcher-parrots-art-deco"
   },
   "clarice-cliff-vase-floral-art-deco": {
+    category: "clarice-cliff",
     images: [
       "/images/decorative-arts/clarice-cliff/clarice-cliff-vase-floral-art-deco-1.jpeg",
       "/images/decorative-arts/clarice-cliff/clarice-cliff-vase-floral-art-deco-2.jpeg",
@@ -852,6 +918,7 @@ export const decorativeArts = {
     // productId: "clarice-cliff-vase-floral-art-deco"
   },
   "clarice-cliff-vase-parrots-art-deco": {
+    category: "clarice-cliff",
     images: [
       "/images/decorative-arts/clarice-cliff/clarice-cliff-vase-parrots-art-deco-1.jpeg",
       "/images/decorative-arts/clarice-cliff/clarice-cliff-vase-parrots-art-deco-2.jpeg",

@@ -4,6 +4,7 @@ export const silver = {
   // Silver - Candle Sticks
 
   "candle-sticks-b&co-birmingham-sterling-silver": {
+    category: "candle-sticks",
     images: [
       "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-1.jpeg",
       "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-2.jpeg",
@@ -18,6 +19,7 @@ export const silver = {
     // productId: "candle-sticks-b&co-birmingham-sterling-silver"
   },
   "candle-sticks-sterling-silver-dutch-art-deco": {
+    category: "candle-sticks",
     images: [
       "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-1.jpeg",
       "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-2.jpeg",
@@ -31,6 +33,7 @@ export const silver = {
     // productId: "candle-sticks-sterling-silver-dutch-art-deco"
   },
   "candle-sticks-sterling-silver-international-silver-weighted": {
+    category: "candle-sticks",
     images: [
       "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-1.jpeg",
       "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-2.jpeg",
@@ -43,6 +46,7 @@ export const silver = {
     // productId: "candle-sticks-sterling-silver-international-silver-weighted"
   },
   "candle-sticks-sterling-silver-duchin-weighted": {
+    category: "candle-sticks",
     images: [
       "/images/silver/candle-sticks/candle-sticks-sterling-silver-duchin-weighted-1.jpeg",
       "/images/silver/candle-sticks/candle-sticks-sterling-silver-duchin-weighted-2.jpeg",
@@ -54,13 +58,14 @@ export const silver = {
     dimensions: "",
     price: ""
     // productId: "candle-sticks-sterling-silver-duchin-weighted"
-  },
+  }
 
   // Silver - Sugar Castors
 
   /*
 
   "": {
+    category: "sugar-castors",
     images: [
       "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-1.jpeg",
       "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-2.jpeg",
@@ -73,6 +78,7 @@ export const silver = {
     // productId: ""
   },
   "": {
+    category: "sugar-castors",
     images: [""],
     productTitle: "",
     description: "",
@@ -81,6 +87,7 @@ export const silver = {
     // productId: ""
   },
   "": {
+    category: "sugar-castors",
     images: [""],
     productTitle: "",
     description: "",
@@ -89,6 +96,7 @@ export const silver = {
     // productId: ""
   },
   "": {
+    category: "sugar-castors",
     images: [""],
     productTitle: "",
     description: "",

@@ -28,15 +28,6 @@ export const Header = (props) => {
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/paintings">Paintings</NavDropdown.Item>
               </Base>
-              {/*<Base tag="h5">
-                <NavDropdown.Item href="/categories/watercolors">Watercolors</NavDropdown.Item>
-              </Base>*/}
-              {/*<Base tag="h5">
-                <NavDropdown.Item href="/categories/pastels">Pastels</NavDropdown.Item>
-              </Base>*/}
-              {/*<Base tag="h5">
-                <NavDropdown.Item href="/categories/prints">Prints</NavDropdown.Item>
-              </Base>*/}
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/miniatures">Miniatures</NavDropdown.Item>
               </Base>
@@ -59,9 +50,6 @@ export const Header = (props) => {
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/clocks">Clocks</NavDropdown.Item>
               </Base>
-              {/*<Base tag="h5">
-                <NavDropdown.Item href="/categories/boxes">Boxes</NavDropdown.Item>
-              </Base>*/}
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/lighting">Lighting</NavDropdown.Item>
               </Base>
@@ -130,9 +118,6 @@ export const Header = (props) => {
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/royal-doulton-figurines">Royal Doulton Figurines</NavDropdown.Item>
               </Base>
-              {/*<Base tag="h5">
-                <NavDropdown.Item href="/categories/royal-worcester-figurines">Royal Worcester Figurines</NavDropdown.Item>
-              </Base>*/}
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/animal-figurines">Animal Figurines</NavDropdown.Item>
               </Base>
@@ -149,9 +134,6 @@ export const Header = (props) => {
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/stemware">Stemware</NavDropdown.Item>
               </Base>
-              {/*<Base tag="h5">
-                <NavDropdown.Item href="/categories/">Flatware</NavDropdown.Item>
-              </Base>*/}
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/tea-service">Tea Service</NavDropdown.Item>
               </Base>

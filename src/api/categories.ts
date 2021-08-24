@@ -21,7 +21,7 @@ export const categories = {
   // Fine Arts Routes
 
   // Fine Arts - Paintings
-  {
+  paintings: {
     route: "paintings",
     title: "Paintings",
     breadcrumbs: [
@@ -41,7 +41,7 @@ export const categories = {
 
   /*
 
-  {
+  "watercolors":{
     route: "watercolors",
     title: "Watercolors",
     breadcrumbs: [
@@ -55,7 +55,7 @@ export const categories = {
 
   // Fine Arts - Pastels
 
-  {
+  pastels: {
     route: "pastels",
     title: "Pastels",
     breadcrumbs: [
@@ -69,7 +69,7 @@ export const categories = {
 
   /*
 
-  {
+  "prints":{
     route: "prints",
     title: "Prints",
     breadcrumbs: [
@@ -82,7 +82,7 @@ export const categories = {
 */
 
   // Fine Arts - Miniatures
-  {
+  miniatures: {
     route: "miniatures",
     title: "Miniatures",
     breadcrumbs: [
@@ -107,7 +107,7 @@ export const categories = {
 
   // Fine Arts - Sculpture
 
-  {
+  sculpture: {
     route: "sculpture",
     title: "Sculpture",
     breadcrumbs: [
@@ -133,7 +133,7 @@ export const categories = {
   // Decorative Arts - Glass
 
   /*
-  {
+  "glass":{
     route: "glass",
     title: "Glass",
     breadcrumbs: [
@@ -147,7 +147,7 @@ export const categories = {
 
   // Decorative Arts - Porcelain
 
-  {
+  porcelain: {
     route: "porcelain",
     title: "Porcelain",
     breadcrumbs: [
@@ -171,7 +171,7 @@ export const categories = {
 
   // Decorative Arts - Clocks
 
-  {
+  clocks: {
     route: "clocks",
     title: "Clocks",
     breadcrumbs: [
@@ -192,7 +192,7 @@ export const categories = {
 
   /*
 
-  {
+  "boxes":{
     route: "boxes",
     title: "Boxes",
     breadcrumbs: [
@@ -206,7 +206,7 @@ export const categories = {
 
   // Decorative Arts - Lighting
 
-  {
+  lighting: {
     route: "lighting",
     title: "Lighting",
     breadcrumbs: [
@@ -224,7 +224,7 @@ export const categories = {
 
   // Decorative Arts - Moorcroft
 
-  {
+  moorcroft: {
     route: "moorcroft",
     title: "Moorcroft",
     breadcrumbs: [
@@ -257,7 +257,7 @@ export const categories = {
 
   // Decorative Arts - Lalique
 
-  {
+  lalique: {
     route: "lalique",
     title: "Lalique",
     breadcrumbs: [
@@ -295,7 +295,7 @@ export const categories = {
 
   // Art by Period - Victorian
 
-  {
+  victorian: {
     route: "victorian",
     title: "Victorian",
     breadcrumbs: [
@@ -317,7 +317,7 @@ export const categories = {
 
   // Art by Period - Aesthetic Movement
 
-  {
+  "aesthetic-movement": {
     route: "aesthetic-movement",
     title: "Aesthetic Movement",
     breadcrumbs: [
@@ -334,7 +334,7 @@ export const categories = {
 
   // Art by Period - Art Nouveau
 
-  {
+  "art-nouveau": {
     route: "art-nouveau",
     title: "Art Nouveau",
     breadcrumbs: [
@@ -355,7 +355,7 @@ export const categories = {
 
   // Art by Period - Art Deco
 
-  {
+  "art-deco": {
     route: "art-deco",
     title: "Art Deco",
     breadcrumbs: [
@@ -376,7 +376,7 @@ export const categories = {
 
   // Art by Period - Modern Art
 
-  {
+  "modern-art": {
     route: "modern-art",
     title: "Modern Art",
     breadcrumbs: [
@@ -399,7 +399,7 @@ export const categories = {
 
   // Art by Category - Japanese Art
 
-  {
+  "japanese-art": {
     route: "japanese-art",
     title: "Japanese Art",
     breadcrumbs: [
@@ -447,7 +447,7 @@ export const categories = {
 
   // Art by Category - Chinese Art
 
-  {
+  "chinese-art": {
     route: "chinese-art",
     title: "Chinese Art",
     breadcrumbs: [
@@ -464,7 +464,7 @@ export const categories = {
 
   // Art by Category - Canadian Art
 
-  {
+  "canadian-art": {
     route: "canadian-art",
     title: "Canadian Art",
     breadcrumbs: [
@@ -486,7 +486,7 @@ export const categories = {
 
   // Routes - European Figurines
 
-  {
+  "european-figurines": {
     route: "european-figurines",
     title: "European Figurines",
     breadcrumbs: [
@@ -502,7 +502,7 @@ export const categories = {
 
   // Figurines - Royal Doulton
 
-  {
+  "royal-doulton-figurines": {
     route: "royal-doulton-figurines",
     title: "Royal Doulton Figurines",
     breadcrumbs: [
@@ -571,25 +571,9 @@ export const categories = {
     ]
   },
 
-  // Figurines - Royal Worschester
-
-  /*
-
-  {
-    route: "royal-worcester",
-    title: "Royal Worcester",
-    breadcrumbs: [
-      { url: "/", name: "Home" },
-      { url: "/categories/royal-worcester", name: "Royal Worcester" }
-    ],
-    list: ["", "", "", "", "", "", "", "", "", "", "", ""]
-  },
-
-*/
-
   // Figurines - Animal Figurines
 
-  {
+  "animal-figurines": {
     route: "animal-figurines",
     title: "Animal Figurines",
     breadcrumbs: [
@@ -620,7 +604,7 @@ export const categories = {
 
   // Tableware - Plates
 
-  {
+  plates: {
     route: "plates",
     title: "Plates",
     breadcrumbs: [
@@ -637,25 +621,9 @@ export const categories = {
     ]
   },
 
-  // Tableware - Flatware
-
-  /*
-
-  {
-    route: "flatware",
-    title: "Flatware",
-    breadcrumbs: [
-      { url: "/", name: "Home" },
-      { url: "/categories/flatware", name: "Flatware" }
-    ],
-    list: ["", "", "", "", "", "", "", "", "", "", ""]
-  },
-
-  */
-
   // Tableware - Tea Service
 
-  {
+  "tea-service": {
     route: "tea-service",
     title: "Tea Service",
     breadcrumbs: [
@@ -675,7 +643,7 @@ export const categories = {
 
   // Tableware - Teacups
 
-  {
+  teacups: {
     route: "teacups",
     title: "Teacups",
     breadcrumbs: [
@@ -689,13 +657,13 @@ export const categories = {
       "teacups-floral-blue-paragon",
       "teacups-floral-gold-aynsley",
       "teacups-floral-iridescent-green-aynsley",
-      "teacups-floral-iridescent-yellow-aynsley",
+      "teacups-floral-iridescent-yellow-aynsley"
     ]
   },
 
   // Tableware - Stemware
 
-  {
+  stemware: {
     route: "stemware",
     title: "Stemware",
     breadcrumbs: [
@@ -724,7 +692,7 @@ export const categories = {
 
   // Silver - Candle Sticks
 
-  {
+  "candle-sticks": {
     route: "candle-sticks",
     title: "Candle Sticks",
     breadcrumbs: [
@@ -741,7 +709,7 @@ export const categories = {
 
   // Silver - Sugar Castors
   /*
-  {
+  "":{
     route: "sugar-castors",
     title: "Sugar Castors",
     breadcrumbs: [
@@ -756,7 +724,7 @@ export const categories = {
 
   // Jewelry - Rings
 
-  {
+  rings: {
     route: "rings",
     title: "Rings",
     breadcrumbs: [
@@ -782,7 +750,7 @@ export const categories = {
 
   // Jewelry Routes - Bracelets
 
-  {
+  bracelets: {
     route: "bracelets",
     title: "Bracelets",
     breadcrumbs: [
@@ -803,7 +771,7 @@ export const categories = {
 
   /*
 
-  {
+  "earrings":{
     route: "earrings",
     title: "Earrings",
     breadcrumbs: [
@@ -817,7 +785,7 @@ export const categories = {
 
   // Jewelry Routes - Necklaces
 
-  {
+  necklaces: {
     route: "necklaces",
     title: "Necklaces",
     breadcrumbs: [
@@ -834,7 +802,7 @@ export const categories = {
 
   // Jewelry Routes - Brooches
 
-  {
+  brooches: {
     route: "brooches",
     title: "Brooches",
     breadcrumbs: [
@@ -852,7 +820,7 @@ export const categories = {
 
   // Jewelry - Silver
 
-  {
+  "silver-jewelry": {
     route: "silver-jewelry",
     title: "Silver Jewelry",
     breadcrumbs: [
@@ -877,7 +845,7 @@ export const categories = {
 
   // Routes - Sold
 
-  {
+  "sold": {
     route: "sold",
     title: "Sold",
     breadcrumbs: [

@@ -6,7 +6,7 @@ export const artByPeriod = {
   // Art by Period - Victorian
 
   "victorian-painting-english-alexander-ligitt": {
-    category: "new-arrivals",
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg",
       "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg",
@@ -21,6 +21,7 @@ export const artByPeriod = {
     // productId: "victorian-painting-english-alexander-ligitt"
   },
   "victorian-box-portrait-dog": {
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-box-portrait-dog-1.jpeg",
       "/images/art-by-period/victorian/victorian-box-portrait-dog-2.jpeg",
@@ -34,6 +35,7 @@ export const artByPeriod = {
     // productId: "victorian-box-portrait-dog"
   },
   "victorian-centerpiece-cranberry-glass": {
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-1.jpeg",
       "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-2.jpeg",
@@ -47,6 +49,7 @@ export const artByPeriod = {
     // productId: "victorian-centerpiece-cranberry-glass"
   },
   "victorian-tea-caddy-wood": {
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-tea-caddy-wood-1.jpeg",
       "/images/art-by-period/victorian/victorian-tea-caddy-wood-2.jpeg",
@@ -60,6 +63,7 @@ export const artByPeriod = {
     // productId: "victorian-tea-caddy-wood"
   },
   "victorian-painting-landscape-aaron-edwin-penley": {
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-1.jpeg",
       "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-2.jpeg",
@@ -74,6 +78,7 @@ export const artByPeriod = {
     // productId: "victorian-painting-landscape-aaron-edwin-penley"
   },
   "victorian-fountain-pen-holder-masons-ironstone-imari": {
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-1.jpeg",
       "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-2.jpeg",
@@ -88,6 +93,7 @@ export const artByPeriod = {
     // productId: "victorian-fountain-pen-holder-masons-ironstone-imari"
   },
   "victorian-silver-shoe-repoussé-german": {
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-1.jpeg",
       "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-2.jpeg",
@@ -101,6 +107,7 @@ export const artByPeriod = {
     // productId: "victorian-silver-shoe-repoussé-german"
   },
   "victorian-powder-box-red-glass-moser-czech": {
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-1.jpeg",
       "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-2.jpeg",
@@ -115,6 +122,7 @@ export const artByPeriod = {
     // productId: "victorian-powder-box-red-glass-moser-czech"
   },
   "victorian-box-miniature-portrait": {
+    category: "victorian",
     images: [
       "/images/art-by-period/victorian/victorian-box-miniature-portrait-1.jpeg",
       "/images/art-by-period/victorian/victorian-box-miniature-portrait-2.jpeg",
@@ -132,6 +140,7 @@ export const artByPeriod = {
   // Art by Period - Aesthetic Movement
 
   "aesthetic-movement-vase-old-hall-english": {
+    category: "aesthetic-movement",
     images: [
       "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-1.jpeg",
       "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-2.jpeg",
@@ -145,6 +154,7 @@ export const artByPeriod = {
     // productId: "aesthetic-movement-vase-old-hall-english"
   },
   "aesthetic-movement-vases-english-royal-worcester": {
+    category: "aesthetic-movement",
     images: [
       "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-1.jpeg",
       "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-2.jpeg",
@@ -159,6 +169,7 @@ export const artByPeriod = {
     // productId: "aesthetic-movement-vases-english-royal-worcester"
   },
   "aesthetic-movement-jewelry-box-french": {
+    category: "aesthetic-movement",
     images: [
       "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-1.jpeg",
       "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-2.jpeg",
@@ -173,6 +184,7 @@ export const artByPeriod = {
     // productId: "aesthetic-movement-jewelry-box-french"
   },
   "aesthetic-movement-vases-english-doulton-lambeth": {
+    category: "aesthetic-movement",
     images: [
       "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-1.jpeg",
       "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-2.jpeg",
@@ -189,6 +201,7 @@ export const artByPeriod = {
   // Art by Period - Art Nouveau
 
   "art-nouveau-glass-vase-émile-gallé": {
+    category: "art-nouveau",
     images: [
       "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-1.jpeg",
       "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-2.jpeg",
@@ -201,6 +214,7 @@ export const artByPeriod = {
     // productId: "art-nouveau-glass-vase-émile-gallé"
   },
   "art-nouveau-vase-glass-kralik": {
+    category: "art-nouveau",
     images: [
       "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-1.jpeg",
       "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-2.jpeg",
@@ -214,6 +228,7 @@ export const artByPeriod = {
     // productId: "art-nouveau-vase-glass-kralik"
   },
   "art-nouveau-centerpiece-porcelain-royal-dux-shells": {
+    category: "art-nouveau",
     images: [
       "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-1.jpeg",
       "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-2.jpeg",
@@ -228,6 +243,7 @@ export const artByPeriod = {
   },
 
   "art-nouveau-vase-cameo-glass-émile-gallé-rio": {
+    category: "art-nouveau",
     images: [
       "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-1.jpeg",
       "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-2.jpeg",
@@ -242,6 +258,7 @@ export const artByPeriod = {
     // productId: "art-nouveau-vase-cameo-glass-émile-gallé-rio"
   },
   "art-nouveau-vase-glass-kralik-green-iridescent": {
+    category: "art-nouveau",
     images: [
       "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-iridescent-1.jpeg",
       "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-iridescent-2.jpeg",
@@ -256,6 +273,7 @@ export const artByPeriod = {
     // productId: "art-nouveau-vase-glass-kralik-green-iridescent"
   },
   "art-nouveau-vase-glass-kralik-green-sterling": {
+    category: "art-nouveau",
     images: [
       "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-1.jpeg",
       "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-2.jpeg",
@@ -270,6 +288,7 @@ export const artByPeriod = {
     // productId: "art-nouveau-vase-glass-kralik-green-sterling"
   },
   "art-nouveau-vase-glass-steuben-aurene-frederick-carder": {
+    category: "art-nouveau",
     images: [
       "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-1.jpeg",
       "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-2.jpeg",
@@ -284,6 +303,7 @@ export const artByPeriod = {
     // productId: "art-nouveau-vase-glass-steuben-aurene-frederick-carder"
   },
   "art-nouveau-plate-royal-vienna-portrait": {
+    category: "art-nouveau",
     images: [
       "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-1.jpeg",
       "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-2.jpeg",
@@ -300,6 +320,7 @@ export const artByPeriod = {
   // Art by Period - Art Deco
 
   "art-deco-vase-enamel-glass-legras": {
+    category: "art-deco",
     images: [
       "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-1.jpeg",
       "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-2.jpeg",
@@ -313,6 +334,7 @@ export const artByPeriod = {
     // productId: "art-deco-vase-enamel-glass-legras"
   },
   "art-deco-vase-porcelain-haviland-limoges": {
+    category: "art-deco",
     images: [
       "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-1.jpeg",
       "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-2.jpeg",
@@ -327,6 +349,7 @@ export const artByPeriod = {
     // productId: "art-deco-vase-porcelain-haviland-limoges"
   },
   "art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german": {
+    category: "art-deco",
     images: [
       "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-1.jpeg",
       "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-2.jpeg",
@@ -340,6 +363,7 @@ export const artByPeriod = {
     // productId: "art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german"
   },
   "art-deco-sculpture-bronze-george-morin": {
+    category: "art-deco",
     images: [
       "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-1.jpeg",
       "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-2.jpeg",
@@ -353,6 +377,7 @@ export const artByPeriod = {
   },
 
   "art-deco-vase-consolidated-lovebirds-green-glass": {
+    category: "art-deco",
     images: [
       "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-1.jpeg",
       "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-2.jpeg",
@@ -367,6 +392,7 @@ export const artByPeriod = {
     // productId: "art-deco-vase-consolidated-lovebirds-green-glass"
   },
   "art-deco-vase-consolidated-lovebirds-blue-glass": {
+    category: "art-deco",
     images: [
       "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg",
       "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-blue-glass-2.jpeg",
@@ -382,6 +408,7 @@ export const artByPeriod = {
   },
 
   "art-deco-figurine-green-zsolnay": {
+    category: "art-deco",
     images: [
       "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-1.jpeg",
       "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-2.jpeg",
@@ -394,6 +421,7 @@ export const artByPeriod = {
     // productId: "art-deco-figurine-green-zsolnay"
   },
   "art-deco-tea-set-edna-bess": {
+    category: "art-deco",
     images: [
       "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-1.jpeg",
       "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-2.jpeg",
@@ -410,6 +438,7 @@ export const artByPeriod = {
   // Art by Period - Modern Art
 
   "modern-centerpiece-glass-green-blenko": {
+    category: "modern-art",
     images: [
       "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-1.jpeg",
       "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-2.jpeg",
@@ -423,6 +452,7 @@ export const artByPeriod = {
     // productId: "modern-centerpiece-glass-green-blenko"
   },
   "modern-vase-glass-murano-sommerso-seguso-flavio-poli": {
+    category: "modern-art",
     images: [
       "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-1.jpeg",
       "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-2.jpeg",
@@ -437,6 +467,7 @@ export const artByPeriod = {
     // productId: "modern-vase-glass-murano-sommerso-seguso-flavio-poli"
   },
   "modern-bowl-porcelain-rosenthal-winblad": {
+    category: "modern-art",
     images: [
       "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-1.jpeg",
       "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-2.jpeg",
@@ -451,6 +482,7 @@ export const artByPeriod = {
     // productId: "modern-bowl-porcelain-rosenthal-winblad"
   },
   "modern-bowl-glass-willy-johansson-hadeland": {
+    category: "modern-art",
     images: [
       "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-1.jpeg",
       "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-2.jpeg",
@@ -465,6 +497,7 @@ export const artByPeriod = {
     // productId: "modern-bowl-glass-willy-johansson-hadeland"
   },
   "modern-vase-glass-jan-bernek-czech": {
+    category: "modern-art",
     images: [
       "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-1.jpeg",
       "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-2.jpeg",
@@ -479,6 +512,7 @@ export const artByPeriod = {
     // productId: "modern-vase-glass-jan-bernek-czech"
   },
   "modern-vase-ceramic-black-rosenthal": {
+    category: "modern-art",
     images: [
       "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-1.jpeg",
       "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-2.jpeg",
@@ -491,6 +525,7 @@ export const artByPeriod = {
     // productId: "modern-vase-ceramic-black-rosenthal"
   },
   "modern-paperweight-ceramic-fornasetti": {
+    category: "modern-art",
     images: [
       "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-1.jpeg",
       "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-2.jpeg",
@@ -504,6 +539,7 @@ export const artByPeriod = {
     // productId: "modern-paperweight-ceramic-fornasetti"
   },
   "modern-vase-ceramic-tapio-wirkkala-rosenthal": {
+    category: "modern-art",
     images: [
       "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-1.jpeg",
       "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-2.jpeg",

@@ -4,19 +4,22 @@ export const tableware = {
   // Tableware - Plates
 
   "plates-gold-floral-hammersley": {
+    category: "plates",
     images: [
       "/images/tableware/plates/plates-gold-floral-hammersley-1.jpeg",
       "/images/tableware/plates/plates-gold-floral-hammersley-2.jpeg",
       "/images/tableware/plates/plates-gold-floral-hammersley-3.jpeg"
     ],
     productTitle: "Set of Victorian Era Hammersley Dinner Plates",
-    description: "A set of porcelain dinner plates detailed in gold with floral designs, Victorian Era, England 19th Century. Marked Hammersley.",
+    description:
+      "A set of porcelain dinner plates detailed in gold with floral designs, Victorian Era, England 19th Century. Marked Hammersley.",
     dimensions:
       "A set of porcelain dinenr plates, gold and floral accent, Victorian Era, 19th Century. Signed.",
     price: "inquire"
     // productId: "plates-gold-floral-hammersley"
   },
   "plates-dinner-portraits-royal-vienna": {
+    category: "plates",
     images: [
       "/images/tableware/plates/plates-dinner-portraits-royal-vienna-1.jpeg",
       "/images/tableware/plates/plates-dinner-portraits-royal-vienna-2.jpeg",
@@ -30,6 +33,7 @@ export const tableware = {
     // productId: "plates-dinner-portraits-royal-vienna"
   },
   "plates-dessert-floral-porcelain-nymphenburg": {
+    category: "plates",
     images: [
       "/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-1.jpeg",
       "/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-2.jpeg",
@@ -43,6 +47,7 @@ export const tableware = {
     // productId: "plates-dessert-floral-porcelain-nymphenburg"
   },
   "plates-dinner-porcelain-meissen-blue-onion": {
+    category: "plates",
     images: [
       "/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-1.jpeg",
       "/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-2.jpeg",
@@ -57,6 +62,7 @@ export const tableware = {
     // productId: "plates-dinner-porcelain-meissen-blue-onion"
   },
   "plates-dessert-porcelain-hammersley-red": {
+    category: "plates",
     images: [
       "/images/tableware/plates/plates-dessert-porcelain-hammersley-red-1.jpeg",
       "/images/tableware/plates/plates-dessert-porcelain-hammersley-red-2.jpeg",
@@ -70,6 +76,7 @@ export const tableware = {
     // productId: "plates-dessert-porcelain-hammersley-red"
   },
   "plates-felspar-green-floral-porcelain-spode": {
+    category: "plates",
     images: [
       "/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-1.jpeg",
       "/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-2.jpeg",
@@ -83,192 +90,210 @@ export const tableware = {
     // productId: "plates-felspar-green-floral-porcelain-spode"
   },
 
-// Tableware - Stemware
+  // Tableware - Stemware
 
-"stemware-glasses-crystal-sterling-cordial-birks": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-3.jpeg"
-  ],
-  productTitle: "Set of 6 Birks Sterling Crystal Cordial Glasses",
-  description:
-    "A set of 6 sterling and crystal cordial glasses, Canada Mid 20th Century. Birks and Sterling Mark ",
-  dimensions: "",
-  price: "inquire"
-  // productId: "stemware-glasses-crystal-sterling-cordial-birks"
-},
-"stemware-glasses-crystal-sterling-cordial": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-3.jpeg"
-  ],
-  productTitle: "Set of 10 Waterford Alana Highball Glasses",
-  description:
-    "A set of 10 cut crystal highball glasses, Ireland 20th Century.",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-crystal-sterling-cordial"
-},
-"stemware-glasses-sterling-birks": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-sterling-birks-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-sterling-birks-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-sterling-birks-3.jpeg"
-  ],
-  productTitle: "Set of 6 Birks Sterling Cordial Glasses",
-  description:
-    "A set of 6 sterling and cordial glasses, Canada Mid 20th Century. Birks and Sterling Mark",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-sterling-birks"
-},
-"stemware-glasses-red-wine-crystal-val-st-lambert": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-3.jpeg"
-  ],
-  productTitle: "Set of 15 Red Wine Glasses by Val St. Lambert",
-  description:
-    "A set of 15 red crystal wine glasses, Belgian Mid 20th Century",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-red-wine-crystal-val-st-lambert"
-},
-"stemware-glasses-sniffer-waterford-alana": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-3.jpeg"
-  ],
-  productTitle: "Set of 6 Waterford Alana Sniffer Glasses",
-  description:
-    "A set of 6 cut crystal sniffer glasses, Ireland 20th Century.",
-  dimensions: "",
-  price: "inquire"
-  // productId: "stemware-glasses-sniffer-waterford-alana"
-},
-"stemware-glasses-cordial-red-crystal-val-st-lambert": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-3.jpeg"
-  ],
-  productTitle: "Set of 8 Red Cordial Glasses by Val St. Lambert",
-  description:
-    "A set of 8 red crystal cordial glasses, Belgian Mid 20th Century",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-cordial-red-crystal-val-st-lambert"
-},
-"stemware-glasses-dessert-red-crystal-val-st-lambert": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-3.jpeg"
-  ],
-  productTitle: "Set of 15 Red Dessert Glasses by Val St. Lambert",
-  description:
-    "A set of 15 red crystal dessert glasses, Belgian Mid 20th Century",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-dessert-red-crystal-val-st-lambert"
-},
-"stemware-glasses-sorbet-waterford-alana": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-3.jpeg"
-  ],
-  productTitle: "Set of 6 Waterford Alana Sorbet Glasses",
-  description: "A set of 6 cut crystal Sorbet glasses, Ireland 20th Century.",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-sorbet-waterford-alana"
-},
-"stemware-glasses-red-wine-italian": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-red-wine-italian-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-red-wine-italian-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-red-wine-italian-3.jpeg"
-  ],
-  productTitle: "Set of 7 Italian Red Wine Glasses",
-  description: "Set of 7 hand blown italian red wine glasses with a swirl texture, Italian Mid 20th Century.",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-red-wine-italian"
-},
-"stemware-glasses-white-wine-italian": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-white-wine-italian-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-white-wine-italian-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-white-wine-italian-3.jpeg"
-  ],
-  productTitle: "Set of 6 Italian White Wine Glasses",
-  description: "Set of 6 hand blown italian white wine glasses with a swirl texture, Italian Mid 20th Century.",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-white-wine-italian"
-},
-"stemware-glasses-white-wine-waterford-alana": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-3.jpeg"
-  ],
-  productTitle: "Set of 12 Waterford Alana White Wine Glasses",
-  description:
-    "A set of 12 white wine cut crystal glasses, Ireland 20th Century.",
-  dimensions: "",
-  price: "inquire"
-  // productId: "stemware-glasses-white-wine-waterford-alana"
-},
-"stemware-glasses-red-wine-waterford-lismore": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-3.jpeg"
-  ],
-  productTitle: "Set of 6 Waterford Lismore White Wine Glasses",
-  description: "A set of 6 white wine cut crystal glasses, Ireland 20th Century.",
-  dimensions: "",
-  price: "inquire"
-  // productId: "stemware-glasses-red-wine-waterford-lismore"
-},
-"stemware-glasses-champagne-waterford-alana": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-3.jpeg"
-  ],
-  productTitle: "Set of 10 Waterford Alana Champagne Glasses",
-  description:
-    "A set of 10 cut crystal highball glasses, Ireland 20th Century.",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-champagne-waterford-alana"
-},
-"stemware-glasses-tumbler-waterford-alana": {
-  images: [
-    "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-1.jpeg",
-    "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-2.jpeg",
-    "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-3.jpeg"
-  ],
-  productTitle: "Set of 7 Waterford Alana Tumbler Glasses",
-  description:
-    "A set of 7 cut crystal tumbler glasses, Ireland 20th Century.",
-  dimensions: "",
-  price: ""
-  // productId: "stemware-glasses-tumbler-waterford-alana"
-},
+  "stemware-glasses-crystal-sterling-cordial-birks": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-3.jpeg"
+    ],
+    productTitle: "Set of 6 Birks Sterling Crystal Cordial Glasses",
+    description:
+      "A set of 6 sterling and crystal cordial glasses, Canada Mid 20th Century. Birks and Sterling Mark ",
+    dimensions: "",
+    price: "inquire"
+    // productId: "stemware-glasses-crystal-sterling-cordial-birks"
+  },
+  "stemware-glasses-crystal-sterling-cordial": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-3.jpeg"
+    ],
+    productTitle: "Set of 10 Waterford Alana Highball Glasses",
+    description:
+      "A set of 10 cut crystal highball glasses, Ireland 20th Century.",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-crystal-sterling-cordial"
+  },
+  "stemware-glasses-sterling-birks": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-sterling-birks-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-sterling-birks-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-sterling-birks-3.jpeg"
+    ],
+    productTitle: "Set of 6 Birks Sterling Cordial Glasses",
+    description:
+      "A set of 6 sterling and cordial glasses, Canada Mid 20th Century. Birks and Sterling Mark",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-sterling-birks"
+  },
+  "stemware-glasses-red-wine-crystal-val-st-lambert": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-3.jpeg"
+    ],
+    productTitle: "Set of 15 Red Wine Glasses by Val St. Lambert",
+    description:
+      "A set of 15 red crystal wine glasses, Belgian Mid 20th Century",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-red-wine-crystal-val-st-lambert"
+  },
+  "stemware-glasses-sniffer-waterford-alana": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-3.jpeg"
+    ],
+    productTitle: "Set of 6 Waterford Alana Sniffer Glasses",
+    description:
+      "A set of 6 cut crystal sniffer glasses, Ireland 20th Century.",
+    dimensions: "",
+    price: "inquire"
+    // productId: "stemware-glasses-sniffer-waterford-alana"
+  },
+  "stemware-glasses-cordial-red-crystal-val-st-lambert": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-3.jpeg"
+    ],
+    productTitle: "Set of 8 Red Cordial Glasses by Val St. Lambert",
+    description:
+      "A set of 8 red crystal cordial glasses, Belgian Mid 20th Century",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-cordial-red-crystal-val-st-lambert"
+  },
+  "stemware-glasses-dessert-red-crystal-val-st-lambert": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-3.jpeg"
+    ],
+    productTitle: "Set of 15 Red Dessert Glasses by Val St. Lambert",
+    description:
+      "A set of 15 red crystal dessert glasses, Belgian Mid 20th Century",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-dessert-red-crystal-val-st-lambert"
+  },
+  "stemware-glasses-sorbet-waterford-alana": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-3.jpeg"
+    ],
+    productTitle: "Set of 6 Waterford Alana Sorbet Glasses",
+    description: "A set of 6 cut crystal Sorbet glasses, Ireland 20th Century.",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-sorbet-waterford-alana"
+  },
+  "stemware-glasses-red-wine-italian": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-red-wine-italian-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-red-wine-italian-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-red-wine-italian-3.jpeg"
+    ],
+    productTitle: "Set of 7 Italian Red Wine Glasses",
+    description:
+      "Set of 7 hand blown italian red wine glasses with a swirl texture, Italian Mid 20th Century.",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-red-wine-italian"
+  },
+  "stemware-glasses-white-wine-italian": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-white-wine-italian-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-white-wine-italian-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-white-wine-italian-3.jpeg"
+    ],
+    productTitle: "Set of 6 Italian White Wine Glasses",
+    description:
+      "Set of 6 hand blown italian white wine glasses with a swirl texture, Italian Mid 20th Century.",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-white-wine-italian"
+  },
+  "stemware-glasses-white-wine-waterford-alana": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-3.jpeg"
+    ],
+    productTitle: "Set of 12 Waterford Alana White Wine Glasses",
+    description:
+      "A set of 12 white wine cut crystal glasses, Ireland 20th Century.",
+    dimensions: "",
+    price: "inquire"
+    // productId: "stemware-glasses-white-wine-waterford-alana"
+  },
+  "stemware-glasses-red-wine-waterford-lismore": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-3.jpeg"
+    ],
+    productTitle: "Set of 6 Waterford Lismore White Wine Glasses",
+    description:
+      "A set of 6 white wine cut crystal glasses, Ireland 20th Century.",
+    dimensions: "",
+    price: "inquire"
+    // productId: "stemware-glasses-red-wine-waterford-lismore"
+  },
+  "stemware-glasses-champagne-waterford-alana": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-3.jpeg"
+    ],
+    productTitle: "Set of 10 Waterford Alana Champagne Glasses",
+    description:
+      "A set of 10 cut crystal highball glasses, Ireland 20th Century.",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-champagne-waterford-alana"
+  },
+  "stemware-glasses-tumbler-waterford-alana": {
+    category: "stemware",
+    images: [
+      "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-1.jpeg",
+      "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-2.jpeg",
+      "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-3.jpeg"
+    ],
+    productTitle: "Set of 7 Waterford Alana Tumbler Glasses",
+    description:
+      "A set of 7 cut crystal tumbler glasses, Ireland 20th Century.",
+    dimensions: "",
+    price: ""
+    // productId: "stemware-glasses-tumbler-waterford-alana"
+  },
 
   // Tableware - Flatware
 
   // Tableware - Tea Service
 
   "tea-service-royal-worcester": {
+    category: "tea-servicee",
     images: [
       "/images/tableware/tea-service/tea-service-royal-worcester-1.jpeg",
       "/images/tableware/tea-service/tea-service-royal-worcester-2.jpeg",
@@ -282,6 +307,7 @@ export const tableware = {
     // productId: "tea-service-royal-worcester"
   },
   "tea-service-floral-porcelain-meissen": {
+    category: "tea-servicee",
     images: [
       "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-1.jpeg",
       "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-2.jpeg",
@@ -295,6 +321,7 @@ export const tableware = {
     // productId: "tea-service-floral-porcelain-meissen"
   },
   "tea-service-royal-worcester-virginia": {
+    category: "tea-servicee",
     images: [
       "/images/tableware/tea-service/tea-service-royal-worcester-virginia-1.jpeg",
       "/images/tableware/tea-service/tea-service-royal-worcester-virginia-2.jpeg",
@@ -308,6 +335,7 @@ export const tableware = {
     // productId: "tea-service-royal-worcester-virginia"
   },
   "tea-service-cup-plate-clarice-cliff": {
+    category: "tea-servicee",
     images: [
       "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-1.jpeg",
       "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-2.jpeg",
@@ -321,6 +349,7 @@ export const tableware = {
     // productId: "tea-service-cup-plate-clarice-cliff"
   },
   "tea-service-cup-saucer-sterling-aynsley": {
+    category: "tea-servicee",
     images: [
       "/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-1.jpeg",
       "/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-2.jpeg",
@@ -334,6 +363,7 @@ export const tableware = {
     // productId: "tea-service-cup-saucer-sterling-aynsley"
   },
   "tea-service-rosenthal-bjorn-winblad": {
+    category: "tea-servicee",
     images: [
       "/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-1.jpeg",
       "/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-2.jpeg",
@@ -347,6 +377,7 @@ export const tableware = {
     // productId: "tea-service-rosenthal-bjorn-winblad"
   },
   "tea-service-radford-fenton-gatineau": {
+    category: "tea-servicee",
     images: [
       "/images/tableware/tea-service/tea-service-radford-fenton-gatineau-1.jpeg",
       "/images/tableware/tea-service/tea-service-radford-fenton-gatineau-2.jpeg",
@@ -363,6 +394,7 @@ export const tableware = {
   // Tableware - Teacups
 
   "teacups-green-coalport": {
+    category: "teacups",
     images: [
       "/images/tableware/teacups/teacups-green-coalport-1.jpeg",
       "/images/tableware/teacups/teacups-green-coalport-2.jpeg",
@@ -375,6 +407,7 @@ export const tableware = {
     // productId: "teacups-green-coalport"
   },
   "teacups-floral-red-paragon": {
+    category: "teacups",
     images: [
       "/images/tableware/teacups/teacups-floral-red-paragon-1.jpeg",
       "/images/tableware/teacups/teacups-floral-red-paragon-2.jpeg",
@@ -387,6 +420,7 @@ export const tableware = {
     // productId: "teacups-floral-red-paragon"
   },
   "teacups-portrait-limoges": {
+    category: "teacups",
     images: [
       "/images/tableware/teacups/teacups-portrait-limoges-1.jpeg",
       "/images/tableware/teacups/teacups-portrait-limoges-2.jpeg",
@@ -399,6 +433,7 @@ export const tableware = {
     // productId: "teacups-portrait-limoges"
   },
   "teacups-floral-blue-paragon": {
+    category: "teacups",
     images: [
       "/images/tableware/teacups/teacups-floral-blue-paragon-1.jpeg",
       "/images/tableware/teacups/teacups-floral-blue-paragon-2.jpeg",
@@ -412,6 +447,7 @@ export const tableware = {
     // productId: "teacups-floral-blue-paragon"
   },
   "teacups-floral-gold-aynsley": {
+    category: "teacups",
     images: [
       "/images/tableware/teacups/teacups-floral-gold-aynsley-1.jpeg",
       "/images/tableware/teacups/teacups-floral-gold-aynsley-2.jpeg",
@@ -425,6 +461,7 @@ export const tableware = {
     // productId: "teacups-floral-gold-aynsley"
   },
   "teacups-floral-iridescent-green-aynsley": {
+    category: "teacups",
     images: [
       "/images/tableware/teacups/teacups-floral-iridescent-green-aynsley-1.jpeg",
       "/images/tableware/teacups/teacups-floral-iridescent-green-aynsley-2.jpeg",
@@ -438,6 +475,7 @@ export const tableware = {
     // productId: "teacups-floral-iridescent-green-aynsley"
   },
   "teacups-floral-iridescent-yellow-aynsley": {
+    category: "teacups",
     images: [
       "/images/tableware/teacups/teacups-floral-iridescent-yellow-aynsley-1.jpeg",
       "/images/tableware/teacups/teacups-floral-iridescent-yellow-aynsley-2.jpeg",
@@ -449,5 +487,5 @@ export const tableware = {
     dimensions: "",
     price: ""
     // productId: "teacups-floral-iridescent-yellow-aynsley"
-  },
+  }
 };

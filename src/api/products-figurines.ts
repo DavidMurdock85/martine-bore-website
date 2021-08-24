@@ -4,6 +4,7 @@ export const figurines = {
   // Routes - European Figurines
 
   "figurines-boy-goose-herend": {
+    category: "european-figurines",
     images: [
       "/images/figurines/european-figurines/figurines-boy-goose-herend-1.jpeg",
       "/images/figurines/european-figurines/figurines-boy-goose-herend-2.jpeg",
@@ -17,6 +18,7 @@ export const figurines = {
     // productId: "figurines-boy-goose-herend"
   },
   "figurines-jester-dresden-carl-thieme": {
+    category: "european-figurines",
     images: [
       "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-1.jpeg",
       "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-2.jpeg",
@@ -30,6 +32,7 @@ export const figurines = {
     // productId: "figurines-jester-dresden-carl-thieme"
   },
   "figurines-musician-chiniosere-royal-kpm": {
+    category: "european-figurines",
     images: [
       "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-1.jpeg",
       "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-2.jpeg",
@@ -46,6 +49,7 @@ export const figurines = {
   // Figurines - Royal Doulton
 
   "royal-doulton-autumn-breezes-green": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-2.jpeg",
@@ -59,6 +63,7 @@ export const figurines = {
     // productId: "royal-doulton-autumn-breezes-green"
   },
   "royal-doulton-autumn-breezes-red": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-2.jpeg",
@@ -72,6 +77,7 @@ export const figurines = {
     // productId: "royal-doulton-autumn-breezes-red"
   },
   "royal-doulton-beatrice": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-2.jpeg",
@@ -85,6 +91,7 @@ export const figurines = {
     // productId: "royal-doulton-beatrice"
   },
   "royal-doulton-bess": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-bess-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-bess-2.jpeg",
@@ -98,6 +105,7 @@ export const figurines = {
     // productId: "royal-doulton-bess"
   },
   "royal-doulton-biddy-pennyfarthing": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-2.jpeg",
@@ -111,6 +119,7 @@ export const figurines = {
     // productId: "royal-doulton-biddy-pennyfarthing"
   },
   "royal-doulton-figurines-a-child-from-williamsburg": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-2.jpeg",
@@ -124,6 +133,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-a-child-from-williamsburg"
   },
   "royal-doulton-figurines-abdullah": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-2.jpeg",
@@ -137,6 +147,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-abdullah"
   },
   "royal-doulton-figurines-ascot": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-2.jpeg",
@@ -150,6 +161,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-ascot"
   },
   "royal-doulton-figurines-autumn-breezes-pink": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-2.jpeg",
@@ -163,6 +175,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-autumn-breezes-pink"
   },
   "royal-doulton-figurines-bedtime": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-2.jpeg",
@@ -176,6 +189,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-bedtime"
   },
   "royal-doulton-figurines-blue-beard": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-2.jpeg",
@@ -189,6 +203,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-blue-beard"
   },
   "royal-doulton-figurines-christmas-morn": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-2.jpeg",
@@ -202,6 +217,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-christmas-morn"
   },
   "royal-doulton-figurines-cissie": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-2.jpeg",
@@ -215,6 +231,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-cissie"
   },
   "royal-doulton-figurines-darling": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-2.jpeg",
@@ -228,6 +245,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-darling"
   },
   "royal-doulton-figurines-diana": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-Diana-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-Diana-2.jpeg",
@@ -241,6 +259,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-Diana"
   },
   "royal-doulton-figurines-dinky-do": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-2.jpeg",
@@ -254,6 +273,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-dinky-do"
   },
   "royal-doulton-figurines-first-dance": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-2.jpeg",
@@ -267,6 +287,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-first-dance"
   },
   "royal-doulton-figurines-forty-winks": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-2.jpeg",
@@ -280,6 +301,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-forty-winks"
   },
   "royal-doulton-figurines-fragrance": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-2.jpeg",
@@ -293,6 +315,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-fragrance"
   },
   "royal-doulton-figurines-georgiana": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-2.jpeg",
@@ -306,6 +329,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-georgiana"
   },
   "royal-doulton-figurines-georgina": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-2.jpeg",
@@ -319,6 +343,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-georgina"
   },
   "royal-doulton-figurines-good-friends": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-2.jpeg",
@@ -332,6 +357,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-good-friends"
   },
   "royal-doulton-figurines-jacqueline": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-2.jpeg",
@@ -345,6 +371,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-jacqueline"
   },
   "royal-doulton-figurines-jane": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jane-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jane-2.jpeg",
@@ -358,6 +385,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-jane"
   },
   "royal-doulton-figurines-kate": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-2.jpeg",
@@ -371,6 +399,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-kate"
   },
   "royal-doulton-figurines-maureen": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-2.jpeg",
@@ -384,6 +413,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-maureen"
   },
   "royal-doulton-figurines-monica": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-2.jpeg",
@@ -397,6 +427,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-monica"
   },
   "royal-doulton-figurines-old-meg": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-2.jpeg",
@@ -410,6 +441,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-old-meg"
   },
   "royal-doulton-figurines-old-mother-hubbard": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-2.jpeg",
@@ -423,6 +455,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-old-mother-hubbard"
   },
   "royal-doulton-figurines-paisly-shawl": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-2.jpeg",
@@ -436,6 +469,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-paisly-shawl"
   },
   "royal-doulton-figurines-peggy": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-2.jpeg",
@@ -449,6 +483,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-peggy"
   },
   "royal-doulton-figurines-my-pet": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-my-pet-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-my-pet-2.jpeg",
@@ -462,6 +497,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-my-pet"
   },
   "royal-doulton-figurines-penny": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-2.jpeg",
@@ -475,6 +511,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-penny"
   },
   "royal-doulton-figurines-pickwick": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-2.jpeg",
@@ -488,6 +525,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-pickwick"
   },
   "royal-doulton-figurines-pretty-polly": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-2.jpeg",
@@ -501,6 +539,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-pretty-polly"
   },
   "royal-doulton-figurines-rest-awhile": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-2.jpeg",
@@ -514,6 +553,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-rest-awhile"
   },
   "royal-doulton-figurines-sara": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-2.jpeg",
@@ -527,6 +567,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-sara"
   },
   "royal-doulton-figurines-sheila": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sheila-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sheila-2.jpeg",
@@ -540,6 +581,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-sheila"
   },
   "royal-doulton-figurines-suzette": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-2.jpeg",
@@ -553,6 +595,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-suzette"
   },
   "royal-doulton-figurines-thank-you": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-2.jpeg",
@@ -566,6 +609,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-thank-you"
   },
   "royal-doulton-figurines-the-balloon-man": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-2.jpeg",
@@ -579,6 +623,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-balloon-man"
   },
   "royal-doulton-figurines-the-bedtime-story": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-2.jpeg",
@@ -592,6 +637,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-bedtime-story"
   },
   "royal-doulton-figurines-the-carpet-seller": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-2.jpeg",
@@ -605,6 +651,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-carpet-seller"
   },
   "royal-doulton-figurines-the-ermine-coat": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-2.jpeg",
@@ -618,6 +665,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-ermine-coat"
   },
   "royal-doulton-figurines-the-geisha": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-2.jpeg",
@@ -631,6 +679,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-geisha"
   },
   "royal-doulton-figurines-the-genie": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-2.jpeg",
@@ -644,6 +693,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-genie"
   },
   "royal-doulton-figurines-the-jester": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-2.jpeg",
@@ -657,6 +707,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-jester"
   },
   "royal-doulton-figurines-the-lobster-man": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-lobster-man-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-lobster-man-2.jpeg"
@@ -669,6 +720,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-lobster-man"
   },
   "royal-doulton-figurines-the-old-balloon-seller": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-2.jpeg",
@@ -682,6 +734,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-old-balloon-seller"
   },
   "royal-doulton-figurines-the-rag-doll-seller": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-2.jpeg",
@@ -695,6 +748,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-the-rag-doll-seller"
   },
   "royal-doulton-figurines-top-o-the-hill": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-2.jpeg",
@@ -708,6 +762,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-top-o-the-hill"
   },
   "royal-doulton-figurines-uncle-ned": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-2.jpeg",
@@ -721,6 +776,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-uncle-ned"
   },
   "royal-doulton-figurines-vanity": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-2.jpeg",
@@ -734,6 +790,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-vanity"
   },
   "royal-doulton-figurines-windflower": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-2.jpeg",
@@ -747,6 +804,7 @@ export const figurines = {
     // productId: "royal-doulton-figurines-windflower"
   },
   "royal-doulton-figurines-winsome": {
+    category: "royal-doulton-figurines",
     images: [
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-1.jpeg",
       "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-2.jpeg",
@@ -760,48 +818,10 @@ export const figurines = {
     // productId: "royal-doulton-figurines-winsome"
   },
 
-  // Figurines - Royal Worschester
-
-  /*
-
-  "": {
-    images: [],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  },
-  "": {
-    images: [],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  },
-  "": {
-    images: [],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  },
-  "": {
-    images: [],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  },
-
-*/
-
   // Figurines - Animal Figurines
 
   "animal-figurines-pigs-aynsley": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-2.jpeg",
@@ -815,6 +835,7 @@ export const figurines = {
     // productId: "animal-figurines-pigs-aynsley"
   },
   "animal-figurines-green-bird-crown-staffordshire-jt-jones": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-2.jpeg",
@@ -828,6 +849,7 @@ export const figurines = {
     // productId: "animal-figurines-green-bird-crown-staffordshire-jt-jones"
   },
   "animal-figurines-yellow-bird-crown-staffordshire-jt-jones": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-2.jpeg",
@@ -841,6 +863,7 @@ export const figurines = {
     // productId: "animal-figurines-yellow-bird-crown-staffordshire-jt-jones"
   },
   "animal-figurines-yorkshire-terrier-beswick": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-2.jpeg",
@@ -854,6 +877,7 @@ export const figurines = {
     // productId: "animal-figurines-yorkshire-terrier-beswick"
   },
   "animal-figurines-kingfisher-weller": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-2.jpeg",
@@ -867,6 +891,7 @@ export const figurines = {
     // productId: "animal-figurines-kingfisher-weller"
   },
   "animal-figurines-parrot-beswick": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-2.jpeg",
@@ -880,18 +905,21 @@ export const figurines = {
     // productId: "animal-figurines-parrot-beswick"
   },
   "animal-figurines-horse-light-brown-beswick": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-2.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-3.jpeg"
     ],
     productTitle: "Light Brown Beswick Horse Figurine",
-    description: "A light brown figurine of a horse, England Mid 20th Century. Marked Beswick.",
+    description:
+      "A light brown figurine of a horse, England Mid 20th Century. Marked Beswick.",
     dimensions: "",
     price: ""
     // productId: "animal-figurines-horse-light-brown-beswick"
   },
   "animal-figurines-farm-animals-lorenz-hutschenreuther": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-2.jpeg",
@@ -904,6 +932,7 @@ export const figurines = {
     // productId: "animal-figurines-farm-animals-lorenz-hutschenreuther"
   },
   "animal-figurines-collie-royal-doulton": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-2.jpeg",
@@ -916,6 +945,7 @@ export const figurines = {
     // productId: "animal-figurines-collie-royal-doulton"
   },
   "animal-figurines-fox-royal-crown-derby": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-fox-royal-crown-derby-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-fox-royal-crown-derby-2.jpeg",
@@ -928,6 +958,7 @@ export const figurines = {
     // productId: "animal-figurines-fox-royal-crown-derby"
   },
   "animal-figurines-dog-basket-royal-doulton": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-dog-basket-royal-doulton-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-dog-basket-royal-doulton-2.jpeg",
@@ -940,6 +971,7 @@ export const figurines = {
     // productId: "animal-figurines-dog-basket-royal-doulton"
   },
   "animal-figurines-dogs-royal-doulton": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-dogs-royal-doulton-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-dogs-royal-doulton-2.jpeg",
@@ -952,6 +984,7 @@ export const figurines = {
     // productId: "animal-figurines-dogs-royal-doulton"
   },
   "animal-figurines-puppy-ball-royal-doulton": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-puppy-ball-royal-doulton-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-puppy-ball-royal-doulton-2.jpeg",
@@ -964,6 +997,7 @@ export const figurines = {
     // productId: "animal-figurines-puppy-ball-royal-doulton"
   },
   "animal-figurines-cat-beswick": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-cat-beswick-1.jpeg",
       "/images/figurines/animal-figurines/animal-figurines-cat-beswick-2.jpeg",
@@ -976,6 +1010,7 @@ export const figurines = {
     // productId: "animal-figurines-cat-beswick"
   },
   "animal-figurines-blue-bird-beswick": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-blue-bird-beswick-1.jpeg"
     ],
@@ -986,6 +1021,7 @@ export const figurines = {
     // productId: "animal-figurines-blue-bird-beswick"
   },
   "animal-figurines-bird-royal-crown-derby": {
+    category: "animal-figurines",
     images: [
       "/images/figurines/animal-figurines/animal-figurines-bird-royal-crown-derby-1.jpeg"
     ],
@@ -995,49 +1031,4 @@ export const figurines = {
     price: ""
     // productId: "animal-figurines-bird-royal-crown-derby"
   }
-
-  /*
-
-  "": {
-    images: ["/images/figurines/animal-figurines/animal-figurines-horse-dark-brown-beswick-1.jpeg"],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  },
-  "": {
-    images: ["/images/figurines/animal-figurines/"],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  },
-  "": {
-    images: ["/images/figurines/animal-figurines/"],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  },
-  "": {
-    images: ["/images/figurines/animal-figurines/"],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  },
-  "": {
-    images: ["/images/figurines/animal-figurines/"],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: ""
-  }
-
-  */
 };
