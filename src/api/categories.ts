@@ -268,7 +268,7 @@ export const categories = {
     ]
   },
 
-  clarice-cliff: {
+  "clarice-cliff": {
     route: "clarice-cliff",
     title: "Clarice Cliff",
     breadcrumbs: [

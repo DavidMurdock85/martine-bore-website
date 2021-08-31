@@ -7,10 +7,24 @@ export const artByPeriod = {
 
   "victorian-painting-english-alexander-ligitt": {
     category: "victorian",
-    images: [
+    /* images: [
       "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg",
       "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg",
       "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-3.jpeg"
+    ], */
+    images: [
+      {
+        original: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg",
+        thumbnail: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg"
+      },
+      {
+          original: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg",
+          thumbnail: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg"
+      },
+      {
+          original: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-3.jpeg",
+          thumbnail: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-3.jpeg"
+      }
     ],
     productTitle:
       "Victorian Era English Portrait Painting by Alexander Ligitt c. 1860s",

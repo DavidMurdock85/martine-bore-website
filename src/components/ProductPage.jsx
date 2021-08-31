@@ -1,13 +1,14 @@
 import "./ProductPage.scss";
 import "react-image-lightbox/style.css";
+
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+import ImageGallery from "react-image-gallery";
 import { useParams } from "react-router-dom";
+
 import { categories } from "../api/categories";
 import { products } from "../api/products";
 import { Base, Col, Row, Split } from "../components/layout";
 import { Breadcrumb } from "./Breadcrumbs";
-import { Image } from "./elements";
 
 export const ProductPage = () => {
 
@@ -15,25 +16,35 @@ export const ProductPage = () => {
 
     const product = products[productId];
 
-    const breadcrumbs = categories[product.category].breadcrumbs;
-    breadcrumbs.push({ url:`/products/${productId}`, name: product.productTitle });
+    let localBreadcrumbs = [].concat(
+        categories[product.category].breadcrumbs,
+        { url:`/products/${productId}`, name: product.productTitle }
+     );
 
     return (
         <Base>
             <Split expand="width" mt={2}>
                 <Base tag="h6" className="">
-                    <Breadcrumb breadcrumbItems={ breadcrumbs } />
+                    <Breadcrumb breadcrumbItems={ localBreadcrumbs } />
                 </Base>
                 <Base tag="h6">Sorting and Filtering</Base>
             </Split>
-            <Row className="product">
-                <Col className="product-item-image">
-                    <Carousel  interval={null}>
-                        {product.images.map((image) => <Carousel.Item ><Image src={image} /></Carousel.Item>)}
-                    </Carousel>
+            <Row className="product" noGutters>
+                <Col className="product-item-image" xs={12} sm={6}>
+                    <ImageGallery
+                        items={product.images}
+                        showNav={false}
+                        showPlayButton={false}
+                        showFullscreenButton={false}
+                    />
+                    {/*
+                        <Carousel  interval={null}>
+                            {product.images.map((image) => <Carousel.Item ><Image src={image} /></Carousel.Item>)}
+                        </Carousel>
+                    */}
                 </Col>
-                <Col sm={6} className="product-item-text">
-                    <Base>
+                <Col className="product-item-text" xs={12} sm={6}>
+                    <Base p={4}>
                         <Base tag="h5" className="product-page-headings">Title</Base>
                         <Base tag="h6" className="product-page-title">{product.productTitle}</Base>
                         <Base tag="h5" className="product-page-headings">Description</Base>
@@ -42,7 +53,7 @@ export const ProductPage = () => {
                         <Base tag="h6" className="product-page-dimensions">{product.dimensions}</Base>
                         <Base tag="h5" className="product-page-headings">Price</Base>
                         <Base tag="h6" className="product-page-price">{product.price}</Base>
-                    </Base>   
+                    </Base>
                 </Col>
             </Row>
         </Base>

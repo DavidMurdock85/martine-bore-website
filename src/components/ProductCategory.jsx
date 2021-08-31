@@ -1,7 +1,9 @@
 import "./ProductCategory.scss";
 import "react-image-lightbox/style.css";
+
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
+
 import { products } from "../api/products";
 import { Breadcrumb } from "./Breadcrumbs";
 import { Image } from "./elements";
@@ -39,7 +41,7 @@ const ProductItem = ({ product, productId}) => {
         className="image-border-deco"
         onClick={() => {history.push(`/products/${productId}`)}}
       >
-        <Image src={images[0]} />
+        <Image src={images[0].original} />
       </Base>
       <Base className="product-image-title">
         <Base>{productTitle}</Base>
