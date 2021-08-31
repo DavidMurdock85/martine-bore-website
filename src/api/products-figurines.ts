@@ -13,8 +13,8 @@ export const figurines = {
     productTitle: "Herend Figurine of Boy and Goose",
     description:
       "A porcelain figure of a boy riding a goose, Hungarian 20th Century. Marked Herend",
-    dimensions: "",
-    price: "$150"
+    dimensions: "10 x 4 1/2 inches",
+    price: "$225"
     // productId: "figurines-boy-goose-herend"
   },
   "figurines-jester-dresden-carl-thieme": {
@@ -27,7 +27,7 @@ export const figurines = {
     productTitle: "Dresden Figurine of a Jester by Carl Thieme",
     description:
       "A painted porcelain figurine of a jester, designed by Carl Thieme, German late 19th century. Signed",
-    dimensions: "",
+    dimensions: "5 1/2 x 2 inches",
     price: "$350"
     // productId: "figurines-jester-dresden-carl-thieme"
   },
@@ -244,20 +244,6 @@ export const figurines = {
     price: "$95"
     // productId: "royal-doulton-figurines-darling"
   },
-  "royal-doulton-figurines-diana": {
-    category: "royal-doulton-figurines",
-    images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-Diana-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-Diana-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-Diana-3.jpeg"
-    ],
-    productTitle: "Royal Doulton Figurine Diana",
-    description:
-      "A painted porcelain figurine of a woman in a white dress, colorful floral accents, 20th Century. Signed Royal Doulton HN 2468",
-    dimensions: "",
-    price: "$175"
-    // productId: "royal-doulton-figurines-Diana"
-  },
   "royal-doulton-figurines-dinky-do": {
     category: "royal-doulton-figurines",
     images: [
@@ -370,20 +356,6 @@ export const figurines = {
     price: "$95"
     // productId: "royal-doulton-figurines-jacqueline"
   },
-  "royal-doulton-figurines-jane": {
-    category: "royal-doulton-figurines",
-    images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jane-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jane-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jane-3.jpeg"
-    ],
-    productTitle: "Royal Doulton Figurine Jane",
-    description:
-      "A painted porcelain figurine of a woman in a light yellow dress, blue parasol, 20th Century. Signed Royal Doulton HN 2806",
-    dimensions: "",
-    price: "$125"
-    // productId: "royal-doulton-figurines-jane"
-  },
   "royal-doulton-figurines-kate": {
     category: "royal-doulton-figurines",
     images: [
@@ -482,20 +454,6 @@ export const figurines = {
     price: "$45"
     // productId: "royal-doulton-figurines-peggy"
   },
-  "royal-doulton-figurines-my-pet": {
-    category: "royal-doulton-figurines",
-    images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-my-pet-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-my-pet-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-my-pet-3.jpeg"
-    ],
-    productTitle: "Royal Doulton Figurine My Pet",
-    description:
-      "A painted porcelain figurine of a little girl in blue sweater and dog, 20th Century. Signed Royal Doulton HN 2238",
-    dimensions: "",
-    price: "$45"
-    // productId: "royal-doulton-figurines-my-pet"
-  },
   "royal-doulton-figurines-penny": {
     category: "royal-doulton-figurines",
     images: [
@@ -565,20 +523,6 @@ export const figurines = {
     dimensions: "",
     price: "$60"
     // productId: "royal-doulton-figurines-sara"
-  },
-  "royal-doulton-figurines-sheila": {
-    category: "royal-doulton-figurines",
-    images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sheila-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sheila-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sheila-3.jpeg"
-    ],
-    productTitle: "Royal Doulton Figurine Sheila",
-    description:
-      "A painted porcelain figurine of a woman in a light blue dress, blue floral accents, 20th Century. Signed Royal Doulton HN 2742",
-    dimensions: "",
-    price: "$75"
-    // productId: "royal-doulton-figurines-sheila"
   },
   "royal-doulton-figurines-suzette": {
     category: "royal-doulton-figurines",

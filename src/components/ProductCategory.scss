@@ -5,20 +5,18 @@
 
 /*Product Category: image, description, price*/
 
-.close-btn {
-  z-index: 2;
-  display: inline-block;
-  position: absolute;
-  right: 0px;
-  padding: 20px;
-  color: black;
-  font-size: 35px;
-}
-
 .product-category {
   padding: 20px;
   text-align: center;
   font-family: "Josefin Sans";
+
+  .breadcrumbs-text{
+    
+  }
+  .sorting-filtering-text{
+
+  }
+
 }
 
 .product-section-title {
@@ -29,6 +27,7 @@
 // Product Image
 
 .image-border-deco {
+  margin-bottom: 1rem;
   border: solid 1px lightgray;
   box-shadow: 1px 2px grey;
   &:hover {
@@ -36,28 +35,8 @@
   }
 }
 
-.modal-image {
-  z-index: 1;
-  border: solid 2px #e9f1f8;
-}
-
 //Product Image - Modal
 
 .product-image-modal {
   position: relative;
-
-  .product-image-text-title {
-    font-size: 18px;
-    font-weight: lighter;
-    font-family: "Josefin Sans";
-  }
-  .product-image-text-dimensions {
-    font-size: 18px;
-    font-weight: lighter;
-  }
-  .product-image-text-price {
-    font-size: 18px;
-    font-weight: bold;
-    font-family: "Josefin Sans";
-  }
 }

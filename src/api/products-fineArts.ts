@@ -137,8 +137,8 @@ export const fineArts = {
     ],
     productTitle: "A Pair of Edwardian portraits of girls c. 1910",
     description:
-      "A Pair of Edwardian English miniature portraits of Young Girls c. 1910",
-    dimensions: "",
+      "A Pair of Edwardian English miniature portraits of Young Girls, Edwardian Period, Early 20th Century. These portraits will bring a touch of Edwardian elegance into any interior.",
+    dimensions: "5 x 4 inches",
     price: "$550"
     //productId: "miniatures-portrait-girls-edwardian"
   },
@@ -149,10 +149,10 @@ export const fineArts = {
       "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-2.jpeg",
       "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-3.jpeg"
     ],
-    productTitle: "",
+    productTitle: "Victorian Period English Miniature Portrait of Lady Cartier",
     description:
-      "19th Century English miniature portrait of Lady Cartier in a black dress",
-    dimensions: "",
+      "iniature portrait of Lady Cartier in a black dress, English Victorian Period, 19th Century. Small chip to the corner of the picture frame.",
+    dimensions: "5 1/4 x 4 1/2 inches",
     price: "$595"
     //productId: "miniatures-portrait-lady-cartier-victorian"
   },
@@ -180,7 +180,7 @@ export const fineArts = {
     productTitle: "19th Century Italian Miniature of Pauline Bonapart",
     description:
       "19th Century Italian miniature portrait of Pauline Bonaparte after Simon Counis in a gilded oval frame",
-    dimensions: "",
+    dimensions: "4 x 3 inches",
     price: "$300"
     //productId: "minitures-portrait-pauline-bonaparte"
   },
@@ -195,23 +195,9 @@ export const fineArts = {
       "19th Century French Miniature Portrait of a Lady in a Blue Dress",
     description:
       "19th Century French Miniature Portrait of a Lady in a Blue Dress.  Its framed in an ivory and tortoise shell frame.",
-    dimensions: "",
+    dimensions: "5 x 4 1/2 inches",
     price: "$250"
     //productId: "miniatures-portrait-woman-blue-ivory-frame"
-  },
-  "miniatures/miniatures-portrait-lady-graham-victorian": {
-    category: "miniatures",
-    images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-lady-graham-victorian-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-lady-graham-victorian-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-lady-graham-victorian-3.jpeg"
-    ],
-    productTitle: "19th Century Miniature Portrait of Lady Graham",
-    description:
-      "19th Century Victorian English miniature portrait of Lady Graham after Thomas Gainsborough",
-    dimensions: "",
-    price: "$595"
-    //productId: "miniatures/miniatures-portrait-lady-graham-victorian"
   },
   "miniatures-portrait-helene-sedlmayr-victorian": {
     category: "miniatures",
@@ -223,23 +209,9 @@ export const fineArts = {
     productTitle: "19th Century German Miniature Portrait of Helene Sedlmayr",
     description:
       "19th Century German miniature portrait of Helene Sedlmayr. The Daughter of a toymaker, Sedlmayr was considered a famous German beauty of the time who caught the attention of King Ludwig I of Bavaria. its set in a beautiful period ivory frame",
-    dimensions: "",
+    dimensions: "6 x 4 3/4 inches",
     price: "$395"
     //productId: "miniatures-portrait-helene-sedlmayr-victorian"
-  },
-  "miniatures-portrait-woman-hat-victorian": {
-    category: "miniatures",
-    images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-hat-victorian-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-hat-victorian-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-hat-victorian-3.jpeg"
-    ],
-    productTitle: "19th Century Miniature Portrait of a Woman with a Hat",
-    description:
-      "19th Century Miniature Portrait of a Woman with a Hat after a Romantic Era painting.  Possily after a Thomas Gainsborough original that was well known in the period. Set in an ornate metal openwork frame.",
-    dimensions: "",
-    price: "$495"
-    //productId: "miniatures-portrait-woman-hat-victorian"
   },
   "miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi": {
     category: "miniatures",
@@ -252,7 +224,7 @@ export const fineArts = {
       "Miniature Portrait of Pauline Bonaparte by Pittrice E. Melocci c. 1930s",
     description:
       "Early 20th century Italian Miniature portrait of Pauline Bonaparte by Pittrice E. Melocchi c. 1930s.",
-    dimensions: "",
+    dimensions: "4 x 3 1/4 inches",
     price: "$495"
     //productId: "miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi"
   },

@@ -507,7 +507,7 @@ export const artByCategory = {
     productTitle: "Celadon Charger Plate with Fish",
     description:
       "A celadon charger plate with fish, Qing Dynasty, 19th Century",
-    dimensions: "",
+    dimensions: "15 x 15 inches",
     price: "inquire"
     // productId: "chinese-art-charger-fish-celadon"
   },
@@ -522,8 +522,8 @@ export const artByCategory = {
     productTitle: "Yxing Covered Tea Jar c. 1850s",
     description:
       "A Yxing clay covered tea jar with dragon, Qing Dynasty, dated 1850s",
-    dimensions: "",
-    price: "inquire"
+    dimensions: "4 x 4 1/2 inches",
+    price: "$600"
     // productId: "chinese-art-covered-jar-yxing"
   },
   "chinese-art-covered-jar-yxing-dragons": {
@@ -537,8 +537,8 @@ export const artByCategory = {
     productTitle: "Yxing Covered Tea Jar c. 1860s",
     description:
       "A yxing clay covered tea jar with inscribed surface and dragons, Qing Dynasty, dated 1860s",
-    dimensions: "",
-    price: "inquire"
+    dimensions: "4 x 5 inches",
+    price: "$600"
     // productId: "chinese-art-covered-jar-yxing-dragons"
   },
   "chinese-art-ducks-ceramic-blue": {
@@ -551,8 +551,8 @@ export const artByCategory = {
     productTitle: "Blue Glazed Duck Figurines c. 1930s",
     description:
       "A set of blue glazed duck figurines, Republic Period, Early 20th Century.",
-    dimensions: "",
-    price: "inquire"
+    dimensions: "7 1/2 x 3 and 6 x 2 incehs",
+    price: "$300"
     // productId: "chinese-art-ducks-ceramic-blue"
   },
 

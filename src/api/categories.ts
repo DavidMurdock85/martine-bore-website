@@ -97,9 +97,7 @@ export const categories = {
       "miniatures-portrait-woman-oval-frame-edwardian",
       "miniatures-portrait-pauline-bonaparte",
       "miniatures-portrait-woman-blue-ivory-frame",
-      "miniatures/miniatures-portrait-lady-graham-victorian",
       "miniatures-portrait-helene-sedlmayr-victorian",
-      "miniatures-portrait-woman-hat-victorian",
       "miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi",
       "miniatures-portrait-george-II"
     ]
@@ -156,12 +154,9 @@ export const categories = {
     ],
     list: [
       "porcelain-vases-herend-rothschild",
-      "porcelain-box-hungary-herend-green",
       "porcelain-cabinet-plates-royal-vienna",
       "porcelain-box-herend-red",
-      "porcelain-tray-herend-rothschild",
       "porcelain-cache-pot-herend-rothschild",
-      "porcelain-vase-limoges-blue-golse",
       "porcelain-vase-paris-grey-floral",
       "porcelain-bud-vase-herend-rothschild",
       "porcelain-vase-portrait-royal-bonn-pink",
@@ -187,22 +182,6 @@ export const categories = {
       "clocks-swiss-le-coultre-atmos"
     ]
   },
-
-  // Decorative Arts - Boxes
-
-  /*
-
-  "boxes":{
-    route: "boxes",
-    title: "Boxes",
-    breadcrumbs: [
-      { url: "/", name: "Home" },
-      { url: "/categories/boxes", name: "Boxes" }
-    ],
-    list: ["", "", "", "", "", "", "", "", "", "", "", ""]
-  },
-
-*/
 
   // Decorative Arts - Lighting
 
@@ -289,6 +268,21 @@ export const categories = {
     ]
   },
 
+  clarice-cliff: {
+    route: "clarice-cliff",
+    title: "Clarice Cliff",
+    breadcrumbs: [
+      { url: "/", name: "Home" },
+      { url: "/categories/clarice-cliff", name: "Clarice Cliff" }
+    ],
+    list: [
+      "clarice-cliff-creamer-art-deco",
+      "clarice-cliff-pitcher-parrots-art-deco",
+      "clarice-cliff-vase-floral-art-deco",
+      "clarice-cliff-vase-parrots-art-deco"
+    ]
+  },
+
   // Art by Period Routes
 
   // Art by Period - Georgian
@@ -346,7 +340,6 @@ export const categories = {
       "art-nouveau-vase-glass-kralik",
       "art-nouveau-centerpiece-porcelain-royal-dux-shells",
       "art-nouveau-vase-cameo-glass-émile-gallé-rio",
-      "art-nouveau-vase-glass-kralik-green-iridescent",
       "art-nouveau-vase-glass-kralik-green-sterling",
       "art-nouveau-vase-glass-steuben-aurene-frederick-carder",
       "art-nouveau-plate-royal-vienna-portrait"
@@ -368,7 +361,6 @@ export const categories = {
       "art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german",
       "art-deco-sculpture-bronze-george-morin",
       "art-deco-vase-consolidated-lovebirds-green-glass",
-      "art-deco-vase-consolidated-lovebirds-blue-glass",
       "art-deco-figurine-green-zsolnay",
       "art-deco-tea-set-edna-bess"
     ]
@@ -527,7 +519,6 @@ export const categories = {
       "royal-doulton-figurines-christmas-morn",
       "royal-doulton-figurines-cissie",
       "royal-doulton-figurines-darling",
-      "royal-doulton-figurines-diana",
       "royal-doulton-figurines-dinky-do",
       "royal-doulton-figurines-first-dance",
       "royal-doulton-figurines-forty-winks",
@@ -536,7 +527,6 @@ export const categories = {
       "royal-doulton-figurines-georgina",
       "royal-doulton-figurines-good-friends",
       "royal-doulton-figurines-jacqueline",
-      "royal-doulton-figurines-jane",
       "royal-doulton-figurines-kate",
       "royal-doulton-figurines-maureen",
       "royal-doulton-figurines-monica",
@@ -544,13 +534,11 @@ export const categories = {
       "royal-doulton-figurines-old-mother-hubbard",
       "royal-doulton-figurines-paisly-shawl",
       "royal-doulton-figurines-peggy",
-      "royal-doulton-figurines-my-pet",
       "royal-doulton-figurines-penny",
       "royal-doulton-figurines-pickwick",
       "royal-doulton-figurines-pretty-polly",
       "royal-doulton-figurines-rest-awhile",
       "royal-doulton-figurines-sara",
-      "royal-doulton-figurines-sheila",
       "royal-doulton-figurines-suzette",
       "royal-doulton-figurines-thank-you",
       "royal-doulton-figurines-the-balloon-man",
@@ -655,9 +643,7 @@ export const categories = {
       "teacups-floral-red-paragon",
       "teacups-portrait-limoges",
       "teacups-floral-blue-paragon",
-      "teacups-floral-gold-aynsley",
-      "teacups-floral-iridescent-green-aynsley",
-      "teacups-floral-iridescent-yellow-aynsley"
+      "teacups-floral-gold-aynsley"
     ]
   },
 
@@ -702,8 +688,7 @@ export const categories = {
     list: [
       "candle-sticks-b&co-birmingham-sterling-silver",
       "candle-sticks-sterling-silver-dutch-art-deco",
-      "candle-sticks-sterling-silver-international-silver-weighted",
-      "candle-sticks-sterling-silver-duchin-weighted"
+      "candle-sticks-sterling-silver-international-silver-weighted"
     ]
   },
 
@@ -812,7 +797,6 @@ export const categories = {
     list: [
       "brooches-lion-emerald-ruby-hammerman",
       "brooches-citrine-rubys-pearls-edwardian",
-      "brooches-amethyst-victorian-aesthetic-movement",
       "brooches-ribbon-pearls",
       "brooches-tree-pearls"
     ]
@@ -845,7 +829,7 @@ export const categories = {
 
   // Routes - Sold
 
-  "sold": {
+  sold: {
     route: "sold",
     title: "Sold",
     breadcrumbs: [
@@ -859,10 +843,24 @@ export const categories = {
       "lalique-perfume-lily-valley",
       "lalique-statue-stallion",
       "royal-coppenhagen-tea-service-pink",
-      "bracelets-gold-pearls-ruby-floral-1950s",
       "necklaces-emerald-gold",
       "canadian-art-inuit-sculpture-large",
-      "deco-czech-perfume"
+      "deco-czech-perfume",
+      "miniatures-portrait-lady-graham-victorian",
+      "miniatures-portrait-woman-hat-victorian",
+      "teacups-floral-iridescent-green-aynsley",
+      "teacups-floral-iridescent-yellow-aynsley",
+      "porcelain-tray-herend-rothschild",
+      "porcelain-vase-limoges-blue-golse",
+      "art-deco-vase-consolidated-lovebirds-blue-glass",
+      "royal-doulton-figurines-jane",
+      "royal-doulton-figurines-my-pet",
+      "royal-doulton-figurines-diana",
+      "royal-doulton-figurines-sheila",
+      "candle-sticks-sterling-silver-duchin-weighted",
+      "brooches-amethyst-victorian-aesthetic-movement",
+      "art-nouveau-vase-glass-kralik-green-iridescent",
+      "porcelain-box-hungary-herend-green"
     ]
   }
 };

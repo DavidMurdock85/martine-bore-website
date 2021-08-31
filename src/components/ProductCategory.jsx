@@ -1,9 +1,7 @@
 import "./ProductCategory.scss";
 import "react-image-lightbox/style.css";
-
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
-
 import { products } from "../api/products";
 import { Breadcrumb } from "./Breadcrumbs";
 import { Image } from "./elements";
@@ -17,10 +15,10 @@ export const ProductCategory = ({ title, breadcrumbs, categoryProducts }) => {
 
     <Flex className="product-category" expand="width" flexDirection="column">
       <Split expand="width">
-        <Base tag="h6">
+        <Base tag="h6" className="breadcrumbs-text">
           <Breadcrumb breadcrumbItems={breadcrumbs} />
         </Base>
-        <Base tag="h6">Sorting and Filtering</Base>
+        <Base tag="h6" className="sorting-filtering-text">Sorting and Filtering</Base>
       </Split>
       <Base tag="h2" className="product-section-title">{title}</Base>
       <Row mt={2}>
@@ -43,11 +41,11 @@ const ProductItem = ({ product, productId}) => {
       >
         <Image src={images[0]} />
       </Base>
-      <Base>
+      <Base className="product-image-title">
         <Base>{productTitle}</Base>
       </Base>
     </Col>
   );
 };
 
-// Product Page
+

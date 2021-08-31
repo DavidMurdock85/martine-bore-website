@@ -30,7 +30,7 @@ export const artByPeriod = {
     productTitle: "Victorian Era Jewelry  box with a dog portrait c. 1860s",
     description:
       "Victorian Era Jewelry tortoise shell box with a dog portrait c. 1860s.",
-    dimensions: "",
+    dimensions: "4 1/4 x 3 1/4 x 2 inches",
     price: "inquire"
     // productId: "victorian-box-portrait-dog"
   },
@@ -44,8 +44,8 @@ export const artByPeriod = {
     productTitle: "Victorian Era Cranberry Glass Centerpiece c. 1880s",
     description:
       "Victorian Era cranberry glass centerpiece with three fluted vases c. 1880s",
-    dimensions: "",
-    price: "inquire"
+    dimensions: "17 x 7 1/2 inches",
+    price: "$650"
     // productId: "victorian-centerpiece-cranberry-glass"
   },
   "victorian-tea-caddy-wood": {
@@ -88,8 +88,8 @@ export const artByPeriod = {
       "19th Century Victorian Era Mason's Ironstone Covered Fountain Pen Dish",
     description:
       "19th Century Victorian Era Mason's Ironstone covered fountain pen dish in a Japanese imari pattern.",
-    dimensions: "",
-    price: "inquire"
+    dimensions: "8 x 4 inches",
+    price: "$175"
     // productId: "victorian-fountain-pen-holder-masons-ironstone-imari"
   },
   "victorian-silver-shoe-repoussé-german": {
@@ -102,8 +102,8 @@ export const artByPeriod = {
     productTitle: "Victorian Era German Sterling Silver Shoe c. 1890s",
     description:
       "Victorian Era German Sterling Silver Shoe. with delicate repoussé designs c. 1890s",
-    dimensions: "",
-    price: "inquire"
+    dimensions: "8 x 2 x 3 1/2 inches",
+    price: "$900"
     // productId: "victorian-silver-shoe-repoussé-german"
   },
   "victorian-powder-box-red-glass-moser-czech": {
@@ -118,7 +118,7 @@ export const artByPeriod = {
     description:
       "Victorian Era Red Bohemian Glass Powder Box by Moser c. 1880s. Intricatly enameled with geometric patterns in the style of the late Victorian Era when the Aesthetic Movement was at its peak",
     dimensions: "",
-    price: "inquire"
+    price: "$350"
     // productId: "victorian-powder-box-red-glass-moser-czech"
   },
   "victorian-box-miniature-portrait": {
@@ -149,7 +149,7 @@ export const artByPeriod = {
     productTitle: "Aesthetic Movement Old Hall Vase c. 1880",
     description:
       "Aesthetic Movement Old Hall Vase with a floral motif in blue and gold c. 1880",
-    dimensions: "",
+    dimensions: "12 x 5 inches",
     price: "inquire"
     // productId: "aesthetic-movement-vase-old-hall-english"
   },
@@ -164,7 +164,7 @@ export const artByPeriod = {
       "Pair of Aesthetic Movement Royal Worchester Ewer Vases c. 1880s",
     description:
       "Pair of Aesthetic Movement English Royal Worchester Ewer Vases with floral and bird motifs  c. 1880s",
-    dimensions: "",
+    dimensions: "12 x 6 inches",
     price: "inquire"
     // productId: "aesthetic-movement-vases-english-royal-worcester"
   },
@@ -193,7 +193,7 @@ export const artByPeriod = {
     productTitle: "Aesthetic Movement Royal Doulton Lambeth Vases c. 1880s",
     description:
       "Aesthetic Movement Royal Doulton Lambeth Vases with impressed floral motifs c. 1880s",
-    dimensions: "",
+    dimensions: "10 1/2 inches",
     price: "inquire"
     // productId: "aesthetic-movement-vases-english-doulton-lambeth"
   },
@@ -223,7 +223,7 @@ export const artByPeriod = {
     productTitle: "Art Nouveau Glass Claw Pattern Vase by Kralik",
     description:
       "Art Nouveau Czech glass vase Kralik in the claw pattern c. 1910",
-    dimensions: "",
+    dimensions: "8 x 5 inches",
     price: "$595"
     // productId: "art-nouveau-vase-glass-kralik"
   },
@@ -237,7 +237,7 @@ export const artByPeriod = {
     productTitle: "Art Nouveau Porcelain Centerpiece by Royal Dux c. 1900.",
     description:
       "Art Nouveau Royal Dux porcelain centerpiece figurine with bowl c. 1900.",
-    dimensions: "",
+    dimensions: "18 x 8 inches",
     price: "$600"
     // productId: "art-nouveau-centerpiece-porcelain-royal-dux-shells"
   },
@@ -256,21 +256,6 @@ export const artByPeriod = {
     dimensions: "",
     price: "inquire"
     // productId: "art-nouveau-vase-cameo-glass-émile-gallé-rio"
-  },
-  "art-nouveau-vase-glass-kralik-green-iridescent": {
-    category: "art-nouveau",
-    images: [
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-iridescent-1.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-iridescent-2.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-iridescent-3.jpeg"
-    ],
-    productTitle:
-      "Art Nouveau Iridescent Green Glass Vase by Kralik c. 1900.  ",
-    description:
-      "Art Nouveau Bohemian iridecent green glass vase by Kralik c. 1900. The vase is handblown with an unusual organic form.",
-    dimensions: "",
-    price: "$300"
-    // productId: "art-nouveau-vase-glass-kralik-green-iridescent"
   },
   "art-nouveau-vase-glass-kralik-green-sterling": {
     category: "art-nouveau",
@@ -355,9 +340,9 @@ export const artByPeriod = {
       "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-2.jpeg",
       "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-3.jpeg"
     ],
-    productTitle: "",
+    productTitle: "Art Deco German Goldsheider Batlady Flapper Figurine by Joseph Lorenzl 1920s",
     description:
-      "Art Deco German Goldsheider batlady figurine by Joseph Lorenzl 1920s",
+      "Art Deco German figurine of a flapper Goldsheider batlady figurine by Joseph Lorenzl, German Early 20th Century.",
     dimensions: "9 x 8 x 3 1/2 inches",
     price: "$1400"
     // productId: "art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german"
@@ -375,7 +360,6 @@ export const artByPeriod = {
     price: "$2400"
     // productId: "art-deco-sculpture-bronze-george-morin"
   },
-
   "art-deco-vase-consolidated-lovebirds-green-glass": {
     category: "art-deco",
     images: [
@@ -391,22 +375,6 @@ export const artByPeriod = {
     price: "$300"
     // productId: "art-deco-vase-consolidated-lovebirds-green-glass"
   },
-  "art-deco-vase-consolidated-lovebirds-blue-glass": {
-    category: "art-deco",
-    images: [
-      "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg",
-      "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-blue-glass-2.jpeg",
-      "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-blue-glass-3.jpeg"
-    ],
-    productTitle:
-      "Art Deco Painted Blue Glass Lovebird Vase by Consolidated Glass c. 1930s. ",
-    description:
-      "Art Deco painted glass lovebird vase by Consolidated Glass c. 1930s. Beautifully hand painted in blue with a purple accents.",
-    dimensions: "11 x 10 inches",
-    price: "$450"
-    // productId: "art-deco-vase-consolidated-lovebirds-blue-glass"
-  },
-
   "art-deco-figurine-green-zsolnay": {
     category: "art-deco",
     images: [
@@ -414,10 +382,10 @@ export const artByPeriod = {
       "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-2.jpeg",
       "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-3.jpeg"
     ],
-    productTitle: "",
-    description: "Art Deco Zsolnay figurine of a woman in green c. 1930s",
-    dimensions: "",
-    price: ""
+    productTitle: "Art Deco Zsolnay figurine of a woman in green c. 1930s",
+    description: "Art Deco Zsolnay figurine of a woman in green, Hungarian Early 20th Century.",
+    dimensions: "10 x 3 inches",
+    price: "inquire"
     // productId: "art-deco-figurine-green-zsolnay"
   },
   "art-deco-tea-set-edna-bess": {

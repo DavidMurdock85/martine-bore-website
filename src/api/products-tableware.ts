@@ -13,8 +13,7 @@ export const tableware = {
     productTitle: "Set of Victorian Era Hammersley Dinner Plates",
     description:
       "A set of porcelain dinner plates detailed in gold with floral designs, Victorian Era, England 19th Century. Marked Hammersley.",
-    dimensions:
-      "A set of porcelain dinenr plates, gold and floral accent, Victorian Era, 19th Century. Signed.",
+    dimensions: "9 1/2 x 9 1/2 inches",
     price: "inquire"
     // productId: "plates-gold-floral-hammersley"
   },
@@ -28,7 +27,7 @@ export const tableware = {
     productTitle: "Set of Royal Vienna Portrait Dinner Plates",
     description:
       "A set of hand painted porcelain dinner plates, royal portraits, Austria 19th Century. Vienna Marks",
-    dimensions: "",
+    dimensions: "8 x 12 x 8 1/2 inches",
     price: "inquire"
     // productId: "plates-dinner-portraits-royal-vienna"
   },
@@ -42,7 +41,7 @@ export const tableware = {
     productTitle: "Set of Floral Dessert Plates by Nymphenburg",
     description:
       "A exquisite set of handpainted floral dessert plates by Nymphenburg, early 20th century.",
-    dimensions: "9 inches",
+    dimensions: "9 x 9 inches",
     price: "$1200"
     // productId: "plates-dessert-floral-porcelain-nymphenburg"
   },
@@ -55,9 +54,8 @@ export const tableware = {
     ],
     productTitle: "Set of Meissen Blue Onion Dinner Plates",
     description:
-      "18 piece set of 19th century meissen blue onion plates and bowl with gold accents",
-    dimensions:
-      "set of 6 dessert plates measuring 8 1/2 inches. Set of 6 soup bowls measuring 9 inches and 6 dinner plates measuring 9 3/4 inches",
+      "18 piece set of 19th century meissen blue onion plates and bowl with gold accents. ",
+    dimensions: "set of 6 dessert plates measuring 8 1/2 inches. Set of 6 soup bowls measuring 9 inches and 6 dinner plates measuring 9 3/4 inches",
     price: "inquire"
     // productId: "plates-dinner-porcelain-meissen-blue-onion"
   },
@@ -70,8 +68,8 @@ export const tableware = {
     ],
     productTitle: "Set of Hammersley Dessert Plates and Centerpiece Dish",
     description:
-      "A set of dessert plates in wine red with floral motif and centerpiece dish, Mid 20th Century.  Signed F. Howard with Hammersley marks,",
-    dimensions: "",
+      "A set of 10 dessert plates in wine red with floral motif and centerpiece dish, Mid 20th Century.  Signed F. Howard with Hammersley marks,",
+    dimensions: "plates measure 8 1/2 inches and the centerpiece measures 5 x 7 x 11 inches",
     price: "$800"
     // productId: "plates-dessert-porcelain-hammersley-red"
   },
@@ -86,7 +84,7 @@ export const tableware = {
     description:
       "A set of porcelain dessert plates with felspar green and floral motifs, Georgian Era, English 19th Century.",
     dimensions: "",
-    price: "$2400"
+    price: "inquire"
     // productId: "plates-felspar-green-floral-porcelain-spode"
   },
 
@@ -102,7 +100,7 @@ export const tableware = {
     productTitle: "Set of 6 Birks Sterling Crystal Cordial Glasses",
     description:
       "A set of 6 sterling and crystal cordial glasses, Canada Mid 20th Century. Birks and Sterling Mark ",
-    dimensions: "",
+    dimensions: "4 x 2 inches",
     price: "inquire"
     // productId: "stemware-glasses-crystal-sterling-cordial-birks"
   },
@@ -116,7 +114,7 @@ export const tableware = {
     productTitle: "Set of 10 Waterford Alana Highball Glasses",
     description:
       "A set of 10 cut crystal highball glasses, Ireland 20th Century.",
-    dimensions: "",
+    dimensions: "5 1/2 x 3 inches",
     price: ""
     // productId: "stemware-glasses-crystal-sterling-cordial"
   },
@@ -130,7 +128,7 @@ export const tableware = {
     productTitle: "Set of 6 Birks Sterling Cordial Glasses",
     description:
       "A set of 6 sterling and cordial glasses, Canada Mid 20th Century. Birks and Sterling Mark",
-    dimensions: "",
+    dimensions: "3 x 4 1/4",
     price: ""
     // productId: "stemware-glasses-sterling-birks"
   },
@@ -144,8 +142,8 @@ export const tableware = {
     productTitle: "Set of 15 Red Wine Glasses by Val St. Lambert",
     description:
       "A set of 15 red crystal wine glasses, Belgian Mid 20th Century",
-    dimensions: "",
-    price: ""
+    dimensions: "6 x 2 3/4 inches",
+    price: "$50 Piece or Set $700"
     // productId: "stemware-glasses-red-wine-crystal-val-st-lambert"
   },
   "stemware-glasses-sniffer-waterford-alana": {
@@ -401,9 +399,10 @@ export const tableware = {
       "/images/tableware/teacups/teacups-green-coalport-3.jpeg"
     ],
     productTitle: "Set of 3 Felspar Green Coalport Teacups and Saucers",
-    description: "",
+    description:
+      "Set of 3 floral and felspar green teacups, unmarked coalport, England late 19th Century.",
     dimensions: "",
-    price: ""
+    price: "$125 each"
     // productId: "teacups-green-coalport"
   },
   "teacups-floral-red-paragon": {
@@ -413,10 +412,11 @@ export const tableware = {
       "/images/tableware/teacups/teacups-floral-red-paragon-2.jpeg",
       "/images/tableware/teacups/teacups-floral-red-paragon-3.jpeg"
     ],
-    productTitle: "",
-    description: "",
+    productTitle: "Red Floral Paragon Tea Cup and Saucer",
+    description:
+      "A red floral tea cup and saucer, signed Paragon, England Mid 20th Century.",
     dimensions: "",
-    price: ""
+    price: "$65"
     // productId: "teacups-floral-red-paragon"
   },
   "teacups-portrait-limoges": {
@@ -426,10 +426,11 @@ export const tableware = {
       "/images/tableware/teacups/teacups-portrait-limoges-2.jpeg",
       "/images/tableware/teacups/teacups-portrait-limoges-3.jpeg"
     ],
-    productTitle: "",
-    description: "",
+    productTitle: "Edwardian Limoges Tea Cup with a Portrait of a Girl",
+    description:
+      "An Edwardian Era limoges teacup and saucer with a portrait of a young girl, French Early 20th Century.",
     dimensions: "",
-    price: ""
+    price: "$125"
     // productId: "teacups-portrait-limoges"
   },
   "teacups-floral-blue-paragon": {
@@ -443,7 +444,7 @@ export const tableware = {
     description:
       "A set of hand painted floral and blue teacups, gold accents. England Mid 20th Century. Sold individually or as a set",
     dimensions: "",
-    price: "inquire"
+    price: "$150 each"
     // productId: "teacups-floral-blue-paragon"
   },
   "teacups-floral-gold-aynsley": {
@@ -453,39 +454,12 @@ export const tableware = {
       "/images/tableware/teacups/teacups-floral-gold-aynsley-2.jpeg",
       "/images/tableware/teacups/teacups-floral-gold-aynsley-3.jpeg"
     ],
-    productTitle: "Set of 2 Floral and Gold Aynsley Teacups and Saucers",
+    productTitle:
+      "Set of 2 Floral and Gold Celeste Aynsley Teacups and Saucers",
     description:
       "A set of 2 hand painted bone china tea cups and saucers, white, blue and gold floral accents, England Mid 20th Century.",
     dimensions: "",
-    price: "inquire"
+    price: "$65"
     // productId: "teacups-floral-gold-aynsley"
-  },
-  "teacups-floral-iridescent-green-aynsley": {
-    category: "teacups",
-    images: [
-      "/images/tableware/teacups/teacups-floral-iridescent-green-aynsley-1.jpeg",
-      "/images/tableware/teacups/teacups-floral-iridescent-green-aynsley-2.jpeg",
-      "/images/tableware/teacups/teacups-floral-iridescent-green-aynsley-3.jpeg"
-    ],
-    productTitle: "Iridescent Green Aynsley Teacup and Saucer",
-    description:
-      "A handpainted iridescent green and floral teacup with saucer, England Mid 20th Century",
-    dimensions: "",
-    price: ""
-    // productId: "teacups-floral-iridescent-green-aynsley"
-  },
-  "teacups-floral-iridescent-yellow-aynsley": {
-    category: "teacups",
-    images: [
-      "/images/tableware/teacups/teacups-floral-iridescent-yellow-aynsley-1.jpeg",
-      "/images/tableware/teacups/teacups-floral-iridescent-yellow-aynsley-2.jpeg",
-      "/images/tableware/teacups/teacups-floral-iridescent-yellow-aynsley-3.jpeg"
-    ],
-    productTitle: "Iridescent Yellow Aynsley Teacup and Saucer",
-    description:
-      "A handpainted iridescent yellow and floral teacup with saucer, England Mid 20th Century",
-    dimensions: "",
-    price: ""
-    // productId: "teacups-floral-iridescent-yellow-aynsley"
   }
 };

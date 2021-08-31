@@ -1,7 +1,5 @@
 import "./Breadcrumbs.scss";
-
 import React from "react";
-
 import { Base, Flex } from "./layout";
 
 interface BreadcrumbProps {

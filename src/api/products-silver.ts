@@ -44,20 +44,6 @@ export const silver = {
     dimensions: "",
     price: ""
     // productId: "candle-sticks-sterling-silver-international-silver-weighted"
-  },
-  "candle-sticks-sterling-silver-duchin-weighted": {
-    category: "candle-sticks",
-    images: [
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-duchin-weighted-1.jpeg",
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-duchin-weighted-2.jpeg",
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-duchin-weighted-3.jpeg"
-    ],
-    productTitle: "Pair of Duchin Sterling Silver Candle Sticks c. 1940s",
-    description:
-      "A pair of sterling silver weighted candle sticks, American Mid 20th Century. Duchin Hallmarks.",
-    dimensions: "",
-    price: ""
-    // productId: "candle-sticks-sterling-silver-duchin-weighted"
   }
 
   // Silver - Sugar Castors

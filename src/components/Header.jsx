@@ -59,11 +59,9 @@ export const Header = (props) => {
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/lalique">Lalique</NavDropdown.Item >
               </Base>
-              {/*
              <Base tag="h5">
                 <NavDropdown.Item href="/categories/clarice-cliff">Clarice Cliff</NavDropdown.Item >
               </Base>
-             */}
             </NavDropdown>
           </Base>
 

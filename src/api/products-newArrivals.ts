@@ -9,7 +9,7 @@ export const newArrivals = {
     ],
     productTitle: "Art Nouveau Candelabra by Tiffany Studios c. 1900",
     description:
-      "Art Nouveau Bronze Candelabra by Tiffany Studios New York c.1900",
+      "Art Nouveau bronze and green glass Candelabra by Tiffany Studios New York c.1900. A quality piece made by one of the masters of American Art Nouveau design. This unique candelabra will add a touch of elegance to any interior. ",
     dimensions: "13 x 9 x 5 1/2 inches",
     price: "inquire"
     //productId: "art-nouveau-candelabra-tiffany-studios"
@@ -23,7 +23,7 @@ export const newArrivals = {
     ],
     productTitle: "Bather With a Dove after Etienne Maurice Falconet ",
     description:
-      "Bronze statue of a girl holding a dove after Etienne Maurice Falconet, Victorian Period, late 19th century.",
+      "Bronze statue of a girl holding a dove after Etienne Maurice Falconet, Victorian Period, late 19th century. Made after an 18th century marble original by Falconet.",
     dimensions: "8 x 6 1/2 x 5 inches",
     price: "$1200"
     //productId: "bronze-statue-girl-holding-a-dove-after-falconet"
@@ -37,7 +37,7 @@ export const newArrivals = {
     ],
     productTitle: "Oil on Canvas by Alex de Andreis (Belgian 1871-1939)",
     description:
-      "Oil on Canvas by Alex de Andreis (Belgian 1871-1939) titled 'A Gay Party', Victorian Period, Belgian Late 19th Century",
+      "Oil on Canvas by Alex de Andreis (Belgian 1871-1939) titled 'A Gay Party', Victorian Period, Belgian Late 19th Century. A typical belgian folk scene that bring a warmth to any interior.",
     dimensions: "30 x 33 x 2 inches",
     price: "inquire"
     //productId: "paintings-belgian-alex-de-andreis"
@@ -76,9 +76,9 @@ export const newArrivals = {
       "/images/new-arrivals/paintings-scottish-john-reid-murray-2.jpg",
       "/images/new-arrivals/paintings-scottish-john-reid-murray-3.jpg"
     ],
-    title: "",
+    title: "Pastoral Scottish landscape oil on canvas by John Reid Murray c. 1890",
     description:
-      "Pastoral Scottish landscape oil on canvas by John Reid Murray c. 1890.",
+      "Pastoral Scottish landscape oil on canvas, signed John Reid Murray. Scottish Late Victorian Period.",
     dimensions: "27 x 21 x 3 inches",
     price: "inquire"
     //productId: "paintings-scottish-john-reid-murray"

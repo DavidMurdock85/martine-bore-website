@@ -67,7 +67,7 @@ export const jewelry = {
     ],
     productTitle: "Diamond Cluster Cocktail Ring c. 1970s",
     description: "A 14kt gold and diamond cluster cocktail ring  c. 1970s",
-    dimensions: "",
+    dimensions: "size 6 1/2",
     price: "inquire"
     //productId: "rings-cocktail-gold-diamond-cluster"
   },
@@ -80,7 +80,7 @@ export const jewelry = {
     ],
     productTitle: "Emerald Diamond Cocktail Ring c. 1980s",
     description: "A large emerald and diamond cocktail ring c. 1980s",
-    dimensions: "",
+    dimensions: "7 1/2",
     price: "inquire"
     //productId: "rings-cocktail-emerald-diamond"
   },
@@ -179,7 +179,7 @@ export const jewelry = {
     productTitle: "Diamond Cluster Wedding Ring",
     description:
       "A diamond cluster wedding band in a contemporary style, 20th Century",
-    dimensions: "",
+    dimensions: "size 5",
     price: "inquire"
     //productId: "rings-wedding-diamond-cluster"
   },
@@ -256,7 +256,7 @@ export const jewelry = {
     description:
       "9ct gold heart locket and chain link bracelet, Victorian Era, 19th Century",
     dimensions: "",
-    price: ""
+    price: "inquire"
     //productId: "bracelets-heart-chain-clasp-gold-victorian"
   },
   "bracelets-heart-gold-victorian": {
@@ -411,20 +411,6 @@ export const jewelry = {
     dimensions: "",
     price: "inquire"
     //productId: "brooches-citrine-rubys-pearls-edwardian"
-  },
-  "brooches-amethyst-victorian-aesthetic-movement": {
-    category: "brooches",
-    images: [
-      "/images/jewelry/brooches/brooches-amethyst-victorian-aesthetic-movement-1.jpeg",
-      "/images/jewelry/brooches/brooches-amethyst-victorian-aesthetic-movement-2.jpeg",
-      "/images/jewelry/brooches/brooches-amethyst-victorian-aesthetic-movement-3.jpeg"
-    ],
-    productTitle: "Aesthetic Movement Gold and Amethyst Brooch",
-    description:
-      "A gold and amethyst brooch with tassles, Aesthetic Movement, 19th Century",
-    dimensions: "",
-    price: "inquire"
-    //productId: "brooches-amethyst-victorian-aesthetic-movement"
   },
   "brooches-ribbon-pearls": {
     category: "brooches",
@@ -588,7 +574,7 @@ export const jewelry = {
       "/images/jewelry/silver-jewelry/silver-bracelet-birks-2.jpeg",
       "/images/jewelry/silver-jewelry/silver-bracelet-birks-3.jpeg"
     ],
-    productTitle: "Silver Linked Braclet by Birks",
+    productTitle: "Silver Linked Bracelet by Birks",
     description:
       "A thick sterling silver linked bracelet, late 20th century. Signed Birks ",
     dimensions: "",

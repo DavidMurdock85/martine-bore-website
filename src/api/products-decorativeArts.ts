@@ -15,22 +15,9 @@ export const decorativeArts = {
     productTitle: "Pair of Porcelain vases by Herend",
     description:
       "Pair of porcelain vase in the Rothschild pattern by Herend 20th c.",
-    dimensions: "",
+    dimensions: "9 1/2 x 5 inches",
     price: "inquire"
     // productId: "porcelain-vases-herend-rothschild"
-  },
-  "porcelain-box-hungary-herend-green": {
-    category: "porcelain",
-    images: [
-      "/images/decorative-arts/porcelain/porcelain-box-herend-green-1.jpeg",
-      "/images/decorative-arts/porcelain/porcelain-box-herend-green-2.jpeg",
-      "/images/decorative-arts/porcelain/porcelain-box-herend-green-3.jpeg"
-    ],
-    productTitle: "Green Porcelain Covered Box by Herend",
-    description: "A green porcelain covered box by Herend. Signiture on base",
-    dimensions: "",
-    price: ""
-    // productId: "porcelain-box-hungary-herend-green"
   },
   "porcelain-cabinet-plates-royal-vienna": {
     category: "porcelain",
@@ -42,7 +29,7 @@ export const decorativeArts = {
     productTitle: "Pair of 19th Century Royal Vienna Cabinet Plates",
     description:
       "Pair of 19th Century Royal Vienna Cabinet Plates. Vienna mark on bases",
-    dimensions: "",
+    dimensions: "6 1/2 x 6 1/2 inches",
     price: "inquire"
     // productId: "porcelain-cabinet-plates-royal-vienna"
   },
@@ -55,22 +42,9 @@ export const decorativeArts = {
     ],
     productTitle: "Red Porcelain Covered Box by Herend",
     description: "A green porcelain covered box by Herend. Signiture on base",
-    dimensions: "",
+    dimensions: "3 x 3 x 3 1/4 inches",
     price: "inquire"
     // productId: "porcelain-box-herend-red"
-  },
-  "porcelain-tray-herend-rothschild": {
-    category: "porcelain",
-    images: [
-      "/images/decorative-arts/porcelain/porcelain-tray-herend-rothschild-1.jpeg",
-      "/images/decorative-arts/porcelain/porcelain-tray-herend-rothschild-2.jpeg",
-      "/images/decorative-arts/porcelain/porcelain-tray-herend-rothschild-3.jpeg"
-    ],
-    productTitle: "Rothschild Porcelain Tray by Herend",
-    description: "Rothschild Porcelain Tray by Herend. Signiture on base",
-    dimensions: "",
-    price: "inquire"
-    // productId: "porcelain-tray-herend-rothschild"
   },
   "porcelain-cache-pot-herend-rothschild": {
     category: "porcelain",
@@ -81,23 +55,9 @@ export const decorativeArts = {
     ],
     productTitle: "Rothschild Cachepot by Herend",
     description: "Rothschild Cachepot by Herend. Signiture on base",
-    dimensions: "",
+    dimensions: "4 1/2 x 6 inches",
     price: "inquire"
     // productId: "porcelain-cache-pot-herend-rothschild"
-  },
-  "porcelain-vase-limoges-blue-golse": {
-    category: "porcelain",
-    images: [
-      "/images/decorative-arts/porcelain/porcelain-vase-limoges-blue-golse-1.jpeg",
-      "/images/decorative-arts/porcelain/porcelain-vase-limoges-blue-golse-2.jpeg",
-      "/images/decorative-arts/porcelain/porcelain-vase-limoges-blue-golse-3.jpeg"
-    ],
-    productTitle: "19th Century Blue Limoges Vase by J. Golse",
-    description:
-      "19th Century Blue Limoges Vase by J. Golse. Signiture on base",
-    dimensions: "",
-    price: "inquire"
-    // productId: "porcelain-vase-limoges-blue-golse"
   },
   "porcelain-vase-paris-grey-floral": {
     category: "porcelain",
@@ -108,7 +68,7 @@ export const decorativeArts = {
     ],
     productTitle: "19th Century French Grey Paris Porcelain Vase",
     description: "19th Century French Empire Grey Paris Porcelain Floral Vase",
-    dimensions: "",
+    dimensions: "15 inches",
     price: "inquire"
     // productId: "porcelain-vase-paris-grey-floral"
   },
@@ -121,7 +81,7 @@ export const decorativeArts = {
     ],
     productTitle: "Rothschild Bud Vase by Herend",
     description: "Rothschild Bud Vase by Herend. Signiture on base",
-    dimensions: "",
+    dimensions: "4 x 3 3/4",
     price: "inquire"
     // productId: "porcelain-bud-vase-herend-rothschild"
   },
@@ -324,8 +284,8 @@ export const decorativeArts = {
       "/images/decorative-arts/moorcroft/moorcroft-vase-yellow-hibicus-2.jpeg",
       "/images/decorative-arts/moorcroft/moorcroft-vase-yellow-hibicus-3.jpeg"
     ],
-    productTitle: "",
-    description: "Moorcroft yellow hibiscus vase c. 1960s",
+    productTitle: "Moorcroft Yellow Hibiscus vase c. 1960s",
+    description: "Moorcroft yellow hibiscus vase, England Mid 20th century. marked Moorcroft.",
     dimensions: "7 x 6 inches",
     price: "$550"
     // productId: "moorcroft-vase-yellow-hibicus"
@@ -448,8 +408,8 @@ export const decorativeArts = {
     ],
     productTitle: "Large Moorcroft Poppy Vase c. 1910",
     description: "William Moorcroft large poppy vase c. 1910",
-    dimensions: "",
-    price: "$3200"
+    dimensions: "14 x 8 inches",
+    price: "inquire"
     // productId: "moorcroft-vase-poppy-large"
   },
   "moorcroft-bowl-yacht": {
