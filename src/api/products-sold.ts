@@ -4,9 +4,21 @@ export const sold = {
   "rings-gold-daimond-sapphire": {
     category: "sold",
     images: [
-      "/images/sold/rings-gold-daimond-sapphire-1.jpeg",
-      "/images/sold/rings-gold-daimond-sapphire-2.jpeg",
-      "/images/sold/rings-gold-daimond-sapphire-3.jpeg"
+      {
+        original: "/images/sold/rings-gold-daimond-sapphire-1.jpeg",
+
+        thumbnail: "/images/sold/rings-gold-daimond-sapphire-1.jpeg"
+      },
+      {
+        original: "/images/sold/rings-gold-daimond-sapphire-2.jpeg",
+
+        thumbnail: "/images/sold/rings-gold-daimond-sapphire-2.jpeg"
+      },
+      {
+        original: "/images/sold/rings-gold-daimond-sapphire-3.jpeg",
+
+        thumbnail: "/images/sold/rings-gold-daimond-sapphire-3.jpeg"
+      }
     ],
     productTitle: "Diamond and Sapphire Cocktail Ring by Birks",
     description: "Diamond sapphire and 18kt gold cocktail ring by Birks",
@@ -17,9 +29,21 @@ export const sold = {
   "necklaces-gold-amethyst-bead": {
     category: "sold",
     images: [
-      "/images/sold/necklaces-gold-amethyst-bead-1.jpeg",
-      "/images/sold/necklaces-gold-amethyst-bead-2.jpeg",
-      "/images/sold/necklaces-gold-amethyst-bead-3.jpeg"
+      {
+        original: "/images/sold/necklaces-gold-amethyst-bead-1.jpeg",
+
+        thumbnail: "/images/sold/necklaces-gold-amethyst-bead-1.jpeg"
+      },
+      {
+        original: "/images/sold/necklaces-gold-amethyst-bead-2.jpeg",
+
+        thumbnail: "/images/sold/necklaces-gold-amethyst-bead-2.jpeg"
+      },
+      {
+        original: "/images/sold/necklaces-gold-amethyst-bead-3.jpeg",
+
+        thumbnail: "/images/sold/necklaces-gold-amethyst-bead-3.jpeg"
+      }
     ],
     productTitle: " Art Deco Ametheyst and Gold Beaded Necklace",
     description: "A Amethyst and gold beaded necklace c. 1930s",
@@ -30,9 +54,21 @@ export const sold = {
   "chandelier-edwardian-crystal": {
     category: "sold",
     images: [
-      "/images/sold/chandelier-edwardian-crystal-1.jpg",
-      "/images/sold/chandelier-edwardian-crystal-2.jpg",
-      "/images/sold/chandelier-edwardian-crystal-3.jpg"
+      {
+        original: "/images/sold/chandelier-edwardian-crystal-1.jpg",
+
+        thumbnail: "/images/sold/chandelier-edwardian-crystal-1.jpg"
+      },
+      {
+        original: "/images/sold/chandelier-edwardian-crystal-2.jpg",
+
+        thumbnail: "/images/sold/chandelier-edwardian-crystal-2.jpg"
+      },
+      {
+        original: "/images/sold/chandelier-edwardian-crystal-3.jpg",
+
+        thumbnail: "/images/sold/chandelier-edwardian-crystal-3.jpg"
+      }
     ],
     productTitle: "Edwardian Wrought Iron Chandelier",
     description: "A wrought iron and crystal chandelier, early 20th Century",
@@ -43,9 +79,21 @@ export const sold = {
   "lalique-perfume-lily-valley": {
     category: "sold",
     images: [
-      "/images/sold/lalique-perfume-lily-valley-1.jpeg",
-      "/images/sold/lalique-perfume-lily-valley-2.jpeg",
-      "/images/sold/lalique/lalique-perfume-lily-valley-3.jpeg"
+      {
+        original: "/images/sold/lalique-perfume-lily-valley-1.jpeg",
+
+        thumbnail: "/images/sold/lalique-perfume-lily-valley-1.jpeg"
+      },
+      {
+        original: "/images/sold/lalique-perfume-lily-valley-2.jpeg",
+
+        thumbnail: "/images/sold/lalique-perfume-lily-valley-2.jpeg"
+      },
+      {
+        original: "/images/sold/lalique-perfume-lily-valley-3.jpeg",
+
+        thumbnail: "/images/sold/lalique-perfume-lily-valley-3.jpeg"
+      }
     ],
     productTitle: "Lalique Lily of the Valley Perfume Bottle",
     description:
@@ -57,9 +105,21 @@ export const sold = {
   "lalique-statue-stallion": {
     category: "sold",
     images: [
-      "/images/sold/lalique-statue-stallion-1.jpeg",
-      "/images/sold/lalique/lalique-statue-stallion-2.jpeg",
-      "/images/sold/lalique/lalique-statue-stallion-3.jpeg"
+      {
+        original: "/images/sold/lalique-statue-stallion-1.jpeg",
+
+        thumbnail: "/images/sold/lalique-statue-stallion-1.jpeg"
+      },
+      {
+        original: "/images/sold/lalique-statue-stallion-2.jpeg",
+
+        thumbnail: "/images/sold/lalique-statue-stallion-2.jpeg"
+      },
+      {
+        original: "/images/sold/lalique-statue-stallion-3.jpeg",
+
+        thumbnail: "/images/sold/lalique-statue-stallion-3.jpeg"
+      }
     ],
     productTitle: "Lalique Stallion ",
     description: "Lalique crystal glass statue of a stallion horse",
@@ -70,9 +130,21 @@ export const sold = {
   "royal-coppenhagen-tea-service-pink": {
     category: "sold",
     images: [
-      "/images/sold/royal-coppenhagen-tea-service-pink-1.jpeg",
-      "/images/sold/royal-coppenhagen-tea-service-pink-2.jpeg",
-      "/images/sold/royal-coppenhagen-tea-service-pink-3.jpeg"
+      {
+        original: "/images/sold/royal-coppenhagen-tea-service-pink-1.jpeg",
+
+        thumbnail: "/images/sold/royal-coppenhagen-tea-service-pink-1.jpeg"
+      },
+      {
+        original: "/images/sold/royal-coppenhagen-tea-service-pink-2.jpeg",
+
+        thumbnail: "/images/sold/royal-coppenhagen-tea-service-pink-2.jpeg"
+      },
+      {
+        original: "/images/sold/royal-coppenhagen-tea-service-pink-3.jpeg",
+
+        thumbnail: "/images/sold/royal-coppenhagen-tea-service-pink-3.jpeg"
+      }
     ],
     productTitle: "Royal Coppenhagen Tea Service",
     description:
@@ -84,9 +156,21 @@ export const sold = {
   "necklaces-emerald-gold": {
     category: "sold",
     images: [
-      "/images/sold/necklaces-emerald-gold-1.jpeg",
-      "/images/sold/necklaces-emerald-gold-2.jpeg",
-      "/images/sold/necklaces-emerald-gold-3.jpeg"
+      {
+        original: "/images/sold/necklaces-emerald-gold-1.jpeg",
+
+        thumbnail: "/images/sold/necklaces-emerald-gold-1.jpeg"
+      },
+      {
+        original: "/images/sold/necklaces-emerald-gold-2.jpeg",
+
+        thumbnail: "/images/sold/necklaces-emerald-gold-2.jpeg"
+      },
+      {
+        original: "/images/sold/necklaces-emerald-gold-3.jpeg",
+
+        thumbnail: "/images/sold/necklaces-emerald-gold-3.jpeg"
+      }
     ],
     productTitle: "Emerald and 18kt Gold Necklace c. 1960s",
     description: "Mid Century emerald and 18kt gold necklace. Mid 20th Century",
@@ -97,9 +181,21 @@ export const sold = {
   "canadian-art-inuit-sculpture-large": {
     category: "sold",
     images: [
-      "/images/sold/canadian-art-inuit-sculpture-large-1.jpg",
-      "/images/sold/canadian-art-inuit-sculpture-large-2.jpg",
-      "/images/sold/canadian-art-inuit-sculpture-large-3.jpg"
+      {
+        original: "/images/sold/canadian-art-inuit-sculpture-large-1.jpg",
+
+        thumbnail: "/images/sold/canadian-art-inuit-sculpture-large-1.jpg"
+      },
+      {
+        original: "/images/sold/canadian-art-inuit-sculpture-large-2.jpg",
+
+        thumbnail: "/images/sold/canadian-art-inuit-sculpture-large-2.jpg"
+      },
+      {
+        original: "/images/sold/canadian-art-inuit-sculpture-large-3.jpg",
+
+        thumbnail: "/images/sold/canadian-art-inuit-sculpture-large-3.jpg"
+      }
     ],
     productTitle: "Large Inuit Soapstone Sculpture",
     description: "A very large carved inuit sculpture in soapstone c. 1970s",
@@ -110,8 +206,16 @@ export const sold = {
   "deco-czech-perfume": {
     category: "sold",
     images: [
-      "/images/sold/art-deco-czech-perfume-1.jpeg",
-      "/images/sold/art-deco-czech-perfume-2.jpeg"
+      {
+        original: "/images/sold/art-deco-czech-perfume-1.jpeg",
+
+        thumbnail: "/images/sold/art-deco-czech-perfume-1.jpeg"
+      },
+      {
+        original: "/images/sold/art-deco-czech-perfume-2.jpeg",
+
+        thumbnail: "/images/sold/art-deco-czech-perfume-2.jpeg"
+      }
     ],
     productTitle: "Czech Art Deco Pink Perfume Bottle",
     description: "A pink glass purfume bottle c. 1930s",
@@ -122,9 +226,27 @@ export const sold = {
   "miniatures-portrait-lady-graham-victorian": {
     category: "sold",
     images: [
-      "/images/sold/miniatures-portrait-lady-graham-victorian-1.jpeg",
-      "/images/sold/miniatures-portrait-lady-graham-victorian-2.jpeg",
-      "/images/sold/miniatures-portrait-lady-graham-victorian-3.jpeg"
+      {
+        original:
+          "/images/sold/miniatures-portrait-lady-graham-victorian-1.jpeg",
+
+        thumbnail:
+          "/images/sold/miniatures-portrait-lady-graham-victorian-1.jpeg"
+      },
+      {
+        original:
+          "/images/sold/miniatures-portrait-lady-graham-victorian-2.jpeg",
+
+        thumbnail:
+          "/images/sold/miniatures-portrait-lady-graham-victorian-2.jpeg"
+      },
+      {
+        original:
+          "/images/sold/miniatures-portrait-lady-graham-victorian-3.jpeg",
+
+        thumbnail:
+          "/images/sold/miniatures-portrait-lady-graham-victorian-3.jpeg"
+      }
     ],
     productTitle: "19th Century Miniature Portrait of Lady Graham",
     description:
@@ -136,9 +258,21 @@ export const sold = {
   "miniatures-portrait-woman-hat-victorian": {
     category: "sold",
     images: [
-      "/images/sold/miniatures-portrait-woman-hat-victorian-1.jpeg",
-      "/images/sold/miniatures-portrait-woman-hat-victorian-2.jpeg",
-      "/images/sold/miniatures-portrait-woman-hat-victorian-3.jpeg"
+      {
+        original: "/images/sold/miniatures-portrait-woman-hat-victorian-1.jpeg",
+
+        thumbnail: "/images/sold/miniatures-portrait-woman-hat-victorian-1.jpeg"
+      },
+      {
+        original: "/images/sold/miniatures-portrait-woman-hat-victorian-2.jpeg",
+
+        thumbnail: "/images/sold/miniatures-portrait-woman-hat-victorian-2.jpeg"
+      },
+      {
+        original: "/images/sold/miniatures-portrait-woman-hat-victorian-3.jpeg",
+
+        thumbnail: "/images/sold/miniatures-portrait-woman-hat-victorian-3.jpeg"
+      }
     ],
     productTitle: "19th Century Miniature Portrait of a Woman with a Hat",
     description:
@@ -150,9 +284,21 @@ export const sold = {
   "teacups-floral-iridescent-green-aynsley": {
     category: "sold",
     images: [
-      "/images/sold/teacups-floral-iridescent-green-aynsley-1.jpeg",
-      "/images/sold/teacups-floral-iridescent-green-aynsley-2.jpeg",
-      "/images/sold/teacups-floral-iridescent-green-aynsley-3.jpeg"
+      {
+        original: "/images/sold/teacups-floral-iridescent-green-aynsley-1.jpeg",
+
+        thumbnail: "/images/sold/teacups-floral-iridescent-green-aynsley-1.jpeg"
+      },
+      {
+        original: "/images/sold/teacups-floral-iridescent-green-aynsley-2.jpeg",
+
+        thumbnail: "/images/sold/teacups-floral-iridescent-green-aynsley-2.jpeg"
+      },
+      {
+        original: "/images/sold/teacups-floral-iridescent-green-aynsley-3.jpeg",
+
+        thumbnail: "/images/sold/teacups-floral-iridescent-green-aynsley-3.jpeg"
+      }
     ],
     productTitle: "Iridescent Green Aynsley Teacup and Saucer",
     description:
@@ -164,9 +310,27 @@ export const sold = {
   "teacups-floral-iridescent-yellow-aynsley": {
     category: "sold",
     images: [
-      "/images/sold/teacups-floral-iridescent-yellow-aynsley-1.jpeg",
-      "/images/sold/teacups-floral-iridescent-yellow-aynsley-2.jpeg",
-      "/images/sold/teacups-floral-iridescent-yellow-aynsley-3.jpeg"
+      {
+        original:
+          "/images/sold/teacups-floral-iridescent-yellow-aynsley-1.jpeg",
+
+        thumbnail:
+          "/images/sold/teacups-floral-iridescent-yellow-aynsley-1.jpeg"
+      },
+      {
+        original:
+          "/images/sold/teacups-floral-iridescent-yellow-aynsley-2.jpeg",
+
+        thumbnail:
+          "/images/sold/teacups-floral-iridescent-yellow-aynsley-2.jpeg"
+      },
+      {
+        original:
+          "/images/sold/teacups-floral-iridescent-yellow-aynsley-3.jpeg",
+
+        thumbnail:
+          "/images/sold/teacups-floral-iridescent-yellow-aynsley-3.jpeg"
+      }
     ],
     productTitle: "Iridescent Yellow Aynsley Teacup and Saucer",
     description:
@@ -178,9 +342,21 @@ export const sold = {
   "porcelain-tray-herend-rothschild": {
     category: "sold",
     images: [
-      "/images/sold/porcelain-tray-herend-rothschild-1.jpeg",
-      "/images/sold/porcelain-tray-herend-rothschild-2.jpeg",
-      "/images/sold/porcelain-tray-herend-rothschild-3.jpeg"
+      {
+        original: "/images/sold/porcelain-tray-herend-rothschild-1.jpeg",
+
+        thumbnail: "/images/sold/porcelain-tray-herend-rothschild-1.jpeg"
+      },
+      {
+        original: "/images/sold/porcelain-tray-herend-rothschild-2.jpeg",
+
+        thumbnail: "/images/sold/porcelain-tray-herend-rothschild-2.jpeg"
+      },
+      {
+        original: "/images/sold/porcelain-tray-herend-rothschild-3.jpeg",
+
+        thumbnail: "/images/sold/porcelain-tray-herend-rothschild-3.jpeg"
+      }
     ],
     productTitle: "Rothschild Porcelain Tray by Herend",
     description: "Rothschild Porcelain Tray by Herend. Signiture on base",
@@ -191,9 +367,21 @@ export const sold = {
   "porcelain-vase-limoges-blue-golse": {
     category: "sold",
     images: [
-      "/images/sold/porcelain-vase-limoges-blue-golse-1.jpeg",
-      "/images/sold/porcelain-vase-limoges-blue-golse-2.jpeg",
-      "/images/sold/porcelain-vase-limoges-blue-golse-3.jpeg"
+      {
+        original: "/images/sold/porcelain-vase-limoges-blue-golse-1.jpeg",
+
+        thumbnail: "/images/sold/porcelain-vase-limoges-blue-golse-1.jpeg"
+      },
+      {
+        original: "/images/sold/porcelain-vase-limoges-blue-golse-2.jpeg",
+
+        thumbnail: "/images/sold/porcelain-vase-limoges-blue-golse-2.jpeg"
+      },
+      {
+        original: "/images/sold/porcelain-vase-limoges-blue-golse-3.jpeg",
+
+        thumbnail: "/images/sold/porcelain-vase-limoges-blue-golse-3.jpeg"
+      }
     ],
     productTitle: "19th Century Blue Limoges Vase by J. Golse",
     description:
@@ -205,9 +393,27 @@ export const sold = {
   "art-deco-vase-consolidated-lovebirds-blue-glass": {
     category: "sold",
     images: [
-      "/images/sold/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg",
-      "/images/sold/art-deco-vase-consolidated-lovebirds-blue-glass-2.jpeg",
-      "/images/sold/art-deco/art-deco-vase-consolidated-lovebirds-blue-glass-3.jpeg"
+      {
+        original:
+          "/images/sold/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg",
+
+        thumbnail:
+          "/images/sold/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg"
+      },
+      {
+        original:
+          "/images/sold/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg",
+
+        thumbnail:
+          "/images/sold/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg"
+      },
+      {
+        original:
+          "/images/sold/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg",
+
+        thumbnail:
+          "/images/sold/art-deco-vase-consolidated-lovebirds-blue-glass-1.jpeg"
+      }
     ],
     productTitle:
       "Art Deco Painted Blue Glass Lovebird Vase by Consolidated Glass c. 1930s. ",
@@ -220,9 +426,21 @@ export const sold = {
   "royal-doulton-figurines-jane": {
     category: "sold",
     images: [
-      "/images/sold/royal-doulton-figurines-jane-1.jpeg",
-      "/images/sold/royal-doulton-figurines-jane-2.jpeg",
-      "/images/sold/royal-doulton-figurines-jane-3.jpeg"
+      {
+        original: "/images/sold/royal-doulton-figurines-jane-1.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-jane-1.jpeg"
+      },
+      {
+        original: "/images/sold/royal-doulton-figurines-jane-2.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-jane-2.jpeg"
+      },
+      {
+        original: "/images/sold/royal-doulton-figurines-jane-3.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-jane-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Jane",
     description:
@@ -234,9 +452,21 @@ export const sold = {
   "royal-doulton-figurines-my-pet": {
     category: "sold",
     images: [
-      "/images/sold/royal-doulton-figurines-my-pet-1.jpeg",
-      "/images/sold/royal-doulton-figurines-my-pet-2.jpeg",
-      "/images/sold/royal-doulton-figurines-my-pet-3.jpeg"
+      {
+        original: "/images/sold/royal-doulton-figurines-my-pet-1.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-my-pet-1.jpeg"
+      },
+      {
+        original: "/images/sold/royal-doulton-figurines-my-pet-2.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-my-pet-2.jpeg"
+      },
+      {
+        original: "/images/sold/royal-doulton-figurines-my-pet-3.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-my-pet-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine My Pet",
     description:
@@ -248,9 +478,21 @@ export const sold = {
   "royal-doulton-figurines-diana": {
     category: "sold",
     images: [
-      "/images/sold/royal-doulton-figurines-Diana-1.jpeg",
-      "/images/sold/royal-doulton-figurines-Diana-2.jpeg",
-      "/images/sold/royal-doulton-figurines-Diana-3.jpeg"
+      {
+        original: "/images/sold/royal-doulton-figurines-Diana-1.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-Diana-1.jpeg"
+      },
+      {
+        original: "/images/sold/royal-doulton-figurines-Diana-2.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-Diana-2.jpeg"
+      },
+      {
+        original: "/images/sold/royal-doulton-figurines-Diana-3.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-Diana-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Diana",
     description:
@@ -262,9 +504,21 @@ export const sold = {
   "royal-doulton-figurines-sheila": {
     category: "sold",
     images: [
-      "/images/sold/royal-doulton-figurines-sheila-1.jpeg",
-      "/images/sold/royal-doulton-figurines-sheila-2.jpeg",
-      "/images/sold/royal-doulton-figurines-sheila-3.jpeg"
+      {
+        original: "/images/sold/royal-doulton-figurines-sheila-1.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-sheila-1.jpeg"
+      },
+      {
+        original: "/images/sold/royal-doulton-figurines-sheila-2.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-sheila-2.jpeg"
+      },
+      {
+        original: "/images/sold/royal-doulton-figurines-sheila-3.jpeg",
+
+        thumbnail: "/images/sold/royal-doulton-figurines-sheila-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Sheila",
     description:
@@ -276,9 +530,27 @@ export const sold = {
   "candle-sticks-sterling-silver-duchin-weighted": {
     category: "sold",
     images: [
-      "/images/sold/candle-sticks-sterling-silver-duchin-weighted-1.jpeg",
-      "/images/sold/candle-sticks-sterling-silver-duchin-weighted-2.jpeg",
-      "/images/sold/candle-sticks-sterling-silver-duchin-weighted-3.jpeg"
+      {
+        original:
+          "/images/sold/candle-sticks-sterling-silver-duchin-weighted-1.jpeg",
+
+        thumbnail:
+          "/images/sold/candle-sticks-sterling-silver-duchin-weighted-1.jpeg"
+      },
+      {
+        original:
+          "/images/sold/candle-sticks-sterling-silver-duchin-weighted-2.jpeg",
+
+        thumbnail:
+          "/images/sold/candle-sticks-sterling-silver-duchin-weighted-2.jpeg"
+      },
+      {
+        original:
+          "/images/sold/candle-sticks-sterling-silver-duchin-weighted-3.jpeg",
+
+        thumbnail:
+          "/images/sold/candle-sticks-sterling-silver-duchin-weighted-3.jpeg"
+      }
     ],
     productTitle: "Pair of Duchin Sterling Silver Candle Sticks c. 1940s",
     description:
@@ -290,9 +562,27 @@ export const sold = {
   "brooches-amethyst-victorian-aesthetic-movement": {
     category: "sold",
     images: [
-      "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-1.jpeg",
-      "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-2.jpeg",
-      "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-3.jpeg"
+      {
+        original:
+          "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-1.jpeg",
+
+        thumbnail:
+          "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-1.jpeg"
+      },
+      {
+        original:
+          "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-2.jpeg",
+
+        thumbnail:
+          "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-2.jpeg"
+      },
+      {
+        original:
+          "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-3.jpeg",
+
+        thumbnail:
+          "/images/sold/brooches-gold-amethyst-victorian-aesthetic-movement-3.jpeg"
+      }
     ],
     productTitle: "Aesthetic Movement Gold and Amethyst Brooch",
     description:
@@ -304,9 +594,27 @@ export const sold = {
   "art-nouveau-vase-glass-kralik-green-iridescent": {
     category: "sold",
     images: [
-      "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-1.jpeg",
-      "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-2.jpeg",
-      "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-3.jpeg"
+      {
+        original:
+          "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-1.jpeg",
+
+        thumbnail:
+          "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-1.jpeg"
+      },
+      {
+        original:
+          "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-2.jpeg",
+
+        thumbnail:
+          "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-2.jpeg"
+      },
+      {
+        original:
+          "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-3.jpeg",
+
+        thumbnail:
+          "/images/sold/art-nouveau-vase-glass-kralik-green-iridescent-3.jpeg"
+      }
     ],
     productTitle:
       "Art Nouveau Iridescent Green Glass Vase by Kralik c. 1900.  ",
@@ -319,14 +627,26 @@ export const sold = {
   "porcelain-box-hungary-herend-green": {
     category: "sold",
     images: [
-      "/images/sold/porcelain-box-herend-green-1.jpeg",
-      "/images/sold/porcelain-box-herend-green-2.jpeg",
-      "/images/sold/porcelain-box-herend-green-3.jpeg"
+      {
+        original: "/images/sold/porcelain-box-herend-green-1.jpeg",
+
+        thumbnail: "/images/sold/porcelain-box-herend-green-1.jpeg"
+      },
+      {
+        original: "/images/sold/porcelain-box-herend-green-2.jpeg",
+
+        thumbnail: "/images/sold/porcelain-box-herend-green-2.jpeg"
+      },
+      {
+        original: "/images/sold/porcelain-box-herend-green-3.jpeg",
+
+        thumbnail: "/images/sold/porcelain-box-herend-green-3.jpeg"
+      }
     ],
     productTitle: "Green Porcelain Covered Box by Herend",
     description: "A green porcelain covered box by Herend. Signiture on base",
     dimensions: "",
     price: "sold"
     // productId: "porcelain-box-hungary-herend-green"
-  },
+  }
 };

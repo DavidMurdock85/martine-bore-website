@@ -6,9 +6,27 @@ export const figurines = {
   "figurines-boy-goose-herend": {
     category: "european-figurines",
     images: [
-      "/images/figurines/european-figurines/figurines-boy-goose-herend-1.jpeg",
-      "/images/figurines/european-figurines/figurines-boy-goose-herend-2.jpeg",
-      "/images/figurines/european-figurines/figurines-boy-goose-herend-3.jpeg"
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-boy-goose-herend-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-boy-goose-herend-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-boy-goose-herend-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-boy-goose-herend-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-boy-goose-herend-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-boy-goose-herend-3.jpeg"
+      }
     ],
     productTitle: "Herend Figurine of Boy and Goose",
     description:
@@ -20,9 +38,27 @@ export const figurines = {
   "figurines-jester-dresden-carl-thieme": {
     category: "european-figurines",
     images: [
-      "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-1.jpeg",
-      "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-2.jpeg",
-      "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-3.jpeg"
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-jester-dresden-carl-thieme-3.jpeg"
+      }
     ],
     productTitle: "Dresden Figurine of a Jester by Carl Thieme",
     description:
@@ -34,9 +70,27 @@ export const figurines = {
   "figurines-musician-chiniosere-royal-kpm": {
     category: "european-figurines",
     images: [
-      "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-1.jpeg",
-      "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-2.jpeg",
-      "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-3.jpeg"
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/european-figurines/figurines-musician-chiniosere-royal-kpm-3.jpeg"
+      }
     ],
     productTitle: "Royal KPM Figurine of a Musician c. 1830",
     description:
@@ -51,9 +105,27 @@ export const figurines = {
   "royal-doulton-autumn-breezes-green": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-green-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Green Autumn Breezes",
     description:
@@ -65,9 +137,27 @@ export const figurines = {
   "royal-doulton-autumn-breezes-red": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-autumn-breezes-red-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Red Autumn Breezes",
     description:
@@ -79,9 +169,27 @@ export const figurines = {
   "royal-doulton-beatrice": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-beatrice-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Beatrice",
     description:
@@ -93,9 +201,27 @@ export const figurines = {
   "royal-doulton-bess": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-bess-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-bess-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-bess-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-bess-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-bess-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-bess-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-bess-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-bess-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-bess-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine",
     description:
@@ -107,9 +233,27 @@ export const figurines = {
   "royal-doulton-biddy-pennyfarthing": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-biddy-pennyfarthing-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Biddy Pennyfarthing",
     description:
@@ -121,9 +265,27 @@ export const figurines = {
   "royal-doulton-figurines-a-child-from-williamsburg": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-a-child-from-williamsburg-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine A Child from Williamsburg",
     description:
@@ -135,9 +297,27 @@ export const figurines = {
   "royal-doulton-figurines-abdullah": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-abdullah-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Abdullah",
     description:
@@ -149,9 +329,27 @@ export const figurines = {
   "royal-doulton-figurines-ascot": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-ascot-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Ascot",
     description:
@@ -163,9 +361,27 @@ export const figurines = {
   "royal-doulton-figurines-autumn-breezes-pink": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-autumn-breezes-pink-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine",
     description:
@@ -177,9 +393,27 @@ export const figurines = {
   "royal-doulton-figurines-bedtime": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-bedtime-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine",
     description:
@@ -191,9 +425,27 @@ export const figurines = {
   "royal-doulton-figurines-blue-beard": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-blue-beard-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Blue Beard",
     description:
@@ -205,9 +457,27 @@ export const figurines = {
   "royal-doulton-figurines-christmas-morn": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-christmas-morn-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Christmas Morn",
     description:
@@ -219,9 +489,27 @@ export const figurines = {
   "royal-doulton-figurines-cissie": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-cissie-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine",
     description:
@@ -233,9 +521,27 @@ export const figurines = {
   "royal-doulton-figurines-darling": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-darling-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Darling",
     description:
@@ -247,9 +553,27 @@ export const figurines = {
   "royal-doulton-figurines-dinky-do": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-dinky-do-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Dinky Do",
     description:
@@ -261,9 +585,27 @@ export const figurines = {
   "royal-doulton-figurines-first-dance": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-first-dance-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine First Dance",
     description:
@@ -275,9 +617,27 @@ export const figurines = {
   "royal-doulton-figurines-forty-winks": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-forty-winks-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Forty Winks",
     description:
@@ -289,9 +649,27 @@ export const figurines = {
   "royal-doulton-figurines-fragrance": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-fragrance-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Fragrance",
     description:
@@ -303,9 +681,27 @@ export const figurines = {
   "royal-doulton-figurines-georgiana": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgiana-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Georgiana",
     description:
@@ -317,9 +713,27 @@ export const figurines = {
   "royal-doulton-figurines-georgina": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-georgina-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Georgina",
     description:
@@ -331,9 +745,27 @@ export const figurines = {
   "royal-doulton-figurines-good-friends": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-good-friends-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Good Friends",
     description:
@@ -345,9 +777,27 @@ export const figurines = {
   "royal-doulton-figurines-jacqueline": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-jacqueline-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Jacqueline",
     description:
@@ -359,9 +809,27 @@ export const figurines = {
   "royal-doulton-figurines-kate": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-kate-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Kate",
     description:
@@ -373,9 +841,27 @@ export const figurines = {
   "royal-doulton-figurines-maureen": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-maureen-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Maureen",
     description:
@@ -387,9 +873,27 @@ export const figurines = {
   "royal-doulton-figurines-monica": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-monica-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Monica",
     description:
@@ -401,9 +905,27 @@ export const figurines = {
   "royal-doulton-figurines-old-meg": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-meg-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Old Meg",
     description:
@@ -415,9 +937,27 @@ export const figurines = {
   "royal-doulton-figurines-old-mother-hubbard": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-old-mother-hubbard-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Old Mother Hubbard",
     description:
@@ -429,9 +969,27 @@ export const figurines = {
   "royal-doulton-figurines-paisly-shawl": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-paisly-shawl-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Paisly Shawl",
     description:
@@ -443,9 +1001,27 @@ export const figurines = {
   "royal-doulton-figurines-peggy": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-peggy-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Peggy",
     description:
@@ -457,9 +1033,27 @@ export const figurines = {
   "royal-doulton-figurines-penny": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-penny-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Penny",
     description:
@@ -471,9 +1065,27 @@ export const figurines = {
   "royal-doulton-figurines-pickwick": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pickwick-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Pickwick",
     description:
@@ -485,9 +1097,27 @@ export const figurines = {
   "royal-doulton-figurines-pretty-polly": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-pretty-polly-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Pretty Polly",
     description:
@@ -499,9 +1129,27 @@ export const figurines = {
   "royal-doulton-figurines-rest-awhile": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-rest-awhile-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Rest Awile",
     description:
@@ -513,9 +1161,27 @@ export const figurines = {
   "royal-doulton-figurines-sara": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-sara-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Sara",
     description:
@@ -527,9 +1193,27 @@ export const figurines = {
   "royal-doulton-figurines-suzette": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-suzette-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Suzette",
     description:
@@ -541,9 +1225,27 @@ export const figurines = {
   "royal-doulton-figurines-thank-you": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-thank-you-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Thank You",
     description:
@@ -555,9 +1257,27 @@ export const figurines = {
   "royal-doulton-figurines-the-balloon-man": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-balloon-man-1.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine The Balloon Man",
     description:
@@ -569,9 +1289,27 @@ export const figurines = {
   "royal-doulton-figurines-the-bedtime-story": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-bedtime-story-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine The Bedtime Story",
     description:
@@ -583,9 +1321,27 @@ export const figurines = {
   "royal-doulton-figurines-the-carpet-seller": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-carpet-seller-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine The Carpet Seller",
     description:
@@ -597,9 +1353,27 @@ export const figurines = {
   "royal-doulton-figurines-the-ermine-coat": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-ermine-coat-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine The Ermine Coat",
     description:
@@ -611,9 +1385,27 @@ export const figurines = {
   "royal-doulton-figurines-the-geisha": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-geisha-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine The Geisha",
     description:
@@ -625,9 +1417,27 @@ export const figurines = {
   "royal-doulton-figurines-the-genie": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-genie-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine",
     description:
@@ -639,9 +1449,27 @@ export const figurines = {
   "royal-doulton-figurines-the-jester": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-jester-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine The Jester",
     description:
@@ -653,8 +1481,20 @@ export const figurines = {
   "royal-doulton-figurines-the-lobster-man": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-lobster-man-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-lobster-man-2.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-lobster-man-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-lobster-man-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-lobster-man-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-lobster-man-2.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Lobster Man",
     description:
@@ -666,9 +1506,27 @@ export const figurines = {
   "royal-doulton-figurines-the-old-balloon-seller": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-old-balloon-seller-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine The Old Balloon Seller",
     description:
@@ -680,9 +1538,27 @@ export const figurines = {
   "royal-doulton-figurines-the-rag-doll-seller": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-the-rag-doll-seller-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine The Rag Doll Seller",
     description:
@@ -694,9 +1570,27 @@ export const figurines = {
   "royal-doulton-figurines-top-o-the-hill": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-top-o-the-hill-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Top O The Hill",
     description:
@@ -708,9 +1602,27 @@ export const figurines = {
   "royal-doulton-figurines-uncle-ned": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-uncle-ned-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Uncle Ned",
     description:
@@ -722,9 +1634,27 @@ export const figurines = {
   "royal-doulton-figurines-vanity": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-vanity-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Vanity",
     description:
@@ -736,9 +1666,27 @@ export const figurines = {
   "royal-doulton-figurines-windflower": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-2.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-windflower-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Windflower",
     description:
@@ -750,9 +1698,27 @@ export const figurines = {
   "royal-doulton-figurines-winsome": {
     category: "royal-doulton-figurines",
     images: [
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-1.jpeg",
-      "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-2.jpeg",
-      "/images/objet-d-art/royal-doulton-figurines/royal-doulton-figurines-winsome-3.jpeg"
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/royal-doulton-figurines/royal-doulton-figurines-winsome-3.jpeg"
+      }
     ],
     productTitle: "Royal Doulton Figurine Winsome",
     description:
@@ -767,9 +1733,27 @@ export const figurines = {
   "animal-figurines-pigs-aynsley": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-pigs-aynsley-3.jpeg"
+      }
     ],
     productTitle: "Group of Aynsley Pig Figurines",
     description:
@@ -781,9 +1765,27 @@ export const figurines = {
   "animal-figurines-green-bird-crown-staffordshire-jt-jones": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-green-bird-crown-staffordshire-jt-jones-3.jpeg"
+      }
     ],
     productTitle: "Green Bird Figurine by Jack Jones for Crown Staffordshire",
     description:
@@ -795,9 +1797,27 @@ export const figurines = {
   "animal-figurines-yellow-bird-crown-staffordshire-jt-jones": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-yellow-bird-crown-staffordshire-jt-jones-3.jpeg"
+      }
     ],
     productTitle: "Yellow Bird Figurine by Jack Jones for Crown Staffordshire",
     description:
@@ -809,9 +1829,27 @@ export const figurines = {
   "animal-figurines-yorkshire-terrier-beswick": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-yorkshire-terrier-beswick-3.jpeg"
+      }
     ],
     productTitle: "Large Beswick Figurine of a Yorkshire Terrier",
     description:
@@ -823,9 +1861,27 @@ export const figurines = {
   "animal-figurines-kingfisher-weller": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-kingfisher-weller-3.jpeg"
+      }
     ],
     productTitle: "Rare Kingfisher Figurine by Weller c. 1920s",
     description:
@@ -837,9 +1893,27 @@ export const figurines = {
   "animal-figurines-parrot-beswick": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-parrot-beswick-3.jpeg"
+      }
     ],
     productTitle: "Beswick Parrot Figurine",
     description:
@@ -851,9 +1925,27 @@ export const figurines = {
   "animal-figurines-horse-light-brown-beswick": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-horse-light-brown-beswick-3.jpeg"
+      }
     ],
     productTitle: "Light Brown Beswick Horse Figurine",
     description:
@@ -865,9 +1957,27 @@ export const figurines = {
   "animal-figurines-farm-animals-lorenz-hutschenreuther": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-farm-animals-lorenz-hutschenreuther-3.jpeg"
+      }
     ],
     productTitle: "",
     description: "",
@@ -878,9 +1988,27 @@ export const figurines = {
   "animal-figurines-collie-royal-doulton": {
     category: "animal-figurines",
     images: [
-      "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-3.jpeg"
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-1.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-1.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-2.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-2.jpeg"
+      },
+      {
+        original:
+          "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-3.jpeg",
+
+        thumbnail:
+          "/images/figurines/animal-figurines/animal-figurines-collie-royal-doulton-3.jpeg"
+      }
     ],
     productTitle: "",
     description: "",
@@ -888,91 +2016,4 @@ export const figurines = {
     price: ""
     // productId: "animal-figurines-collie-royal-doulton"
   },
-  "animal-figurines-fox-royal-crown-derby": {
-    category: "animal-figurines",
-    images: [
-      "/images/figurines/animal-figurines/animal-figurines-fox-royal-crown-derby-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-fox-royal-crown-derby-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-fox-royal-crown-derby-3.jpeg"
-    ],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: "animal-figurines-fox-royal-crown-derby"
-  },
-  "animal-figurines-dog-basket-royal-doulton": {
-    category: "animal-figurines",
-    images: [
-      "/images/figurines/animal-figurines/animal-figurines-dog-basket-royal-doulton-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-dog-basket-royal-doulton-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-dog-basket-royal-doulton-3.jpeg"
-    ],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: "animal-figurines-dog-basket-royal-doulton"
-  },
-  "animal-figurines-dogs-royal-doulton": {
-    category: "animal-figurines",
-    images: [
-      "/images/figurines/animal-figurines/animal-figurines-dogs-royal-doulton-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-dogs-royal-doulton-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-dogs-royal-doulton-3.jpeg"
-    ],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: "animal-figurines-dogs-royal-doulton"
-  },
-  "animal-figurines-puppy-ball-royal-doulton": {
-    category: "animal-figurines",
-    images: [
-      "/images/figurines/animal-figurines/animal-figurines-puppy-ball-royal-doulton-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-puppy-ball-royal-doulton-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-puppy-ball-royal-doulton-3.jpeg"
-    ],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: "animal-figurines-puppy-ball-royal-doulton"
-  },
-  "animal-figurines-cat-beswick": {
-    category: "animal-figurines",
-    images: [
-      "/images/figurines/animal-figurines/animal-figurines-cat-beswick-1.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-cat-beswick-2.jpeg",
-      "/images/figurines/animal-figurines/animal-figurines-cat-beswick-3.jpeg"
-    ],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: "animal-figurines-cat-beswick"
-  },
-  "animal-figurines-blue-bird-beswick": {
-    category: "animal-figurines",
-    images: [
-      "/images/figurines/animal-figurines/animal-figurines-blue-bird-beswick-1.jpeg"
-    ],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: "animal-figurines-blue-bird-beswick"
-  },
-  "animal-figurines-bird-royal-crown-derby": {
-    category: "animal-figurines",
-    images: [
-      "/images/figurines/animal-figurines/animal-figurines-bird-royal-crown-derby-1.jpeg"
-    ],
-    productTitle: "",
-    description: "",
-    dimensions: "",
-    price: ""
-    // productId: "animal-figurines-bird-royal-crown-derby"
-  }
 };

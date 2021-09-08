@@ -20,7 +20,7 @@ export const ProductCategory = ({ title, breadcrumbs, categoryProducts }) => {
         <Base tag="h6" className="breadcrumbs-text">
           <Breadcrumb breadcrumbItems={breadcrumbs} />
         </Base>
-        <Base tag="h6" className="sorting-filtering-text">Sorting and Filtering</Base>
+        {/*<Base tag="h6" className="sorting-filtering-text">Sorting and Filtering</Base>*/}
       </Split>
       <Base tag="h2" className="product-section-title">{title}</Base>
       <Row mt={2}>

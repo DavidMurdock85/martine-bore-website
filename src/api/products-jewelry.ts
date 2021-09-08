@@ -6,9 +6,21 @@ export const jewelry = {
   "rings-cocktail-gold-diamonds": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-cocktail-gold-diamonds-1.jpeg",
-      "/images/jewelry/rings/rings-cocktail-gold-diamonds-2.jpeg",
-      "/images/jewelry/rings/rings-cocktail-gold-diamonds-3.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-cocktail-gold-diamonds-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-cocktail-gold-diamonds-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-cocktail-gold-diamonds-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/rings/rings-cocktail-gold-diamonds-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-cocktail-gold-diamonds-3.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-cocktail-gold-diamonds-3.jpeg"
+      }
     ],
     productTitle: "Diamond Ribbon Cocktail Ring",
     description:
@@ -20,8 +32,16 @@ export const jewelry = {
   "rings-emerald-diamonds-oval-cabochon-art-deco": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-emerald-diamonds-oval-cabochon-art-deco-1.jpeg",
-      "/images/jewelry/rings/rings-emerald-diamonds-oval-cabochon-art-deco-2.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-emerald-diamonds-oval-cabochon-art-deco-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-emerald-diamonds-oval-cabochon-art-deco-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-emerald-diamonds-oval-cabochon-art-deco-2.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-emerald-diamonds-oval-cabochon-art-deco-2.jpeg"
+      }
     ],
     productTitle: "Art Deco Emerald Cabochon Ring c. 1930s",
     description:
@@ -33,9 +53,21 @@ export const jewelry = {
   "rings-emerald-square-victorian": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-emerald-square-victorian-1.jpeg",
-      "/images/jewelry/rings/rings-emerald-square-victorian-2.jpeg",
-      "/images/jewelry/rings/rings-emerald-square-victorian-3.jpeg"
+      {
+        original: "/images/jewelry/rings/rings-emerald-square-victorian-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/rings/rings-emerald-square-victorian-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/rings/rings-emerald-square-victorian-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-emerald-square-victorian-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/rings/rings-emerald-square-victorian-3.jpeg",
+          
+        thumbnail: "/images/jewelry/rings/rings-emerald-square-victorian-3.jpeg"
+      }
     ],
     productTitle: "Victorian Era Emerald Diamond Coctail Ring",
     description:
@@ -47,9 +79,21 @@ export const jewelry = {
   "rings-emerald-diamonds-heart-georgian-era": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-1.jpeg",
-      "/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-2.jpeg",
-      "/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-3.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-3.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-emerald-diamonds-heart-georgian-era-3.jpeg"
+      }
     ],
     productTitle: "Georgian Era Emerald Diamond Coctail Ring",
     description:
@@ -61,9 +105,21 @@ export const jewelry = {
   "rings-cocktail-gold-diamond-cluster": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-1.jpeg",
-      "/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-2.jpeg",
-      "/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-3.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-3.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-cocktail-gold-diamond-cluster-3.jpeg"
+      }
     ],
     productTitle: "Diamond Cluster Cocktail Ring c. 1970s",
     description: "A 14kt gold and diamond cluster cocktail ring  c. 1970s",
@@ -74,9 +130,21 @@ export const jewelry = {
   "rings-cocktail-emerald-diamond": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-cocktail-emerald-diamond-1.jpeg",
-      "/images/jewelry/rings/rings-cocktail-emerald-diamond-2.jpeg",
-      "/images/jewelry/rings/rings-cocktail-emerald-diamond-3.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-cocktail-emerald-diamond-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-cocktail-emerald-diamond-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-cocktail-emerald-diamond-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/rings/rings-cocktail-emerald-diamond-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-cocktail-emerald-diamond-3.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-cocktail-emerald-diamond-3.jpeg"
+      }
     ],
     productTitle: "Emerald Diamond Cocktail Ring c. 1980s",
     description: "A large emerald and diamond cocktail ring c. 1980s",
@@ -87,9 +155,21 @@ export const jewelry = {
   "rings-amethyst-diamond-brutalist": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-amethyst-diamond-brutalist-1.jpeg",
-      "/images/jewelry/rings/rings-amethyst-diamond-brutalist-2.jpeg",
-      "/images/jewelry/rings/rings-amethyst-diamond-brutalist-3.jpeg"
+      {
+        original: "/images/jewelry/rings/rings-amethyst-diamond-brutalist-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/rings/rings-amethyst-diamond-brutalist-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/rings/rings-amethyst-diamond-brutalist-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-amethyst-diamond-brutalist-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/rings/rings-amethyst-diamond-brutalist-3.jpeg",
+          
+        thumbnail: "/images/jewelry/rings/rings-amethyst-diamond-brutalist-3.jpeg"
+      }
     ],
     productTitle:
       "Brutalist Emerald Cut Amethyst and Diamond Sculptural Ring c. 1970s",
@@ -102,9 +182,21 @@ export const jewelry = {
   "rings-cocktail-sapphire-art-deco": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-cocktail-sapphire-art-deco-1.jpeg",
-      "/images/jewelry/rings/rings-cocktail-sapphire-art-deco-2.jpeg",
-      "/images/jewelry/rings/rings-cocktail-sapphire-art-deco-3.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-cocktail-sapphire-art-deco-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-cocktail-sapphire-art-deco-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-cocktail-sapphire-art-deco-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/rings/rings-cocktail-sapphire-art-deco-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-cocktail-sapphire-art-deco-3.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-cocktail-sapphire-art-deco-3.jpeg"
+      }
     ],
     productTitle: "Art Deco Sapphire and Diamond Cocktail Ring",
     description:
@@ -116,9 +208,21 @@ export const jewelry = {
   "rings-jade-oval": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-jade-oval-1.jpeg",
-      "/images/jewelry/rings/rings-jade-oval-2.jpeg",
-      "/images/jewelry/rings/rings-jade-oval-3.jpeg"
+      {
+        original: "/images/jewelry/rings/rings-jade-oval-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/rings/rings-jade-oval-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/rings/rings-jade-oval-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-jade-oval-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/rings/rings-jade-oval-3.jpeg",
+          
+        thumbnail: "/images/jewelry/rings/rings-jade-oval-3.jpeg"
+      }
     ],
     productTitle: "Oval Burmese Jade Cabochon Ring",
     description:
@@ -130,9 +234,21 @@ export const jewelry = {
   "rings-amethyst-diamond-gold-brutalist": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-1.jpeg",
-      "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-2.jpeg",
-      "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-3.jpeg"
+      {
+        original: "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-3.jpeg",
+          
+        thumbnail: "/images/jewelry/rings/rings-amethyst-diamond-gold-brutalist-3.jpeg"
+      }
     ],
     productTitle: "",
     description:
@@ -144,9 +260,21 @@ export const jewelry = {
   "rings-emerald-diamond-brutalist": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-emerald-diamond-brutalist-1.jpeg",
-      "/images/jewelry/rings/rings-emerald-diamond-brutalist-2.jpeg",
-      "/images/jewelry/rings/rings-emerald-diamond-brutalist-3.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-emerald-diamond-brutalist-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-emerald-diamond-brutalist-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-emerald-diamond-brutalist-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/rings/rings-emerald-diamond-brutalist-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-emerald-diamond-brutalist-3.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-emerald-diamond-brutalist-3.jpeg"
+      }
     ],
     productTitle: "Brutalist Sculptural Emerald and Diamond Ring",
     description:
@@ -158,9 +286,21 @@ export const jewelry = {
   "rings-amethyst-diamond-snake": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-amethyst-diamond-snake-1.jpeg",
-      "/images/jewelry/rings/rings-amethyst-diamond-snake-2.jpeg",
-      "/images/jewelry/rings/rings-amethyst-diamond-snake-3.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-amethyst-diamond-snake-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-amethyst-diamond-snake-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-amethyst-diamond-snake-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/rings/rings-amethyst-diamond-snake-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-amethyst-diamond-snake-3.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-amethyst-diamond-snake-3.jpeg"
+      }
     ],
     productTitle: "Amethyst Diamond 18kt White Gold Ring c. 1980s",
     description:
@@ -172,9 +312,21 @@ export const jewelry = {
   "rings-wedding-diamond-cluster": {
     category: "rings",
     images: [
-      "/images/jewelry/rings/rings-wedding-diamond-cluster-1.jpeg",
-      "/images/jewelry/rings/rings-wedding-diamond-cluster-2.jpeg",
-      "/images/jewelry/rings/rings-wedding-diamond-cluster-3.jpeg"
+      {
+        original:"/images/jewelry/rings/rings-wedding-diamond-cluster-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/rings/rings-wedding-diamond-cluster-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-wedding-diamond-cluster-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/rings/rings-wedding-diamond-cluster-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/rings/rings-wedding-diamond-cluster-3.jpeg",
+          
+        thumbnail:"/images/jewelry/rings/rings-wedding-diamond-cluster-3.jpeg"
+      }
     ],
     productTitle: "Diamond Cluster Wedding Ring",
     description:
@@ -189,9 +341,21 @@ export const jewelry = {
   "bracelets-pearls-ruby": {
     category: "bracelets",
     images: [
-      "/images/jewelry/bracelets/bracelets-pearls-ruby-1.jpeg",
-      "/images/jewelry/bracelets/bracelets-pearls-ruby-2.jpeg",
-      "/images/jewelry/bracelets/bracelets-pearls-ruby-3.jpeg"
+      {
+        original: "/images/jewelry/bracelets/bracelets-pearls-ruby-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/bracelets/bracelets-pearls-ruby-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/bracelets/bracelets-pearls-ruby-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/bracelets/bracelets-pearls-ruby-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/bracelets/bracelets-pearls-ruby-3.jpeg",
+          
+        thumbnail: "/images/jewelry/bracelets/bracelets-pearls-ruby-3.jpeg"
+      }
     ],
     productTitle: "Pearl and Ruby Multi Strand Bracelet",
     description:
@@ -203,9 +367,21 @@ export const jewelry = {
   "bracelets-diamonds-gold-hinged-bangle": {
     category: "bracelets",
     images: [
-      "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-1.jpeg",
-      "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-2.jpeg",
-      "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-3.jpeg"
+      {
+        original: "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-3.jpeg",
+          
+        thumbnail: "/images/jewelry/bracelets/bracelets-diamonds-gold-hinged-bangle-3.jpeg"
+      }
     ],
     productTitle: "Diamond and Gold 14kt Hinged Bangle c. 1950s",
     description:
@@ -219,9 +395,21 @@ export const jewelry = {
   "bracelets-gold-amethyst-edwardian": {
     category: "bracelets",
     images: [
-      "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-1.jpeg",
-      "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-2.jpeg",
-      "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-3.jpeg"
+      {
+        original: "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-1.jpeg",
+          
+        thumbnail: "/images/jewelry/bracelets/bracelets-gold-amethyst-edwardian-1.jpeg"
+      }
     ],
     productTitle: "Edwardian 9 Carat Amethyst Gold Link Bracelet",
     description: "9ct Gold and Amethyst Link Bracelet, Edwardian Period, Early 20th Century",
@@ -234,9 +422,21 @@ export const jewelry = {
   "bracelets-heart-chain-gold-victorian": {
     category: "bracelets",
     images: [
-      "/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-1.jpeg",
-      "/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-2.jpeg",
-      "/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-3.jpeg"
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-3.jpeg",
+          
+        thumbnail:"/images/jewelry/bracelets/bracelets-heart-chain-gold-victorian-3.jpeg"
+      }
     ],
     productTitle: "Victorian Era 9 Carat Gold Heart Link Bracelet",
     description:
@@ -248,9 +448,21 @@ export const jewelry = {
   "bracelets-heart-chain-clasp-gold-victorian": {
     category: "bracelets",
     images: [
-      "/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-1.jpeg",
-      "/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-2.jpeg",
-      "/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-3.jpeg"
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-3.jpeg",
+          
+        thumbnail:"/images/jewelry/bracelets/bracelets-heart-chain-clasp-gold-victorian-3.jpeg"
+      }
     ],
     productTitle: "Victorian Era 9 Carat Gold Heart Chain Link Bracelet",
     description:
@@ -262,9 +474,21 @@ export const jewelry = {
   "bracelets-heart-gold-victorian": {
     category: "bracelets",
     images: [
-      "/images/jewelry/bracelets/bracelets-heart-gold-victorian-1.jpeg",
-      "/images/jewelry/bracelets/bracelets-heart-gold-victorian-2.jpeg",
-      "/images/jewelry/bracelets/bracelets-heart-gold-victorian-3.jpeg"
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-gold-victorian-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/bracelets/bracelets-heart-gold-victorian-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-gold-victorian-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/bracelets/bracelets-heart-gold-victorian-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/bracelets/bracelets-heart-gold-victorian-3.jpeg",
+          
+        thumbnail:"/images/jewelry/bracelets/bracelets-heart-gold-victorian-3.jpeg"
+      }
     ],
     productTitle: "Victorian Era 9ct Gold Heart Locket Bracelet",
     description:
@@ -281,8 +505,21 @@ export const jewelry = {
   "": {
     category: "earrings",
     images: [
-      "/images/earrings/earrings-emerald-diamond-loop-front.jpg",
-      "/images/earrings/earrings-emerald-diamond-loop-back.jpg"
+      {
+        original:
+          
+        thumbnail:    
+      },
+      {
+        original:
+          
+        thumbnail:   
+      },
+      {
+        original:
+          
+        thumbnail:
+      }
     ],
     productTitle: "",
     description: "unknown",
@@ -293,8 +530,21 @@ export const jewelry = {
   "": {
     category: "earrings",
     images: [
-      "/images/earrings/earrings-emerald-diamond-flower-front.jpg",
-      "/images/earrings/earrings-emerald-diamond-flower-back.jpg"
+      {
+        original:
+          
+        thumbnail:    
+      },
+      {
+        original:
+          
+        thumbnail:   
+      },
+      {
+        original:
+          
+        thumbnail:
+      }
     ],
     productTitle: "",
     description: "unknown",
@@ -305,18 +555,22 @@ export const jewelry = {
   "": {
     category: "earrings",
     images: [
-      "/images/earrings/earrings-emerald-diamond-rectangle-front.jpg",
-      "/images/earrings/earrings-emerald-diamond-rectangle-back.jpg"
+      {
+        original:
+          
+        thumbnail:    
+      },
+      {
+        original:
+          
+        thumbnail:   
+      },
+      {
+        original:
+          
+        thumbnail:
+      }
     ],
-    productTitle: "",
-    description: "unknown",
-    dimensions: "unknown",
-    price: "unknown"
-    //productId: ""
-  },
-  "": {
-    category: "earrings",
-    images: ["", ""],
     productTitle: "",
     description: "unknown",
     dimensions: "unknown",
@@ -330,9 +584,21 @@ export const jewelry = {
   "necklaces-emerald-diamond-floral": {
     category: "necklaces",
     images: [
-      "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-1.jpeg",
-      "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-2.jpeg",
-      "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-3.jpeg"
+      {
+        original: "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-3.jpeg",
+          
+        thumbnail: "/images/jewelry/necklaces/necklaces-emerald-diamond-floral-3.jpeg"
+      }
     ],
     productTitle: "Emerald and Diamond Necklace 18k Gold",
     description:
@@ -344,9 +610,21 @@ export const jewelry = {
   "necklaces-jade-bead-gold": {
     category: "necklaces",
     images: [
-      "/images/jewelry/necklaces/necklaces-jade-bead-gold-1.jpeg",
-      "/images/jewelry/necklaces/necklaces-jade-bead-gold-2.jpeg",
-      "/images/jewelry/necklaces/necklaces-jade-bead-gold-3.jpeg"
+      {
+        original:"/images/jewelry/necklaces/necklaces-jade-bead-gold-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/necklaces/necklaces-jade-bead-gold-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/necklaces/necklaces-jade-bead-gold-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/necklaces/necklaces-jade-bead-gold-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/necklaces/necklaces-jade-bead-gold-3.jpeg",
+          
+        thumbnail:"/images/jewelry/necklaces/necklaces-jade-bead-gold-3.jpeg"
+      }
     ],
     productTitle: "Jade Bead and Gold Necklace",
     description: "A beaded Burmese jade and gold necklace, Mid 20th Century.",
@@ -357,9 +635,21 @@ export const jewelry = {
   "necklaces-linked-chain-gold": {
     category: "necklaces",
     images: [
-      "/images/jewelry/necklaces/necklaces-linked-chain-gold-1.jpeg",
-      "/images/jewelry/necklaces/necklaces-linked-chain-gold-2.jpeg",
-      "/images/jewelry/necklaces/necklaces-linked-chain-gold-3.jpeg"
+      {
+        original:"/images/jewelry/necklaces/necklaces-linked-chain-gold-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/necklaces/necklaces-linked-chain-gold-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/necklaces/necklaces-linked-chain-gold-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/necklaces/necklaces-linked-chain-gold-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/necklaces/necklaces-linked-chain-gold-3.jpeg",
+          
+        thumbnail:"/images/jewelry/necklaces/necklaces-linked-chain-gold-3.jpeg"
+      }
     ],
     productTitle: "10 Carat Gold Chain Link Necklace",
     description: "A chain link 10kt gold necklace, Mid 20th Century",
@@ -370,9 +660,21 @@ export const jewelry = {
   "necklaces-sapphire-emerald-peacock-faberge": {
     category: "necklaces",
     images: [
-      "/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-1.jpg",
-      "/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-2.jpg",
-      "/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-3.jpg"
+      {
+        original:"/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-1.jpg",
+          
+        thumbnail:   "/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-1.jpg"
+      },
+      {
+        original:"/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-2.jpg",
+          
+        thumbnail:   "/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-2.jpg"
+      },
+      {
+        original:"/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-3.jpg",
+          
+        thumbnail:"/images/jewelry/necklaces/necklaces-sapphire-emerald-peacock-faberge-3.jpg"
+      }
     ],
     productTitle: "Faberge Sapphire and Emerald Peckock Necklace",
     description:
@@ -387,9 +689,21 @@ export const jewelry = {
   "brooches-lion-emerald-ruby-hammerman": {
     category: "brooches",
     images: [
-      "/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-1.jpeg",
-      "/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-2.jpeg",
-      "/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-3.jpeg"
+      {
+        original:"/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-3.jpeg",
+          
+        thumbnail:"/images/jewelry/brooches/brooches-lion-emerald-ruby-hammerman-3.jpeg"
+      }
     ],
     productTitle: "Diamond Emerald Lion Brooch by Hammerman Brothers c. 1960s",
     description:
@@ -401,9 +715,21 @@ export const jewelry = {
   "brooches-citrine-rubys-pearls-edwardian": {
     category: "brooches",
     images: [
-      "/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-1.jpeg",
-      "/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-2.jpeg",
-      "/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-3.jpeg"
+      {
+        original:"/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-3.jpeg",
+          
+        thumbnail:"/images/jewelry/brooches/brooches-citrine-rubys-pearls-edwardian-3.jpeg"
+      }
     ],
     productTitle: "Edwardian Citrine and Pearl Brooch",
     description:
@@ -415,8 +741,16 @@ export const jewelry = {
   "brooches-ribbon-pearls": {
     category: "brooches",
     images: [
-      "/images/jewelry/brooches/brooches-ribbon-pearls-1.jpeg",
-      "/images/jewelry/brooches/brooches-ribbon-pearls-2.jpeg"
+      {
+        original:"/images/jewelry/brooches/brooches-ribbon-pearls-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/brooches/brooches-ribbon-pearls-1.jpeg",
+      },
+      {
+        original:"/images/jewelry/brooches/brooches-ribbon-pearls-2.jpeg",
+          
+        thumbnail:"/images/jewelry/brooches/brooches-ribbon-pearls-2.jpeg",
+      }
     ],
     productTitle: "Gold and Pearl Ribbon Brooch",
     description:
@@ -428,9 +762,21 @@ export const jewelry = {
   "brooches-tree-pearls": {
     category: "brooches",
     images: [
-      "/images/jewelry/brooches/brooches-tree-pearls-1.jpeg",
-      "/images/jewelry/brooches/brooches-tree-pearls-2.jpeg",
-      "/images/jewelry/brooches/brooches-tree-pearls-3.jpeg"
+      {
+        original:"/images/jewelry/brooches/brooches-tree-pearls-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/brooches/brooches-tree-pearls-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/brooches/brooches-tree-pearls-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/brooches/brooches-tree-pearls-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/brooches/brooches-tree-pearls-3.jpeg",
+          
+        thumbnail:"/images/jewelry/brooches/brooches-tree-pearls-3.jpeg"
+      }
     ],
     productTitle: "",
     description: "Gold tree brooch set with 7 pearls c. 1970s",
@@ -444,9 +790,21 @@ export const jewelry = {
   "silver-jewelry-bangle-tiffany": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-3.jpeg"
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-1.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-3.jpeg",
+          
+        thumbnail:"/images/jewelry/silver-jewelry/silver-jewelry-bangle-tiffany-3.jpeg"
+      }
     ],
     productTitle: "Modernist Tiffany Sterling Bangle c. 1980s",
     description:
@@ -458,9 +816,21 @@ export const jewelry = {
   "silver-jewelry-necklace-amber-poland": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-3.jpeg"
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-1.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-3.jpeg",
+          
+        thumbnail:"/images/jewelry/silver-jewelry/silver-jewelry-necklace-amber-poland-3.jpeg"
+      }
     ],
     productTitle: "Polish Modern Sterling Amber Necklace c. 1970s",
     description:
@@ -472,9 +842,21 @@ export const jewelry = {
   "silver-jewelry-necklace-modernist-choker": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-3.jpeg"
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-3.jpeg",
+          
+        thumbnail:"/images/jewelry/silver-jewelry/silver-jewelry-necklace-modernist-choker-3.jpeg"
+      }
     ],
     productTitle: "Modernist Sterling Choker Necklace c. 1980s",
     description:
@@ -486,9 +868,21 @@ export const jewelry = {
   "silver-bracelet-turquoise-southwest": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-3.jpeg"
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-3.jpeg",
+          
+        thumbnail: "/images/jewelry/silver-jewelry/silver-bracelet-turquoise-southwest-3.jpeg"
+      }
     ],
     productTitle: "Navajo Silver and Turquoise Bangle c. 1980s",
     description:
@@ -500,9 +894,21 @@ export const jewelry = {
   "silver-turquoise-coral-bangle-southwest": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-3.jpeg"
+      {
+        original:"/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-3.jpeg",
+          
+        thumbnail:"/images/jewelry/silver-jewelry/silver-turquoise-coral-bangle-southwest-3.jpeg"
+      }
     ],
     productTitle: "Southwestern Silver Turquoise and Coral Bangle c. 1980s",
     description:
@@ -514,9 +920,21 @@ export const jewelry = {
   "silver-necklace-pendant-turquiose-orlando-crespin": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-3.jpeg"
+      {
+        original:"/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-3.jpeg",
+          
+        thumbnail:"/images/jewelry/silver-jewelry/silver-necklace-pendant-turquiose-orlando-crespin-3.jpeg"
+      }
     ],
     productTitle:
       "Navajo Silver Inlaid Turquoise Pendant Necklace by Orlando Crespin c. 1980s",
@@ -529,9 +947,21 @@ export const jewelry = {
   "silver-necklace-turquiose-beads": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-3.jpeg"
+      {
+        original:"/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-3.jpeg",
+          
+        thumbnail:"/images/jewelry/silver-jewelry/silver-necklace-turquiose-beads-3.jpeg"
+      }
     ],
     productTitle: "Navajo Silver and Turquoise Bead Necklace",
     description: "A silver and turquoise bead necklace, Mid 20th Century",
@@ -542,9 +972,21 @@ export const jewelry = {
   "silver-bracelet-northwest-native": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-3.jpeg"
+      {
+        original:"/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-1.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-2.jpeg"
+      },
+      {
+        original:"/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-3.jpeg",
+          
+        thumbnail:"/images/jewelry/silver-jewelry/silver-bracelet-northwest-native-3.jpeg"
+      }
     ],
     productTitle: "Northwest Coast Native Sterling Bangle",
     description:
@@ -556,9 +998,21 @@ export const jewelry = {
   "silver-bracelet-mexican": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-bracelet-mexican-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-bracelet-mexican-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-bracelet-mexican-3.jpeg"
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-mexican-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/silver-jewelry/silver-bracelet-mexican-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-mexican-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-bracelet-mexican-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-mexican-3.jpeg",
+          
+        thumbnail: "/images/jewelry/silver-jewelry/silver-bracelet-mexican-3.jpeg"
+      }
     ],
     productTitle: "Mexican Silver Linked Bracelet c. 1950s",
     description:
@@ -570,9 +1024,21 @@ export const jewelry = {
   "silver-bracelet-birks": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-bracelet-birks-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-bracelet-birks-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-bracelet-birks-3.jpeg"
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-birks-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/silver-jewelry/silver-bracelet-birks-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-birks-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-bracelet-birks-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-bracelet-birks-3.jpeg",
+          
+        thumbnail: "/images/jewelry/silver-jewelry/silver-bracelet-birks-3.jpeg"
+      }
     ],
     productTitle: "Silver Linked Bracelet by Birks",
     description:
@@ -584,9 +1050,21 @@ export const jewelry = {
   "silver-necklace-semi-precious-yellow": {
     category: "silver-jewelry",
     images: [
-      "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-1.jpeg",
-      "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-2.jpeg",
-      "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-3.jpeg"
+      {
+        original: "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-1.jpeg",
+          
+        thumbnail:     "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-2.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-3.jpeg",
+          
+        thumbnail: "/images/jewelry/silver-jewelry/silver-necklace-semi-precious-yellow-3.jpeg"
+      }
     ],
     productTitle: "Silver and Lemon Quartz Pendant Necklace",
     description:
@@ -597,7 +1075,23 @@ export const jewelry = {
   },
   "silver-necklace-brutalist": {
     category: "silver-jewelry",
-    images: ["/images/jewelry/silver-jewelry/silver-necklace-brutalist-1.jpeg"],
+    images: [
+      {
+        original: "/images/jewelry/silver-jewelry/silver-necklace-brutalist-1.jpeg",
+          
+        thumbnail:    "/images/jewelry/silver-jewelry/silver-necklace-brutalist-1.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-necklace-brutalist-2.jpeg",
+          
+        thumbnail:   "/images/jewelry/silver-jewelry/silver-necklace-brutalist-2.jpeg"
+      },
+      {
+        original: "/images/jewelry/silver-jewelry/silver-necklace-brutalist-3.jpeg",
+          
+        thumbnail: "/images/jewelry/silver-jewelry/silver-necklace-brutalist-3.jpeg"
+      }
+    ],
     productTitle:
       "Brutalist Modern Silver Sculptural Linked Necklace c. 1960s ",
     description:

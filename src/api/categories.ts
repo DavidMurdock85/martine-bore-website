@@ -10,7 +10,6 @@ export const categories = {
     ],
     list: [
       "art-nouveau-candelabra-tiffany-studios",
-      "bronze-statue-girl-holding-a-dove-after-falconet",
       "paintings-belgian-alex-de-andreis",
       "victorian-gilt-bronze-carnelian-watch-fob",
       "paintings-english-jose-weiss-victorian",
@@ -29,10 +28,14 @@ export const categories = {
       { url: "/categories/paintings", name: "Paintings" }
     ],
     list: [
-      "paintings-english-harold-goldthwait-near-pateham-sussex",
-      "paintings-portrait-victorian-english-laslett-john-pott",
+      "paintings-seascape-french--impressionist-alfred-victor-fournier",
+      "paintings-archangel-michael-spanish-colonial",
+      "paintings-seascape-dutch-post-impressionist",
       "paintings-landscape-impressionist-fairlie-harmar",
+      "paintings-pastoral-landscape-dutch-hague-school-barbizon",
+      "paintings-landscape-winter-english-john-charles-moody",
       "paintings-portrait-regency-period",
+      "paintings-english-harold-goldthwait-near-pateham-sussex",
       "paintings-english-harold-goldthwait"
     ]
   },
@@ -90,8 +93,6 @@ export const categories = {
       { url: "/categories/miniatures", name: "Miniatures" }
     ],
     list: [
-      "miniatures-portrait-dog-french-empire",
-      "miniatures-portrait-napolean-french-empire",
       "miniatures-portrait-girls-edwardian",
       "miniatures-portrait-lady-cartier-victorian",
       "miniatures-portrait-woman-oval-frame-edwardian",
@@ -115,12 +116,9 @@ export const categories = {
     list: [
       "sculpture-bronze-cherub-after-jean-baptiste-pigalle",
       "sculpture-marble-italian-venus-after-canova",
-      "sculpture-bronze-cherubs-french-empire",
       "sculpture-bronze-french-greyhound-by-pierre-jules-mene",
       "sculpture-bronze-boy-by-george-omerth",
       "sculpture-bronze-lion-john-mayne-van-der-kemp",
-      "sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire",
-      "sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire",
       "sculpture-bronze-maiden",
       "sculpture-bronze-children-after-moreau"
     ]
@@ -157,10 +155,8 @@ export const categories = {
       "porcelain-cabinet-plates-royal-vienna",
       "porcelain-box-herend-red",
       "porcelain-cache-pot-herend-rothschild",
-      "porcelain-vase-paris-grey-floral",
       "porcelain-bud-vase-herend-rothschild",
-      "porcelain-vase-portrait-royal-bonn-pink",
-      "porcelain-sevres-cachepot-blue"
+      "porcelain-vase-portrait-royal-bonn-pink"
     ]
   },
 
@@ -175,7 +171,6 @@ export const categories = {
     ],
     list: [
       "clocks-mantle-planchon-au-royal-french-empire",
-      "clocks-leroy-fils-french-empire",
       "clocks-ad-mougin-french-empire",
       "clocks-putti-french-empire",
       "clocks-french-gilded-sky-blue",
@@ -201,91 +196,32 @@ export const categories = {
     ]
   },
 
-  // Decorative Arts - Moorcroft
-
-  moorcroft: {
-    route: "moorcroft",
-    title: "Moorcroft",
-    breadcrumbs: [
-      { url: "/", name: "Home" },
-      { url: "/categories/moorcroft", name: "Moorcroft" }
-    ],
-    list: [
-      "moorcroft-vase-yellow-hibicus",
-      "moorcroft-vase-cornflower",
-      "moorcroft-vase-orchid",
-      "moorcroft-vase-pansy",
-      "moorcroft-vase-flambe-large",
-      "moorcroft-vase-pomegranate-small",
-      "moorcroft-vase-pomegranate",
-      "moorcroft-centerpiece-pomegranate-small",
-      "moorcroft-candlestick-pomegranate-small",
-      "moorcroft-vase-poppy-large",
-      "moorcroft-bowl-yacht",
-      "moorcroft-vase-plums-small",
-      "moorcroft-vase-powder-blue-floral",
-      "moorcroft-covered-box-pomegranate",
-      "moorcroft-vase-orchid-trumpet",
-      "moorcroft-vase-pomegranate-medium",
-      "moorcroft-william-biscut-barrel-florianware",
-      "moorcroft-macintyre-william-florainware-white",
-      "moorcroft-candlesticks-hibiscus",
-      "moorcroft-lamps-hibiscus-green"
-    ]
-  },
-
-  // Decorative Arts - Lalique
-
-  lalique: {
-    route: "lalique",
-    title: "Lalique",
-    breadcrumbs: [
-      { url: "/", name: "Home" },
-      { url: "/categories/lalique", name: "Lalique" }
-    ],
-    list: [
-      "lalique-vase-art-deco",
-      "lalique-vase-gui-art-deco",
-      "lalique-bowl-nemours",
-      "lalique-bowl-pinsons",
-      "lalique-vase-bacchantes",
-      "lalique-bowl-roscoff",
-      "lalique-statue-deux-danseuse",
-      "lalique-bowl-hiboux",
-      "lalique-bowl-art-deco-opaline",
-      "lalique-plate-pissenlit",
-      "lalique-statue-bull",
-      "lalique-plate-ondes",
-      "lalique-vase-bluets-art-deco",
-      "lalique-bowl-nogent",
-      "lalique-statue-dragons",
-      "lalique-centerpiece-bowl",
-      "lalique-vase-vichy-art-deco",
-      "lalique-statue-lion",
-      "lalique-statue-cat",
-      "lalique-bookends-luxembourg",
-      "lalique-vase-biches-black"
-    ]
-  },
-
-  "clarice-cliff": {
-    route: "clarice-cliff",
-    title: "Clarice Cliff",
-    breadcrumbs: [
-      { url: "/", name: "Home" },
-      { url: "/categories/clarice-cliff", name: "Clarice Cliff" }
-    ],
-    list: [
-      "clarice-cliff-creamer-art-deco",
-      "clarice-cliff-pitcher-parrots-art-deco",
-      "clarice-cliff-vase-floral-art-deco",
-      "clarice-cliff-vase-parrots-art-deco"
-    ]
-  },
-
   // Art by Period Routes
 
   // Art by Period - Georgian
+
+  // Art by Period - French Empire
+
+  "french-empire": {
+    route: "french-empire",
+    title: "French Empire",
+    breadcrumbs: [
+      { url: "/", name: "Home" },
+      { url: "/categories/french-empire", name: "French Empire" }
+    ],
+    list: [
+      "miniatures-portrait-napolean-french-empire",
+      "french-empire-old-paris-porcelain-vase-floral",
+      "clocks-leroy-fils-french-empire",
+      "french-empire-porcelain-porcelain-ormolu-covered-urns-blue",
+      "bronze-statue-girl-holding-a-dove-after-falconet",
+      "porcelain-sevres-cachepot-blue",
+      "miniatures-portrait-dog-french-empire",
+      "french-empire-sculpture-bronze-cherubs",
+      "french-empire-sculpture-bronze-child-dog-auguste-jospeh-peiffer",
+      "french-empire-sculpture-bronze-goddess-auguste-jospeh-peiffer"
+    ]
+  },
 
   // Art by Period - Victorian
 
@@ -298,6 +234,7 @@ export const categories = {
     ],
     list: [
       "victorian-painting-english-alexander-ligitt",
+      "paintings-portrait-victorian-english-laslett-john-pott",
       "victorian-box-portrait-dog",
       "victorian-centerpiece-cranberry-glass",
       "victorian-tea-caddy-wood",
@@ -316,7 +253,7 @@ export const categories = {
     title: "Aesthetic Movement",
     breadcrumbs: [
       { url: "/", name: "Home" },
-      { url: "/categories/", name: "Aesthetic Movement" }
+      { url: "/categories/aesthetic-movement", name: "Aesthetic Movement" }
     ],
     list: [
       "aesthetic-movement-vase-old-hall-english",
@@ -387,9 +324,9 @@ export const categories = {
     ]
   },
 
-  // Art by Category Routes
+  // Art by Region Routes
 
-  // Art by Category - Japanese Art
+  // Art by Region - Japanese Art
 
   "japanese-art": {
     route: "japanese-art",
@@ -437,7 +374,7 @@ export const categories = {
     ]
   },
 
-  // Art by Category - Chinese Art
+  // Art by Region - Chinese Art
 
   "chinese-art": {
     route: "chinese-art",
@@ -454,7 +391,7 @@ export const categories = {
     ]
   },
 
-  // Art by Category - Canadian Art
+  // Art by Region - Canadian Art
 
   "canadian-art": {
     route: "canadian-art",
@@ -464,13 +401,105 @@ export const categories = {
       { url: "/categories/canadian-art", name: "Canadian Art" }
     ],
     list: [
-      "canadian-art-pottery-gorden-hutchens",
-      "paintings-canadian-panabaker-seascape",
+      "canadian-art-watercolor-landscape-spring-norwell",
+      "canadian-art-watercolor-landscape-cabin-fall-norwell",
       "paintings-canadian-robert-lougheed-quebec-solitude",
+      "paintings-canadian-panabaker-seascape",
+      "canadian-art-drawing-landscape-church-british-columbia-lillooet-peter-ewart",
+      "canadian-art-drawing-landscape-cabin-british-columbia-lillooet-peter-ewart",
+      "canadian-art-watercolor-landscape-winter-norwell",
+      "canadian-art-watercolor-landscape-winter-norwell-gold-frame",
+      "canadian-art-pottery-gorden-hutchens",
       "canadian-art-pottery-horse-debra-sloan",
       "canadian-art-vase-schwenk",
       "canadian-art-charger-plate-schwenk",
       "canadian-art-glass-two-rivers-grey"
+    ]
+  },
+
+  // Art by Maker Routes
+
+  // Art by Maker - Moorcroft
+
+  moorcroft: {
+    route: "moorcroft",
+    title: "Moorcroft",
+    breadcrumbs: [
+      { url: "/", name: "Home" },
+      { url: "/categories/moorcroft", name: "Moorcroft" }
+    ],
+    list: [
+      "moorcroft-vase-yellow-hibicus",
+      "moorcroft-vase-cornflower",
+      "moorcroft-vase-orchid",
+      "moorcroft-vase-pansy",
+      "moorcroft-vase-flambe-large",
+      "moorcroft-vase-pomegranate-small",
+      "moorcroft-vase-pomegranate",
+      "moorcroft-centerpiece-pomegranate-small",
+      "moorcroft-candlestick-pomegranate-small",
+      "moorcroft-vase-poppy-large",
+      "moorcroft-bowl-yacht",
+      "moorcroft-vase-plums-small",
+      "moorcroft-vase-powder-blue-floral",
+      "moorcroft-covered-box-pomegranate",
+      "moorcroft-vase-orchid-trumpet",
+      "moorcroft-vase-pomegranate-medium",
+      "moorcroft-william-biscut-barrel-florianware",
+      "moorcroft-macintyre-william-florainware-white",
+      "moorcroft-candlesticks-hibiscus",
+      "moorcroft-lamps-hibiscus-green"
+    ]
+  },
+
+  // Art by Maker - Lalique
+
+  lalique: {
+    route: "lalique",
+    title: "Lalique",
+    breadcrumbs: [
+      { url: "/", name: "Home" },
+      { url: "/categories/lalique", name: "Lalique" }
+    ],
+    list: [
+      "lalique-vase-art-deco",
+      "lalique-vase-gui-art-deco",
+      "lalique-bowl-nemours",
+      "lalique-bowl-pinsons",
+      "lalique-vase-bacchantes",
+      "lalique-bowl-roscoff",
+      "lalique-statue-deux-danseuse",
+      "lalique-bowl-hiboux",
+      "lalique-bowl-art-deco-opaline",
+      "lalique-plate-pissenlit",
+      "lalique-statue-bull",
+      "lalique-plate-ondes",
+      "lalique-vase-bluets-art-deco",
+      "lalique-bowl-nogent",
+      "lalique-statue-dragons",
+      "lalique-centerpiece-bowl",
+      "lalique-vase-vichy-art-deco",
+      "lalique-statue-lion",
+      "lalique-statue-cat",
+      "lalique-bookends-luxembourg",
+      "lalique-vase-biches-black"
+    ]
+  },
+
+  // Art by Maker - Lalique
+
+  "clarice-cliff": {
+    route: "clarice-cliff",
+    title: "Clarice Cliff",
+    breadcrumbs: [
+      { url: "/", name: "Home" },
+      { url: "/categories/clarice-cliff", name: "Clarice Cliff" }
+    ],
+    list: [
+      "clarice-cliff-creamer-art-deco",
+      "clarice-cliff-pitcher-parrots-art-deco",
+      "clarice-cliff-vase-floral-art-deco",
+      "clarice-cliff-vase-parrots-art-deco"
     ]
   },
 
@@ -576,15 +605,7 @@ export const categories = {
       "animal-figurines-kingfisher-weller",
       "animal-figurines-parrot-beswick",
       "animal-figurines-horse-light-brown-beswick",
-      "animal-figurines-farm-animals-lorenz-hutschenreuther",
-      "animal-figurines-collie-royal-doulton",
-      "animal-figurines-fox-royal-crown-derby",
-      "animal-figurines-dog-basket-royal-doulton",
-      "animal-figurines-dogs-royal-doulton",
-      "animal-figurines-puppy-ball-royal-doulton",
-      "animal-figurines-cat-beswick",
-      "animal-figurines-blue-bird-beswick",
-      "animal-figurines-bird-royal-crown-derby"
+      "animal-figurines-farm-animals-lorenz-hutschenreuther"
     ]
   },
 

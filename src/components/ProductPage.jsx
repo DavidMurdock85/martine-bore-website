@@ -18,17 +18,17 @@ export const ProductPage = () => {
 
     let localBreadcrumbs = [].concat(
         categories[product.category].breadcrumbs,
-        { url:`/products/${productId}`, name: product.productTitle }
-     );
+        { url: `/products/${productId}`, name: product.productTitle }
+    );
 
     return (
         <Base>
-            <Split expand="width" mt={2}>
+            <Base expand="width" mt={2}>
                 <Base tag="h6" className="">
-                    <Breadcrumb breadcrumbItems={ localBreadcrumbs } />
+                    <Breadcrumb breadcrumbItems={localBreadcrumbs} />
                 </Base>
-                <Base tag="h6">Sorting and Filtering</Base>
-            </Split>
+               
+            </Base>
             <Row className="product" noGutters>
                 <Col className="product-item-image" xs={12} sm={6}>
                     <ImageGallery

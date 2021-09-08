@@ -6,9 +6,21 @@ export const tableware = {
   "plates-gold-floral-hammersley": {
     category: "plates",
     images: [
-      "/images/tableware/plates/plates-gold-floral-hammersley-1.jpeg",
-      "/images/tableware/plates/plates-gold-floral-hammersley-2.jpeg",
-      "/images/tableware/plates/plates-gold-floral-hammersley-3.jpeg"
+      {
+        original:"/images/tableware/plates/plates-gold-floral-hammersley-1.jpeg",
+          
+        thumbnail:    "/images/tableware/plates/plates-gold-floral-hammersley-1.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-gold-floral-hammersley-2.jpeg",
+          
+        thumbnail:   "/images/tableware/plates/plates-gold-floral-hammersley-2.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-gold-floral-hammersley-3.jpeg",
+          
+        thumbnail:"/images/tableware/plates/plates-gold-floral-hammersley-3.jpeg"
+      }
     ],
     productTitle: "Set of Victorian Era Hammersley Dinner Plates",
     description:
@@ -20,9 +32,21 @@ export const tableware = {
   "plates-dinner-portraits-royal-vienna": {
     category: "plates",
     images: [
-      "/images/tableware/plates/plates-dinner-portraits-royal-vienna-1.jpeg",
-      "/images/tableware/plates/plates-dinner-portraits-royal-vienna-2.jpeg",
-      "/images/tableware/plates/plates-dinner-portraits-royal-vienna-3.jpeg"
+      {
+        original:"/images/tableware/plates/plates-dinner-portraits-royal-vienna-1.jpeg",
+          
+        thumbnail:    "/images/tableware/plates/plates-dinner-portraits-royal-vienna-1.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-dinner-portraits-royal-vienna-2.jpeg",
+          
+        thumbnail:   "/images/tableware/plates/plates-dinner-portraits-royal-vienna-2.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-dinner-portraits-royal-vienna-3.jpeg",
+          
+        thumbnail:"/images/tableware/plates/plates-dinner-portraits-royal-vienna-3.jpeg"
+      }
     ],
     productTitle: "Set of Royal Vienna Portrait Dinner Plates",
     description:
@@ -34,9 +58,21 @@ export const tableware = {
   "plates-dessert-floral-porcelain-nymphenburg": {
     category: "plates",
     images: [
-      "/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-1.jpeg",
-      "/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-2.jpeg",
-      "/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-3.jpeg"
+      {
+        original:"/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-1.jpeg",
+          
+        thumbnail:    "/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-1.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-2.jpeg",
+          
+        thumbnail:   "/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-2.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-3.jpeg",
+          
+        thumbnail:"/images/tableware/plates/plates-dessert-floral-porcelain-nymphenburg-3.jpeg"
+      }
     ],
     productTitle: "Set of Floral Dessert Plates by Nymphenburg",
     description:
@@ -48,9 +84,21 @@ export const tableware = {
   "plates-dinner-porcelain-meissen-blue-onion": {
     category: "plates",
     images: [
-      "/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-1.jpeg",
-      "/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-2.jpeg",
-      "/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-3.jpeg"
+      {
+        original:"/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-1.jpeg",
+          
+        thumbnail:    "/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-1.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-2.jpeg",
+          
+        thumbnail:   "/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-2.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-3.jpeg",
+          
+        thumbnail:"/images/tableware/plates/plates-dinner-porcelain-meissen-blue-onion-3.jpeg"
+      }
     ],
     productTitle: "Set of Meissen Blue Onion Dinner Plates",
     description:
@@ -62,9 +110,21 @@ export const tableware = {
   "plates-dessert-porcelain-hammersley-red": {
     category: "plates",
     images: [
-      "/images/tableware/plates/plates-dessert-porcelain-hammersley-red-1.jpeg",
-      "/images/tableware/plates/plates-dessert-porcelain-hammersley-red-2.jpeg",
-      "/images/tableware/plates/plates-dessert-porcelain-hammersley-red-3.jpeg"
+      {
+        original:"/images/tableware/plates/plates-dessert-porcelain-hammersley-red-1.jpeg",
+          
+        thumbnail:    "/images/tableware/plates/plates-dessert-porcelain-hammersley-red-1.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-dessert-porcelain-hammersley-red-2.jpeg",
+          
+        thumbnail:   "/images/tableware/plates/plates-dessert-porcelain-hammersley-red-2.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-dessert-porcelain-hammersley-red-3.jpeg",
+          
+        thumbnail:"/images/tableware/plates/plates-dessert-porcelain-hammersley-red-3.jpeg"
+      }
     ],
     productTitle: "Set of Hammersley Dessert Plates and Centerpiece Dish",
     description:
@@ -76,9 +136,21 @@ export const tableware = {
   "plates-felspar-green-floral-porcelain-spode": {
     category: "plates",
     images: [
-      "/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-1.jpeg",
-      "/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-2.jpeg",
-      "/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-3.jpeg"
+      {
+        original:"/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-1.jpeg",
+          
+        thumbnail:    "/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-1.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-2.jpeg",
+          
+        thumbnail:   "/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-2.jpeg"
+      },
+      {
+        original:"/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-3.jpeg",
+          
+        thumbnail:"/images/tableware/plates/plates-felspar-green-floral-porcelain-spode-3.jpeg"
+      }
     ],
     productTitle: "Set of Georgian Era Dessert Service by Spode",
     description:
@@ -93,9 +165,21 @@ export const tableware = {
   "stemware-glasses-crystal-sterling-cordial-birks": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-crystal-sterling-cordial-birks-3.jpeg"
+      }
     ],
     productTitle: "Set of 6 Birks Sterling Crystal Cordial Glasses",
     description:
@@ -107,9 +191,21 @@ export const tableware = {
   "stemware-glasses-crystal-sterling-cordial": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-highball-waterford-alana-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-highball-waterford-alana-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-highball-waterford-alana-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-highball-waterford-alana-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-highball-waterford-alana-3.jpeg"
+      }
     ],
     productTitle: "Set of 10 Waterford Alana Highball Glasses",
     description:
@@ -121,9 +217,21 @@ export const tableware = {
   "stemware-glasses-sterling-birks": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-sterling-birks-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-sterling-birks-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-sterling-birks-3.jpeg"
+      {
+        original: "/images/tableware/stemware/stemware-glasses-sterling-birks-1.jpeg",
+          
+        thumbnail:     "/images/tableware/stemware/stemware-glasses-sterling-birks-1.jpeg"
+      },
+      {
+        original: "/images/tableware/stemware/stemware-glasses-sterling-birks-2.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-sterling-birks-2.jpeg"
+      },
+      {
+        original: "/images/tableware/stemware/stemware-glasses-sterling-birks-3.jpeg",
+          
+        thumbnail: "/images/tableware/stemware/stemware-glasses-sterling-birks-3.jpeg"
+      }
     ],
     productTitle: "Set of 6 Birks Sterling Cordial Glasses",
     description:
@@ -135,9 +243,21 @@ export const tableware = {
   "stemware-glasses-red-wine-crystal-val-st-lambert": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-3.jpeg"
+      {
+        original: "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-1.jpeg",
+          
+        thumbnail:     "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-1.jpeg"
+      },
+      {
+        original: "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-2.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-2.jpeg"
+      },
+      {
+        original: "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-3.jpeg",
+          
+        thumbnail: "/images/tableware/stemware/stemware-glasses-wine-red-crystal-val-st-lambert-3.jpeg"
+      }
     ],
     productTitle: "Set of 15 Red Wine Glasses by Val St. Lambert",
     description:
@@ -149,9 +269,21 @@ export const tableware = {
   "stemware-glasses-sniffer-waterford-alana": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-sniffer-waterford-alana-3.jpeg"
+      }
     ],
     productTitle: "Set of 6 Waterford Alana Sniffer Glasses",
     description:
@@ -163,9 +295,21 @@ export const tableware = {
   "stemware-glasses-cordial-red-crystal-val-st-lambert": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-cordial-red-crystal-val-st-lambert-3.jpeg"
+      }
     ],
     productTitle: "Set of 8 Red Cordial Glasses by Val St. Lambert",
     description:
@@ -177,9 +321,21 @@ export const tableware = {
   "stemware-glasses-dessert-red-crystal-val-st-lambert": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-dessert-red-crystal-val-st-lambert-3.jpeg"
+      }
     ],
     productTitle: "Set of 15 Red Dessert Glasses by Val St. Lambert",
     description:
@@ -191,9 +347,21 @@ export const tableware = {
   "stemware-glasses-sorbet-waterford-alana": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-sorbet-waterford-alana-3.jpeg"
+      }
     ],
     productTitle: "Set of 6 Waterford Alana Sorbet Glasses",
     description: "A set of 6 cut crystal Sorbet glasses, Ireland 20th Century.",
@@ -204,9 +372,21 @@ export const tableware = {
   "stemware-glasses-red-wine-italian": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-red-wine-italian-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-red-wine-italian-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-red-wine-italian-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-red-wine-italian-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-red-wine-italian-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-red-wine-italian-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-red-wine-italian-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-red-wine-italian-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-red-wine-italian-3.jpeg"
+      }
     ],
     productTitle: "Set of 7 Italian Red Wine Glasses",
     description:
@@ -218,9 +398,21 @@ export const tableware = {
   "stemware-glasses-white-wine-italian": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-white-wine-italian-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-white-wine-italian-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-white-wine-italian-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-white-wine-italian-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-white-wine-italian-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-white-wine-italian-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-white-wine-italian-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-white-wine-italian-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-white-wine-italian-3.jpeg"
+      }
     ],
     productTitle: "Set of 6 Italian White Wine Glasses",
     description:
@@ -232,9 +424,21 @@ export const tableware = {
   "stemware-glasses-white-wine-waterford-alana": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-3.jpeg"
+      {
+        original: "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-1.jpeg",
+          
+        thumbnail:     "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-1.jpeg"
+      },
+      {
+        original: "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-2.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-2.jpeg"
+      },
+      {
+        original: "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-3.jpeg",
+          
+        thumbnail: "/images/tableware/stemware/stemware-glasses-white-wine-waterford-alana-3.jpeg"
+      }
     ],
     productTitle: "Set of 12 Waterford Alana White Wine Glasses",
     description:
@@ -246,9 +450,21 @@ export const tableware = {
   "stemware-glasses-red-wine-waterford-lismore": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-red-wine-waterford-lismore-3.jpeg"
+      }
     ],
     productTitle: "Set of 6 Waterford Lismore White Wine Glasses",
     description:
@@ -260,9 +476,21 @@ export const tableware = {
   "stemware-glasses-champagne-waterford-alana": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-champagne-waterford-alana-3.jpeg"
+      }
     ],
     productTitle: "Set of 10 Waterford Alana Champagne Glasses",
     description:
@@ -274,9 +502,21 @@ export const tableware = {
   "stemware-glasses-tumbler-waterford-alana": {
     category: "stemware",
     images: [
-      "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-1.jpeg",
-      "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-2.jpeg",
-      "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-3.jpeg"
+      {
+        original:"/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-1.jpeg",
+          
+        thumbnail:    "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-1.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-2.jpeg",
+          
+        thumbnail:   "/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-2.jpeg"
+      },
+      {
+        original:"/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-3.jpeg",
+          
+        thumbnail:"/images/tableware/stemware/stemware-glasses-tumbler-waterford-alana-3.jpeg"
+      }
     ],
     productTitle: "Set of 7 Waterford Alana Tumbler Glasses",
     description:
@@ -293,9 +533,21 @@ export const tableware = {
   "tea-service-royal-worcester": {
     category: "tea-servicee",
     images: [
-      "/images/tableware/tea-service/tea-service-royal-worcester-1.jpeg",
-      "/images/tableware/tea-service/tea-service-royal-worcester-2.jpeg",
-      "/images/tableware/tea-service/tea-service-royal-worcester-3.jpeg"
+      {
+        original:"/images/tableware/tea-service/tea-service-royal-worcester-1.jpeg",
+          
+        thumbnail:    "/images/tableware/tea-service/tea-service-royal-worcester-1.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-royal-worcester-2.jpeg",
+          
+        thumbnail:   "/images/tableware/tea-service/tea-service-royal-worcester-2.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-royal-worcester-3.jpeg",
+          
+        thumbnail:"/images/tableware/tea-service/tea-service-royal-worcester-3.jpeg"
+      }
     ],
     productTitle: "Royal Worschester Tea Service with Sterling Spoons",
     description:
@@ -307,9 +559,21 @@ export const tableware = {
   "tea-service-floral-porcelain-meissen": {
     category: "tea-servicee",
     images: [
-      "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-1.jpeg",
-      "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-2.jpeg",
-      "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-3.jpeg"
+      {
+        original: "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-1.jpeg",
+          
+        thumbnail:     "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-1.jpeg"
+      },
+      {
+        original: "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-2.jpeg",
+          
+        thumbnail:    "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-2.jpeg"
+      },
+      {
+        original: "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-3.jpeg",
+          
+        thumbnail: "/images/tableware/tea-service/tea-service-floral-porcelain-meissen-3.jpeg"
+      }
     ],
     productTitle: "Meissen Floral Tea Service",
     description:
@@ -321,9 +585,21 @@ export const tableware = {
   "tea-service-royal-worcester-virginia": {
     category: "tea-servicee",
     images: [
-      "/images/tableware/tea-service/tea-service-royal-worcester-virginia-1.jpeg",
-      "/images/tableware/tea-service/tea-service-royal-worcester-virginia-2.jpeg",
-      "/images/tableware/tea-service/tea-service-royal-worcester-virginia-3.jpeg"
+      {
+        original:"/images/tableware/tea-service/tea-service-royal-worcester-virginia-1.jpeg",
+          
+        thumbnail:    "/images/tableware/tea-service/tea-service-royal-worcester-virginia-1.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-royal-worcester-virginia-2.jpeg",
+          
+        thumbnail:   "/images/tableware/tea-service/tea-service-royal-worcester-virginia-2.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-royal-worcester-virginia-3.jpeg",
+          
+        thumbnail:"/images/tableware/tea-service/tea-service-royal-worcester-virginia-3.jpeg"
+      }
     ],
     productTitle: "Royal Worcester Virginia Tea Service",
     description:
@@ -335,9 +611,21 @@ export const tableware = {
   "tea-service-cup-plate-clarice-cliff": {
     category: "tea-servicee",
     images: [
-      "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-1.jpeg",
-      "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-2.jpeg",
-      "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-3.jpeg"
+      {
+        original: "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-1.jpeg",
+          
+        thumbnail:     "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-1.jpeg"
+      },
+      {
+        original: "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-2.jpeg",
+          
+        thumbnail:    "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-2.jpeg"
+      },
+      {
+        original: "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-3.jpeg",
+          
+        thumbnail: "/images/tableware/tea-service/tea-service-cup-plate-clarice-cliff-3.jpeg"
+      }
     ],
     productTitle: "Art Deco Clarice Cliff Tea Cup and Saucers",
     description:
@@ -349,9 +637,21 @@ export const tableware = {
   "tea-service-cup-saucer-sterling-aynsley": {
     category: "tea-servicee",
     images: [
-      "/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-1.jpeg",
-      "/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-2.jpeg",
-      "/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-3.jpeg"
+      {
+        original:"/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-1.jpeg",
+          
+        thumbnail:    "/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-1.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-2.jpeg",
+          
+        thumbnail:   "/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-2.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-3.jpeg",
+          
+        thumbnail:"/images/tableware/tea-service/tea-service-cup-saucer-sterling-aynsley-3.jpeg"
+      }
     ],
     productTitle: "Edwardian Aynsley Tea Service c. 1915",
     description:
@@ -363,9 +663,21 @@ export const tableware = {
   "tea-service-rosenthal-bjorn-winblad": {
     category: "tea-servicee",
     images: [
-      "/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-1.jpeg",
-      "/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-2.jpeg",
-      "/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-3.jpeg"
+      {
+        original:"/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-1.jpeg",
+          
+        thumbnail:    "/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-1.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-2.jpeg",
+          
+        thumbnail:   "/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-2.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-3.jpeg",
+          
+        thumbnail:"/images/tableware/tea-service/tea-service-rosenthal-bjorn-winblad-3.jpeg"
+      }
     ],
     productTitle: "Bjorn Winblad Rosenthal Tea Set c. 1970s",
     description:
@@ -377,9 +689,21 @@ export const tableware = {
   "tea-service-radford-fenton-gatineau": {
     category: "tea-servicee",
     images: [
-      "/images/tableware/tea-service/tea-service-radford-fenton-gatineau-1.jpeg",
-      "/images/tableware/tea-service/tea-service-radford-fenton-gatineau-2.jpeg",
-      "/images/tableware/tea-service/tea-service-radford-fenton-gatineau-3.jpeg"
+      {
+        original:"/images/tableware/tea-service/tea-service-radford-fenton-gatineau-1.jpeg",
+          
+        thumbnail:    "/images/tableware/tea-service/tea-service-radford-fenton-gatineau-1.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-radford-fenton-gatineau-2.jpeg",
+          
+        thumbnail:   "/images/tableware/tea-service/tea-service-radford-fenton-gatineau-2.jpeg"
+      },
+      {
+        original:"/images/tableware/tea-service/tea-service-radford-fenton-gatineau-3.jpeg",
+          
+        thumbnail:"/images/tableware/tea-service/tea-service-radford-fenton-gatineau-3.jpeg"
+      }
     ],
     productTitle: "Gatineau Radford Fenton Teaset",
     description:
@@ -394,9 +718,21 @@ export const tableware = {
   "teacups-green-coalport": {
     category: "teacups",
     images: [
-      "/images/tableware/teacups/teacups-green-coalport-1.jpeg",
-      "/images/tableware/teacups/teacups-green-coalport-2.jpeg",
-      "/images/tableware/teacups/teacups-green-coalport-3.jpeg"
+      {
+        original:"/images/tableware/teacups/teacups-green-coalport-1.jpeg",
+          
+        thumbnail:    "/images/tableware/teacups/teacups-green-coalport-1.jpeg"
+      },
+      {
+        original:"/images/tableware/teacups/teacups-green-coalport-2.jpeg",
+          
+        thumbnail:   "/images/tableware/teacups/teacups-green-coalport-2.jpeg"
+      },
+      {
+        original:"/images/tableware/teacups/teacups-green-coalport-3.jpeg",
+          
+        thumbnail:"/images/tableware/teacups/teacups-green-coalport-3.jpeg"
+      }
     ],
     productTitle: "Set of 3 Felspar Green Coalport Teacups and Saucers",
     description:
@@ -408,9 +744,21 @@ export const tableware = {
   "teacups-floral-red-paragon": {
     category: "teacups",
     images: [
-      "/images/tableware/teacups/teacups-floral-red-paragon-1.jpeg",
-      "/images/tableware/teacups/teacups-floral-red-paragon-2.jpeg",
-      "/images/tableware/teacups/teacups-floral-red-paragon-3.jpeg"
+      {
+        original: "/images/tableware/teacups/teacups-floral-red-paragon-1.jpeg",
+          
+        thumbnail:     "/images/tableware/teacups/teacups-floral-red-paragon-1.jpeg"
+      },
+      {
+        original: "/images/tableware/teacups/teacups-floral-red-paragon-2.jpeg",
+          
+        thumbnail:    "/images/tableware/teacups/teacups-floral-red-paragon-2.jpeg"
+      },
+      {
+        original: "/images/tableware/teacups/teacups-floral-red-paragon-3.jpeg",
+          
+        thumbnail: "/images/tableware/teacups/teacups-floral-red-paragon-3.jpeg"
+      }
     ],
     productTitle: "Red Floral Paragon Tea Cup and Saucer",
     description:
@@ -422,9 +770,21 @@ export const tableware = {
   "teacups-portrait-limoges": {
     category: "teacups",
     images: [
-      "/images/tableware/teacups/teacups-portrait-limoges-1.jpeg",
-      "/images/tableware/teacups/teacups-portrait-limoges-2.jpeg",
-      "/images/tableware/teacups/teacups-portrait-limoges-3.jpeg"
+      {
+        original:"/images/tableware/teacups/teacups-portrait-limoges-1.jpeg",
+          
+        thumbnail:    "/images/tableware/teacups/teacups-portrait-limoges-1.jpeg"
+      },
+      {
+        original:"/images/tableware/teacups/teacups-portrait-limoges-2.jpeg",
+          
+        thumbnail:   "/images/tableware/teacups/teacups-portrait-limoges-2.jpeg"
+      },
+      {
+        original:"/images/tableware/teacups/teacups-portrait-limoges-3.jpeg",
+          
+        thumbnail:"/images/tableware/teacups/teacups-portrait-limoges-3.jpeg"
+      }
     ],
     productTitle: "Edwardian Limoges Tea Cup with a Portrait of a Girl",
     description:
@@ -436,9 +796,21 @@ export const tableware = {
   "teacups-floral-blue-paragon": {
     category: "teacups",
     images: [
-      "/images/tableware/teacups/teacups-floral-blue-paragon-1.jpeg",
-      "/images/tableware/teacups/teacups-floral-blue-paragon-2.jpeg",
-      "/images/tableware/teacups/teacups-floral-blue-paragon-3.jpeg"
+      {
+        original:"/images/tableware/teacups/teacups-floral-blue-paragon-1.jpeg",
+          
+        thumbnail:    "/images/tableware/teacups/teacups-floral-blue-paragon-1.jpeg"
+      },
+      {
+        original:"/images/tableware/teacups/teacups-floral-blue-paragon-2.jpeg",
+          
+        thumbnail:   "/images/tableware/teacups/teacups-floral-blue-paragon-2.jpeg"
+      },
+      {
+        original:"/images/tableware/teacups/teacups-floral-blue-paragon-3.jpeg",
+          
+        thumbnail:"/images/tableware/teacups/teacups-floral-blue-paragon-3.jpeg"
+      }
     ],
     productTitle: "Set of 4 Blue Paragon Teacups and Saucers",
     description:
@@ -450,9 +822,21 @@ export const tableware = {
   "teacups-floral-gold-aynsley": {
     category: "teacups",
     images: [
-      "/images/tableware/teacups/teacups-floral-gold-aynsley-1.jpeg",
-      "/images/tableware/teacups/teacups-floral-gold-aynsley-2.jpeg",
-      "/images/tableware/teacups/teacups-floral-gold-aynsley-3.jpeg"
+      {
+        original:"/images/tableware/teacups/teacups-floral-gold-aynsley-1.jpeg",
+          
+        thumbnail:    "/images/tableware/teacups/teacups-floral-gold-aynsley-1.jpeg"
+      },
+      {
+        original:"/images/tableware/teacups/teacups-floral-gold-aynsley-2.jpeg",
+          
+        thumbnail:   "/images/tableware/teacups/teacups-floral-gold-aynsley-2.jpeg"
+      },
+      {
+        original:"/images/tableware/teacups/teacups-floral-gold-aynsley-3.jpeg",
+          
+        thumbnail:"/images/tableware/teacups/teacups-floral-gold-aynsley-3.jpeg"
+      }
     ],
     productTitle:
       "Set of 2 Floral and Gold Celeste Aynsley Teacups and Saucers",

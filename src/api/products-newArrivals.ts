@@ -3,9 +3,27 @@ export const newArrivals = {
   "art-nouveau-candelabra-tiffany-studios": {
     category: "new-arrivals",
     images: [
-      "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-1.jpeg",
-      "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-2.jpeg",
-      "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-3.jpeg"
+      {
+        original:
+          "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-1.jpeg",
+
+        thumbnail:
+          "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-1.jpeg"
+      },
+      {
+        original:
+          "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-2.jpeg",
+
+        thumbnail:
+          "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-2.jpeg"
+      },
+      {
+        original:
+          "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-3.jpeg",
+
+        thumbnail:
+          "/images/new-arrivals/art-nouveau-candelabra-tiffany-studios-3.jpeg"
+      }
     ],
     productTitle: "Art Nouveau Candelabra by Tiffany Studios c. 1900",
     description:
@@ -14,26 +32,30 @@ export const newArrivals = {
     price: "inquire"
     //productId: "art-nouveau-candelabra-tiffany-studios"
   },
-  "bronze-statue-girl-holding-a-dove-after-falconet": {
-    category: "new-arrivals",
-    images: [
-      "/images/new-arrivals/bronze-statue-girl-holding-a-dove-after-falconet-1.jpeg",
-      "/images/new-arrivals/bronze-statue-girl-holding-a-dove-after-falconet-2.jpeg",
-      "/images/new-arrivals/bronze-statue-girl-holding-a-dove-after-falconet-3.jpeg"
-    ],
-    productTitle: "Bather With a Dove after Etienne Maurice Falconet ",
-    description:
-      "Bronze statue of a girl holding a dove after Etienne Maurice Falconet, Victorian Period, late 19th century. Made after an 18th century marble original by Falconet.",
-    dimensions: "8 x 6 1/2 x 5 inches",
-    price: "$1200"
-    //productId: "bronze-statue-girl-holding-a-dove-after-falconet"
-  },
   "paintings-belgian-alex-de-andreis": {
     category: "new-arrivals",
     images: [
-      "/images/new-arrivals/paintings-belgian-alex-de-andreis-1.jpg",
-      "/images/new-arrivals/paintings-belgian-alex-de-andreis-2.jpg",
-      "/images/new-arrivals/paintings-belgian-alex-de-andreis-3.jpg"
+      {
+        original:
+          "/images/new-arrivals/paintings-belgian-alex-de-andreis-1.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-belgian-alex-de-andreis-1.jpg"
+      },
+      {
+        original:
+          "/images/new-arrivals/paintings-belgian-alex-de-andreis-2.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-belgian-alex-de-andreis-2.jpg"
+      },
+      {
+        original:
+          "/images/new-arrivals/paintings-belgian-alex-de-andreis-3.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-belgian-alex-de-andreis-3.jpg"
+      }
     ],
     productTitle: "Oil on Canvas by Alex de Andreis (Belgian 1871-1939)",
     description:
@@ -45,9 +67,27 @@ export const newArrivals = {
   "victorian-gilt-bronze-carnelian-watch-fob": {
     category: "new-arrivals",
     images: [
-      "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-1.jpg",
-      "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-2.jpg",
-      "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-3.jpg"
+      {
+        original:
+          "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-1.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-1.jpg"
+      },
+      {
+        original:
+          "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-2.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-2.jpg"
+      },
+      {
+        original:
+          "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-3.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/jewelry-victorian-gilt-bronze-carnelian-watch-fob-3.jpg"
+      }
     ],
     productTitle: "Victorian Gilt Bronze and Carnelian Watch Fob c. 1880",
     description: "A Victorian Gilt Bronze and Carnelian Watch fob c. 1880",
@@ -58,9 +98,27 @@ export const newArrivals = {
   "paintings-english-jose-weiss-victorian": {
     category: "new-arrivals",
     images: [
-      "/images/new-arrivals/paintings-english-jose-weiss-victorian-1.jpg",
-      "/images/new-arrivals/paintings-english-jose-weiss-victorian-2.jpg",
-      "/images/new-arrivals/paintings-english-jose-weiss-victorian-3.jpg"
+      {
+        original:
+          "/images/new-arrivals/paintings-english-jose-weiss-victorian-1.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-english-jose-weiss-victorian-1.jpg"
+      },
+      {
+        original:
+          "/images/new-arrivals/paintings-english-jose-weiss-victorian-2.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-english-jose-weiss-victorian-2.jpg"
+      },
+      {
+        original:
+          "/images/new-arrivals/paintings-english-jose-weiss-victorian-3.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-english-jose-weiss-victorian-3.jpg"
+      }
     ],
     productTitle: "Oil painting by Jose Weiss c. 19th c.",
     description:
@@ -72,11 +130,30 @@ export const newArrivals = {
   "paintings-scottish-john-reid-murray": {
     category: "new-arrivals",
     images: [
-      "/images/new-arrivals/paintings-scottish-john-reid-murray-1.jpg",
-      "/images/new-arrivals/paintings-scottish-john-reid-murray-2.jpg",
-      "/images/new-arrivals/paintings-scottish-john-reid-murray-3.jpg"
+      {
+        original:
+          "/images/new-arrivals/paintings-scottish-john-reid-murray-1.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-scottish-john-reid-murray-1.jpg"
+      },
+      {
+        original:
+          "/images/new-arrivals/paintings-scottish-john-reid-murray-2.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-scottish-john-reid-murray-2.jpg"
+      },
+      {
+        original:
+          "/images/new-arrivals/paintings-scottish-john-reid-murray-3.jpg",
+
+        thumbnail:
+          "/images/new-arrivals/paintings-scottish-john-reid-murray-3.jpg"
+      }
     ],
-    title: "Pastoral Scottish landscape oil on canvas by John Reid Murray c. 1890",
+    title:
+      "Pastoral Scottish landscape oil on canvas by John Reid Murray c. 1890",
     description:
       "Pastoral Scottish landscape oil on canvas, signed John Reid Murray. Scottish Late Victorian Period.",
     dimensions: "27 x 21 x 3 inches",

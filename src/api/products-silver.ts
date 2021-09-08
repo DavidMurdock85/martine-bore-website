@@ -6,9 +6,27 @@ export const silver = {
   "candle-sticks-b&co-birmingham-sterling-silver": {
     category: "candle-sticks",
     images: [
-      "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-1.jpeg",
-      "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-2.jpeg",
-      "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-3.jpeg"
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-1.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-1.jpeg"
+      },
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-2.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-2.jpeg"
+      },
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-3.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-b&co-birmingham-sterling-silver-3.jpeg"
+      }
     ],
     productTitle:
       "Pair of Broadway and Co. Sterling Silver Candle Sticks c. 1950s",
@@ -21,9 +39,27 @@ export const silver = {
   "candle-sticks-sterling-silver-dutch-art-deco": {
     category: "candle-sticks",
     images: [
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-1.jpeg",
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-2.jpeg",
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-3.jpeg"
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-1.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-1.jpeg"
+      },
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-2.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-2.jpeg"
+      },
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-3.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-dutch-art-deco-3.jpeg"
+      }
     ],
     productTitle: "Pair of Art Deco Dutch Sterling Candle Sticks c. 1930s",
     description:
@@ -35,9 +71,27 @@ export const silver = {
   "candle-sticks-sterling-silver-international-silver-weighted": {
     category: "candle-sticks",
     images: [
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-1.jpeg",
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-2.jpeg",
-      "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-3.jpeg"
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-1.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-1.jpeg"
+      },
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-2.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-2.jpeg"
+      },
+      {
+        original:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-3.jpeg",
+
+        thumbnail:
+          "/images/silver/candle-sticks/candle-sticks-sterling-silver-international-silver-weighted-3.jpeg"
+      }
     ],
     productTitle: "Pair of Sterling International Silver Candle Sticks",
     description: "a pair of wieghted silver candle sticks, Mid 20th Century.",
@@ -53,6 +107,21 @@ export const silver = {
   "": {
     category: "sugar-castors",
     images: [
+      {
+        original:
+         
+        thumbnail:  
+      },
+      {
+        original:
+          
+        thumbnail:    
+      },
+      {
+        original:
+          
+        thumbnail:    
+      }
       "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-1.jpeg",
       "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-2.jpeg",
       "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-3.jpeg"
@@ -63,32 +132,90 @@ export const silver = {
     price: "$375"
     // productId: ""
   },
-  "": {
+   {
     category: "sugar-castors",
-    images: [""],
+    images: [
+      {
+        original:
+         
+        thumbnail:  
+      },
+      {
+        original:
+          
+        thumbnail:    
+      },
+      {
+        original:
+          
+        thumbnail:    
+      }
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-1.jpeg",
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-2.jpeg",
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-3.jpeg"
+    ],
     productTitle: "",
     description: "",
     dimensions: "",
     price: ""
     // productId: ""
   },
-  "": {
+  {
     category: "sugar-castors",
-    images: [""],
+    images: [
+      {
+        original:
+         
+        thumbnail:  
+      },
+      {
+        original:
+          
+        thumbnail:    
+      },
+      {
+        original:
+          
+        thumbnail:    
+      }
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-1.jpeg",
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-2.jpeg",
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-3.jpeg"
+    ],
     productTitle: "",
     description: "",
     dimensions: "",
     price: ""
     // productId: ""
   },
-  "": {
+  {
     category: "sugar-castors",
-    images: [""],
+    images: [
+      {
+        original:
+         
+        thumbnail:  
+      },
+      {
+        original:
+          
+        thumbnail:    
+      },
+      {
+        original:
+          
+        thumbnail:    
+      }
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-1.jpeg",
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-2.jpeg",
+      "/images/decorative-arts/silver/silver-sugar-castor-georgian-18th-3.jpeg"
+    ],
     productTitle: "",
     description: "",
     dimensions: "",
     price: ""
     // productId: ""
-  }
+  },
+ 
   */
 };

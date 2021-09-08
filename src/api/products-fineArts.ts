@@ -3,42 +3,114 @@ export const fineArts = {
 
   // Fine Arts - Paintings
 
-  "paintings-english-harold-goldthwait-near-pateham-sussex": {
+  "paintings-seascape-french--impressionist-alfred-victor-fournier": {
     category: "paintings",
     images: [
-      "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-1.jpeg",
-      "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-2.jpeg",
-      "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-3.jpeg"
+      {
+        original: "/images/fine-arts/paintings/paintings-seascape-french--impressionist-alfred-victor-fournier-1.jpeg",
+        
+        thumbnail: "/images/fine-arts/paintings/paintings-seascape-french--impressionist-alfred-victor-fournier-1.jpeg"
+         
+      },
+      {
+        original: "/images/fine-arts/paintings/paintings-seascape-french--impressionist-alfred-victor-fournier-2.jpeg",
+          
+        thumbnail: "/images/fine-arts/paintings/paintings-seascape-french--impressionist-alfred-victor-fournier-2.jpeg"
+          
+      },
+      {
+        original: "/images/fine-arts/paintings/paintings-seascape-french--impressionist-alfred-victor-fournier-3.jpeg",
+          
+        thumbnail: "/images/fine-arts/paintings/paintings-seascape-french--impressionist-alfred-victor-fournier-3.jpeg"
+      }
     ],
     productTitle:
-      "English Pastoral Landscape Painting by Harold Goldthwait c. 1900 ",
+      "",
     description:
-      "An English landscape oil painting on panel by Harold Goldthwait titled 'Near Pateham Sussex' c. 1900",
-    dimensions: "20 x 14 x 1 inches",
-    price: "$2400"
-    //productId: "paintings-english-harold-goldthwait-near-pateham-sussex"
+      "",
+    dimensions: "",
+    price: ""
+    //productId: "paintings-seascape-french--impressionist-alfred-victor-fournier"
   },
-  "paintings-portrait-victorian-english-laslett-john-pott": {
+  "paintings-archangel-michael-spanish-colonial": {
     category: "paintings",
     images: [
-      "/images/fine-arts/paintings/paintings-portrait-victorian-english-laslett-john-pott-1.jpeg",
-      "/images/fine-arts/paintings/paintings-portrait-victorian-english-laslett-john-pott-2.jpeg",
-      "/images/fine-arts/paintings/paintings-portrait-victorian-english-laslett-john-pott-3.jpeg"
+      {
+        original: "/images/fine-arts/paintings/paintings-archangel-michael-spanish-colonial-1.jpeg",
+        
+        thumbnail: "/images/fine-arts/paintings/paintings-archangel-michael-spanish-colonial-1.jpeg"
+         
+      },
+      {
+        original: "/images/fine-arts/paintings/paintings-archangel-michael-spanish-colonial-2.jpeg",
+          
+        thumbnail: "/images/fine-arts/paintings/paintings-archangel-michael-spanish-colonial-2.jpeg"
+          
+      },
+      {
+        original: "/images/fine-arts/paintings/paintings-archangel-michael-spanish-colonial-3.jpeg",
+          
+        thumbnail: "/images/fine-arts/paintings/paintings-archangel-michael-spanish-colonial-3.jpeg"
+      }
     ],
     productTitle:
-      "English Victorian Era Portait Painting by Laslett John Pott c. 1880s",
+      "",
     description:
-      "English portrait painting of on panel by Laslett John Pott c. 1880s c.",
-    dimensions: "13 x 10 x 1 inches",
-    price: "$2200"
-    //productId: "paintings-portrait-victorian-english-laslett-john-pott"
+      "",
+    dimensions: "",
+    price: ""
+    //productId: "paintings-archangel-michael-spanish-colonial"
+  },
+  "paintings-seascape-dutch-post-impressionist": {
+    category: "paintings",
+    images: [
+      {
+        original: "/images/fine-arts/paintings/paintings-seascape-dutch-post-impressionist-1.jpeg",
+        
+        thumbnail: "/images/fine-arts/paintings/paintings-seascape-dutch-post-impressionist-1.jpeg"
+         
+      },
+      {
+        original: "/images/fine-arts/paintings/paintings-seascape-dutch-post-impressionist-2.jpeg",
+          
+        thumbnail: "/images/fine-arts/paintings/paintings-seascape-dutch-post-impressionist-2.jpeg"
+          
+      },
+      {
+        original: "/images/fine-arts/paintings/paintings-seascape-dutch-post-impressionist-3.jpeg",
+          
+        thumbnail: "/images/fine-arts/paintings/paintings-seascape-dutch-post-impressionist-3.jpeg"
+      }
+    ],
+    productTitle:
+      "",
+    description:
+      "",
+    dimensions: "",
+    price: ""
+    //productId: "paintings-seascape-dutch-post-impressionist"
   },
   "paintings-landscape-impressionist-fairlie-harmar": {
     category: "paintings",
     images: [
-      "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-1.jpeg",
-      "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-2.jpeg",
-      "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-impressionist-fairlie-harmar-3.jpeg"
+      }
     ],
     productTitle:
       "English Impressionist Cityscape on Canvas by Fairlie Harmar c. 1920s",
@@ -48,12 +120,119 @@ export const fineArts = {
     price: "$2600"
     //productId: "paintings-landscape-impressionist-fairlie-harmar"
   },
+  "paintings-pastoral-landscape-dutch-hague-school-barbizon": {
+    category: "paintings",
+    images: [
+      {
+        original:"/images/fine-arts/paintings/paintings-pastoral-landscape-dutch-hague-school-barbizon-1.jpeg",
+          
+        thumbnail:"/images/fine-arts/paintings/paintings-pastoral-landscape-dutch-hague-school-barbizon-1.jpeg"
+          
+      },
+      {
+        original:"/images/fine-arts/paintings/paintings-pastoral-landscape-dutch-hague-school-barbizon-2.jpeg",
+         
+        thumbnail:"/images/fine-arts/paintings/paintings-pastoral-landscape-dutch-hague-school-barbizon-2.jpeg"
+         
+      },
+      {
+        original:"/images/fine-arts/paintings/paintings-pastoral-landscape-dutch-hague-school-barbizon-3.jpeg",
+          
+        thumbnail:"/images/fine-arts/paintings/paintings-pastoral-landscape-dutch-hague-school-barbizon-3.jpeg"
+          
+      }
+    ],
+    productTitle:
+      "",
+    description:
+      "",
+    dimensions: "",
+    price: ""
+    //productId: "paintings-pastoral-landscape-dutch-hague-school-barbizon"
+  },
+  "paintings-landscape-winter-english-john-charles-moody": {
+    category: "paintings",
+    images: [
+      {
+        original: "/images/fine-arts/paintings/paintings-landscape-winter-english-john-charles-moody-1.jpeg",
+          
+        thumbnail:"/images/fine-arts/paintings/paintings-landscape-winter-english-john-charles-moody-1.jpeg"
+          
+      },
+      {
+        original:"/images/fine-arts/paintings/paintings-landscape-winter-english-john-charles-moody-2.jpeg",
+         
+        thumbnail:"/images/fine-arts/paintings/paintings-landscape-winter-english-john-charles-moody-2.jpeg"
+         
+      },
+      {
+        original:"/images/fine-arts/paintings/paintings-landscape-winter-english-john-charles-moody-3.jpeg",
+          
+        thumbnail:"/images/fine-arts/paintings/paintings-landscape-winter-english-john-charles-moody-3.jpeg"
+          
+      }
+    ],
+    productTitle:
+      "",
+    description:
+      "",
+    dimensions: "",
+    price: ""
+    //productId: "paintings-landscape-winter-english-john-charles-moody"
+  },
+  
+  /*"": {
+    category: "paintings",
+    images: [
+      {
+        original:
+          
+        thumbnail:
+          
+      },
+      {
+        original:
+         
+        thumbnail:
+         
+      },
+      {
+        original:
+          
+        thumbnail:
+          
+      }
+    ],
+    productTitle:
+      "",
+    description:
+      "",
+    dimensions: "",
+    price: ""
+    //productId: ""
+  },*/
+  
   "paintings-portrait-regency-period": {
     category: "paintings",
     images: [
-      "/images/fine-arts/paintings/paintings-portrait-regency-period-1.jpeg",
-      "/images/fine-arts/paintings/paintings-portrait-regency-period-2.jpeg",
-      "/images/fine-arts/paintings/paintings-portrait-regency-period-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-portrait-regency-period-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-portrait-regency-period-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-portrait-regency-period-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-portrait-regency-period-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-portrait-regency-period-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-portrait-regency-period-3.jpeg"
+      }
     ],
     productTitle: "",
     description: "A Regency Period Portrait of a Lady on Board c. 1830s.",
@@ -61,12 +240,57 @@ export const fineArts = {
     price: "$2100"
     //productId: "paintings-portrait-regency-period"
   },
+  "paintings-english-harold-goldthwait-near-pateham-sussex": {
+    category: "paintings",
+    images: [
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-near-pateham-sussex-3.jpeg"
+      }
+    ],
+    productTitle:
+      "English Pastoral Landscape Painting by Harold Goldthwait c. 1900 ",
+    description:
+      "An English landscape oil painting on panel by Harold Goldthwait titled 'Near Pateham Sussex' c. 1900",
+    dimensions: "20 x 14 x 1 inches",
+    price: "$2400"
+    //productId: "paintings-english-harold-goldthwait-near-pateham-sussex"
+  },
   "paintings-english-harold-goldthwait": {
     category: "paintings",
     images: [
-      "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-1.jpg",
-      "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-2.jpg",
-      "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-3.jpg"
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-1.jpg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-1.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-2.jpg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-2.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-3.jpg",
+        thumbnail:
+          "/images/fine-arts/paintings/paintings-landscape-english-harold-goldthwait-3.jpg"
+      }
     ],
     productTitle: "English Landscape on Board by Harold Goldtwait c. 1900",
     description:
@@ -83,9 +307,24 @@ export const fineArts = {
   "pastels-portrait-prussian-officer": {
     category: "pastels",
     images: [
-      "/images/fine-arts/pastels/pastels-portrait-prussian-officer-1.jpg",
-      "/images/fine-arts/pastels/pastels-portrait-prussian-officer-2.jpg",
-      "/images/fine-arts/pastels/pastels-portrait-prussian-officer-3.jpg"
+      {
+        original:
+          "/images/fine-arts/pastels/pastels-portrait-prussian-officer-1.jpg",
+        thumbnail:
+          "/images/fine-arts/pastels/pastels-portrait-prussian-officer-1.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/pastels/pastels-portrait-prussian-officer-2.jpg",
+        thumbnail:
+          "/images/fine-arts/pastels/pastels-portrait-prussian-officer-2.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/pastels/pastels-portrait-prussian-officer-3.jpg",
+        thumbnail:
+          "/images/fine-arts/pastels/pastels-portrait-prussian-officer-3.jpg"
+      }
     ],
     productTitle: "Pastel Portrait of a Prussian Officer c. 1760s",
     description: "A Pastel portrait on paper of a Prussian Officer c. 1760s.",
@@ -98,42 +337,27 @@ export const fineArts = {
 
   // Fine Arts - Miniatures
 
-  "miniatures-portrait-dog-french-empire": {
-    category: "miniatures",
-    images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-dog-french-empire-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-dog-french-empire-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-dog-french-empire-3.jpeg"
-    ],
-    productTitle:
-      "Empire Period miniature watercolor portrait of a dog c. 1870s",
-    description:
-      "Empire Period miniature watercolor portrait of a dog in gilt bronze frame c. 1870s",
-    dimensions: "12 x 10 inches",
-    price: "$1850"
-    //productId: "miniatures-portrait-dog-french-empire"
-  },
-  "miniatures-portrait-napolean-french-empire": {
-    category: "miniatures",
-    images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-napolean-french-empire-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-napolean-french-empire-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-napolean-french-empire-3.jpeg"
-    ],
-    productTitle:
-      "French Empire gilded bronze miniature portrait of Napolean Bonapart c. 1870s",
-    description:
-      "French Empire gilded bronze miniature portrait of Napolean Bonapart c. 1870s. ",
-    dimensions: "5 1/2 x 3 1/2 inches",
-    price: "$1800"
-    //productId: "miniatures-portrait-napolean-french-empire"
-  },
   "miniatures-portrait-girls-edwardian": {
     category: "miniatures",
     images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-girls-edwardian-3.jpeg"
+      }
     ],
     productTitle: "A Pair of Edwardian portraits of girls c. 1910",
     description:
@@ -145,9 +369,24 @@ export const fineArts = {
   "miniatures-portrait-lady-cartier-victorian": {
     category: "miniatures",
     images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-lady-cartier-victorian-3.jpeg"
+      }
     ],
     productTitle: "Victorian Period English Miniature Portrait of Lady Cartier",
     description:
@@ -159,9 +398,24 @@ export const fineArts = {
   "miniatures-portrait-woman-oval-frame-edwardian": {
     category: "miniatures",
     images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-oval-frame-edwardian-3.jpeg"
+      }
     ],
     productTitle: "Edwardian Era Portrait of a Woman c. 1910",
     description:
@@ -173,9 +427,24 @@ export const fineArts = {
   "miniatures-portrait-pauline-bonaparte": {
     category: "miniatures",
     images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-3.jpeg"
+      }
     ],
     productTitle: "19th Century Italian Miniature of Pauline Bonapart",
     description:
@@ -187,9 +456,24 @@ export const fineArts = {
   "miniatures-portrait-woman-blue-ivory-frame": {
     category: "miniatures",
     images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-woman-blue-ivory-frame-3.jpeg"
+      }
     ],
     productTitle:
       "19th Century French Miniature Portrait of a Lady in a Blue Dress",
@@ -202,9 +486,24 @@ export const fineArts = {
   "miniatures-portrait-helene-sedlmayr-victorian": {
     category: "miniatures",
     images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-helene-sedlmayr-victorian-3.jpeg"
+      }
     ],
     productTitle: "19th Century German Miniature Portrait of Helene Sedlmayr",
     description:
@@ -216,9 +515,24 @@ export const fineArts = {
   "miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi": {
     category: "miniatures",
     images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-2.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-pauline-bonaparte-by-pittrice-melocchi-3.jpeg"
+      }
     ],
     productTitle:
       "Miniature Portrait of Pauline Bonaparte by Pittrice E. Melocci c. 1930s",
@@ -231,8 +545,18 @@ export const fineArts = {
   "miniatures-portrait-george-II": {
     category: "miniatures",
     images: [
-      "/images/fine-arts/miniatures/miniatures-portrait-george-II-1.jpeg",
-      "/images/fine-arts/miniatures/miniatures-portrait-george-II-2.jpeg"
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-george-II-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-george-II-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/miniatures/miniatures-portrait-george-II-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/miniatures/miniatures-portrait-george-II-2.jpeg"
+      }
     ],
     productTitle: "19th Century Miniature Portrait of George II",
     description:
@@ -247,8 +571,18 @@ export const fineArts = {
   "sculpture-bronze-cherub-after-jean-baptiste-pigalle": {
     category: "sculpture",
     images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-cherub-after-jean-baptiste-pigalle-1.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-cherub-after-jean-baptiste-pigalle-2.jpg"
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-cherub-after-jean-baptiste-pigalle-1.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-cherub-after-jean-baptiste-pigalle-1.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-cherub-after-jean-baptiste-pigalle-2.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-cherub-after-jean-baptiste-pigalle-2.jpg"
+      }
     ],
     productTitle:
       "19th Century French Bronze Cherub after Jean Baptiste Pigalle",
@@ -261,9 +595,24 @@ export const fineArts = {
   "sculpture-marble-italian-venus-after-canova": {
     category: "sculpture",
     images: [
-      "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-1.jpg",
-      "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-2.jpg",
-      "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-3.jpg"
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-1.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-1.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-2.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-2.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-3.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-marble-italian-venus-after-canova-3.jpg"
+      }
     ],
     productTitle:
       "Italian Marble Sculpture of Venus after Antonio Canova c. 1920s",
@@ -273,26 +622,27 @@ export const fineArts = {
     price: "$1250"
     //productId: "sculpture-marble-italian-venus-after-canova"
   },
-  "sculpture-bronze-cherubs-french-empire": {
-    category: "sculpture",
-    images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-cherubs-french-empire-1.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-cherubs-french-empire-2.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-cherubs-french-empire-3.jpg"
-    ],
-    productTitle: "Pair of 19th Century French Empire Bronze Cherubs",
-    description:
-      "Pair of 19th Century French Empire Bronze Cherubs mounted on gilded wood bases",
-    dimensions: "10 x 3 1/2 x 3 1/2 inches",
-    price: "inquire"
-    //productId: "sculpture-bronze-cherubs-french-empire"
-  },
   "sculpture-bronze-french-greyhound-by-pierre-jules-mene": {
     category: "sculpture",
     images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-1.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-2.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-3.jpg"
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-1.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-1.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-2.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-2.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-3.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-french-greyhound-by-pierre-jules-mene-3.jpg"
+      }
     ],
     productTitle:
       "French Bronze Sculpture of a Greyhound after Pierre Jules Mene",
@@ -305,9 +655,24 @@ export const fineArts = {
   "sculpture-bronze-boy-by-george-omerth": {
     category: "sculpture",
     images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-1.jpeg",
-      "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-2.jpeg",
-      "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-3.jpeg"
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-1.jpeg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-1.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-2.jpeg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-2.jpeg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-3.jpeg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-boy-by-george-omerth-3.jpeg"
+      }
     ],
     productTitle: "French Bronze Sculpture of a Boy by George Omerth c. 1900",
     description:
@@ -319,9 +684,24 @@ export const fineArts = {
   "sculpture-bronze-lion-john-mayne-van-der-kemp": {
     category: "sculpture",
     images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-1.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-2.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-3.jpg"
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-1.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-1.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-2.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-2.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-3.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-lion-john-mayne-van-der-kemp-3.jpg"
+      }
     ],
     productTitle:
       " Dutch Bronze Sculpture of a Lion by John Mayne Van Der Kemp c. 1930s ",
@@ -331,42 +711,21 @@ export const fineArts = {
     price: "$2500"
     // productId: "sculpture-bronze-lion-john-mayne-van-der-kemp"
   },
-  "sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire": {
-    category: "sculpture",
-    images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire-1.jpeg",
-      "/images/fine-arts/sculpture/sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire-2.jpeg",
-      "/images/fine-arts/sculpture/sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire-3.jpeg"
-    ],
-    productTitle:
-      "19th Century French Empire Bronze Cherub Sculpture by Auguste Joseph Peiffer",
-    description:
-      "19th Century French Empire Bronze Sculpture of a cherub and dog by Auguste Joseph Peiffer(1832-1886).",
-    dimensions: "9 x 4 inches",
-    price: "$2800"
-    // productId: "sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire"
-  },
-  "sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire": {
-    category: "sculpture",
-    images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire-1.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire-2.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire-3.jpg"
-    ],
-    productTitle:
-      "19th Century French Empire Sculpture of a Goddess by Auguste Joseph Pfeiffer",
-    description:
-      "19th French Empire Classical Bronze Goddess by Auguste Joseph Pfeiffer(1832-1886)",
-    dimensions: "18 x 10 x 10 inches",
-    price: "inquire"
-    // productId: "sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire"
-  },
   "sculpture-bronze-maiden": {
     category: "sculpture",
     images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-maiden-1.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-maiden-2.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-maiden-3.jpg"
+      {
+        original: "/images/fine-arts/sculpture/sculpture-bronze-maiden-1.jpg",
+        thumbnail: "/images/fine-arts/sculpture/sculpture-bronze-maiden-1.jpg"
+      },
+      {
+        original: "/images/fine-arts/sculpture/sculpture-bronze-maiden-2.jpg",
+        thumbnail: "/images/fine-arts/sculpture/sculpture-bronze-maiden-2.jpg"
+      },
+      {
+        original: "/images/fine-arts/sculpture/sculpture-bronze-maiden-3.jpg",
+        thumbnail: "/images/fine-arts/sculpture/sculpture-bronze-maiden-3.jpg"
+      }
     ],
     productTitle: "French Bronze Sculpture of a Maiden c. 1900",
     description: "French bronze sculpture of a maiden c. 1900",
@@ -377,9 +736,24 @@ export const fineArts = {
   "sculpture-bronze-children-after-moreau": {
     category: "sculpture",
     images: [
-      "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-1.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-2.jpg",
-      "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-3.jpg"
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-1.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-1.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-2.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-2.jpg"
+      },
+      {
+        original:
+          "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-3.jpg",
+        thumbnail:
+          "/images/fine-arts/sculpture/sculpture-bronze-children-after-moreau-3.jpg"
+      }
     ],
     productTitle: "French Bronze Sculpture of Children 20th c.",
     description:

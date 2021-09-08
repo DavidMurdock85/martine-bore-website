@@ -2,7 +2,8 @@ import {newArrivals} from "./products-newArrivals"
 import {fineArts} from "./products-fineArts"
 import {decorativeArts} from "./products-decorativeArts"
 import {artByPeriod} from "./products-artByPeriod"
-import {artByCategory} from "./products-artByCategory"
+import {artByRegion} from "./products-artByRegion"
+import {artByMaker} from "./products-artByMaker"
 import {figurines} from "./products-figurines"
 import {tableware} from "./products-tableware"
 import {silver} from "./products-silver"
@@ -14,7 +15,8 @@ export const products = {
     ...fineArts,
     ...decorativeArts,
     ...artByPeriod,
-    ...artByCategory,
+    ...artByRegion,
+    ...artByMaker,
     ...figurines,
     ...tableware,
     ...silver,

@@ -53,15 +53,7 @@ export const Header = (props) => {
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/lighting">Lighting</NavDropdown.Item>
               </Base>
-              <Base tag="h5">
-                <NavDropdown.Item href="/categories/moorcroft">Moorcroft</NavDropdown.Item>
-              </Base>
-              <Base tag="h5">
-                <NavDropdown.Item href="/categories/lalique">Lalique</NavDropdown.Item >
-              </Base>
-             <Base tag="h5">
-                <NavDropdown.Item href="/categories/clarice-cliff">Clarice Cliff</NavDropdown.Item >
-              </Base>
+             
             </NavDropdown>
           </Base>
 
@@ -72,6 +64,9 @@ export const Header = (props) => {
               {/*<Base tag="h5">
                 <NavDropdown.Item href="/categories/georgian">Georgian</NavDropdown.Item>
               </Base>*/}
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/french-empire">French Empire</NavDropdown.Item>
+              </Base>
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/victorian">Victorian</NavDropdown.Item>
               </Base>
@@ -90,10 +85,10 @@ export const Header = (props) => {
             </NavDropdown>
           </Base>
 
-          {/*Dropdown - Art by Category*/}
+          {/*Dropdown - Art by Region*/}
 
           <Base tag="h5">
-            <NavDropdown title="Art by Category" className="basic-nav-dropdown">
+            <NavDropdown title="Art by Region" className="basic-nav-dropdown">
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/japanese-art">Japanese Art</NavDropdown.Item>
               </Base>
@@ -102,6 +97,32 @@ export const Header = (props) => {
               </Base>
               <Base tag="h5">
                 <NavDropdown.Item href="/categories/canadian-art">Canadian Art</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/english-art">English Art</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/dutch-art">Dutch Art</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/italian-art">Italian Art</NavDropdown.Item>
+              </Base>
+
+            </NavDropdown>
+          </Base>
+
+          {/*Dropdown - Art by Maker*/}
+
+          <Base tag="h5">
+            <NavDropdown title="Art by Maker" className="basic-nav-dropdown">
+            <Base tag="h5">
+                <NavDropdown.Item href="/categories/moorcroft">Moorcroft</NavDropdown.Item>
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/lalique">Lalique</NavDropdown.Item >
+              </Base>
+              <Base tag="h5">
+                <NavDropdown.Item href="/categories/clarice-cliff">Clarice Cliff</NavDropdown.Item >
               </Base>
             </NavDropdown>
           </Base>

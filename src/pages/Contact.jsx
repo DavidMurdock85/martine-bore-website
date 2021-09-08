@@ -21,7 +21,7 @@ export const Contact = () => {
                         
                         <Base tag="p" pl={5} pr={2}>We have many items in stock and some that may not be listed online. If you have an inquiry or are looking for something specific, please feel free
                         contact us by email at info@martineboreantiques.com or by phone for general inquiries 604 912-0292 We can also provide you with a quote for the cost of shipping if your located
-                        outside of canada or in another province.  If your located in Vancouver or the lower mainland in some cases we can deliever for a small fee.
+                        outside of canada or in another province.  If your located in Vancouver or the lower mainland in some cases we can deliver for a small fee.
                         </Base>
                     </Base>
 
@@ -29,7 +29,7 @@ export const Contact = () => {
                         <Base tag="h3" pl={2}>For Sellers</Base>
                         
                         <Base tag="p" pl={5} pr={2}>We're always interested in purchasing fine quality art and antiques to add to our growing stock. We look at whole estates as well as single works of art. Its 
-                        best to contact us any information about the items you are interested in selling.  We welcome walkins if you have a few items but we would encourage you to make an appointment as the gallery 
+                        best to contact us any information about the items you are interested in selling.  We welcome walk ins if you have a few items but we would encourage you to make an appointment as the gallery 
                         is frequently busy and we may not be able to give you our full attention.   We can also organize a house visit if you would like us to take a look at a collection or estate. If we are interested 
                         in your items we can purchase them outright on your visit. In some cases we also take items on consignment.  
                         

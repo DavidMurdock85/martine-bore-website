@@ -3,27 +3,329 @@ export const artByPeriod = {
 
   // Art by Period - Georgian
 
+  // Art by Period - French Empire
+
+  
+  "miniatures-portrait-napolean-french-empire": {
+    category: "french-empire",
+    images: [
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-portrait-napolean-french-empire-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-portrait-napolean-french-empire-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-portrait-napolean-french-empire-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-portrait-napolean-french-empire-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-portrait-napolean-french-empire-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-portrait-napolean-french-empire-3.jpeg"
+      }
+    ],
+    productTitle:
+      "French Empire gilded bronze miniature portrait of Napolean Bonapart c. 1870s",
+    description:
+      "French Empire gilded bronze miniature portrait of Napolean Bonapart c. 1870s. ",
+    dimensions: "5 1/2 x 3 1/2 inches",
+    price: "$1800"
+    //productId: "miniatures-portrait-napolean-french-empire"
+  },
+  "french-empire-old-paris-porcelain-vase-floral": {
+    category: "french-empire",
+    images: [
+      {
+        original: "/images/art-by-period/french-empire/french-empire-old-paris-porcelain-vase-floral-1.jpeg",
+          
+        thumbnail: "/images/art-by-period/french-empire/french-empire-old-paris-porcelain-vase-floral-1.jpeg"
+          
+      },
+      {
+        original: "/images/art-by-period/french-empire/french-empire-old-paris-porcelain-vase-floral-2.jpeg",
+         
+        thumbnail: "/images/art-by-period/french-empire/french-empire-old-paris-porcelain-vase-floral-2.jpeg"
+         
+      },
+      {
+        original: "/images/art-by-period/french-empire/french-empire-old-paris-porcelain-vase-floral-3.jpeg",
+          
+        thumbnail: "/images/art-by-period/french-empire/french-empire-old-paris-porcelain-vase-floral-3.jpeg"
+          
+      }
+    ],
+    productTitle:
+      "19th Century French Grey Paris Porcelain Vase",
+    description:
+      "19th Century French Empire Grey Paris Porcelain Floral Vase",
+    dimensions: "15 inches",
+    price: "inquire"
+    //productId: "french-empire-old-paris-porcelain-vase-floral"
+  },
+  "clocks-leroy-fils-french-empire": {
+    category: "french-empire",
+    images: [
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-clocks-leroy-fils-french-empire-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-clocks-leroy-fils-french-empire-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-clocks-leroy-fils-french-empire-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-clocks-leroy-fils-french-empire-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-clocks-leroy-fils-french-empire-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-clocks-leroy-fils-french-empire-3.jpeg"
+      }
+    ],
+    productTitle: "19th Century Leroy and Fils Mantle Clock c. 1870s",
+    description:
+      "19th Century Leroy and Fils gilt and enamle mantle clock c. 1870s.  Serviced.",
+    dimensions: "15 x 10 x 5 1/4 inches ",
+    price: "inquire"
+    // productId: "clocks-leroy-fils-french-empire"
+  },
+  "french-empire-porcelain-porcelain-ormolu-covered-urns-blue": {
+    category: "french-empire",
+    images: [
+      {
+        original:"/images/art-by-period/french-empire/french-empire-porcelain-porcelain-ormolu-covered-urns-blue-1.jpeg",
+          
+        thumbnail:"/images/art-by-period/french-empire/french-empire-porcelain-porcelain-ormolu-covered-urns-blue-1.jpeg"     
+      },
+      {
+        original:"/images/art-by-period/french-empire/french-empire-porcelain-porcelain-ormolu-covered-urns-blue-2.jpeg",
+          
+        thumbnail:"/images/art-by-period/french-empire/french-empire-porcelain-porcelain-ormolu-covered-urns-blue-2.jpeg"    
+      },
+      {
+        original:"/images/art-by-period/french-empire/french-empire-porcelain-porcelain-ormolu-covered-urns-blue-3.jpeg",
+          
+        thumbnail:"/images/art-by-period/french-empire/french-empire-porcelain-porcelain-ormolu-covered-urns-blue-3.jpeg"  
+      }
+    ],
+    productTitle:
+      "",
+    description:
+      "",
+    dimensions: "",
+    price: ""
+    //productId: "french-empire-porcelain-porcelain-ormolu-covered-urns-blue"
+  },
+  "bronze-statue-girl-holding-a-dove-after-falconet": {
+    category: "french-empire-",
+    images: [
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-bronze-statue-girl-holding-a-dove-after-falconet-1.jpeg",
+
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-bronze-statue-girl-holding-a-dove-after-falconet-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-bronze-statue-girl-holding-a-dove-after-falconet-2.jpeg",
+
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-bronze-statue-girl-holding-a-dove-after-falconet-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-bronze-statue-girl-holding-a-dove-after-falconet-3.jpeg",
+
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-bronze-statue-girl-holding-a-dove-after-falconet-3.jpeg"
+      }
+    ],
+    productTitle: "French Empire Bronze Bather With a Dove after Etienne Maurice Falconet ",
+    description:
+      "French Empire bronze statue of a girl holding a dove after Etienne Maurice Falconet, , French Empire, late 19th century. Made after an 18th century marble original by Falconet.",
+    dimensions: "8 x 6 1/2 x 5 inches",
+    price: "$1200"
+    //productId: "bronze-statue-girl-holding-a-dove-after-falconet"
+  },
+  "porcelain-sevres-cachepot-blue": {
+    category: "french-empire",
+    images: [
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-porcelain-sevres-cachepot-blue-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-porcelain-sevres-cachepot-blue-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-porcelain-sevres-cachepot-blue-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-porcelain-sevres-cachepot-blue-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-porcelain-sevres-cachepot-blue-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-porcelain-sevres-cachepot-blue-3.jpeg"
+      }
+    ],
+    productTitle: "Pair of 18th Century French Empire Blue Cachepots by Sevres",
+    description:
+      "A pair of 18th century French blue cachepots by Sevres with painted portraits.",
+    dimensions: "4 1/4 x 5 x 5 inches",
+    price: "$2200"
+    // productId: "porcelain-sevres-cachepot-blue"
+  },
+  "miniatures-portrait-dog-french-empire": {
+    category: "french-empire",
+    images: [
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-portrait-dog-french-empire-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-portrait-dog-french-empire-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-portrait-dog-french-empire-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-portrait-dog-french-empire-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-portrait-dog-french-empire-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-portrait-dog-french-empire-3.jpeg"
+      }
+    ],
+    productTitle:
+      "Empire Period miniature watercolor portrait of a dog c. 1870s",
+    description:
+      "Empire Period miniature watercolor portrait of a dog in gilt bronze frame c. 1870s",
+    dimensions: "12 x 10 inches",
+    price: "$1850"
+    //productId: "miniatures-portrait-dog-french-empire"
+  },
+  "french-empire-sculpture-bronze-cherubs": {
+    category: "sculpture",
+    images: [
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-cherubs-1.jpg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-cherubs-1.jpg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-cherubs-2.jpg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-cherubs-2.jpg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-cherubs-3.jpg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-cherubs-3.jpg"
+      }
+    ],
+    productTitle: "Pair of 19th Century French Empire Bronze Cherubs",
+    description:
+      "Pair of 19th Century French Empire Bronze Cherubs mounted on gilded wood bases",
+    dimensions: "10 x 3 1/2 x 3 1/2 inches",
+    price: "inquire"
+    //productId: "sculpture-bronze-cherubs-french-empire"
+  },
+  "french-empire-sculpture-bronze-child-dog-auguste-jospeh-peiffer": {
+    category: "sculpture",
+    images: [
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-child-dog-auguste-jospeh-peiffer-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-child-dog-auguste-jospeh-peiffer-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-child-dog-auguste-jospeh-peiffer-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-child-dog-auguste-jospeh-peiffer-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-child-dog-auguste-jospeh-peiffer-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-child-dog-auguste-jospeh-peiffer-3.jpeg"
+      }
+    ],
+    productTitle:
+      "19th Century French Empire Bronze Cherub Sculpture by Auguste Joseph Peiffer",
+    description:
+      "19th Century French Empire Bronze Sculpture of a cherub and dog by Auguste Joseph Peiffer(1832-1886).",
+    dimensions: "9 x 4 inches",
+    price: "$2800"
+    // productId: "sculpture-bronze-child-dog-auguste-jospeh-peiffer-french-empire"
+  },
+  "french-empire-sculpture-bronze-goddess-auguste-jospeh-peiffer": {
+    category: "sculpture",
+    images: [
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-goddess-auguste-jospeh-peiffer-1.jpg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-goddess-auguste-jospeh-peiffer-1.jpg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-goddess-auguste-jospeh-peiffer-2.jpg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-goddess-auguste-jospeh-peiffer-2.jpg"
+      },
+      {
+        original:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-goddess-auguste-jospeh-peiffer-3.jpg",
+        thumbnail:
+          "/images/art-by-period/french-empire/french-empire-sculpture-bronze-goddess-auguste-jospeh-peiffer-3.jpg"
+      }
+    ],
+    productTitle:
+      "19th Century French Empire Sculpture of a Goddess by Auguste Joseph Pfeiffer",
+    description:
+      "19th French Empire Classical Bronze Goddess by Auguste Joseph Pfeiffer(1832-1886)",
+    dimensions: "18 x 10 x 10 inches",
+    price: "inquire"
+    // productId: "sculpture-bronze-goddess-auguste-jospeh-peiffer-french-empire"
+  },
+
+  
   // Art by Period - Victorian
 
   "victorian-painting-english-alexander-ligitt": {
     category: "victorian",
-    /* images: [
-      "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg",
-      "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg",
-      "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-3.jpeg"
-    ], */
     images: [
       {
-        original: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg",
-        thumbnail: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg"
+        original:
+          "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-1.jpeg"
       },
       {
-          original: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg",
-          thumbnail: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg"
+        original:
+          "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-2.jpeg"
       },
       {
-          original: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-3.jpeg",
-          thumbnail: "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-3.jpeg"
+        original:
+          "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-painting-english-alexander-ligitt-3.jpeg"
       }
     ],
     productTitle:
@@ -34,12 +336,57 @@ export const artByPeriod = {
     price: "inquire"
     // productId: "victorian-painting-english-alexander-ligitt"
   },
+  "paintings-portrait-victorian-english-laslett-john-pott": {
+    category: "paintings",
+    images: [
+      {
+        original:
+          "/images/art-by-period/victorian/paintings-portrait-victorian-english-laslett-john-pott-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/paintings-portrait-victorian-english-laslett-john-pott-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/paintings-portrait-victorian-english-laslett-john-pott-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/paintings-portrait-victorian-english-laslett-john-pott-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/paintings-portrait-victorian-english-laslett-john-pott-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/paintings-portrait-victorian-english-laslett-john-pott-3.jpeg"
+      }
+    ],
+    productTitle:
+      "English Victorian Era Portait Painting by Laslett John Pott c. 1880s",
+    description:
+      "English portrait painting of on panel by Laslett John Pott c. 1880s c.",
+    dimensions: "13 x 10 x 1 inches",
+    price: "$2200"
+    //productId: "paintings-portrait-victorian-english-laslett-john-pott"
+  },
   "victorian-box-portrait-dog": {
     category: "victorian",
     images: [
-      "/images/art-by-period/victorian/victorian-box-portrait-dog-1.jpeg",
-      "/images/art-by-period/victorian/victorian-box-portrait-dog-2.jpeg",
-      "/images/art-by-period/victorian/victorian-box-portrait-dog-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-box-portrait-dog-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-box-portrait-dog-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-box-portrait-dog-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-box-portrait-dog-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-box-portrait-dog-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-box-portrait-dog-3.jpeg"
+      }
     ],
     productTitle: "Victorian Era Jewelry  box with a dog portrait c. 1860s",
     description:
@@ -51,9 +398,24 @@ export const artByPeriod = {
   "victorian-centerpiece-cranberry-glass": {
     category: "victorian",
     images: [
-      "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-1.jpeg",
-      "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-2.jpeg",
-      "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-centerpiece-cranberry-glass-3.jpeg"
+      }
     ],
     productTitle: "Victorian Era Cranberry Glass Centerpiece c. 1880s",
     description:
@@ -65,9 +427,24 @@ export const artByPeriod = {
   "victorian-tea-caddy-wood": {
     category: "victorian",
     images: [
-      "/images/art-by-period/victorian/victorian-tea-caddy-wood-1.jpeg",
-      "/images/art-by-period/victorian/victorian-tea-caddy-wood-2.jpeg",
-      "/images/art-by-period/victorian/victorian-tea-caddy-wood-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-tea-caddy-wood-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-tea-caddy-wood-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-tea-caddy-wood-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-tea-caddy-wood-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-tea-caddy-wood-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-tea-caddy-wood-1.jpeg"
+      }
     ],
     productTitle: "Victorian Era Wooden Tea Caddy c. 1860s",
     description:
@@ -79,9 +456,24 @@ export const artByPeriod = {
   "victorian-painting-landscape-aaron-edwin-penley": {
     category: "victorian",
     images: [
-      "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-1.jpeg",
-      "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-2.jpeg",
-      "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-painting-landscape-aaron-edwin-penley-3.jpeg"
+      }
     ],
     productTitle:
       "Victorian Era Highland Landscape Painting by Aaron Edwin Penley",
@@ -94,9 +486,24 @@ export const artByPeriod = {
   "victorian-fountain-pen-holder-masons-ironstone-imari": {
     category: "victorian",
     images: [
-      "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-1.jpeg",
-      "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-2.jpeg",
-      "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-fountain-pen-holder-masons-ironstone-imari-3.jpeg"
+      }
     ],
     productTitle:
       "19th Century Victorian Era Mason's Ironstone Covered Fountain Pen Dish",
@@ -109,9 +516,24 @@ export const artByPeriod = {
   "victorian-silver-shoe-repoussé-german": {
     category: "victorian",
     images: [
-      "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-1.jpeg",
-      "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-2.jpeg",
-      "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-silver-shoe-repoussé-german-3.jpeg"
+      }
     ],
     productTitle: "Victorian Era German Sterling Silver Shoe c. 1890s",
     description:
@@ -123,9 +545,24 @@ export const artByPeriod = {
   "victorian-powder-box-red-glass-moser-czech": {
     category: "victorian",
     images: [
-      "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-1.jpeg",
-      "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-2.jpeg",
-      "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-powder-box-red-glass-moser-czech-3.jpeg"
+      }
     ],
     productTitle:
       "Victorian Era Red Bohemian Glass Powder Box by Moser c. 1880s",
@@ -138,9 +575,24 @@ export const artByPeriod = {
   "victorian-box-miniature-portrait": {
     category: "victorian",
     images: [
-      "/images/art-by-period/victorian/victorian-box-miniature-portrait-1.jpeg",
-      "/images/art-by-period/victorian/victorian-box-miniature-portrait-2.jpeg",
-      "/images/art-by-period/victorian/victorian-box-miniature-portrait-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-box-miniature-portrait-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-box-miniature-portrait-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-box-miniature-portrait-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-box-miniature-portrait-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/victorian/victorian-box-miniature-portrait-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/victorian/victorian-box-miniature-portrait-3.jpeg"
+      }
     ],
     productTitle:
       "Victorian Era Jewelry Box with a Miniature Portrait of a Lady",
@@ -156,9 +608,24 @@ export const artByPeriod = {
   "aesthetic-movement-vase-old-hall-english": {
     category: "aesthetic-movement",
     images: [
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-1.jpeg",
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-2.jpeg",
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vase-old-hall-english-3.jpeg"
+      }
     ],
     productTitle: "Aesthetic Movement Old Hall Vase c. 1880",
     description:
@@ -170,9 +637,24 @@ export const artByPeriod = {
   "aesthetic-movement-vases-english-royal-worcester": {
     category: "aesthetic-movement",
     images: [
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-1.jpeg",
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-2.jpeg",
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-royal-worcester-3.jpeg"
+      }
     ],
     productTitle:
       "Pair of Aesthetic Movement Royal Worchester Ewer Vases c. 1880s",
@@ -185,9 +667,24 @@ export const artByPeriod = {
   "aesthetic-movement-jewelry-box-french": {
     category: "aesthetic-movement",
     images: [
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-1.jpeg",
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-2.jpeg",
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-jewelry-box-french-3.jpeg"
+      }
     ],
     productTitle:
       "Aesthetic Movement French Enameled Porcelain Jewelry Box c. 1880s",
@@ -200,9 +697,24 @@ export const artByPeriod = {
   "aesthetic-movement-vases-english-doulton-lambeth": {
     category: "aesthetic-movement",
     images: [
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-1.jpeg",
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-2.jpeg",
-      "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/aesthetic-movement/aesthetic-movement-vases-english-doulton-lambeth-3.jpeg"
+      }
     ],
     productTitle: "Aesthetic Movement Royal Doulton Lambeth Vases c. 1880s",
     description:
@@ -217,9 +729,24 @@ export const artByPeriod = {
   "art-nouveau-glass-vase-émile-gallé": {
     category: "art-nouveau",
     images: [
-      "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-1.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-2.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-2.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-glass-vase-émile-gallé-3.jpeg"
+      }
     ],
     productTitle: "Art Nouveau Gallé Cameo Glass Vase c. 1900",
     description: "Art Nouveau French cameo glass vase by Émile Gallé c. 1900",
@@ -230,9 +757,24 @@ export const artByPeriod = {
   "art-nouveau-vase-glass-kralik": {
     category: "art-nouveau",
     images: [
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-1.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-2.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-3.jpeg"
+      }
     ],
     productTitle: "Art Nouveau Glass Claw Pattern Vase by Kralik",
     description:
@@ -244,9 +786,24 @@ export const artByPeriod = {
   "art-nouveau-centerpiece-porcelain-royal-dux-shells": {
     category: "art-nouveau",
     images: [
-      "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-1.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-2.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-centerpiece-porcelain-royal-dux-shells-3.jpeg"
+      }
     ],
     productTitle: "Art Nouveau Porcelain Centerpiece by Royal Dux c. 1900.",
     description:
@@ -259,9 +816,24 @@ export const artByPeriod = {
   "art-nouveau-vase-cameo-glass-émile-gallé-rio": {
     category: "art-nouveau",
     images: [
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-1.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-2.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-cameo-glass-émile-gallé-rio-3.jpeg"
+      }
     ],
     productTitle:
       "Art Nouveau Émile Gallé Rio de Janeiro Cameo Glass Vase c. 1910.",
@@ -274,9 +846,24 @@ export const artByPeriod = {
   "art-nouveau-vase-glass-kralik-green-sterling": {
     category: "art-nouveau",
     images: [
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-1.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-2.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-kralik-green-sterling-3.jpeg"
+      }
     ],
     productTitle:
       "Art Nouveau Green Glass Vase with a Sterling Silver Neck by Kralik c. 1900",
@@ -289,9 +876,24 @@ export const artByPeriod = {
   "art-nouveau-vase-glass-steuben-aurene-frederick-carder": {
     category: "art-nouveau",
     images: [
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-1.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-2.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-vase-glass-steuben-aurene-frederick-carder-3.jpeg"
+      }
     ],
     productTitle:
       "Art Nouveau Steuben Blue Aurene Glass Vase by Frederick carder c. 1910",
@@ -304,9 +906,24 @@ export const artByPeriod = {
   "art-nouveau-plate-royal-vienna-portrait": {
     category: "art-nouveau",
     images: [
-      "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-1.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-2.jpeg",
-      "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-nouveau/art-nouveau-plate-royal-vienna-portrait-3.jpeg"
+      }
     ],
     productTitle: "Art Nouveau Royal Vienna Green Cabinet Plate by C. Kiesel ",
     description:
@@ -321,9 +938,24 @@ export const artByPeriod = {
   "art-deco-vase-enamel-glass-legras": {
     category: "art-deco",
     images: [
-      "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-1.jpeg",
-      "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-2.jpeg",
-      "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-enamel-glass-legras-3.jpeg"
+      }
     ],
     productTitle: "Art Deco French Enameled Glass Vase by Legras c. 1930s",
     description:
@@ -335,9 +967,24 @@ export const artByPeriod = {
   "art-deco-vase-porcelain-haviland-limoges": {
     category: "art-deco",
     images: [
-      "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-1.jpeg",
-      "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-2.jpeg",
-      "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-porcelain-haviland-limoges-3.jpeg"
+      }
     ],
     productTitle:
       "Art Deco French Porcelain Moonflask Vase by Haviland Limoqes c. 1930s",
@@ -350,11 +997,27 @@ export const artByPeriod = {
   "art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german": {
     category: "art-deco",
     images: [
-      "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-1.jpeg",
-      "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-2.jpeg",
-      "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-figurine-dancer-goldsheider-joseph-lorenzl-german-3.jpeg"
+      }
     ],
-    productTitle: "Art Deco German Goldsheider Batlady Flapper Figurine by Joseph Lorenzl 1920s",
+    productTitle:
+      "Art Deco German Goldsheider Batlady Flapper Figurine by Joseph Lorenzl 1920s",
     description:
       "Art Deco German figurine of a flapper Goldsheider batlady figurine by Joseph Lorenzl, German Early 20th Century.",
     dimensions: "9 x 8 x 3 1/2 inches",
@@ -364,9 +1027,24 @@ export const artByPeriod = {
   "art-deco-sculpture-bronze-george-morin": {
     category: "art-deco",
     images: [
-      "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-1.jpeg",
-      "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-2.jpeg",
-      "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-sculpture-bronze-george-morin-3.jpeg"
+      }
     ],
     productTitle: "Art Deco Bronze Sculpture by George Morin c. 1930s",
     description: "Art Deco German Bronze Sculpture by George Morin c. 1930s. ",
@@ -377,9 +1055,24 @@ export const artByPeriod = {
   "art-deco-vase-consolidated-lovebirds-green-glass": {
     category: "art-deco",
     images: [
-      "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-1.jpeg",
-      "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-2.jpeg",
-      "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-vase-consolidated-lovebirds-green-glass-3.jpeg"
+      }
     ],
     productTitle:
       "Art Deco Painted Green Glass Lovebird Vase by Consolidated Glass c. 1930s. ",
@@ -392,12 +1085,28 @@ export const artByPeriod = {
   "art-deco-figurine-green-zsolnay": {
     category: "art-deco",
     images: [
-      "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-1.jpeg",
-      "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-2.jpeg",
-      "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-figurine-green-zsolnay-3.jpeg"
+      }
     ],
     productTitle: "Art Deco Zsolnay figurine of a woman in green c. 1930s",
-    description: "Art Deco Zsolnay figurine of a woman in green, Hungarian Early 20th Century.",
+    description:
+      "Art Deco Zsolnay figurine of a woman in green, Hungarian Early 20th Century.",
     dimensions: "10 x 3 inches",
     price: "inquire"
     // productId: "art-deco-figurine-green-zsolnay"
@@ -405,9 +1114,24 @@ export const artByPeriod = {
   "art-deco-tea-set-edna-bess": {
     category: "art-deco",
     images: [
-      "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-1.jpeg",
-      "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-2.jpeg",
-      "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/art-deco/art-deco-tea-set-edna-bess-3.jpeg"
+      }
     ],
     productTitle: "Art Deco Tea Set by Edna Best c. 1930s",
     description:
@@ -422,9 +1146,24 @@ export const artByPeriod = {
   "modern-centerpiece-glass-green-blenko": {
     category: "modern-art",
     images: [
-      "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-1.jpeg",
-      "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-2.jpeg",
-      "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-centerpiece-glass-green-blenko-3.jpeg"
+      }
     ],
     productTitle: "Modern Green Glass Centerpiece by Blenko c. 1950s",
     description:
@@ -436,9 +1175,24 @@ export const artByPeriod = {
   "modern-vase-glass-murano-sommerso-seguso-flavio-poli": {
     category: "modern-art",
     images: [
-      "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-1.jpeg",
-      "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-2.jpeg",
-      "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-murano-sommerso-seguso-flavio-poli-3.jpeg"
+      }
     ],
     productTitle:
       "Modern Purple Murano Glass Sommerso Vase by Flavio Poli for Seguso Vetri D'Arte c. 1960",
@@ -451,9 +1205,24 @@ export const artByPeriod = {
   "modern-bowl-porcelain-rosenthal-winblad": {
     category: "modern-art",
     images: [
-      "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-1.jpeg",
-      "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-2.jpeg",
-      "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-bowl-porcelain-rosenthal-winblad-3.jpeg"
+      }
     ],
     productTitle:
       "Modern Centerpiece Bowl by Bjorn Wiinblad for Rosenthal Studio Line c. 1970s.",
@@ -466,9 +1235,24 @@ export const artByPeriod = {
   "modern-bowl-glass-willy-johansson-hadeland": {
     category: "modern-art",
     images: [
-      "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-1.jpeg",
-      "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-2.jpeg",
-      "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-bowl-glass-willy-johansson-hadeland-3.jpeg"
+      }
     ],
     productTitle:
       "Modern Art Glass Centerpiece bowl by Willy Johansson for Hadeland c. 1960s.",
@@ -481,9 +1265,24 @@ export const artByPeriod = {
   "modern-vase-glass-jan-bernek-czech": {
     category: "modern-art",
     images: [
-      "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-1.jpeg",
-      "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-2.jpeg",
-      "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-glass/modern-vase-glass-jan-bernek-czech-3.jpeg"
+      }
     ],
     productTitle:
       "Modern Purple Glass Vase by Jan Beranek for Skrdlovice c. 1960s.",
@@ -496,9 +1295,24 @@ export const artByPeriod = {
   "modern-vase-ceramic-black-rosenthal": {
     category: "modern-art",
     images: [
-      "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-1.jpeg",
-      "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-2.jpeg",
-      "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-black-rosenthal-3.jpeg"
+      }
     ],
     productTitle: "",
     description: "Vintage Rosenthal Studioline black modernist vase c. 1970s",
@@ -509,9 +1323,24 @@ export const artByPeriod = {
   "modern-paperweight-ceramic-fornasetti": {
     category: "modern-art",
     images: [
-      "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-1.jpeg",
-      "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-2.jpeg",
-      "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-paperweight-ceramic-fornasetti-3.jpeg"
+      }
     ],
     productTitle: "Modern Paperweight Cube by Piero Fornasetti c. 1950s",
     description:
@@ -523,9 +1352,24 @@ export const artByPeriod = {
   "modern-vase-ceramic-tapio-wirkkala-rosenthal": {
     category: "modern-art",
     images: [
-      "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-1.jpeg",
-      "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-2.jpeg",
-      "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-3.jpeg"
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-1.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-1.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-2.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-2.jpeg"
+      },
+      {
+        original:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-3.jpeg",
+        thumbnail:
+          "/images/art-by-period/modern-art/modern-ceramics/modern-vase-ceramic-tapio-wirkkala-rosenthal-3.jpeg"
+      }
     ],
     productTitle:
       "Modern Pollo Vase by Tapio Wirkkala for Rosenthal Studio Line c. 1971.",
