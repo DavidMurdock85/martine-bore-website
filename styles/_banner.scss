@@ -1,0 +1,24 @@
+.banner-style {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+
+  .banner-image-deco {
+    flex-direction: row;
+    display: block;
+    border-style: solid 1px black !important;
+    border-radius: 25%;
+
+    .banner-image {
+    }
+  }
+  .banner-subtitle {
+    font-family: "Josefin Sans", sans-serif;
+    flex-direction: row;
+    color: #6e612b;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

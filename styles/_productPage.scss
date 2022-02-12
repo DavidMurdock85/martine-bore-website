@@ -1,0 +1,49 @@
+.product {
+  display: flex;
+
+  .product-item-image {
+    border: solid 1px #454545 !important;
+  }
+
+  .product-item-text {
+    display: flex;
+    flex-wrap: wrap;
+
+    .product-item-text-sections {
+      font-family: "Josefin Sans";
+      font-weight: bolder;
+      width: 100%;
+
+      .product-page-title {
+      }
+
+      .description-title {
+        text-decoration: solid underline 1px #454545;
+      }
+
+      .details-title {
+        text-decoration: solid underline 1px #454545;
+      }
+
+      .product-page-text {
+        padding-bottom: 10px;
+        h5 {
+          font-weight: 500;
+        }
+      }
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+.image-gallery-image {
+  max-height: none !important;
+}
+
+.inner-image-nav {
+  height: 300px;
+  width: 100%;
+}

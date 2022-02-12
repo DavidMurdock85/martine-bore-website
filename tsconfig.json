@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mb/*": [
+        "*"
+      ]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/products/[productId].tsx.skip", "db/database-query.js", "database/products.js", "database/products/products.js", "database/products/products-tableware.js", "database/products/products-sold.js", "database/products/products-paintings.js", "database/products/products-newArrivals.js", "database/products/products-jewelry.js", "database/products/products-clocks.js", "database/products/products-artByRegion.js", "database/products/products-artByPeriod.js", "database/products/products-artByMaker.js"],
+  "exclude": ["node_modules"]
+}
