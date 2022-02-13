@@ -1,7 +1,8 @@
 import { getLocalStorage, StorageKey } from "@mb/services/LocalStorageService";
+import { API_BASE_URL } from "@mb/utils/constants";
 import assign from "deep-assign";
 
-const baseApiUrl = "http://localhost:3001"; // process.env.REACT_APP_MB_API_URL;
+const baseApiUrl = API_BASE_URL;
 
 async function get<T>(path: string, options?: any): Promise<T> {
   return fetchWithDefaults(

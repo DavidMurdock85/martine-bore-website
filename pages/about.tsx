@@ -1,8 +1,9 @@
 import { Base, Col, Row } from "@mb/components/layout";
+import { PageWrapper } from "@mb/components/PageWrapper";
+import { IMAGES_BASE_URL } from "@mb/utils/constants";
 import { NextPage } from "next";
 import Image from "next/image";
 import React from "react";
-import { PageWrapper } from "@mb/components/PageWrapper";
 
 const About: NextPage = () => {
   return (
@@ -10,16 +11,15 @@ const About: NextPage = () => {
       <Col className="about-sections">
         <Row>
           <Base class="about-us">
-            <Base
+            <Image
               className="about-image"
-              tag="img"
-              src="./images/about-us-images/about-us1.jpeg"
+              src={`${IMAGES_BASE_URL}/about-us-images/about-us1.jpeg`}
               alt="Image of Boré family in the original gallery"
-            ></Base>
+            />
             <Base tag="h2" pt={3}>
               About Us
             </Base>
-            <Image src="images/about-us-1.jpeg" alt="image of old gallery" />
+            <Image src={`${IMAGES_BASE_URL}/about-us-images/about-us-1.jpeg`} alt="image of old gallery" />
             <Base tag="h3" pl={2} pb={2}>
               Our Story
             </Base>

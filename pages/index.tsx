@@ -4,7 +4,6 @@ import Image from "next/image";
 import React from "react";
 
 import type { NextPage } from "next";
-
 const Home: NextPage = () => {
   return (
     <PageWrapper
@@ -12,7 +11,7 @@ const Home: NextPage = () => {
       title="Martine Boré Antiques Ltd."
     >
       <Base className="home-image">
-        <Image src="/images/homepage-images/homepage-image.jpeg" alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." width="2000px" height="1500px" />
+        <Image src='/homepage-images/main-image.jpeg' alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." width="2000px" height="1500px" />
       </Base>
     </PageWrapper>
   )

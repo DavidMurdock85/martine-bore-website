@@ -34,7 +34,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
     >
       <Base className="image-border-deco">
         {images && (
-          <Image className="product-image" src={images[0].original} alt="" />
+          <Image className="product-image" src={images[0].original} alt={title || ""} />
         )}
       </Base>
 
