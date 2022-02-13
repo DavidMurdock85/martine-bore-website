@@ -7,7 +7,7 @@ import React from "react";
 
 const About: NextPage = () => {
   return (
-    <PageWrapper title="" description="">
+    <PageWrapper title="About Us" description="">
       <Col className="about-sections">
         <Row>
           <Base class="about-us">
@@ -19,7 +19,6 @@ const About: NextPage = () => {
             <Base tag="h2" pt={3}>
               About Us
             </Base>
-            <Image src={`${IMAGES_BASE_URL}/about-us-images/about-us-1.jpeg`} alt="image of old gallery" />
             <Base tag="h3" pl={2} pb={2}>
               Our Story
             </Base>

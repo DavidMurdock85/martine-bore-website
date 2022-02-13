@@ -48,22 +48,12 @@ export const Navigation: React.FC = (props: any) => {
             </Nav.Link>
           </Base>
 
-          {/* Paintings  */}
-
-          {/*
-          <Base className="header-titles" tag="h5">
-            <Nav.Link className="basic-nav-link" href="/categories/paintings">
-              Paintings
-            </Nav.Link>
-          </Base>
-          */}
-
-         {/*Consider designing featured module above product display section with top example of section with dob dod and 
+          {/*Consider designing featured module above product display section with top example of section with dob dod and 
          curated comentary.  consider designing mysql featured section for mixed top end pieces from
         different sections. use key pair to generate images.
          */}
 
-          {/*Dropdown - Painting - Add New Section to replace Paintings*/}
+          {/*Dropdown - Paintings - Add New Section to replace Paintings*/}
 
           <Base className="header-titles" tag="h5">
             <DropDownOnHover title="Paintings" className="basic-nav-dropdown">
@@ -117,6 +107,11 @@ export const Navigation: React.FC = (props: any) => {
               <Base className="header-h5" tag="h5">
                 <NavDropdown.Item href="/categories/necklaces">
                   Necklaces
+                </NavDropdown.Item>
+              </Base>
+              <Base className="header-h5" tag="h5">
+                <NavDropdown.Item href="/categories/earrings">
+                  Earrings
                 </NavDropdown.Item>
               </Base>
               <Base className="header-h5" tag="h5">
@@ -275,7 +270,7 @@ export const Navigation: React.FC = (props: any) => {
           </Base>
 
           {/* Clocks */}
-
+   
           <Base className="header-titles" tag="h5">
             <Nav.Link className="basic-nav-link" href="/categories/clocks">
               Clocks
