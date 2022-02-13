@@ -10,16 +10,9 @@ const About: NextPage = () => {
       <Col className="about-sections">
         <Row>
           <Base class="about-us">
-            <Base
-              className="about-image"
-              tag="img"
-              src="./images/about-us-images/about-us1.jpeg"
-              alt="Image of Boré family in the original gallery"
-            ></Base>
             <Base tag="h2" pt={3}>
               About Us
             </Base>
-            <Image src="images/about-us-1.jpeg" alt="image of old gallery" />
             <Base tag="h3" pl={2} pb={2}>
               Our Story
             </Base>
