@@ -1,0 +1,15 @@
+.new-product {
+  .dropzone {
+    height: 8rem;
+    width: 100%;
+    border: 2px dashed #999;
+    background-color: #eee;
+    border-radius: 2px;
+  }
+
+  .images {
+    img {
+      width: 4rem;
+    }
+  }
+}

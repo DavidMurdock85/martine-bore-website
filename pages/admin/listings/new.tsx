@@ -1,23 +1,53 @@
 import { AdminWrapper } from "@mb/components/AdminWrapper";
-import { Base, Col, Flex, Row } from "@mb/components/layout";
-import { createNewListing, NewListing } from "@mb/services/AdminService";
+import { Image } from "@mb/components/elements";
+import { Base, Center, Col, Flex, Row } from "@mb/components/layout";
+import { addImagesToListing, createNewListing, NewListing } from "@mb/services/AdminService";
+import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
 import { Formik } from "formik";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
+import { useDropzone } from "react-dropzone";
 
 const CreateListing: React.FC = () => {
   const [submitted, setSubmitted] = useState<Product[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
+  const [images, setImages] = useState<any[]>([]);
 
-  const onSubmit = async (values: NewListing) => {
-    const createdListing = await createNewListing(values);
-    setSubmitted(submitted.concat(createdListing));
+  const fetchCategories = async () => {
+    setCategories(await get<Category[]>("/categories"));
   };
 
+  const onSubmit = async (values: NewListing) => {
+    try {
+      const createdListing = await createNewListing(values);
+      const addedImages = await addImagesToListing(createdListing.id, images);
+      setSubmitted(submitted.concat({
+        ...createdListing,
+        images: addedImages
+      }));
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    accept: 'image/*',
+    onDrop: acceptedFiles => {
+      const additionalImages = acceptedFiles.map(file => Object.assign(file, {
+          preview: URL.createObjectURL(file)
+      }));
+      setImages(images.concat(additionalImages));
+    }
+  });
+
+  useEffect(() => {
+    fetchCategories();
+  }, []);
+
   return <AdminWrapper>
-    <Base className="new-listing">
+    <Base className="new-product">
       { submitted &&
         <Flex>
           { submitted.map(submitted => {
@@ -29,7 +59,7 @@ const CreateListing: React.FC = () => {
         <Formik
           initialValues={{
             categoryId: 1,
-            productTitle: "",
+            title: "",
             period: "",
             date: "",
             origin: "",
@@ -61,10 +91,18 @@ const CreateListing: React.FC = () => {
               <Form.Group controlId="categoryId">
                 <Form.Label>Category</Form.Label>
                 <Form.Control
-                  as="input"
+                  as="select"
                   onChange={handleChange}
                   onBlur={handleBlur}
-                />
+                >
+                  {categories.map((category: Category) => {
+                    return (
+                      <Base tag="option" key={category.id} value={category.id}>
+                        {category.title}
+                      </Base>
+                    );
+                  })}
+                </Form.Control>
               </Form.Group>
               <Row>
                 <Col>
@@ -148,6 +186,17 @@ const CreateListing: React.FC = () => {
                   onBlur={handleBlur}
                 />
               </Form.Group>
+              <Center className="dropzone" {...getRootProps()} mt={4}>
+                <input {...getInputProps()} />
+                {
+                  isDragActive ?
+                    <Base className="drop-here-active">Drop the files here ...</Base> :
+                    <Base className="drop-here">Drag and drop images here, or click here to select.</Base>
+                }
+              </Center>
+              {images && <Flex className="images" mt={1}>
+                {images.map((image, index) => <Image key={index} src={image.preview} alt="test" />)}
+              </Flex>}
               <Flex mt={2} flexDirection="rowReverse">
                 <Button type="submit" className="submit">
                   Create

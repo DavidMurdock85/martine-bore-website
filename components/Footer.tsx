@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "@mb/components/elements";
 import React from "react";
 
-import { Base, Col, Flex, Row } from "./layout";
+import { Base, Col, Flex, FlexRight, Row } from "./layout";
 
 export const Footer: React.FC = () => {
   return (
@@ -91,6 +91,9 @@ export const Footer: React.FC = () => {
           </Base>
         </Col>
       </Row>
+      <FlexRight pb={1} pr={1}>
+        <Base tag="a" href="/admin/login">Admin Tools</Base>
+      </FlexRight>
     </>
   );
 };

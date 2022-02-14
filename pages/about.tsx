@@ -10,10 +10,11 @@ const About: NextPage = () => {
     <PageWrapper title="About Us" description="">
       <Col className="about-sections">
         <Row>
-          <Base class="about-us">
+          <Base className="about-us">
             <Image
               className="about-image"
               src={`${IMAGES_BASE_URL}/about-us-images/about-us1.jpeg`}
+              layout="fill"
               alt="Image of Boré family in the original gallery"
             />
             <Base tag="h2" pt={3}>
