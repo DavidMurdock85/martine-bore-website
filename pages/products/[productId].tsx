@@ -3,7 +3,7 @@ import { Breadcrumb } from "@mb/components/Breadcrumbs";
 import { Base, Col, Row } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
 import { CategoryBreadcrumb, Product } from "@mb/services/types";
-import { API_BASE_URL } from "@mb/utils/constants";
+import { API_BASE_URL, IMAGES_BASE_URL } from "@mb/utils/constants";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
@@ -79,7 +79,13 @@ const ProductPage: NextPage = () => {
         <Row className="product" noGutters>
           <Col className="product-item-image" xs={12} sm={6}>
             <ImageGallery
-              items={product.images || []}
+              items={product.images?.map(image => {
+                return {
+                  ...image,
+                  original: `${IMAGES_BASE_URL}/${image.original}`,
+                  thumbnail: `${IMAGES_BASE_URL}/${image.thumbnail}`
+                }
+              }) || []}
               showNav={false}
               showPlayButton={false}
               showFullscreenButton={false}

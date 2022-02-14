@@ -4,6 +4,7 @@ import { Base, Col, Flex, Row, Split } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
 import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
+import { IMAGES_BASE_URL } from "@mb/utils/constants";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
@@ -34,7 +35,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
     >
       <Base className="image-border-deco">
         {images && (
-          <Image className="product-image" src={images[0].original} alt={title || ""} />
+          <Image className="product-image" src={`${IMAGES_BASE_URL}/${images[0].original}`} alt={title || ""} />
         )}
       </Base>
 
