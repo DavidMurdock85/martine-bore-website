@@ -1,15 +1,22 @@
 import { Base, Col, Row } from "@mb/components/layout";
+import { PageWrapper } from "@mb/components/PageWrapper";
+import { IMAGES_BASE_URL } from "@mb/utils/constants";
 import { NextPage } from "next";
 import Image from "next/image";
 import React from "react";
-import { PageWrapper } from "@mb/components/PageWrapper";
 
 const About: NextPage = () => {
   return (
-    <PageWrapper title="" description="">
+    <PageWrapper title="About Us" description="">
       <Col className="about-sections">
         <Row>
-          <Base class="about-us">
+          <Base className="about-us">
+            <Image
+              className="about-image"
+              src={`${IMAGES_BASE_URL}/about-us-images/about-us1.jpeg`}
+              layout="fill"
+              alt="Image of Boré family in the original gallery"
+            />
             <Base tag="h2" pt={3}>
               About Us
             </Base>
