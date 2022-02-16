@@ -15,6 +15,11 @@
 // Product Image
 
 .product-item {
+  .delete {
+    color: red;
+    font-size: 20px;
+  }
+
   .image-border-deco {
     margin-bottom: 0.5rem;
     //border: solid 1px lightgray;

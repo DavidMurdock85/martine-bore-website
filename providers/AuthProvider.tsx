@@ -62,10 +62,10 @@ const AuthProvider: React.FC = (props: any) => {
 
   const loginUser = function (authResponse: any) {
     setLocalStorage(StorageKey.OAuthToken, authResponse.accessToken);
-    // setLocalStorage(StorageKey.OAuthTokenExp, authResponse.accessTokenExpiresAt);
+    setLocalStorage(StorageKey.OAuthTokenExp, authResponse.accessTokenExpiresAt);
     // setLocalStorage(StorageKey.OAuthRefreshToken, authResponse.refreshToken);
     // setLocalStorage(StorageKey.OAuthRefreshTokenExp, authResponse.refreshTokenExpiresAt);
-    // setLocalStorage(StorageKey.UserId, authResponse.user.id);
+    setLocalStorage(StorageKey.UserId, authResponse.user.id);
     dispatch({
       type: "loginUser",
       payload: {
@@ -127,11 +127,13 @@ const reducer = (state: AuthState, action: any) => {
   switch (action.type) {
     case "logoutUser":
       return {
-        loggedIn: false
+        loggedIn: false,
+        user: null
       };
     case "loginUser":
       return {
-        loggedIn: true
+        loggedIn: true,
+        user: action.payload.user
       };
     default:
       return state;
