@@ -1,5 +1,6 @@
 import { Base, Col, Flex, Row } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
+import { sendContactRequest } from "@mb/services/SupportService";
 import { Formik } from "formik";
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
@@ -10,7 +11,7 @@ const ContactUs: React.FC<any> = () => {
   const [submitted, setSubmitted] = useState<boolean>(false);
 
   const onSubmit = async (values: any) => {
-    // await sendSupportRequest(values.support);
+    await sendContactRequest(values.support);
     setSubmitted(true);
   };
 
