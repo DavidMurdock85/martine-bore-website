@@ -1,7 +1,11 @@
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Breadcrumb } from "@mb/components/Breadcrumbs";
 import { Image } from "@mb/components/elements";
-import { Base, Col, Flex, Row, Split } from "@mb/components/layout";
+import { Base, Col, Flex, FlexRight, Row, Split } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
+import { useAuth } from "@mb/providers/AuthProvider";
+import { deleteListing } from "@mb/services/AdminService";
 import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
 import { IMAGES_BASE_URL } from "@mb/utils/constants";
@@ -11,13 +15,15 @@ import React, { useEffect, useState } from "react";
 
 // Product Item
 interface ProductItemProps {
+  onDelete: () => void;
   product: Product;
 }
 
-const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
+const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
   const router = useRouter();
+  const loggedIn = useAuth().state.loggedIn;
 
-  const { images, title } = product;
+  const { id, images, route, title } = product;
 
   // this is returning product image and title from categories
   return (
@@ -30,9 +36,17 @@ const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
       lg={3}
       p={2}
       onClick={() => {
-        router.push(`/products/${product.route}`);
+        router.push(`/products/${route}`);
       }}
     >
+      { loggedIn && <FlexRight className='delete' pb={1} onClick={async (e: React.MouseEvent) => {
+        e.stopPropagation();
+        const confirmDelete = confirm("Are you sure you want to delete this listing?");
+        if(confirmDelete) {
+          await deleteListing(id);
+          onDelete();
+        }
+      }}><FontAwesomeIcon icon={ faTimes }/></FlexRight> }
       <Base className="image-border-deco">
         {images && (
           <Image className="product-image" src={`${IMAGES_BASE_URL}/${images[0].original}`} alt={title || ""} />
@@ -99,7 +113,11 @@ const ProductCategory: NextPage = () => {
         <Row mt={2}>
           {products.length > 0 &&
             products.map((product, index: number) => (
-              <ProductItem key={index} product={product} />
+              <ProductItem key={index} product={product} onDelete={() => {
+                setProducts(products.filter(item => {
+                  return item.id !== product.id;
+                }))
+              }}/>
             ))}
         </Row>
       </Flex>

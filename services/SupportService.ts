@@ -1,9 +1,9 @@
 import { post } from "@mb/services/FetchService";
 
-const sendSupportRequest = async (requestSupport: any): Promise<string> => {
-  return post(`/notify/requestSupport`, {
+const sendContactRequest = async (requestSupport: any): Promise<string> => {
+  return post(`/support/contact`, {
     body: JSON.stringify(requestSupport),
   });
 };
 
-export { sendSupportRequest };
+export { sendContactRequest };

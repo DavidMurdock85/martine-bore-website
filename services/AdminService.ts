@@ -1,4 +1,4 @@
-import { post, postFile } from "@mb/services/FetchService";
+import { del, post, postFile } from "@mb/services/FetchService";
 import { Product, ProductImage } from "@mb/services/types";
 
 export interface NewListing {
@@ -31,4 +31,8 @@ export const addImagesToListing = async (listingId: number, images: string[] | B
   return await postFile(`/products/${listingId}/images`, {
     body: formData,
   });
+};
+
+export const deleteListing = async (listingId: number): Promise<void> => {
+  await del(`/products/${listingId}`);
 };
