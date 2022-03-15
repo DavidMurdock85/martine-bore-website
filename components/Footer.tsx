@@ -1,8 +1,11 @@
-import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "@mb/components/elements";
 import React from "react";
-
 import { Base, Col, Flex, FlexRight, Row } from "./layout";
 
 export const Footer: React.FC = () => {
@@ -17,7 +20,6 @@ export const Footer: React.FC = () => {
       </Base>
 
       <Row tag="footer" className="footer" p={{ xs: 2, md: 8 }}>
-
         {/*footer-links*/}
 
         <Col className="footer-col">
@@ -43,7 +45,7 @@ export const Footer: React.FC = () => {
 
         <Col>
           <Base pl={2} pt={2}>
-            <Base className="title" tag="h5">
+            <Base className="title" tag="h5" mt={2}>
               Find Us
             </Base>
             <Base tag="h6">1462 Marine Dr, West Vancouver, BC</Base>
@@ -56,26 +58,28 @@ export const Footer: React.FC = () => {
 
         <Col>
           <Base pl={2} pt={2}>
-            <Base className="title" tag="h5">
+            <Base className="title" tag="h5" mr={2} mb={5}>
               Follow Us
             </Base>
-            <Flex className="footer-social" flexDirection="row">
-              <Base mr={2} tag="h6">
-                <Link href="https://www.facebook.com/MartineB2226A/">
-                  <FontAwesomeIcon icon={faFacebook} />
-                </Link>
-              </Base>
-              <Base mr={2} tag="h6">
-                <Link href="https://twitter.com/mibantiqueshop2?lang=en">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </Link>
-              </Base>
-              <Base mr={2} tag="h6">
-                <Link href="https://www.instagram.com/martineboreantiques/">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </Link>
-              </Base>
-            </Flex>
+           
+              <Flex className="footer-social" flexDirection="row">
+                <Base mr={2} tag="h6">
+                  <Link href="https://www.facebook.com/MartineB2226A/">
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </Link>
+                </Base>
+                <Base mr={2} tag="h6">
+                  <Link href="https://twitter.com/mibantiqueshop2?lang=en">
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </Link>
+                </Base>
+                <Base mr={2} tag="h6">
+                  <Link href="https://www.instagram.com/martineboreantiques/">
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </Link>
+                </Base>
+              </Flex>
+            
           </Base>
         </Col>
 
@@ -91,8 +95,10 @@ export const Footer: React.FC = () => {
           </Base>
         </Col>
       </Row>
-      <FlexRight pb={1} pr={1}>
-        <Base tag="a" href="/admin/login">Admin Tools</Base>
+      <FlexRight pb={1} pr={1} mr={3}>
+        <Base tag="a" href="/admin/login">
+          Admin Tools
+        </Base>
       </FlexRight>
     </>
   );

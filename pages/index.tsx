@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       title="Martine Boré Antiques Ltd."
     >
       <Base className="home-image">
-        <Image src={`${IMAGES_BASE_URL}/homepage-images/main-image.jpeg`} alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." width="2000px" height="1500px" />
+    {/* <Image src={`${IMAGES_BASE_URL}/homepage-images/main-image.jpeg`} alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." width="2000px" height="1500px" />*/}
       </Base>
     </PageWrapper>
   )
