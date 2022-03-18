@@ -1,8 +1,6 @@
 import { Base, Col, Row } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
-import { IMAGES_BASE_URL } from "@mb/utils/constants";
 import { NextPage } from "next";
-import Image from "next/image";
 import React from "react";
 
 const About: NextPage = () => {
@@ -11,19 +9,13 @@ const About: NextPage = () => {
       <Col className="about-sections">
         <Row>
           <Base className="about-us">
-            <Image
-              className="about-image"
-              src={`${IMAGES_BASE_URL}/about-us-images/about-us1.jpeg`}
-              layout="fill"
-              alt="Image of Boré family in the original gallery"
-            />
             <Base tag="h2" pt={3}>
               About Us
             </Base>
-            <Base tag="h3" pl={2} pb={2}>
+            <Base tag="h3" pl={2} pb={2} mb={1}>
               Our Story
             </Base>
-            <Base tag="p" pl={5} pr={2}>
+            <Base tag="p" pl={5} pr={2} mb={2}>
               Martine Boré Antiques Ltd. is a second generation antique business
               located in the heart of Ambelside West Vancouver. The Boré family
               has been a part of the West Vancouver Community since the 1980s
@@ -37,10 +29,10 @@ const About: NextPage = () => {
               living in Europe herself, Martine returned to Canada and continued
               the family business in West Vancouver in the 2000s.
             </Base>
-            <Base tag="h3" pl={2} pb={2}>
+            <Base tag="h3" pl={2} pb={2} mb={1}>
               Our Philosophy
             </Base>
-            <Base tag="p" pl={5} pr={2}>
+            <Base tag="p" pl={5} pr={2} mb={2}>
               Our philosophy here at Martine Boré Antiques has alway been about
               bringing clients unique works of art that are thoughfully sourced
               and thoroughly curated. We search locally and the world over for

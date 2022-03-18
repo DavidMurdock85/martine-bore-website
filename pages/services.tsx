@@ -11,10 +11,10 @@ const Services: NextPage = () => {
             <Base tag="h2" pb={1} pt={3}>
               Services
             </Base>
-            <Base tag="h3" pl={2}>
+            <Base tag="h3" pl={2} ml={1} mb={1}>
               Estates
             </Base>
-            <Base tag="p" pl={5} pr={2}>
+            <Base tag="p" pl={5} pr={2} mb={2}>
               We are always interested in quality items to purchase. We buy
               single items and entire estates. If you would like us to view
               items or an estate in person we can arrange house visits by
@@ -23,10 +23,10 @@ const Services: NextPage = () => {
               Vancouver Island or The Sunshine Coast if you have an item we are
               particularly interested in however we may ask for an additional
               travel fee.
-              <Base tag="h5" pl={1} pt={2}>
+              <Base tag="h5" pl={1} pt={2} mb={1}>
                 What were looking to purchase
               </Base>
-              <Base tag="p" pl={3} pr={2}>
+              <Base tag="p" pl={3} pr={2} mb={2}>
                 We are actively looking for fine quality Jewelry, Paintings,
                 Works on paper, Gold, Sterling silver, Bronze, Crystal,
                 Porcelain, China, Crystal stemware, Chandeliers and Furniture.
@@ -43,10 +43,10 @@ const Services: NextPage = () => {
             </Base>
           </Base>
           <Base>
-            <Base tag="h3" pl={2}>
+            <Base tag="h3" pl={2} mb={1}>
               Consignments
             </Base>
-            <Base tag="p" pl={5} pr={2}>
+            <Base tag="p" pl={5} pr={2} mb={2}>
               We are always interested in representing clients for the sale of
               premium or unique art items though consignments. Consignments
               offer an alternative to the uncertainty of the auction process and
@@ -58,19 +58,19 @@ const Services: NextPage = () => {
             </Base>
           </Base>
           <Base>
-            <Base tag="h3" pl={2}>
+            <Base tag="h3" pl={2} mb={1}>
               Appraisals
             </Base>
-            <Base tag="p" pl={5} pr={2}>
+            <Base tag="p" pl={5} pr={2} mb={2}>
               We offer professional appraisal services of single items or entire
               estates for an hourly fee. We can arrange to visit your home
               within Metro Vancouver and the Lower Mainland. We can also do walk
               in appraisals but its best to call in advance to see if were busy.
             </Base>
-            <Base tag="h3" pl={2}>
+            <Base tag="h3" pl={2} mb={1}>
               Delivery
             </Base>
-            <Base tag="p" pl={5} pr={2}>
+            <Base tag="p" pl={5} pr={2} mb={2}>
               We offer delivery services for items over $500 free of charge once
               a week in Metro Vancouver and the Lower Mainland with some
               exceptions for very large furniture items which can still be
