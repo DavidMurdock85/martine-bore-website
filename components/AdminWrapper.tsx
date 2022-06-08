@@ -12,12 +12,6 @@ export const AdminWrapper: React.FC = ({
   const auth = useAuth();
   const router = useRouter();
 
-  useEffect(() => {
-    if(!auth.state.loggedIn) {
-      router.push("/admin/login");
-    }
-  }, [auth]);
-
   return (
     <Base fluid={true} className="martine-bore-antiques admin">
       <NextHead>

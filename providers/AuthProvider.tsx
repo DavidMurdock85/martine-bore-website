@@ -32,7 +32,7 @@ const AuthProvider: React.FC = (props: any) => {
     if (expToken && (new Date(expToken) < new Date())) {
       const refreshToken = getLocalStorage(StorageKey.OAuthRefreshTokenExp);
       if (refreshToken && new Date(refreshToken) < new Date()) {
-        // router.push("/");
+        router.push("/admin/login");
       }
       /* refreshAuthToken(getLocalStorage(StorageKey.OAuthRefreshToken)).catch((err) => {
         router.push("/");
@@ -42,6 +42,8 @@ const AuthProvider: React.FC = (props: any) => {
         type: "loginUser",
         payload: { user: { id: getLocalStorage(StorageKey.UserId) } },
       });
+    } else {
+      router.push("/admin/login");
     }
   }, []);
 
