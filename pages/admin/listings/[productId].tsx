@@ -86,7 +86,7 @@ const EditListing: React.FC = () => {
                   onBlur={handleBlur}
                 />
               </Form.Group>
-              <Form.Group controlId="catalogueId">
+              <Form.Group controlId="id">
                 <Form.Label>Product ID</Form.Label>
                 <Form.Control
                   as="input"

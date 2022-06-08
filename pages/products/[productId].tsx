@@ -131,7 +131,7 @@ const ProductPage: NextPage = () => {
                     </Base>
                   }
                   <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Product ID: {product.productId}
+                    Product #: {product.id}
                   </Base>
                 </Col>
                 <Col>
