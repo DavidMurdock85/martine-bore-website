@@ -27,7 +27,7 @@ const Incomplete: React.FC = () => {
                   href={`/admin/listings/${listing.route}`}
                   mt={1}
                 >
-                  <Base>ProductId: {listing.productId}</Base><Base ml={2}>Title: {listing.title}</Base>
+                  <Base>Product #: {listing.id}</Base><Base ml={2}>Title: {listing.title}</Base>
               </Flex>
             );
           }) }
