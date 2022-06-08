@@ -1,11 +1,23 @@
 import { Footer } from "@mb/components/Footer";
 import { Base, Flex } from "@mb/components/layout";
+import { useAuth } from "@mb/providers/AuthProvider";
 import NextHead from "next/head";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 import { Nav } from "react-bootstrap";
 
 export const AdminWrapper: React.FC = ({
   children,
 }) => {
+  const auth = useAuth();
+  const router = useRouter();
+
+  useEffect(() => {
+    if(!auth.state.loggedIn) {
+      router.push("/admin/login");
+    }
+  }, [auth]);
+
   return (
     <Base fluid={true} className="martine-bore-antiques admin">
       <NextHead>

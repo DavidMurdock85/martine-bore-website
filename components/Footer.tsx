@@ -1,11 +1,8 @@
-import {
-  faFacebook,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "@mb/components/elements";
 import React from "react";
+
 import { Base, Col, Flex, FlexRight, Row } from "./layout";
 
 export const Footer: React.FC = () => {
@@ -61,7 +58,7 @@ export const Footer: React.FC = () => {
             <Base className="title" tag="h5" mr={2} mb={5}>
               Follow Us
             </Base>
-           
+
               <Flex className="footer-social" flexDirection="row">
                 <Base mr={2} tag="h6">
                   <Link href="https://www.facebook.com/MartineB2226A/">
@@ -79,7 +76,7 @@ export const Footer: React.FC = () => {
                   </Link>
                 </Base>
               </Flex>
-            
+
           </Base>
         </Col>
 
@@ -96,7 +93,7 @@ export const Footer: React.FC = () => {
         </Col>
       </Row>
       <FlexRight pb={1} pr={1} mr={3}>
-        <Base tag="a" href="/admin/login">
+        <Base tag="a" href="/admin">
           Admin Tools
         </Base>
       </FlexRight>
