@@ -17,8 +17,6 @@ const ProductPage: NextPage = () => {
   // tying productId to the value from the url path thats been queried
   const { productId } = nextJSRouter.query;
 
-  //console.log(productId);
-
   //declaring local state for product tied to react.
   const [product, setProduct] = useState<Partial<Product>>({});
 
@@ -26,21 +24,15 @@ const ProductPage: NextPage = () => {
   const fetchProduct = async () => {
     const url = `${API_BASE_URL}/products/${productId}`;
 
-    //console.log(url);
-
     // try catch wraps code and will catch err if err occurs
     try {
       const response = await fetch(url);
-
-      //console.log(response);
 
       // response is ok - get data as JSON and set product state to be = that that object
       if (response.ok) {
         const json = await response.json();
 
         // console log json script of database
-
-        console.log(json);
 
         setProduct(json);
       }
@@ -118,35 +110,51 @@ const ProductPage: NextPage = () => {
               </Base>
               <Row>
                 <Col>
+                  {product.period &&
+                    <Base tag="p" mt={1} mb={1} className="product-page-text">
+                      Period: {product.period}
+                    </Base>
+                  }
+                  {product.date &&
+                    <Base tag="p" mt={1} mb={1} className="product-page-text">
+                      Date: {product.date}
+                    </Base>
+                  }
+                  {product.origin &&
+                    <Base tag="p" mt={1} mb={1} className="product-page-text">
+                      Origin: {product.origin}
+                    </Base>
+                  }
+                  {product.maker &&
+                    <Base tag="p" mt={1} mb={1} className="product-page-text">
+                      Maker: {product.maker}
+                    </Base>
+                  }
                   <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Period: {product.period}
-                  </Base>
-                  <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Date: {product.date}
-                  </Base>
-                  <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Origin: {product.origin}
-                  </Base>
-                  <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Maker: {product.maker}
-                  </Base>
-                  <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Catalogue #: {product.productId}
+                    Product ID: {product.productId}
                   </Base>
                 </Col>
                 <Col>
-                  <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Medium: {product.medium}
-                  </Base>
-                  <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Dimensions: {product.dimensions}
-                  </Base>
-                  <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Condition: {product.condition}
-                  </Base>
-                  <Base tag="p" mt={1} mb={1} className="product-page-text">
-                    Price: {product.price}
-                  </Base>
+                  {product.medium &&
+                    <Base tag="p" mt={1} mb={1} className="product-page-text">
+                      Medium: {product.medium}
+                    </Base>
+                  }
+                  {product.dimensions &&
+                    <Base tag="p" mt={1} mb={1} className="product-page-text">
+                      Dimensions: {product.dimensions}
+                    </Base>
+                  }
+                  {product.condition &&
+                    <Base tag="p" mt={1} mb={1} className="product-page-text">
+                      Condition: {product.condition}
+                    </Base>
+                  }
+                  {product.price &&
+                    <Base tag="p" mt={1} mb={1} className="product-page-text">
+                      Price: {product.price}
+                    </Base>
+                  }
                 </Col>
               </Row>
             </Base>

@@ -23,7 +23,7 @@ const SignIn: React.FC = () => {
           setLoading(true);
           try {
             await auth.login(values.user.username, values.user.password);
-            router.push("/admin/listings/new");
+            router.push("/admin");
           } catch (err) {
             setAlert("Failed to sign in");
           } finally {

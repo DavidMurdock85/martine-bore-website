@@ -1,11 +1,7 @@
 import { AdminWrapper } from "@mb/components/AdminWrapper";
 import { Image } from "@mb/components/elements";
 import { Base, Center, Col, Flex, Row } from "@mb/components/layout";
-import {
-  addImagesToListing,
-  createNewListing,
-  NewListing,
-} from "@mb/services/AdminService";
+import { addImagesToListing, createNewListing, NewListing } from "@mb/services/AdminService";
 import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
 import { Formik } from "formik";
@@ -14,15 +10,15 @@ import { Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { useDropzone } from "react-dropzone";
 
-// create listing 
+// create listing
 const CreateListing: React.FC = () => {
 
-  // set product 
+  // set product
   const [submitted, setSubmitted] = useState<Product[]>([]);
-  
+
   // set categories
   const [categories, setCategories] = useState<Category[]>([]);
-  
+
   // set images
   const [images, setImages] = useState<any[]>([]);
 
@@ -37,11 +33,11 @@ const CreateListing: React.FC = () => {
 
       // await created new listing
       const createdListing = await createNewListing(values);
-      
-      // await added images 
+
+      // await added images
       const addedImages = await addImagesToListing(createdListing.id, images);
-      
-      // 
+
+      //
       setSubmitted(
         submitted.concat({
           ...createdListing,
@@ -66,13 +62,13 @@ const CreateListing: React.FC = () => {
     },
   });
 
-  // 
+  //
   useEffect(() => {
     fetchCategories();
   }, []);
 
 
-  // 
+  //
 
   return (
     <AdminWrapper>

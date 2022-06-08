@@ -1,4 +1,4 @@
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faEdit, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Breadcrumb } from "@mb/components/Breadcrumbs";
 import { Image } from "@mb/components/elements";
@@ -39,14 +39,19 @@ const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
         router.push(`/products/${route}`);
       }}
     >
-      { loggedIn && <FlexRight className='delete' pb={1} onClick={async (e: React.MouseEvent) => {
-        e.stopPropagation();
-        const confirmDelete = confirm("Are you sure you want to delete this listing?");
-        if(confirmDelete) {
-          await deleteListing(id);
-          onDelete();
-        }
-      }}><FontAwesomeIcon icon={ faTimes }/></FlexRight> }
+      { loggedIn && <FlexRight flexDirection="row">
+        <Flex tag="a" className='edit' mr={1} pb={1} href={`/admin/listings/${route}`}><FontAwesomeIcon icon={ faEdit } /></Flex>
+        <Flex className='delete'  pb={1} onClick={async (e: React.MouseEvent) => {
+          e.stopPropagation();
+          const confirmDelete = confirm("Are you sure you want to delete this listing?");
+          if(confirmDelete) {
+            await deleteListing(id);
+            onDelete();
+          }
+        }}>
+          <FontAwesomeIcon icon={ faTimes }/>
+        </Flex>
+      </FlexRight> }
       <Base className="image-border-deco">
         {images && (
           <Image className="product-image" src={`${IMAGES_BASE_URL}/${images[0].original}`} alt={title || ""} />
