@@ -43,6 +43,12 @@ export const AdminWrapper: React.FC = ({
         >
           Incomplete Listings
         </Nav.Link>
+        <Nav.Link
+          className="basic-nav-link"
+          href="/admin/login"
+        >
+          Login
+        </Nav.Link>
       </Flex>
       <Base>{children}</Base>
       <Footer />
