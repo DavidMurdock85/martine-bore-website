@@ -53,7 +53,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
         </Flex>
       </FlexRight> }
       <Base className="image-border-deco">
-        {images && (
+        {images.length > 0 && (
           <Image className="product-image" src={`${IMAGES_BASE_URL}/${images[0].original}`} alt={title || ""} />
         )}
       </Base>
