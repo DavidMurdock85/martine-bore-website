@@ -33,16 +33,15 @@ const About: NextPage = () => {
               Our Philosophy
             </Base>
             <Base tag="p" pl={5} pr={2} mb={2}>
-              Our philosophy here at Martine Boré Antiques has alway been about
-              bringing clients unique works of art that are thoughfully sourced
+              Our philosophy here at Martine Boré Antiques has always been about
+              bringing clients unique artistic works that are thoughfully sourced
               and thoroughly curated. We search locally and the world over for
               special pieces that defy a category and can work with a variety of
-              designs and styles. We specialize in 19th and early 20th c. French
-              and English Antiques but we carry a wide variety of antiques from
-              all over the world and of many periods and styles. Whether your
-              new to collecting or have lifelong passion, let us treat you to
-              the unique buying experience that characterizes a visit to our
-              gallery.
+              interiors and styles. We specialize in 19th and early 20th century French
+              and English Antiques as well as estate jewelry. We also carry a wide variety 
+              of antiques from all over the world from many periods and styles. Whether 
+              your new to collecting or have lifelong passion, let us treat you to
+              the unique experience that characterizes a visit to our gallery.
             </Base>
           </Base>
         </Row>
