@@ -2,6 +2,7 @@ import { Banner } from "@mb/components/Banner";
 import { Footer } from "@mb/components/Footer";
 import { Base } from "@mb/components/layout";
 import { Navigation } from "@mb/components/Navigation";
+import { NewGallery } from "@mb/components/NewGallery";
 import NextHead from "next/head";
 
 interface PageWrapperProps {
@@ -23,6 +24,7 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
       <Banner />
       <Navigation />
       <Base>{children}</Base>
+      <NewGallery />
       <Footer />
     </Base>
   );

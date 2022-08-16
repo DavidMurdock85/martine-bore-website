@@ -88,7 +88,7 @@ export const Footer: React.FC = () => {
               Hours
             </Base>
             <Base tag="h6">Tuesday - Saturday 10:00 to 5:30</Base>
-            <Base tag="h6">Sunday and Monday by appoinment or chance</Base>
+            <Base tag="h6">Sunday and Monday by appointment or chance</Base>
           </Base>
         </Col>
       </Row>

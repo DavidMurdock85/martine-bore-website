@@ -33,8 +33,8 @@ const Services: NextPage = () => {
                 We are particularly interested in works by Lalique, Moorcroft,
                 Meissen, Herend, Royal Worcester, Royal Crown Derby, Birks,
                 Tiffanys, Waterford, Baccarat, Cartier, as well as fine Chinese
-                and Japanese art. We are also interested in acquiring Canadian
-                Art by well known artists.
+                and Japanese art. We are also interested in acquiring quality Canadian and European
+                art.
               </Base>
               <Base pt={1} pb={1}>
                 Please contact us for more details either by phone at
