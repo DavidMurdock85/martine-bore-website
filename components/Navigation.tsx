@@ -56,7 +56,7 @@ export const Navigation: React.FC = (props: any) => {
           {/*Dropdown - Paintings - Add New Section to replace Paintings*/}
 
           <Base className="header-titles" tag="h5">
-            <DropDownOnHover title="Paintings" className="basic-nav-dropdown">
+            <NavDropdown title="Paintings" className="basic-nav-dropdown">
               <Base className="header-h5" tag="h5">
                 <NavDropdown.Item href="/categories/landscape-paintings">
                   Landscape Paintings
@@ -87,13 +87,13 @@ export const Navigation: React.FC = (props: any) => {
                   Portrait Paintings
                 </NavDropdown.Item>
               </Base>
-            </DropDownOnHover>
+            </NavDropdown>
           </Base>
 
           {/*Dropdown - Jewelry*/}
 
           <Base className="header-titles" tag="h5">
-            <DropDownOnHover title="Jewelry" className="basic-nav-dropdown">
+            <NavDropdown title="Jewelry" className="basic-nav-dropdown">
               <Base className="header-h5" tag="h5">
                 <NavDropdown.Item href="/categories/rings">
                   Rings
@@ -119,13 +119,13 @@ export const Navigation: React.FC = (props: any) => {
                   Brooches
                 </NavDropdown.Item>
               </Base>
-            </DropDownOnHover>
+            </NavDropdown>
           </Base>
 
           {/* Dropdown - Art by Period */}
 
           <Base className="header-titles" tag="h5">
-            <DropDownOnHover
+            <NavDropdown
               title="Art by Period"
               className="basic-nav-dropdown"
             >
@@ -171,13 +171,13 @@ export const Navigation: React.FC = (props: any) => {
                   Modern Art
                 </NavDropdown.Item>
               </Base>
-            </DropDownOnHover>
+            </NavDropdown>
           </Base>
 
           {/*Dropdown - Art by Region*/}
 
           <Base className="header-titles" tag="h5">
-            <DropDownOnHover
+            <NavDropdown
               title="Art by Region"
               className="basic-nav-dropdown"
             >
@@ -216,13 +216,13 @@ export const Navigation: React.FC = (props: any) => {
                   Japanese Art
                 </NavDropdown.Item>
               </Base>
-            </DropDownOnHover>
+            </NavDropdown>
           </Base>
 
           {/*Dropdown - Art by Maker*/}
 
           <Base className="header-titles" tag="h5">
-            <DropDownOnHover
+            <NavDropdown
               title="Art by Maker"
               className="basic-nav-dropdown"
             >
@@ -236,13 +236,13 @@ export const Navigation: React.FC = (props: any) => {
                   Lalique
                 </NavDropdown.Item>
               </Base>
-            </DropDownOnHover>
+            </NavDropdown>
           </Base>
 
           {/* Dropdown - Tableware */}
 
           <Base className="header-titles" tag="h5">
-            <DropDownOnHover title="Tableware" className="basic-nav-dropdown">
+            <NavDropdown title="Tableware" className="basic-nav-dropdown">
               <Base className="header-h5" tag="h5">
                 <NavDropdown.Item href="/categories/plates">
                   Plates
@@ -258,7 +258,7 @@ export const Navigation: React.FC = (props: any) => {
                   Tea Service
                 </NavDropdown.Item>
               </Base>
-            </DropDownOnHover>
+            </NavDropdown>
           </Base>
 
           {/* Silver - Add section!!!! */}

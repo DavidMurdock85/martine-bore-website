@@ -1,31 +1,4 @@
-/*Media Queries*/
-
-@media only screen and (max-width: 600px) {
-  .footer {
-    padding: 30px !important;
-  }
-}
-@media only screen and (min-width: 600px) {
-  .footer {
-    padding: 30px !important;
-  }
-}
-@media only screen and (min-width: 768px) {
-}
-@media only screen and (min-width: 992px) {
-}
-@media only screen and (min-width: 1200px) {
-}
-@media screen and (min-width: 1400px) {
-}
-
-/*Imports*/
-
-@import "~bootstrap/scss/bootstrap";
-
-// Helpful Links
-
-// Find Us
+//back to top
 
 .backtotop {
   width: 100%;
@@ -34,7 +7,7 @@
   display: inline-block;
 
   a {
-    color: blue;
+    color: #0073e6;
   }
 }
 
@@ -44,8 +17,11 @@ h6 {
   font-family: "Josefin Sans";
 }
 
+// footer
 .footer {
   padding: none;
+  //background-color: #0073e6;
+  background-color: #665200;
 
   .title {
     font-weight: bold;
@@ -58,21 +34,51 @@ h6 {
     width: 18rem;
   }
 
-  .footer-link {
-    display: flex;
-    justify-content: left;
-    color: #454545;
+  //footer-links
+
+  .footer-links-col {
+    .footer-links-title {
+      color: white;
+    }
+    .footer-link {
+      display: flex;
+      justify-content: left;
+      color: white !important;
+    }
   }
 
-  // Follow Us - svg links
+  //footer-contact
 
-  .footer-social {
-    display: flex;
-  
-    svg {
-      color: #454545;
+  .footer-contact-col {
+    .contact-title {
+      color: white;
+    }
+    .contact-text {
+      color: white;
+    }
+  }
+
+  //footer-social
+
+  .footer-social-col {
+    .footer-social-title {
+      color: white;
+    }
+    .footer-social-svg {
+      color: white;
       width: 1.5rem;
       height: 1.5rem;
+    }
+  }
+
+  //footer-hours
+
+  .footer-hours-col {
+    .footer-hours-title {
+      color: white;
+    }
+    .footer-hours-text {
+      color: white;
     }
   }
 }

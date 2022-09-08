@@ -2,7 +2,11 @@ import { Banner } from "@mb/components/Banner";
 import { Footer } from "@mb/components/Footer";
 import { Base } from "@mb/components/layout";
 import { Navigation } from "@mb/components/Navigation";
-//import { NewGallery } from "@mb/components/NewGallery";
+import { About } from "@mb/components/About";
+import { FeaturedItem } from "@mb/components/FeaturedItem";
+import { Buying } from "@mb/components/Buying";
+import { NewGallery } from "@mb/components/NewGallery";
+import { Services } from "@mb/components/Services";
 import NextHead from "next/head";
 
 interface PageWrapperProps {
@@ -24,6 +28,14 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
       <Banner />
       <Navigation />
       <Base>{children}</Base>
+      
+      <About />
+
+      <FeaturedItem />
+      <Buying />
+      <NewGallery />
+      <Services />
+      
       <Footer />
     </Base>
   );
