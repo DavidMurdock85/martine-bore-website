@@ -1,0 +1,30 @@
+.commitment-parent {
+
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans";
+  
+
+  h2 {
+    text-align: left;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  .title-decorated {
+    background-color: #ffcc00;
+  }
+
+  .commitment-text {
+    display: flex;
+    flex-direction: column;
+    font-family: "Josefin Sans", sans-serif;
+    color: #332200;
+    width: 60%;
+    height: auto;
+    font-size: small;
+  }
+}

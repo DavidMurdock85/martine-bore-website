@@ -1,16 +1,34 @@
-import { Base } from "@mb/components/layout";
+import { Flex } from "@mb/components/layout";
 import React from "react";
+import Image from "next/image";
 
 export const Buying: React.FC = () => {
   return (
-    <Base className="buying-parent">
+    <Flex flexDirection="row" className="buying-parent">
+      {/*see more - drop down with text below*/}
 
-      <Base className="buying-title" tag="h2" mt={3} mb={1}>
-        <Base>What We Buy</Base>
-      </Base>
-      
-      <Base className="buying-text" tag="h5" mb={2} ml={5} mr={5}>
-        <Base>
+      <Flex flexDirection="column">
+        <Flex
+          flexDirection="row"
+          className="buying-title"
+          tag="h3"
+          pl={2}
+          pt={1}
+          pr={1}
+          pb={2}
+        >
+          Were Buying
+        </Flex>
+
+        <Flex
+          flexDirection="row"
+          className="buying-text"
+          tag="p"
+          pl={3}
+          pt={0}
+          pr={0}
+          pb={3}
+        >
           We are actively looking for fine quality Jewelry, Paintings, Works on
           paper, Gold, Sterling silver, Bronze, Crystal, Porcelain, China,
           Crystal stemware, Chandeliers and Furniture. We are particularly
@@ -18,8 +36,8 @@ export const Buying: React.FC = () => {
           Worcester, Royal Crown Derby, Birks, Tiffanys, Waterford, Baccarat,
           Cartier, as well as fine Chinese and Japanese art. We are also
           interested in acquiring quality Canadian and European art.
-        </Base>
-      </Base>
-    </Base>
+        </Flex>
+      </Flex>
+    </Flex>
   );
 };

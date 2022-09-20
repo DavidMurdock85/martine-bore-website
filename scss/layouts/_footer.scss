@@ -1,0 +1,26 @@
+.footer-parent {
+
+  font-family: "Josefin Sans";
+  background-color: #d9d9d9;
+  display: block; flex: 1;
+
+  .footer-links-parent {
+    color: black;
+  }
+
+  .footer-body-parent {
+    .footer-text-parent {
+      color: black;
+      .footer-hours {
+        color: black;
+      }
+      .footer-contact {
+        color: black;
+      }
+    }
+  }
+
+  .footer-admin {
+    color: black;
+  }
+}

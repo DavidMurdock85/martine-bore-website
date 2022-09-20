@@ -1,0 +1,71 @@
+.private-gallery-parent {
+  @include for-phone-only {
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+  }
+  @include for-tablet-portrait-up {
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+  @include for-tablet-landscape-up {
+    h3 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  }
+  @include for-desktop-up {
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+  }
+  @include for-big-desktop-up {
+    h3 {
+      font-size: 4rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+  }
+  
+  display: flex;
+  flex-direction: column;
+  font-family: "Josefin Sans";
+
+  .private-gallery-title {
+    color:  black;
+  }
+
+  .private-gallery-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  .private-gallery-text {
+    color:  #332200;
+  }
+}

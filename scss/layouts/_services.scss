@@ -1,0 +1,101 @@
+
+//Services Parent
+
+.services-parent {
+  @include for-phone-only {
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+  }
+  @include for-tablet-portrait-up {
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+  @include for-tablet-landscape-up {
+    h3 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  }
+  @include for-desktop-up {
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+  }
+  @include for-big-desktop-up {
+    h3 {
+      font-size: 4rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+  }
+
+  font-family: "Josefin Sans";
+  background-color: #d9d9d9;
+
+//Services Section Parent
+
+  .services-section-parent {
+    @media (max-width: 599px) {
+      .services-section-child {
+        min-width: 33.33%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .services-section-child {
+        max-width: 50%;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .services-section-child {
+        min-width: 50%;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .services-section-child {
+        min-width: 100%;
+      }
+    }
+    @media (max-width: 1800px) {
+      .services-section-child {
+        min-width: 33.33%;
+      }
+    }
+
+
+
+    flex-wrap: wrap;
+
+    .services-section-child {
+      flex: 1;
+      max-width: 25%;
+
+    }
+  }
+}
