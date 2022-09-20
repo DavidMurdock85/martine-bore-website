@@ -1,0 +1,76 @@
+//basic title
+
+.title {
+  text-align: left !important;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+.title-light {
+  text-align: left !important;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+.title-dark{
+  text-align: left !important;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+.title-decorated{
+  text-align: left !important;
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+}
+
+//title sizing
+
+.title-xs {
+  font-size: x-small;
+}
+
+.title-smaller {
+  font-size: smaller;
+}
+
+.title-sm {
+  font-size: small;
+}
+
+.title-med {
+  font-size: medium;
+}
+
+.title-lg {
+  font-size: large;
+}
+
+//special titles
+
+.title-verticle-sideways {
+  display: flex;
+  flex-direction: column;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  font-family: "Josefin Sans", sans-serif;
+  color: #332200;
+}
+
+.title-verticle-sideways-light {
+  display: flex;
+  flex-direction: column;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+.title-vertilce-upright {
+  display: flex;
+  flex-direction: column;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: "Josefin Sans", sans-serif;
+  color: #332200;
+}

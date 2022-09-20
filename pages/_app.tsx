@@ -1,5 +1,4 @@
-import "@mb/styles/_app.scss";
-
+import "@mb/scss/styles.scss";
 import { AuthProvider } from "@mb/providers/AuthProvider";
 import SSRProvider from "react-bootstrap/SSRProvider";
 import Script from "next/script";

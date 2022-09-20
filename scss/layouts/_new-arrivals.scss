@@ -1,0 +1,55 @@
+.new-arrivals-parent {
+  @include for-phone-only {
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+  }
+  @include for-tablet-portrait-up {
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+  @include for-tablet-landscape-up {
+    h3 {
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  }
+  @include for-desktop-up {
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+  }
+  @include for-big-desktop-up {
+    h3 {
+      font-size: 4rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 2.5rem;
+      font-weight: 400;
+    }
+  }
+
+  font-family: "Josefin Sans", sans-serif;
+
+}

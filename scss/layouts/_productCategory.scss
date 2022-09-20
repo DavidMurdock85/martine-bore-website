@@ -1,0 +1,35 @@
+//Product Category Heading
+
+.product-category {
+  padding: 20px;
+  text-align: center;
+  font-family: "Josefin Sans";
+
+  .product-category-title {
+    text-decoration: underline 1px;
+    padding-top: 10px;
+    font-family: "Josefin Sans";
+  }
+}
+
+// Product Image
+
+.product-item {
+  .delete {
+    color: red;
+    font-size: 20px;
+  }
+
+  .image-border-deco {
+    margin-bottom: 0.5rem;
+    border: solid 1px #454545;
+    border-radius: 10px;
+    &:hover {
+      opacity: 0.8;
+    }
+    .product-image {
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+}
