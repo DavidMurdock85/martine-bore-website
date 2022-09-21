@@ -1,7 +1,8 @@
+import Image from "next/image";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-import { Flex, FlexRight, Split } from "./layout";
-import Image from "next/image";
+
+import { Col, Flex, Row } from "./layout";
 
 export const Footer: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ export const Footer: React.FC = () => {
 
       {/*footer - body*/}
 
-      <Flex
+      <Row
         flexDirection="row"
         justifyContent="center"
         className="footer-body-parent"
@@ -30,7 +31,7 @@ export const Footer: React.FC = () => {
         pr={2}
         pb={2}
       >
-        <Flex flexDirection="column" className="footer-text-parent" p={4}>
+        <Col xs={12} md={6} flexDirection="column" className="footer-text-parent" p={4}>
           <Flex flexDirection="column" className="footer-contact" pb={2}>
             <Flex flexDirection="row" tag="h4">
               Find Us
@@ -62,20 +63,18 @@ export const Footer: React.FC = () => {
               </Flex>
             </Flex>
           </Flex>
-        </Flex>
+        </Col>
 
-        <Flex flexDirection="column">
-          <Flex flexDirection="row" className="footer-image" p={4}>
-            <Image
-              src="/map.jpeg"
-              alt="map of martine bore antiques location"
-              width="750px"
-              height="750px"
-              priority
-            />
-          </Flex>
-        </Flex>
-      </Flex>
+        <Col xs={12} md={6} className="footer-image">
+          <Image
+            src="/map.jpeg"
+            alt="map of martine bore antiques location"
+            width="750px"
+            height="750px"
+            priority
+          />
+        </Col>
+      </Row>
 
       <Flex flexDirection="row" justifyContent="flex-end" className="footer-admin" pb={1} pr={1} mr={3}>
         <Nav.Link href="/admin">Admin Tools</Nav.Link>
