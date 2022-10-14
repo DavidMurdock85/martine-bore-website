@@ -1,66 +1,17 @@
-.about-parent {
-  @include for-phone-only {
-    h3 {
-      font-size: 1.2rem;
-      font-weight: 700;
-    }
-    p {
-      font-size: 0.7rem;
-      font-weight: 500;
-    }
-  }
-  @include for-tablet-portrait-up {
-    h3 {
-      font-size: 1.5rem;
-      font-weight: 400;
-    }
-    p {
-      font-size: 1.2rem;
-      font-weight: 400;
-    }
-  }
-  @include for-tablet-landscape-up {
-    h3 {
-      font-size: 2rem;
-      font-weight: 400;
-    }
-    p {
-      font-size: 1.3rem;
-      font-weight: 400;
-    }
-  }
-  @include for-desktop-up {
-    h3 {
-      font-size: 2.5rem;
-      font-weight: 400;
-    }
-    p {
-      font-size: 1.8rem;
-      font-weight: 400;
-    }
-  }
-  @include for-big-desktop-up {
-    h3 {
-      font-size: 4rem;
-      font-weight: 400;
-    }
-    p {
-      font-size: 2.5rem;
-      font-weight: 400;
-    }
-  }
-
-  //background-color: #cce0ff;
-  background-color: #d9d9d9;
+.our-story-parent {
+  background-color: #c1d7cb;
   font-family: "Josefin Sans";
+  border: 0.5px solid black;
 
-  .our-story-image {
+  .our-story-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
-
+  .our-story-title {
+    color: black;
+  }
   .our-story-text {
     color: black;
-
-    //object-fit: contain;
-    //height: auto;
   }
 }

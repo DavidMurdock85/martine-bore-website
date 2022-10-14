@@ -4,38 +4,32 @@ import React from "react";
 
 export const ContactForm: React.FC = () => {
   return (
-    <Flex flexDirection="column" className="contact-form-parent">
-      <Flex
-        flexDirection="row"
-        className="contact-title"
-        tag="h3"
-        pl={2}
-        mt={3}
-        mb={1}
-      >
-        Contact Us
-      </Flex>
+    <Flex flexDirection="row" className="contact-form-parent">
+      <Col flexDirection="column">
+        <Row flexDirection="row" className="contact-title" tag="h2" m={1}>
+          Contact Us
+        </Row>
 
-      <Flex
-        flexDirection="row"
-        className="contact-form-text"
-        tag="p"
-        pb={2}
-        mb={2}
-        ml={5}
-        mr={5}
-      >
-        Join our mailing list to recieve periotic updates on new items, seasonal
-        sales and much more.
-      </Flex>
+        <Row flexDirection="row" className="contact-form-text" tag="p" m={1}>
+          Join our mailing list to recieve periotic updates on new items,
+          seasonal sales and much more.
+        </Row>
 
-      <Flex flexDirection="row" className="contact-form-link">
-        <Link tag="a" href="/contact">
-          Sign Up
-        </Link>
-      </Flex>
-
-      <Flex flexDirection="row" className="break" tag="hr"></Flex>
+        <Row
+          flexDirection="row"
+          justifyContent="center"
+          className="contact-form-link"
+        >
+          <Link
+            tag="a"
+            href="/contact"
+            flexDirection="row"
+            justifyContent="center"
+          >
+            Sign Up
+          </Link>
+        </Row>
+      </Col>
     </Flex>
   );
 };

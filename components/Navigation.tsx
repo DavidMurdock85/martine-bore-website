@@ -1,4 +1,4 @@
-import { Base } from "@mb/components/layout";
+import { Flex } from "@mb/components/layout";
 import React, { FC, useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -36,113 +36,107 @@ const DropDownOnHover: React.FC<DropDownOnHoverProps> = ({
 export const Navigation: React.FC = (props: any) => {
   return (
     <Navbar id="header" className="nav-parent" bg="light" expand="lg">
+      {/*  Nav - Navbar Toggle */}
+
       <Navbar.Toggle className="nav-toggle" aria-controls="basic-navbar-nav" />
 
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Base className="m-auto" tag="ol">
-          <Nav >
-            {/* Navigation Menus */}
+      {/*  Nav - Navbar Colapse */}
 
-            {/* Paintings */}
+      <Navbar.Collapse id="nav-colapse">
+        <Flex flexDirection="row" className="m-auto" tag="ol">
+          {/*  Nav - Navigation Menus */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/paintings">
+          <Nav className="nav-menus">
+            {/* Nav - Paintings */}
+
+            <Nav.Link className="nav-link" href="/categories/paintings">
+              <Flex className="nav-titles" tag="li">
                 Paintings
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
 
-            {/* Glass */}
+            {/*  Nav - Glass */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/glass">
+            <Nav.Link className="nav-link" href="/categories/glass">
+              <Flex className="nav-titles" tag="li">
                 Glass
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
 
-            {/* Jewelry*/}
+            {/*  Nav Link - Jewelry*/}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/jewelry">
+            <Nav.Link className="nav-link" href="/categories/jewelry">
+              <Flex className="nav-titles" tag="li">
                 Jewelry
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
 
-            {/* Sculpture */}
+            {/*  Nav Link - Sculpture */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/boxes">
-                Sculpture
-              </Nav.Link>
-            </Base>
+            <Nav.Link className="nav-link" href="/categories/sculptures">
+              <Flex className="nav-titles" tag="li">
+                Sculptures
+              </Flex>
+            </Nav.Link>
 
-            {/* Furniture */}
+            {/*  Nav Link - Furniture */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/furniture">
+            <Nav.Link className="nav-link" href="/categories/furniture">
+              <Flex className="nav-titles" tag="li">
                 Furniture
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
 
-            {/* Carpets */}
+            {/*  Nav Link - Objet D'Art */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/carpets">
-                Carpets
-              </Nav.Link>
-            </Base>
-
-            {/* Objet D'Art */}
-
-            <Base className="header-titles" tag="li">
-              <Nav.Link
-                className="basic-nav-link"
-                href="/categories/objet-d-art"
-              >
+            <Nav.Link className="nav-link" href="/categories/objet-d-art">
+              <Flex className="nav-titles" tag="li">
                 Objet D'Art
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
 
-            {/* Ceramics */}
+            {/*  Nav Link - Ceramics */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/ceramics">
+            <Nav.Link className="nav-link" href="/categories/ceramics">
+              <Flex className="nav-titles" tag="li">
                 Ceramics
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
 
-            {/* Porcelain */}
+            {/*  Nav Link - Porcelain */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/porcelain">
+            <Nav.Link className="nav-link" href="/categories/porcelain">
+              <Flex className="nav-titles" tag="li">
                 Porcelain
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
 
-            {/* Silver */}
+            {/*  Nav Link - Silver */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/silver">
+            <Nav.Link className="nav-link" href="/categories/silver">
+              <Flex className="nav-titles" tag="li">
                 Silver
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
 
-            {/* Clocks */}
+            {/*  Nav Link - Clocks */}
 
-            <Base className="header-titles" tag="li">
-              <Nav.Link className="basic-nav-link" href="/categories/clocks">
+            <Nav.Link className="nav-link" href="/categories/clocks">
+              <Flex className="nav-titles" tag="li">
                 Clocks
-              </Nav.Link>
-            </Base>
+              </Flex>
+            </Nav.Link>
           </Nav>
-        </Base>
+        </Flex>
       </Navbar.Collapse>
 
-      <Base className="social-svg">
-      <Link href="https://www.instagram.com/martineboreantiques/">
-        <FontAwesomeIcon icon={faInstagram} />
-      </Link>
-      </Base>
+      {/*  Nav - Social */}
 
+      <Flex flexDirection="row" className="nav-social">
+        <Link href="https://www.instagram.com/martineboreantiques/">
+          <FontAwesomeIcon icon={faInstagram} />
+        </Link>
+      </Flex>
     </Navbar>
   );
 };

@@ -1,16 +1,16 @@
 import NextHead from "next/head";
-import { Flex } from "@mb/components/layout";
+import { Flex, Col, Row } from "@mb/components/layout";
 import { Link } from "@mb/components/elements";
-//import { Banner } from "@mb/components/Banner";
-import { Navigation } from "@mb/components/Navigation";
+import { Banner } from "@mb/components/Banner";
 import { NewArrivals } from "@mb/components/NewArrivals";
 import { Footer } from "@mb/components/Footer";
 import { OurStory } from "@mb/components/OurStory";
 import { EverydayAntiques } from "@mb/components/EverydayAntiques";
 import { Buying } from "@mb/components/Buying";
+import { FeaturedAntiques } from "@mb/components/FeaturedAntiques";
 import { PrivateGallery } from "@mb/components/PrivateGallery";
 import { Services } from "@mb/components/Services";
-import { Seasonal } from "@mb/components/Seasonal";
+import { SeasonalAntiques } from "@mb/components/SeasonalAntiques";
 import { ContactForm } from "@mb/components/ContactForm";
 
 interface PageWrapperProps {
@@ -23,7 +23,12 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
   title,
 }) => {
   return (
-    <Flex flexDirection="column" justifyContent="center" fluid={true} className="page-wrapper-parent">
+    <Flex
+      flexDirection="column"
+      justifyContent="center"
+      fluid={true}
+      className="page-wrapper-parent"
+    >
       <NextHead>
         {description && <meta name="description" content={description} />}
         {title && <title>{title}</title>}
@@ -32,75 +37,76 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
 
       {/* Banner */}
 
-      {/*
-      <Flex>
+      <Flex flexDirection="row" pb={20}>
         <Banner />
-      </Flex>
-      */}
-
-      {/* Navigation */}
-
-      <Flex flexDirection="row">
-        <Navigation />
       </Flex>
 
       {/* Homepage Image */}
+      <Col>
+        <Flex className="homepage-image-parent" flexDirection="row" m={1}>
+          {children}
+        </Flex>
 
-      <Flex flexDirection="row" p={1}> {children}</Flex>
+        {/* Categories - New Arrivals */}
 
-      {/* Categories - New Arrivals */}
+        <Flex flexDirection="row">
+          <NewArrivals />
+        </Flex>
 
-      <Flex flexDirection="row">
-        <NewArrivals />
-      </Flex>
+        {/* Our Story */}
 
-      {/* Our Story */}
+        <Flex flexDirection="row">
+          <OurStory />
+        </Flex>
 
-      <Flex flexDirection="row" pl={1} pt={4} pr={1} pb={1}>
-        <OurStory />
-      </Flex>
+        {/* Categories - Seasonal Antiques */}
 
-      {/* Private Gallery */}
+        <Flex flexDirection="row">
+          <SeasonalAntiques />
+        </Flex>
 
-      <Flex flexDirection="row" p={1}>
-        <PrivateGallery />
-      </Flex>
+        {/* Featured Antiques */}
 
-      {/* Categories - Everyday Antiques */}
+        <Flex flexDirection="row">
+          <FeaturedAntiques />
+        </Flex>
 
-      <Flex flexDirection="row">
-        <EverydayAntiques />
-      </Flex>
+        {/* Categories - Everyday Antiques */}
 
-      {/* Buying */}
+        <Flex flexDirection="row">
+          <EverydayAntiques />
+        </Flex>
 
-      <Flex flexDirection="row">
-        <Buying />
-      </Flex>
+        {/* Private Gallery */}
 
-      {/* Categories - Seasonal Antiques */}
+        <Flex flexDirection="row">
+          <PrivateGallery />
+        </Flex>
 
-      <Flex flexDirection="row">
-        <Seasonal />
-      </Flex>
+        {/* Buying */}
 
-      {/* Services */}
+        <Flex flexDirection="row">
+          <Buying />
+        </Flex>
 
-      <Flex flexDirection="row" p={1}>
-        <Services />
-      </Flex>
+        {/* Services */}
 
-      {/* Contact Form */}
+        <Flex flexDirection="row">
+          <Services />
+        </Flex>
 
-      <Flex flexDirection="row">
-        <ContactForm />
-      </Flex>
+        {/* Contact Form */}
 
-      {/*Footer*/}
+        <Flex flexDirection="row">
+          <ContactForm />
+        </Flex>
 
-      <Flex flexDirection="column" >
-        <Footer />
-      </Flex>
+        {/*Footer*/}
+
+        <Flex flexDirection="column">
+          <Footer />
+        </Flex>
+      </Col>
     </Flex>
   );
 };

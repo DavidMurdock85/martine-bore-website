@@ -1,21 +1,19 @@
-import { Base } from "@mb/components/layout";
 import React from "react";
+import { Flex, Col, Row } from "@mb/components/layout";
+import { Link } from "@mb/components/elements";
 
 export const NewArrivals: React.FC = () => {
   return (
-    <Base className="new-arrivals-parent">
-
-      <Base tag="h3" pl={4} pb={1} mt={3} mb={1}>
-        <Base>New Arrivals</Base>
-      </Base>
-
-      <Base tag="p"  pl={4}>product images heres</Base>
-      {/*images displayed in carousel format - 3 images in phone - 5 in desktop*/}
-
-      {/*
-        . Dynamic Value to populate new Arrivals
-        . Limit List to 10 and make a clickable button option in nav bar
-        */}
-    </Base>
+    <Flex flexDirection="column" className="new-arrivals-parent" tag="a" m={1}>
+      <Row flexDirection="row" xs={12} md={6} lg={6}>
+        <Col flexDirection="column">
+          <Flex flexDirection="row" justifyContent="center">
+            <Link tag="h2" classname="new-arrivals-link" m={8}>
+              New Arrivals
+            </Link>
+          </Flex>
+        </Col>
+      </Row>
+    </Flex>
   );
 };

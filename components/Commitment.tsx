@@ -12,7 +12,7 @@ export const Commitment: React.FC = () => {
           <Base tag="h3" pb={2} pl={2}>
             <Base>About</Base>
           </Base>
-          <Base id="quality" tag="h3" pb={2} pl={4}>
+          <Base id="quality" tag="h2" pb={2} pl={4}>
             <Base className="title-decorated">Quality</Base>
           </Base>
         </Base>
