@@ -9,6 +9,7 @@ import { EverydayAntiques } from "@mb/components/EverydayAntiques";
 import { Buying } from "@mb/components/Buying";
 import { FeaturedAntiques } from "@mb/components/FeaturedAntiques";
 import { PrivateGallery } from "@mb/components/PrivateGallery";
+import {Sold} from "@mb/components/Sold";
 import { Services } from "@mb/components/Services";
 import { SeasonalAntiques } from "@mb/components/SeasonalAntiques";
 import { ContactForm } from "@mb/components/ContactForm";
@@ -93,6 +94,12 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
 
         <Flex flexDirection="row">
           <Services />
+        </Flex>
+
+        {/* Sold */}
+
+        <Flex flexDirection="row">
+          <Sold />
         </Flex>
 
         {/* Contact Form */}
