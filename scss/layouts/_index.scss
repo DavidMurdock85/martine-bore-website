@@ -1,82 +1,191 @@
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 @import "~bootstrap/scss/bootstrap";
 
-@include for-phone-only {
+/* 
+Mobile Devices 320px - 480px 
+
+increment by 1
+*/
+
+@include for-mobile-devices-only {
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
   h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  a {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  li{
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+}
+
+/* 
+Tablets 481px - 768px 
+
+increase by 2
+increment by 2
+*/
+@include for-tablets-only {
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  a {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  li{
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+/* 
+Laptops 769px - 1024px 
+
+increase by 2
+increment by 2
+*/
+
+@include for-laptop-only {
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  a {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  li{
     font-size: 1.2rem;
     font-weight: 700;
   }
+}
+
+/*
+Desktops 1025px - 1200px
+
+increase by 4
+increment by 3
+*/
+@include for-desktop-only {
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
   p {
-    font-size: 0.7rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
   a {
-    font-size: 0.7rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  li{
+    font-size: 1.3rem;
+    font-weight: 700;
   }
 }
 
-//min-width: 600px
-@include for-tablet-portrait-up {
+/* 
+Largers Devices 1201px + 
+
+increase by 2
+increment by 3
+
+*/
+
+@include for-larger-device-only {
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
   h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  h5 {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
   }
   p {
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 500;
   }
   a {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
   }
-}
-
-//min-width: 900px
-@include for-tablet-landscape-up {
-  h3 {
-    font-size: 2rem;
-    font-weight: 400;
-  }
-  p {
-    font-size: 1.3rem;
-    font-weight: 400;
-  }
-  a {
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-}
-
-//min-width: 1200px
-@include for-desktop-up {
-  h3 {
-    font-size: 2.5rem;
-    font-weight: 400;
-  }
-  p {
-    font-size: 1.8rem;
-    font-weight: 400;
-  }
-  a {
-    font-size: 1.8rem;
-    font-weight: 500;
-  }
-}
-
-//min-width: 1800px
-@include for-big-desktop-up {
-  h3 {
-    font-size: 4rem;
-    font-weight: 400;
-  }
-  p {
-    font-size: 2.5rem;
-    font-weight: 400;
-  }
-  a {
-    font-size: 2.5rem;
-    font-weight: 500;
+  li{
+    font-size: 1.5rem;
+    font-weight: 700;
   }
 }
 

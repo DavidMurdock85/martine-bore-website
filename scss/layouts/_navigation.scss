@@ -1,82 +1,48 @@
-// nav - parent
+// Nav - Parent
 
 .nav-parent {
-  @include for-phone-only {
-    h3 {
-      font-size: 1.2rem;
-      font-weight: 700;
-    }
-    p {
-      font-size: 0.7rem;
-      font-weight: 500;
-    }
-  }
-  @include for-tablet-portrait-up {
-    h3 {
-      font-size: 1.5rem;
-      font-weight: 400;
-    }
-    p {
-      font-size: 1.2rem;
-      font-weight: 400;
-    }
-  }
-  @include for-tablet-landscape-up {
-    h3 {
-      font-size: 2rem;
-      font-weight: 400;
-    }
-    p {
-      font-size: 1.3rem;
-      font-weight: 400;
-    }
-  }
-  @include for-desktop-up {
-    h3 {
-      font-size: 2.5rem;
-      font-weight: 400;
-    }
-    p {
-      font-size: 1.8rem;
-      font-weight: 400;
-    }
-  }
-  @include for-big-desktop-up {
-    h3 {
-      font-size: 4rem;
-      font-weight: 400;
-    }
-    p {
-      font-size: 2.5rem;
-      font-weight: 400;
-    }
-  }
-
   position: fixed;
   background-color: white !important;
-  font-family: "Josefin Sans";
   width: 100%;
   z-index: 1;
+  font-family: "Josefin Sans";
 
-  // nav - toggle button
+  /*  Nav - Navbar Toggle */
 
   .nav-toggle {
     background-color: white !important;
     border: solid 1px black;
 
-    // nav - section titles
+    /*  Nav - Navbar Colapse */
 
-    .header-titles {
+    .nav-colapse {
+      
 
-      // nav - nav links
+      .m-auto {
+        /*  Nav - Navigation Menus */
 
-      .basic-nav-link {
-        color: black !important;
+        .nav-menus {
+         
+          /* Nav - Titles */
+
+          .nav-titles {
+            
+              color: #344b42;
+            
+
+            /* Nav - Link */
+
+            .nav-link {
+            
+            }
+          }
+        }
+      }
+
+      /* Nav - Social */
+
+      .nav-social {
       }
     }
-  }
-
-  // nav - social
-  .social-svg {
   }
 }

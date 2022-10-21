@@ -1,13 +1,19 @@
 import Image from "next/image";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-
-import { Col, Flex, Row } from "./layout";
+import { Center, Col, Flex, Row } from "@mb/components/layout";
 
 export const Footer: React.FC = () => {
   return (
     <Flex flexDirection="column" className="footer-parent">
       {/*back to top link*/}
+
+      <Flex
+        flexDirection="row"
+        justifyContent="center"
+        className="break"
+        tag="hr"
+      ></Flex>
 
       <Flex flexDirection="row" justifyContent="center" pt={2}>
         <Flex flexDirection="column" className="footer-links-parent">
@@ -31,7 +37,13 @@ export const Footer: React.FC = () => {
         pr={2}
         pb={2}
       >
-        <Col xs={12} md={6} flexDirection="column" className="footer-text-parent" p={4}>
+        <Col
+          xs={12}
+          md={6}
+          flexDirection="column"
+          className="footer-text-parent"
+          p={4}
+        >
           <Flex flexDirection="column" className="footer-contact" pb={2}>
             <Flex flexDirection="row" tag="h4">
               Find Us
@@ -63,20 +75,41 @@ export const Footer: React.FC = () => {
               </Flex>
             </Flex>
           </Flex>
+
+          <Flex flexDirection="row">Parking Available in the Back</Flex>
         </Col>
 
-        <Col xs={12} md={6} className="footer-image">
-          <Image
-            src="/map.jpeg"
-            alt="map of martine bore antiques location"
-            width="750px"
-            height="750px"
-            priority
-          />
+        {/*
+
+        <Col
+          flexDirection="column"
+          justifyContent="center"
+          xs={12}
+          md={6}
+          className="footer-image"
+        >
+          <Row flexDirection="row" justifyContent="center">
+            <Image
+              src="/maps.jpeg"
+              alt="map of martine bore antiques location"
+              width="750px"
+              height="750px"
+              priority
+            />
+          </Row>
         </Col>
+
+        */}
       </Row>
 
-      <Flex flexDirection="row" justifyContent="flex-end" className="footer-admin" pb={1} pr={1} mr={3}>
+      <Flex
+        flexDirection="row"
+        justifyContent="flex-end"
+        className="footer-admin"
+        pb={1}
+        pr={1}
+        mr={3}
+      >
         <Nav.Link href="/admin">Admin Tools</Nav.Link>
       </Flex>
     </Flex>

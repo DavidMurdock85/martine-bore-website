@@ -2,22 +2,45 @@ import { Base, Flex, Row, Center } from "@mb/components/layout";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Image from "next/image";
-import { Social } from "@mb/components/Social";
+import { Navigation } from "@mb/components/Navigation";
 
 export const Banner: React.FC = () => {
   return (
-    <>
-      <Row className="banner-parent">
-        <Nav.Link href="/">
-            <Image
-              src={`/images/homepage-images/logo.png`}
-              alt="martine bore logo in gold"
-              width="50px"
-              height="50px"
-              className="banner-logo"
-            />
-        </Nav.Link>
-      </Row>
-    </>
+    <Flex flexDirection="column" className="banner-parent">
+      {/*Banner Logo - Home Link*/}
+
+      <Nav.Link href="/"   className="banner-logo">
+        <Flex
+          flexDirection="row"
+          justifyContent="center"
+          className="banner-logo"
+        >
+          <Image
+            src={`/images/homepage-images/logo.png`}
+            alt="martine bore logo in gold"
+            width="100px"
+            height="90px"
+            className="banner-logo"
+          />
+        </Flex>
+      </Nav.Link>
+
+
+
+      {/*
+      <Flex
+        flexDirection="row"
+        justifyContent="center"
+        tag="h5"
+        className="banner-sub"
+      >
+        Metro Vancouvers Leading Source of Antiques and Fine Arts
+      </Flex>
+      */}
+
+      <Flex flexDirection="row" className="banner-nav">
+        <Navigation />
+      </Flex>
+    </Flex>
   );
 };
