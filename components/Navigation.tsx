@@ -91,7 +91,7 @@ export const Navigation: React.FC = (props: any) => {
 
             <Nav.Link className="nav-link" href="/categories/objet-d-art">
               <Flex className="nav-titles" tag="li">
-                Objet D'Art
+                Objet D&apos;Art
               </Flex>
             </Nav.Link>
 
