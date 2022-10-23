@@ -1,9 +1,8 @@
-import { Flex, Col, Row } from "@mb/components/layout";
+import { Col, Flex, Row } from "@mb/components/layout";
 import React from "react";
-import Image from "next/image";
 import Nav from "react-bootstrap/Nav";
 
-export const Estates: React.FC = () => {
+const Estates: React.FC = () => {
   return (
     <Flex flexDirection="row" className="estates-parent">
       <Col flexDirection="column">
@@ -29,3 +28,5 @@ export const Estates: React.FC = () => {
     </Flex>
   );
 };
+
+export default Estates;
