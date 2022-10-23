@@ -8,7 +8,7 @@ export const NewArrivals: React.FC = () => {
       <Row flexDirection="row" xs={12} md={6} lg={6}>
         <Col flexDirection="column">
           <Flex flexDirection="row" justifyContent="center">
-            <Link classname="new-arrivals-link" href="/categories/new-arrivals" m={8}>
+            <Link className="new-arrivals-link" href="/categories/new-arrivals" m={8}>
             <Flex tag="h2">New Arrivals</Flex>
             </Link>
           </Flex>

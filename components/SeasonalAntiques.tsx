@@ -13,7 +13,7 @@ export const SeasonalAntiques: React.FC = () => {
       <Row flexDirection="row" xs={12} md={6} lg={6}>
         <Col flexDirection="column">
           <Flex flexDirection="row" justifyContent="center">
-            <Link classname="seasonal-antiques-link" href="/categories/seasonal-antiques" m={8}>
+            <Link className="seasonal-antiques-link" href="/categories/seasonal-antiques" m={8}>
               <Flex tag="h2" >Seasonal Antiques</Flex>
             </Link>
           </Flex>
