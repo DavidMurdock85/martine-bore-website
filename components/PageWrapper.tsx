@@ -2,17 +2,7 @@ import NextHead from "next/head";
 import { Flex, Col, Row } from "@mb/components/layout";
 import { Link } from "@mb/components/elements";
 import { Banner } from "@mb/components/Banner";
-import { NewArrivals } from "@mb/components/NewArrivals";
 import { Footer } from "@mb/components/Footer";
-import { OurStory } from "@mb/components/OurStory";
-import { EverydayAntiques } from "@mb/components/EverydayAntiques";
-import { Buying } from "@mb/components/Buying";
-import { FeaturedAntiques } from "@mb/components/FeaturedAntiques";
-import { PrivateGallery } from "@mb/components/PrivateGallery";
-import {Sold} from "@mb/components/Sold";
-import { Services } from "@mb/components/Services";
-import { SeasonalAntiques } from "@mb/components/SeasonalAntiques";
-import { ContactForm } from "@mb/components/ContactForm";
 
 interface PageWrapperProps {
   title?: string;
@@ -42,70 +32,10 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
         <Banner />
       </Flex>
 
-      {/* Homepage Image */}
       <Col>
+        {/* Homepage Image */}
         <Flex className="homepage-image-parent" flexDirection="row" m={1}>
           {children}
-        </Flex>
-
-        {/* Categories - New Arrivals */}
-
-        <Flex flexDirection="row">
-          <NewArrivals />
-        </Flex>
-
-        {/* Our Story */}
-
-        <Flex flexDirection="row">
-          <OurStory />
-        </Flex>
-
-        {/* Categories - Seasonal Antiques */}
-
-        <Flex flexDirection="row">
-          <SeasonalAntiques />
-        </Flex>
-
-        {/* Featured Antiques */}
-
-        <Flex flexDirection="row">
-          <FeaturedAntiques />
-        </Flex>
-
-        {/* Categories - Everyday Antiques */}
-
-        <Flex flexDirection="row">
-          <EverydayAntiques />
-        </Flex>
-
-        {/* Private Gallery */}
-
-        <Flex flexDirection="row">
-          <PrivateGallery />
-        </Flex>
-
-        {/* Buying */}
-
-        <Flex flexDirection="row">
-          <Buying />
-        </Flex>
-
-        {/* Services */}
-
-        <Flex flexDirection="row">
-          <Services />
-        </Flex>
-
-        {/* Sold */}
-
-        <Flex flexDirection="row">
-          <Sold />
-        </Flex>
-
-        {/* Contact Form */}
-
-        <Flex flexDirection="row">
-          <ContactForm />
         </Flex>
 
         {/*Footer*/}

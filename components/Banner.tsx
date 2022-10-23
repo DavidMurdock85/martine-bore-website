@@ -25,18 +25,15 @@ export const Banner: React.FC = () => {
         </Flex>
       </Nav.Link>
 
-
-
-      {/*
       <Flex
         flexDirection="row"
         justifyContent="center"
-        tag="h5"
+        tag="h6"
         className="banner-sub"
       >
-        Metro Vancouvers Leading Source of Antiques and Fine Arts
+        Metro Vancouver&apos;s Leading Source of Antiques and Fine Art
       </Flex>
-      */}
+      
 
       <Flex flexDirection="row" className="banner-nav">
         <Navigation />

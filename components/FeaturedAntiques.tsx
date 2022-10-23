@@ -58,7 +58,7 @@ export const FeaturedAntiques: React.FC = () => {
             className="services-link"
             m={1}
           >
-            <Link href="">click for more info</Link>
+            <Link href="/categories/featured-antiques">click for more info</Link>
           </Flex>
         </Col>
 
