@@ -1,9 +1,8 @@
-import { Flex, Col, Row } from "@mb/components/layout";
+import { Col, Flex, Row } from "@mb/components/layout";
 import React from "react";
-import Image from "next/image";
 import Nav from "react-bootstrap/Nav";
 
-export const Delivery: React.FC = () => {
+const Delivery: React.FC = () => {
   return (
     <Flex flexDirection="row" className="delivery-parent">
       <Col flexDirection="column">
@@ -29,3 +28,5 @@ export const Delivery: React.FC = () => {
     </Flex>
   );
 };
+
+export default Delivery;

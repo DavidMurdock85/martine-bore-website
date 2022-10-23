@@ -9,7 +9,7 @@ export const Buying: React.FC = () => {
 
       <Col flexDirection="column">
         <Row flexDirection="row" className="buying-title" tag="h2" m={2}>
-          Were Buying
+          We&apos;re Buying
         </Row>
 
         <Row flexDirection="row" className="buying-text" tag="p" m={2}>
