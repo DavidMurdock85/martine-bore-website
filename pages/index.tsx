@@ -4,7 +4,7 @@ import React from "react";
 import { Flex, Col, Row } from "@mb/components/layout";
 import { NewArrivals } from "@mb/components/NewArrivals";
 import { OurStory } from "@mb/components/OurStory";
-import { EverydayAntiques } from "@mb/components/EverydayAntiques";
+import { Curiosities } from "@mb/components/Curiosities";
 import { Buying } from "@mb/components/Buying";
 import { FeaturedAntiques } from "@mb/components/FeaturedAntiques";
 import { PrivateGallery } from "@mb/components/PrivateGallery";
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
         {/* Categories - Everyday Antiques */}
 
         <Flex flexDirection="row">
-          <EverydayAntiques />
+          <Curiosities />
         </Flex>
 
         {/* Private Gallery */}
