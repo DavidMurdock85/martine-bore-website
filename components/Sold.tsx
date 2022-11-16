@@ -10,7 +10,7 @@ export const Sold: React.FC = () => {
       tag="a"
       m={1}
     >
-      <Row flexDirection="row" xs={12} md={6} lg={6}>
+      <Row flexDirection="row" className="sold-child" xs={12} md={6} lg={6}>
         <Col flexDirection="column">
           <Flex flexDirection="row" justifyContent="center">
             <Link className="sold-link" href="/categories/sold"  m={8}>

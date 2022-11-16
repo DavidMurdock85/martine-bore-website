@@ -28,7 +28,7 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
 
       {/* Banner */}
 
-      <Flex flexDirection="row" pb={20}>
+      <Flex flexDirection="row">
         <Banner />
       </Flex>
 

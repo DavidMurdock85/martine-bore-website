@@ -1,38 +1,33 @@
 // Nav - Parent
 
 .nav-parent {
-  position: fixed;
+  //position: fixed;
   background-color: white !important;
   width: 100%;
-  z-index: 1;
+  //z-index: 1;
   font-family: "Josefin Sans";
+  margin: 0;
+  padding: 0;
 
   /*  Nav - Navbar Toggle */
 
   .nav-toggle {
-
     background-color: white !important;
     border: solid 1px black;
 
     /*  Nav - Navbar Colapse */
 
     .nav-colapse {
-      
-
       .m-auto {
-
         /*  Nav - Navigation Menus */
 
         .nav-menus {
-         
           /* Nav - Titles */
 
           .nav-titles {
-            
             /* Nav - Link */
 
             .nav-link {
-            
             }
           }
         }

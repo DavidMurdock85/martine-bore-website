@@ -2,10 +2,16 @@
   font-family: "Josefin Sans";
   width: 100%;
   height: auto;
-  background-image: url("/seasonal-fall.jpeg");
  
+  .seasonal-antiques-child {
+    background-image: url("/seasonal-winter.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5px solid black;
+  }
+
   h2 {
-    background-color: #c1d7cb;
+    background-color: white;
     border: 0.5px solid black;
     color: black;
   }

@@ -2,6 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import { Center, Col, Flex, Row } from "@mb/components/layout";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "@mb/components/elements";
 
 export const Footer: React.FC = () => {
   return (
@@ -48,6 +51,7 @@ export const Footer: React.FC = () => {
             <Flex flexDirection="row" tag="h4">
               Find Us
             </Flex>
+
             <Flex flexDirection="row">
               <Flex flexDirection="column" tag="p">
                 <Flex flexDirection="row">
@@ -77,9 +81,20 @@ export const Footer: React.FC = () => {
           </Flex>
 
           <Flex flexDirection="row">Parking Available in the Back</Flex>
-        </Col>
 
-        {/*
+          {/*  footer- Social */}
+
+          <Flex flexDirection="column" mt={2}>
+            <Flex flexDirection="row" tag="h4">
+              Social Media
+            </Flex>
+            <Flex flexDirection="row" className="nav-social" mt={1}>
+              <Link href="https://www.instagram.com/martineboreantiques/">
+                <FontAwesomeIcon icon={faInstagram} />
+              </Link>
+            </Flex>
+          </Flex>
+        </Col>
 
         <Col
           flexDirection="column"
@@ -88,9 +103,9 @@ export const Footer: React.FC = () => {
           md={6}
           className="footer-image"
         >
-          <Row flexDirection="row" justifyContent="center">
+          <Row flexDirection="row" justifyContent="center" m={2}>
             <Image
-              src="/maps.jpeg"
+              src={`/images/homepage-images/location-image.jpg`}
               alt="map of martine bore antiques location"
               width="750px"
               height="750px"
@@ -98,8 +113,6 @@ export const Footer: React.FC = () => {
             />
           </Row>
         </Col>
-
-        */}
       </Row>
 
       <Flex

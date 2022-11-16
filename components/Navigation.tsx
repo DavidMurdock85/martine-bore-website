@@ -3,9 +3,6 @@ import React, { FC, useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "@mb/components/elements";
 
 interface DropDownOnHoverProps {
   className: string;
@@ -43,6 +40,7 @@ export const Navigation: React.FC = (props: any) => {
       {/*  Nav - Navbar Colapse */}
 
       <Navbar.Collapse id="nav-colapse">
+
         <Flex flexDirection="row" className="m-auto" tag="ol">
           {/*  Nav - Navigation Menus */}
 
@@ -91,7 +89,7 @@ export const Navigation: React.FC = (props: any) => {
 
             <Nav.Link className="nav-link" href="/categories/objet-d-art">
               <Flex className="nav-titles" tag="li">
-                Objet D&apos;Art
+                Objet d&apos;art
               </Flex>
             </Nav.Link>
 
@@ -130,13 +128,6 @@ export const Navigation: React.FC = (props: any) => {
         </Flex>
       </Navbar.Collapse>
 
-      {/*  Nav - Social */}
-
-      <Flex flexDirection="row" className="nav-social">
-        <Link href="https://www.instagram.com/martineboreantiques/">
-          <FontAwesomeIcon icon={faInstagram} />
-        </Link>
-      </Flex>
     </Navbar>
   );
 };

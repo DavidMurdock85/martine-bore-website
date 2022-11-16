@@ -10,7 +10,7 @@ export const SeasonalAntiques: React.FC = () => {
       tag="a"
       m={1}
     >
-      <Row flexDirection="row" xs={12} md={6} lg={6}>
+      <Row flexDirection="row" className="seasonal-antiques-child" xs={12} md={6} lg={6}>
         <Col flexDirection="column">
           <Flex flexDirection="row" justifyContent="center">
             <Link className="seasonal-antiques-link" href="/categories/seasonal-antiques" m={8}>
