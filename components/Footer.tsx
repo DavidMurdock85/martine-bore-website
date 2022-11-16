@@ -105,7 +105,7 @@ export const Footer: React.FC = () => {
         >
           <Row flexDirection="row" justifyContent="center" m={2}>
             <Image
-              src={`/images/homepage-images/location-image.jpg`}
+              src="/location-image.jpg"
               alt="map of martine bore antiques location"
               width="750px"
               height="750px"

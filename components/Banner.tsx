@@ -16,7 +16,7 @@ export const Banner: React.FC = () => {
           className="banner-logo"
         >
           <Image
-            src={`/images/homepage-images/martine-logo.png`}
+            src="/martine-logo.png"
             alt="martine bore antiques logo"
             width="180px"
             height="160px"
