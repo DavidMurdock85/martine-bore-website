@@ -3,6 +3,7 @@ import { Center, Col, Flex, Row, Split } from "@mb/components/layout";
 import Image from "next/image";
 
 export const OurStory: React.FC = () => {
+  
   return (
     <Flex flexDirection="column" className="our-story-parent">
       <Row flexDirection="row">

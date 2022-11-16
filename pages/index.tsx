@@ -14,14 +14,16 @@ import { SeasonalAntiques } from "@mb/components/SeasonalAntiques";
 import { ContactForm } from "@mb/components/ContactForm";
 
 import type { NextPage } from "next";
+
 const Home: NextPage = () => {
+
   return (
     
     <PageWrapper
       description="A second generation antique dealer in the heart of West Vancouver Ambleside District"
       title="Martine Boré Antiques Ltd."
     >
-       
+
 
 <Col>
 

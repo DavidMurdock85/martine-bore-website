@@ -1,7 +1,6 @@
 .featured-antiques-parent {
-  background-color: #c1d7cb;
+  background-color: white;
   font-family: "Josefin Sans";
-  border: 0.5px solid black;
 
   .featured-antiques-section-text {
     color: black;
@@ -10,8 +9,5 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .featured-antiques-product-images {
-    border: solid 1px black;
   }
 }
