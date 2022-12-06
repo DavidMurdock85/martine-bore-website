@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Flex, Col, Row } from "@mb/components/layout";
 import { NewArrivals } from "@mb/components/NewArrivals";
-import { OurStory } from "@mb/components/OurStory";
+import { About } from "@mb/components/About";
 import { Curiosities } from "@mb/components/Curiosities";
 import { Buying } from "@mb/components/Buying";
 import { FeaturedAntiques } from "@mb/components/FeaturedAntiques";
@@ -28,26 +28,21 @@ const Home: NextPage = () => {
 <Col>
 
 <Image 
-        src={`/images/homepage-images/main-image.jpeg`} 
+        src={`/main-image.jpeg`} 
         alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." 
         width="2000px" 
         height="1500px" />
- {/* Categories - New Arrivals */}
 
- <Flex flexDirection="row">
+        {/* About Us */}
+
+        <Flex flexDirection="row">
+          <About />
+        </Flex>
+
+        {/* Categories - New Arrivals */}
+
+        <Flex flexDirection="row">
           <NewArrivals />
-        </Flex>
-
-        {/* Our Story */}
-
-        <Flex flexDirection="row">
-          <OurStory />
-        </Flex>
-
-        {/* Categories - Seasonal Antiques */}
-
-        <Flex flexDirection="row">
-          <SeasonalAntiques />
         </Flex>
 
         {/* Featured Antiques */}
@@ -56,10 +51,16 @@ const Home: NextPage = () => {
           <FeaturedAntiques />
         </Flex>
 
-        {/* Categories - Everyday Antiques */}
+        {/* Categories - Seasonal Antiques */}
 
         <Flex flexDirection="row">
-          <Curiosities />
+          <SeasonalAntiques />
+        </Flex>
+
+        {/* Buying */}
+
+        <Flex flexDirection="row">
+          <Buying />
         </Flex>
 
         {/* Private Gallery */}
@@ -68,10 +69,8 @@ const Home: NextPage = () => {
           <PrivateGallery />
         </Flex>
 
-        {/* Buying */}
-
         <Flex flexDirection="row">
-          <Buying />
+          <Curiosities />
         </Flex>
 
         {/* Services */}
@@ -88,9 +87,9 @@ const Home: NextPage = () => {
 
         {/* Contact Form */}
 
-        {/* <Flex flexDirection="row">
+         <Flex flexDirection="row">
           <ContactForm />
-        </Flex>*/}
+        </Flex>
       
 </Col>
          

@@ -11,13 +11,6 @@ export const Footer: React.FC = () => {
     <Flex flexDirection="column" className="footer-parent">
       {/*back to top link*/}
 
-      <Flex
-        flexDirection="row"
-        justifyContent="center"
-        className="break"
-        tag="hr"
-      ></Flex>
-
       <Flex flexDirection="row" justifyContent="center" pt={2}>
         <Flex flexDirection="column" className="footer-links-parent">
           <Flex flexDirection="row" tag="a" href="#header">

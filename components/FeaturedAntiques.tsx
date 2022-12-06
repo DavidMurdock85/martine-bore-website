@@ -5,34 +5,31 @@ import { Link } from "@mb/components/elements";
 
 export const FeaturedAntiques: React.FC = () => {
   return (
-    <Flex flexDirection="column" className="featured-antiques-parent">
+    <Flex flexDirection="column" className="featured-antiques-parent" mt={4} mb={4}>
+     
+      <Row>
+        <Flex
+          flexDirection="column"
+          justifyContent="center"
+          className="featured-antiques-title"
+          tag="h2"
+          m={4}
+        >
+          Featured Antiques
+        </Flex>
+      </Row>
+
       <Row flexDirection="row">
-        {/*Featured Antiques - Title*/}
-
         <Col flexDirection="column" xs={12} md={6} lg={6}>
-          <Flex
-            flexDirection="row"
-            justifyContent="center"
-            className="featured-antiques-title"
-            tag="h2"
-            m={2}
-          >
-            Featured Antiques
-          </Flex>
-
-          {/*Featured Antiques - Section Title*/}
-
           <Flex
             flexDirection="row"
             justifyContent="flex-start"
             className="featured-antiques-section-title"
             tag="h3"
-            m={2}
+            ml={2}
           >
             The Art Deco Period
           </Flex>
-
-          {/*Featured Antiques - Section Text */}
 
           <Flex
             flexDirection="row"
@@ -52,18 +49,9 @@ export const FeaturedAntiques: React.FC = () => {
             architecture and art all converge to form the basis of this unique
             aesthetic.
           </Flex>
-          <Flex
-            flexDirection="row"
-            justifyContent="center"
-            className="services-link"
-            m={1}
-          >
-            <Link href="/categories/featured-antiques">click for more info</Link>
-          </Flex>
         </Col>
 
         <Col flexDirection="column" xs={12} md={6} lg={6}>
-          {/*Featured Antiques - Image */}
 
           <Flex
             flexDirection="row"
@@ -80,8 +68,21 @@ export const FeaturedAntiques: React.FC = () => {
           </Flex>
         </Col>
 
-        {/*Featured Antiques - Products Link */}
+        <Row>
+          <Flex
+            flexDirection="column"
+            justifyContent="center"
+            className="featured-antiques-link"
+            m={1}
+          >
+            <Link href="/categories/featured-antiques">
+              click for more info
+            </Link>
+          </Flex>
+        </Row>
+
       </Row>
+
     </Flex>
   );
 };

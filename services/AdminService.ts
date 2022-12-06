@@ -14,6 +14,8 @@ export interface Listing {
   description?: string;
   dimensions?: string;
   price?: string;
+  //metaTitle?: string;
+  //metaDescription?: string;
 }
 
 export type NewListing = Omit<Listing, 'id'>;
