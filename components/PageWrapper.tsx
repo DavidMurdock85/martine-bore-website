@@ -21,9 +21,17 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
       className="page-wrapper-parent"
     >
       <NextHead>
+
+        {/*change description to metaDescription ? */}
+
         {description && <meta name="description" content={description} />}
+
+        {/*change title to metaTitle ? */}
+
         {title && <title>{title}</title>}
+
         <link rel="icon" href="/favicon.ico" />
+        
       </NextHead>
 
       {/* Banner */}

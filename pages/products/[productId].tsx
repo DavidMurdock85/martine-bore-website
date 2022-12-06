@@ -51,6 +51,10 @@ const ProductPage: NextPage = () => {
 
   let localBreadcrumbs: CategoryBreadcrumb[] = [];
 
+  {
+    /* breadcrumbs */
+  }
+
   /* if(product.category) {
     localBreadcrumbs = [
       { url: `/products/${productId}`, name: product.productTitle },
@@ -60,101 +64,119 @@ const ProductPage: NextPage = () => {
   return (
     <PageWrapper title={product.title} description={product.description}>
       <Base>
+        {/*product breadcrumbs*/}
+
+        {/*
         <Base expand="width" mt={2}>
           <Base tag="h6" className="">
             <Breadcrumb breadcrumbItems={localBreadcrumbs} />
           </Base>
         </Base>
+        */}
 
-        {/*product image*/}
+        {/*product section*/}
 
         <Row className="product" noGutters>
+          {/*product images*/}
+
           <Col className="product-item-image" xs={12} sm={6}>
             <ImageGallery
-              items={product.images?.map(image => {
-                return {
-                  ...image,
-                  original: `${IMAGES_BASE_URL}/${image.original}`,
-                  thumbnail: `${IMAGES_BASE_URL}/${image.thumbnail}`
-                }
-              }) || []}
+              items={
+                product.images?.map((image) => {
+                  return {
+                    ...image,
+                    original: `${IMAGES_BASE_URL}/${image.original}`,
+                    thumbnail: `${IMAGES_BASE_URL}/${image.thumbnail}`,
+                  };
+                }) || []
+              }
               showNav={false}
               showPlayButton={false}
               showFullscreenButton={false}
             />
           </Col>
 
-          {/*product title, product description, product details */}
+          {/*product text block*/}
 
           <Col className="product-item-text" xs={12} sm={6}>
             <Base className="product-item-text-sections" px={4}>
+              {/*product - title*/}
+
               <Base mt={3} className="product-page-title">
-                <Base tag="h2" mb={4}>
+                <Base tag="h1" mb={4}>
                   {product.title}
                 </Base>
               </Base>
+
+              {/* product - description */}
+
               <Base className="item-description">
                 <Base className="description-title">
-                  <Base tag="h3" mb={1}>
+                  <Base tag="h2" mb={1}>
                     Description
                   </Base>
                 </Base>
+
                 <Base>
                   <Base tag="p" className="product-page-description">
                     {product.description}
                   </Base>
                 </Base>
               </Base>
-              <Base tag="h3" mt={4} className="details-title">
+
+              {/* product - details */}
+
+              <Base tag="h2" mt={4} className="details-title">
                 Details
               </Base>
+
               <Row>
                 <Col>
-                  {product.period &&
+                  {product.period && (
                     <Base tag="p" mt={1} mb={1} className="product-page-text">
                       Period: {product.period}
                     </Base>
-                  }
-                  {product.date &&
+                  )}
+                  {product.date && (
                     <Base tag="p" mt={1} mb={1} className="product-page-text">
                       Date: {product.date}
                     </Base>
-                  }
-                  {product.origin &&
+                  )}
+                  {product.origin && (
                     <Base tag="p" mt={1} mb={1} className="product-page-text">
                       Origin: {product.origin}
                     </Base>
-                  }
-                  {product.maker &&
+                  )}
+                  {product.maker && (
                     <Base tag="p" mt={1} mb={1} className="product-page-text">
                       Maker: {product.maker}
                     </Base>
-                  }
+                  )}
                   <Base tag="p" mt={1} mb={1} className="product-page-text">
                     Product #: {product.id}
                   </Base>
                 </Col>
                 <Col>
-                  {product.medium &&
+                  {product.medium && (
                     <Base tag="p" mt={1} mb={1} className="product-page-text">
                       Medium: {product.medium}
                     </Base>
-                  }
-                  {product.dimensions &&
+                  )}
+                  {product.dimensions && (
                     <Base tag="p" mt={1} mb={1} className="product-page-text">
                       Dimensions: {product.dimensions}
                     </Base>
-                  }
-                  {product.condition &&
+                  )}
+                  {product.condition && (
                     <Base tag="p" mt={1} mb={1} className="product-page-text">
                       Condition: {product.condition}
                     </Base>
-                  }
-                  {product.price &&
+                  )}
+                  {product.price && (
                     <Base tag="p" mt={1} mb={1} className="product-page-text">
                       Price: {product.price}
                     </Base>
-                  }
+                  )}
                 </Col>
               </Row>
             </Base>

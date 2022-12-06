@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Buying: React.FC = () => {
   return (
-    <Flex flexDirection="row" className="buying-parent">
+    <Flex flexDirection="row" className="buying-parent" mt={4} mb={4}>
       {/*see more - drop down with text below*/}
 
       <Col flexDirection="column">

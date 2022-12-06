@@ -23,7 +23,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
   const router = useRouter();
   const loggedIn = useAuth().state.loggedIn;
 
-  const { id, images, route, title } = product;
+  const { id, images, route, title /*, metaTitle, metaDescription*/ } = product;
 
   // this is returning product image and title from categories
   return (
@@ -39,22 +39,42 @@ const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
         router.push(`/products/${route}`);
       }}
     >
-      { loggedIn && <FlexRight flexDirection="row">
-        <Flex tag="a" className='edit' mr={1} pb={1} href={`/admin/listings/${route}`}><FontAwesomeIcon icon={ faEdit } /></Flex>
-        <Flex className='delete'  pb={1} onClick={async (e: React.MouseEvent) => {
-          e.stopPropagation();
-          const confirmDelete = confirm("Are you sure you want to delete this listing?");
-          if(confirmDelete) {
-            await deleteListing(id);
-            onDelete();
-          }
-        }}>
-          <FontAwesomeIcon icon={ faTimes }/>
-        </Flex>
-      </FlexRight> }
+      {loggedIn && (
+        <FlexRight flexDirection="row">
+          <Flex
+            tag="a"
+            className="edit"
+            mr={1}
+            pb={1}
+            href={`/admin/listings/${route}`}
+          >
+            <FontAwesomeIcon icon={faEdit} />
+          </Flex>
+          <Flex
+            className="delete"
+            pb={1}
+            onClick={async (e: React.MouseEvent) => {
+              e.stopPropagation();
+              const confirmDelete = confirm(
+                "Are you sure you want to delete this listing?"
+              );
+              if (confirmDelete) {
+                await deleteListing(id);
+                onDelete();
+              }
+            }}
+          >
+            <FontAwesomeIcon icon={faTimes} />
+          </Flex>
+        </FlexRight>
+      )}
       <Base className="image-border-deco">
         {images.length > 0 && (
-          <Image className="product-image" src={`${IMAGES_BASE_URL}/${images[0].original}`} alt={title || ""} />
+          <Image
+            className="product-image"
+            src={`${IMAGES_BASE_URL}/${images[0].original}`}
+            alt={title || ""}
+          />
         )}
       </Base>
 
@@ -83,11 +103,13 @@ const ProductCategory: NextPage = () => {
   const fetchCategory = async () => {
     // try catch wraps code and will catch err if err occurs
     try {
-      const fetchedCategory: Category = await get(`/categories/${categoryId}`)
+      const fetchedCategory: Category = await get(`/categories/${categoryId}`);
 
       setCategory(fetchedCategory);
 
-      const fetchedProducts: Product[] = await get(`/categories/${fetchedCategory.id}/products`);
+      const fetchedProducts: Product[] = await get(
+        `/categories/${fetchedCategory.id}/products`
+      );
 
       setProducts(fetchedProducts);
     } catch (err) {
@@ -104,25 +126,53 @@ const ProductCategory: NextPage = () => {
   const { breadcrumbs, title } = category;
 
   return (
+
+    // change title to metaTitle and metaDescription
+
     <PageWrapper title={title} description={title}>
+      
       <Flex className="product-category" expand="width" flexDirection="column">
+        
+        {/* breadcrumbs */}
+        
+        {/*
         <Split expand="width">
+          
           <Base tag="h6" className="breadcrumbs-text">
             <Breadcrumb breadcrumbItems={breadcrumbs || []} />
           </Base>
-          {/*<Base tag="h6" className="sorting-filtering-text">Sorting and Filtering</Base>*/}
+          
+          <Base tag="h6" className="sorting-filtering-text">
+            Sorting and Filtering
+          </Base>
+
         </Split>
-        <Base tag="h2" className="product-category-title">
+        */}
+
+        {/*category titles*/}
+
+        <Base tag="h1" className="product-category-title">
           {title}
         </Base>
+
+        {/*product - image, descriptions*/}
+
         <Row mt={2}>
           {products.length > 0 &&
             products.map((product, index: number) => (
-              <ProductItem key={index} product={product} onDelete={() => {
-                setProducts(products.filter(item => {
-                  return item.id !== product.id;
-                }))
-              }}/>
+              <ProductItem
+                key={index}
+                product={product}
+                /*product - delete function admin tools*/
+
+                onDelete={() => {
+                  setProducts(
+                    products.filter((item) => {
+                      return item.id !== product.id;
+                    })
+                  );
+                }}
+              />
             ))}
         </Row>
       </Flex>

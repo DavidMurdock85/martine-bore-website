@@ -5,6 +5,7 @@ import React from "react";
 export const PrivateGallery: React.FC = () => {
   return (
     <Flex flexDirection="column" className="private-gallery-parent">
+      
       <Row flexDirection="row">
         {/*Featured Antiques - Title*/}
 
@@ -17,7 +18,7 @@ export const PrivateGallery: React.FC = () => {
             className="private-gallery-image"
           >
             <Image
-              src="/second-gallery.jpeg"
+              src="/private-gallery.jpeg"
               alt="second gallery at martine boré antiques"
               width="761px"
               height="872px"
