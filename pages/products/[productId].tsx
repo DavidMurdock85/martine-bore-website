@@ -1,4 +1,3 @@
-//import { categories } from "@mb/api/categories";
 import { Breadcrumb } from "@mb/components/Breadcrumbs";
 import { Base, Col, Row } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
@@ -32,10 +31,10 @@ const ProductPage: NextPage = () => {
       if (response.ok) {
         const json = await response.json();
 
-        // console log json script of database
-
         setProduct(json);
       }
+
+      // console log json script of database
     } catch (err) {
       //console log err if it occurs
       console.log(err);
@@ -43,36 +42,44 @@ const ProductPage: NextPage = () => {
   };
 
   // useEffect takes two parameters, a callback function, an a dependency array. useEffect runs callback function inside useEffect to call fetchProduct when productId changes.
+
   useEffect(() => {
     if (productId) {
       fetchProduct();
     }
   }, [productId]);
 
+  /*
   let localBreadcrumbs: CategoryBreadcrumb[] = [];
 
-  {
-    /* breadcrumbs */
+  // breadcrumbs
+
+  if (product.category) {
+    let localBreadcrumbs = [
+      { url: `/products/${productId}`, name: product.title },
+    ].concat(product.category.breadcrumbs);
   }
 
-  /* if(product.category) {
-    localBreadcrumbs = [
-      { url: `/products/${productId}`, name: product.productTitle },
-    ].concat(product.category.breadcrumbs);
-  } */
+  */
 
   return (
-    <PageWrapper title={product.title} description={product.description}>
+    <PageWrapper
+      metaTitle={product.metaTitle}
+      metaDescription={product.metaDescription}
+    >
       <Base>
+        
         {/*product breadcrumbs*/}
 
         {/*
+
         <Base expand="width" mt={2}>
           <Base tag="h6" className="">
             <Breadcrumb breadcrumbItems={localBreadcrumbs} />
           </Base>
         </Base>
-        */}
+
+      */}
 
         {/*product section*/}
 

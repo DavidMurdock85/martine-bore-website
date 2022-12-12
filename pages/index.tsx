@@ -11,7 +11,7 @@ import { PrivateGallery } from "@mb/components/PrivateGallery";
 import { Sold } from "@mb/components/Sold";
 import { Services } from "@mb/components/Services";
 import { SeasonalAntiques } from "@mb/components/SeasonalAntiques";
-import { ContactForm } from "@mb/components/ContactForm";
+//import { ContactForm } from "@mb/components/ContactForm";
 
 import type { NextPage } from "next";
 
@@ -20,14 +20,14 @@ const Home: NextPage = () => {
   return (
     
     <PageWrapper
+      title="Martine Boré Antiques Ltd."  
       description="A second generation antique dealer in the heart of West Vancouver Ambleside District"
-      title="Martine Boré Antiques Ltd."
     >
 
 
-<Col>
+ <Col>
 
-<Image 
+ <Image 
         src={`/main-image.jpeg`} 
         alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." 
         width="2000px" 
@@ -87,9 +87,11 @@ const Home: NextPage = () => {
 
         {/* Contact Form */}
 
+{/*
          <Flex flexDirection="row">
           <ContactForm />
         </Flex>
+        */}
       
 </Col>
          
