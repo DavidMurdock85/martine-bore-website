@@ -123,10 +123,11 @@ const ProductCategory: NextPage = () => {
     fetchCategory();
   }, [categoryId]);
 
-  const { breadcrumbs, title } = category;
+  const { breadcrumbs, title, metaTitle, metaDescription } = category;
 
   return (
-    <PageWrapper metaTitle={metaTitle} metaDescription={metaDescription}>
+
+    <PageWrapper title={title} metaTitle={metaTitle} metaDescription={metaDescription}>
 
       <Flex className="product-category" expand="width" flexDirection="column">
         {/* breadcrumbs */}

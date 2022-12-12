@@ -42,4 +42,6 @@ export interface Category {
   title: string;
   breadcrumbs: CategoryBreadcrumb[];
   list: string[];
+  metaTitle?: string;
+  metaDescription?: string;
 }
