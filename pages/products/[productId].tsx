@@ -1,12 +1,13 @@
-import { Breadcrumb } from "@mb/components/Breadcrumbs";
-import { Base, Col, Row } from "@mb/components/layout";
-import { PageWrapper } from "@mb/components/PageWrapper";
-import { CategoryBreadcrumb, Product } from "@mb/services/types";
-import { API_BASE_URL, IMAGES_BASE_URL } from "@mb/utils/constants";
-import { NextPage } from "next";
-import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import ImageGallery from "react-image-gallery";
+import { NextPage } from "next";
+import { useRouter } from "next/router";
+import { Base, Col, Row } from "@mb/components/layout";
+import { PageWrapper } from "@mb/components/PageWrapper";
+import { Breadcrumb } from "@mb/components/Breadcrumbs";
+import { CategoryBreadcrumb, Product } from "@mb/services/types";
+import { API_BASE_URL, IMAGES_BASE_URL } from "@mb/utils/constants";
+
 
 // declaring a special function product page of type NextPage
 const ProductPage: NextPage = () => {
@@ -49,7 +50,6 @@ const ProductPage: NextPage = () => {
     }
   }, [productId]);
 
-  /*
   let localBreadcrumbs: CategoryBreadcrumb[] = [];
 
   // breadcrumbs
@@ -60,26 +60,19 @@ const ProductPage: NextPage = () => {
     ].concat(product.category.breadcrumbs);
   }
 
-  */
-
   return (
     <PageWrapper
       metaTitle={product.metaTitle}
       metaDescription={product.metaDescription}
     >
       <Base>
-        
         {/*product breadcrumbs*/}
-
-        {/*
 
         <Base expand="width" mt={2}>
           <Base tag="h6" className="">
             <Breadcrumb breadcrumbItems={localBreadcrumbs} />
           </Base>
         </Base>
-
-      */}
 
         {/*product section*/}
 

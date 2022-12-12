@@ -1,6 +1,6 @@
-import { Link } from "@mb/components/elements";
-import { Center, Col, Flex, Row } from "@mb/components/layout";
 import React from "react";
+import { Link } from "@mb/components/elements";
+import { Col, Flex, Row } from "@mb/components/layout";
 
 export const Services: React.FC = () => {
   return (
@@ -47,7 +47,7 @@ export const Services: React.FC = () => {
             className="services-link"
             m={1}
           >
-            {/*<Link href="">click for more info</Link>*/}
+            <Link href="">click for more info</Link>
           </Flex>
         </Col>
 
@@ -86,7 +86,7 @@ export const Services: React.FC = () => {
             className="services-link"
             m={1}
           >
-            {/*<Link href="">click for more info</Link>*/}
+            <Link href="">click for more info</Link>
           </Flex>
         </Col>
 
@@ -125,7 +125,7 @@ export const Services: React.FC = () => {
             className="services-link"
             m={1}
           >
-            {/*<Link href="">click for more info</Link>*/}
+            <Link href="">click for more info</Link>
           </Flex>
         </Col>
 
@@ -164,7 +164,7 @@ export const Services: React.FC = () => {
             className="services-link"
             m={1}
           >
-            {/*<Link href="">click for more info</Link>*/}
+            <Link href="">click for more info</Link>
           </Flex>
         </Col>
       </Row>

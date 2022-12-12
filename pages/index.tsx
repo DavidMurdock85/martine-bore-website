@@ -1,19 +1,21 @@
-import { PageWrapper } from "@mb/components/PageWrapper";
-import Image from "next/image";
 import React from "react";
-import { Flex, Col, Row } from "@mb/components/layout";
-import { NewArrivals } from "@mb/components/NewArrivals";
-import { About } from "@mb/components/About";
-import { Curiosities } from "@mb/components/Curiosities";
-import { Buying } from "@mb/components/Buying";
-import { FeaturedAntiques } from "@mb/components/FeaturedAntiques";
-import { PrivateGallery } from "@mb/components/PrivateGallery";
-import { Sold } from "@mb/components/Sold";
-import { Services } from "@mb/components/Services";
-import { SeasonalAntiques } from "@mb/components/SeasonalAntiques";
-//import { ContactForm } from "@mb/components/ContactForm";
-
 import type { NextPage } from "next";
+import Image from "next/image";
+import { Flex, Col } from "@mb/components/layout";
+
+import { PageWrapper } from "@mb/components/PageWrapper";
+import { About } from "@mb/components/About";
+import { NewArrivals } from "@mb/components/NewArrivals";
+import { FeaturedAntiques } from "@mb/components/FeaturedAntiques";
+import { SeasonalAntiques } from "@mb/components/SeasonalAntiques";
+import { Buying } from "@mb/components/Buying";
+import { PrivateGallery } from "@mb/components/PrivateGallery";
+import { Curiosities } from "@mb/components/Curiosities";
+import { Services } from "@mb/components/Services";
+import { Sold } from "@mb/components/Sold";
+import { ContactForm } from "@mb/components/ContactForm";
+
+
 
 const Home: NextPage = () => {
 
@@ -87,11 +89,10 @@ const Home: NextPage = () => {
 
         {/* Contact Form */}
 
-{/*
          <Flex flexDirection="row">
           <ContactForm />
         </Flex>
-        */}
+        
       
 </Col>
          

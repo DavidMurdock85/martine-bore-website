@@ -1,6 +1,6 @@
-import { Col, Flex, Row } from "@mb/components/layout";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
+import { Col, Flex, Row } from "@mb/components/layout";
 
 const Delivery: React.FC = () => {
   return (
@@ -11,7 +11,15 @@ const Delivery: React.FC = () => {
         </Row>
 
         <Row flexDirection="row" className="delivery-text" tag="p" m={2}>
-          delivery text
+          Martine Bore Antiques offers an array of delivery options when you
+          purchase from us. We want your experience to be as smooth as possible.
+          We partner with a number of reputable shipping companies who can
+          deliver your items with care for a reasonable price. Whether your
+          located next door or on the other side of the world we want you to
+          receive your purchase in one piece. To inquire about shipping quotes
+          for a specific item, email us at info@martineboreantiques.com with the
+          title of the item your interested in and we will respond as soon as we
+          are able. Usually we will respond within 24hrs.
         </Row>
 
         <Flex flexDirection="row" justifyContent="center" pt={2}>

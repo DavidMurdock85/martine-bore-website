@@ -1,17 +1,20 @@
+import React, { useEffect, useState } from "react";
+import { NextPage } from "next";
+import { useRouter } from "next/router";
 import { faEdit, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Breadcrumb } from "@mb/components/Breadcrumbs";
 import { Image } from "@mb/components/elements";
-import { Base, Col, Flex, FlexRight, Row, Split } from "@mb/components/layout";
+import { Base, Col, Flex, FlexRight, Row } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
 import { useAuth } from "@mb/providers/AuthProvider";
 import { deleteListing } from "@mb/services/AdminService";
 import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
 import { IMAGES_BASE_URL } from "@mb/utils/constants";
-import { NextPage } from "next";
-import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
+
+
+
 
 // Product Item
 interface ProductItemProps {
@@ -126,17 +129,17 @@ const ProductCategory: NextPage = () => {
   const { breadcrumbs, title, metaTitle, metaDescription } = category;
 
   return (
-
-    <PageWrapper title={title} metaTitle={metaTitle} metaDescription={metaDescription}>
-
+    <PageWrapper
+      title={title}
+      metaTitle={metaTitle}
+      metaDescription={metaDescription}
+    >
       <Flex className="product-category" expand="width" flexDirection="column">
         {/* breadcrumbs */}
 
-        {/*
         <Base tag="h6" className="breadcrumbs-text">
           <Breadcrumb breadcrumbItems={breadcrumbs || []} />
         </Base>
-        */}
 
         {/*category titles*/}
 

@@ -4,10 +4,6 @@ import { Banner } from "@mb/components/Banner";
 import { Footer } from "@mb/components/Footer";
 
 interface PageWrapperProps {
-  //productMetaTitle?: string,
-  //productMetaDescription?: string,
-  //categoryMetaTitle?: string,
-  //categoryMetaDescription?: string,
   metaTitle?: string;
   metaDescription?: string;
   title?: string;
@@ -17,8 +13,6 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
   children,
   metaTitle,
   metaDescription,
-  //description,
-  //title,
 }) => {
   return (
     <Flex

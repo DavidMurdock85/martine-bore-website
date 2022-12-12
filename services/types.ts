@@ -9,6 +9,8 @@ export interface ProductImage {
 
 export interface Product {
   id: number;
+  metaTitle?: string;
+  metaDescription?: string;
   category: Category;
   images: ProductImage[];
   title?: string;
@@ -23,8 +25,6 @@ export interface Product {
   condition?: string;
   price?: string;
   productId?: string;
-  metaTitle?: string;
-  metaDescription?: string;
 }
 
 // Breadcrumb Interface Types
@@ -38,10 +38,10 @@ export interface CategoryBreadcrumb {
 
 export interface Category {
   id: number;
+  metaTitle?: string;
+  metaDescription?: string;
   route?: string;
   title: string;
   breadcrumbs: CategoryBreadcrumb[];
   list: string[];
-  metaTitle?: string;
-  metaDescription?: string;
 }
