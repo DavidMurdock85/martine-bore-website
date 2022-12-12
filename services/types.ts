@@ -23,6 +23,8 @@ export interface Product {
   condition?: string;
   price?: string;
   productId?: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }
 
 // Breadcrumb Interface Types

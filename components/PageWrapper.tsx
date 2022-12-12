@@ -1,17 +1,20 @@
 import NextHead from "next/head";
-import { Flex, Col, Row } from "@mb/components/layout";
-import { Link } from "@mb/components/elements";
+import { Flex, Col } from "@mb/components/layout";
 import { Banner } from "@mb/components/Banner";
 import { Footer } from "@mb/components/Footer";
 
 interface PageWrapperProps {
+  metaTitle?: string;
+  metaDescription?: string;
   title?: string;
   description?: string;
 }
 export const PageWrapper: React.FC<PageWrapperProps> = ({
   children,
-  description,
-  title,
+  metaTitle,
+  metaDescription,
+  //description,
+  //title,
 }) => {
   return (
     <Flex
@@ -21,18 +24,20 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
       className="page-wrapper-parent"
     >
       <NextHead>
-
-        {/*change description to metaDescription ? */}
-
-        {description && <meta name="description" content={description} />}
-
-        {/*change title to metaTitle ? */}
-
-        {title && <title>{title}</title>}
-
+        {metaTitle && <title>{metaTitle}</title>}
+        {metaDescription && (
+          <meta name="meta-description" content={metaDescription} />
+        )}
         <link rel="icon" href="/favicon.ico" />
-        
       </NextHead>
+
+      {/*
+      <NextHead>
+        {title && <title>{title}</title>}
+        {description && <meta name="description" content={description} />}
+        <link rel="icon" href="/favicon.ico" />
+      </NextHead>
+*/}
 
       {/* Banner */}
 

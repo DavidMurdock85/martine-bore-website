@@ -1,6 +1,8 @@
 import { del, post, postFile, put } from "@mb/services/FetchService";
 import { Product, ProductImage } from "@mb/services/types";
 
+// 
+
 export interface Listing {
   id: number;
   categoryId: number;
@@ -14,13 +16,18 @@ export interface Listing {
   description?: string;
   dimensions?: string;
   price?: string;
-  //metaTitle?: string;
-  //metaDescription?: string;
+  metaTitle?: string;
+  metaDescription?: string;
 }
+
+//
 
 export type NewListing = Omit<Listing, 'id'>;
 
+// create a listing
+
 export const createNewListing = async (newListing: NewListing): Promise<Product> => {
+  
   const { categoryId, ...remainingValues } = newListing;
 
   return post(`/categories/${categoryId}/products`, {
@@ -28,12 +35,16 @@ export const createNewListing = async (newListing: NewListing): Promise<Product>
   });
 };
 
+// update a listing
+
 export const updateListing = async (updateListing: Listing): Promise<Product> => {
   delete updateListing.images;
   return put(`/products/${updateListing.id}`, {
     body: JSON.stringify(updateListing),
   });
 };
+
+// add images to a listing
 
 export const addImagesToListing = async (listingId: number, images: string[] | Blob[]): Promise<ProductImage[]> => {
   const formData = new FormData();
@@ -45,6 +56,8 @@ export const addImagesToListing = async (listingId: number, images: string[] | B
     body: formData,
   });
 };
+
+// delete a listing
 
 export const deleteListing = async (listingId: number): Promise<void> => {
   await del(`/products/${listingId}`);

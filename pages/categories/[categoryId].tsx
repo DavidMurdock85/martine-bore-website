@@ -23,7 +23,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
   const router = useRouter();
   const loggedIn = useAuth().state.loggedIn;
 
-  const { id, images, route, title /*, metaTitle, metaDescription*/ } = product;
+  const { id, images, route, title } = product;
 
   // this is returning product image and title from categories
   return (
@@ -126,27 +126,14 @@ const ProductCategory: NextPage = () => {
   const { breadcrumbs, title } = category;
 
   return (
-
-    // change title to metaTitle and metaDescription
-
     <PageWrapper title={title} description={title}>
-      
       <Flex className="product-category" expand="width" flexDirection="column">
-        
         {/* breadcrumbs */}
-        
-        {/*
-        <Split expand="width">
-          
-          <Base tag="h6" className="breadcrumbs-text">
-            <Breadcrumb breadcrumbItems={breadcrumbs || []} />
-          </Base>
-          
-          <Base tag="h6" className="sorting-filtering-text">
-            Sorting and Filtering
-          </Base>
 
-        </Split>
+        {/*
+        <Base tag="h6" className="breadcrumbs-text">
+          <Breadcrumb breadcrumbItems={breadcrumbs || []} />
+        </Base>
         */}
 
         {/*category titles*/}
