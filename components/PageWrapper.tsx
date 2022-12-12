@@ -13,8 +13,6 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
   children,
   metaTitle,
   metaDescription,
-  //description,
-  //title,
 }) => {
   return (
     <Flex
@@ -30,14 +28,6 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
         )}
         <link rel="icon" href="/favicon.ico" />
       </NextHead>
-
-      {/*
-      <NextHead>
-        {title && <title>{title}</title>}
-        {description && <meta name="description" content={description} />}
-        <link rel="icon" href="/favicon.ico" />
-      </NextHead>
-*/}
 
       {/* Banner */}
 
