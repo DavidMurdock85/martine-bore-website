@@ -11,7 +11,12 @@ const Estates: React.FC = () => {
         </Row>
 
         <Row flexDirection="row" className="estates-text" tag="p" m={2}>
-          estates text
+          Do you have an estate that you would like us to veiw? Martine Bore
+          Antiques Ltd. Is looking to buy quality items for our expanding
+          gallery space. We buy single items and entire estates. We make house
+          visits in the Greater Vancouver Area and can assest items on the spot
+          and will offer a fair market price if were interested. Contact us for
+          more information about what were looking to purchase.
         </Row>
 
         <Flex flexDirection="row" justifyContent="center" pt={2}>

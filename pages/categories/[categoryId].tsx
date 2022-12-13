@@ -130,9 +130,8 @@ const ProductCategory: NextPage = () => {
 
   return (
     <PageWrapper
-      title={title}
-      metaTitle={metaTitle}
-      metaDescription={metaDescription}
+      title={metaTitle}
+      description={metaDescription}
     >
       <Flex className="product-category" expand="width" flexDirection="column">
         {/* breadcrumbs */}

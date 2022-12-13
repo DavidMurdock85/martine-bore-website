@@ -5,6 +5,8 @@ import { Product, ProductImage } from "@mb/services/types";
 export interface Listing {
   id: number;
   categoryId: number;
+  metaTitle?: string;
+  metaDescription?: string;
   images?: ProductImage[];
   title?: string;
   period?: string;
@@ -15,8 +17,6 @@ export interface Listing {
   description?: string;
   dimensions?: string;
   price?: string;
-  metaTitle?: string;
-  metaDescription?: string;
 }
 
 export type NewListing = Omit<Listing, "id">;

@@ -62,8 +62,8 @@ const ProductPage: NextPage = () => {
 
   return (
     <PageWrapper
-      metaTitle={product.metaTitle}
-      metaDescription={product.metaDescription}
+      title={product.metaTitle}
+      description={product.metaDescription}
     >
       <Base>
         {/*product breadcrumbs*/}
