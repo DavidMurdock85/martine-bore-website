@@ -11,7 +11,7 @@ const Consignments: React.FC = () => {
         </Row>
 
         <Row flexDirection="row" className="consignments-text" tag="p" m={2}>
-          consignments text
+          Martine Bore Antiques Ltd. is always looking for quality consignments.
         </Row>
 
         <Flex flexDirection="row" justifyContent="center" pt={2}>

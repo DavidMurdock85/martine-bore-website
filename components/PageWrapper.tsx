@@ -4,15 +4,13 @@ import { Banner } from "@mb/components/Banner";
 import { Footer } from "@mb/components/Footer";
 
 interface PageWrapperProps {
-  metaTitle?: string;
-  metaDescription?: string;
   title?: string;
   description?: string;
 }
 export const PageWrapper: React.FC<PageWrapperProps> = ({
   children,
-  metaTitle,
-  metaDescription,
+  title,
+  description,
 }) => {
   return (
     <Flex
@@ -22,10 +20,8 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
       className="page-wrapper-parent"
     >
       <NextHead>
-        {metaTitle && <title>{metaTitle}</title>}
-        {metaDescription && (
-          <meta name="meta-description" content={metaDescription} />
-        )}
+        {title && <title>{title}</title>}
+        {description && <meta name="meta-description" content={description} />}
         <link rel="icon" href="/favicon.ico" />
       </NextHead>
 
