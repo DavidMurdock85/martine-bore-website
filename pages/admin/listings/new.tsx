@@ -1,7 +1,11 @@
 import { AdminWrapper } from "@mb/components/AdminWrapper";
 import { Image } from "@mb/components/elements";
 import { Base, Center, Col, Flex, Row } from "@mb/components/layout";
-import { addImagesToListing, createNewListing, NewListing } from "@mb/services/AdminService";
+import {
+  addImagesToListing,
+  createNewListing,
+  NewListing,
+} from "@mb/services/AdminService";
 import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
 import { Formik } from "formik";
@@ -12,7 +16,6 @@ import { useDropzone } from "react-dropzone";
 
 // create listing
 const CreateListing: React.FC = () => {
-
   // set product
   const [submitted, setSubmitted] = useState<Product[]>([]);
 
@@ -30,7 +33,6 @@ const CreateListing: React.FC = () => {
   // on submit create new listing
   const onSubmit = async (values: NewListing) => {
     try {
-
       // await created new listing
       const createdListing = await createNewListing(values);
 
@@ -66,7 +68,6 @@ const CreateListing: React.FC = () => {
   useEffect(() => {
     fetchCategories();
   }, []);
-
 
   //
 
@@ -125,6 +126,25 @@ const CreateListing: React.FC = () => {
                     onBlur={handleBlur}
                   />
                 </Form.Group>
+
+                <Form.Group controlId="metaTitle">
+                  <Form.Label>Meta Title</Form.Label>
+                  <Form.Control
+                    as="input"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                  />
+                </Form.Group>
+
+                <Form.Group controlId="metaDescription">
+                  <Form.Label>Meta Description</Form.Label>
+                  <Form.Control
+                    as="textarea"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                  />
+                </Form.Group>
+
                 <Form.Group controlId="categoryId">
                   <Form.Label>Category</Form.Label>
                   <Form.Control
