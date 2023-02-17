@@ -28,10 +28,6 @@ export const Banner: React.FC = () => {
       <Flex flexDirection="row" className="banner-nav">
         <Navigation />
       </Flex>
-
-      <Flex>
-        
-      </Flex>
     </Flex>
   );
 };

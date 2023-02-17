@@ -5,11 +5,19 @@ import { Link } from "@mb/components/elements";
 export const Curiosities: React.FC = () => {
   return (
     <Flex flexDirection="column" className="curiosities-parent" tag="a" m={1}>
-      <Row flexDirection="row" className="curiosities-child" xs={12} md={6} lg={6}>
+      <Row
+        flexDirection="row"
+        className="curiosities-child"
+        xs={12}
+        md={6}
+        lg={6}
+      >
         <Col flexDirection="column">
           <Flex flexDirection="row" justifyContent="center">
-            <Link className="curiosities-link" href="/categories/curiosities" m={8}>
-            <Flex tag="h2">Curiosities</Flex>
+            <Link
+              href="/categories/curiosities"
+            >
+              <Flex tag="h3">Curiosities</Flex>
             </Link>
           </Flex>
         </Col>

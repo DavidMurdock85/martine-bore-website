@@ -77,6 +77,7 @@ const ProductPage: NextPage = () => {
         {/*product section*/}
 
         <Row className="product" noGutters>
+         
           {/*product images*/}
 
           <Col className="product-item-image" xs={12} sm={6}>

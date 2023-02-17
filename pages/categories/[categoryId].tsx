@@ -14,8 +14,6 @@ import { Category, Product } from "@mb/services/types";
 import { IMAGES_BASE_URL } from "@mb/utils/constants";
 
 
-
-
 // Product Item
 interface ProductItemProps {
   onDelete: () => void;

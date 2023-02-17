@@ -13,8 +13,8 @@ export const Sold: React.FC = () => {
       <Row flexDirection="row" className="sold-child" xs={12} md={6} lg={6}>
         <Col flexDirection="column">
           <Flex flexDirection="row" justifyContent="center">
-            <Link className="sold-link" href="/categories/sold"  m={8}>
-              <Flex tag="h2">Sold</Flex>
+            <Link className="sold-link" href="/categories/sold">
+              <Flex tag="h3">Sold</Flex>
             </Link>
           </Flex>
         </Col>

@@ -1,19 +1,13 @@
 .new-arrivals-parent {
   font-family: "Josefin Sans";
-  width: 100%;
   height: auto;
 
   .new-arrivals-child {
-    background-image: url("/seasonal-winter.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: 0.5px solid black;
   }
 
-  h2 {
-    background-color: white;
-    border: 0.5px solid black;
+  h3 {
     color: black;
   }
-  
 }

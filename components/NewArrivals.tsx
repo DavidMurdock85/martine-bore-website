@@ -4,16 +4,22 @@ import { Link } from "@mb/components/elements";
 
 export const NewArrivals: React.FC = () => {
   return (
-    <Flex flexDirection="column" className="new-arrivals-parent" tag="a" m={1}>
-      <Row flexDirection="row" className="new-arrivals-child" xs={12} md={6} lg={6} >
-        <Col flexDirection="column">
-          <Flex flexDirection="row" justifyContent="center">
-            <Link className="new-arrivals-link" href="/categories/new-arrivals" m={8}>
-            <Flex tag="h2">New Arrivals</Flex>
-            </Link>
-          </Flex>
-        </Col>
-      </Row>
-    </Flex>
+    <Flex flexDirection="column" className="new-arrivals-parent" m={2}>
+    <Row flexDirection="row" justifyContent="center" tag="h2" m={3}>
+      <Flex flexDirection="row">New Arrivals</Flex>
+    </Row>
+
+    <Row flexDirection="row">
+      <Col flexDirection="column" xs={12} md={6} lg={6}>
+        <Flex>Products Here</Flex>
+      </Col>
+    </Row>
+
+    <Row flexDirection="row" justifyContent="center">
+      <Link href="/categories/new-arrivals">
+        <Flex>- click for a full list of our new arrivals -</Flex>
+      </Link>
+    </Row>
+  </Flex>
   );
 };
