@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ImageGallery from "react-image-gallery";
+import  ImageGallery from "react-image-gallery";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 import { Base, Col, Row } from "@mb/components/layout";

@@ -13,14 +13,16 @@ import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
 import { IMAGES_BASE_URL } from "@mb/utils/constants";
 
-
 // Product Item
 interface ProductItemProps {
-  onDelete: () => void;
+  onDelete?: () => void;
   product: Product;
 }
 
-const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
+export const ProductItem: React.FC<ProductItemProps> = ({
+  onDelete,
+  product,
+}) => {
   const router = useRouter();
   const loggedIn = useAuth().state.loggedIn;
 
@@ -61,7 +63,7 @@ const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
               );
               if (confirmDelete) {
                 await deleteListing(id);
-                onDelete();
+                onDelete && onDelete();
               }
             }}
           >
@@ -127,10 +129,7 @@ const ProductCategory: NextPage = () => {
   const { breadcrumbs, title, metaTitle, metaDescription } = category;
 
   return (
-    <PageWrapper
-      title={metaTitle}
-      description={metaDescription}
-    >
+    <PageWrapper title={metaTitle} description={metaDescription}>
       <Flex className="product-category" expand="width" flexDirection="column">
         {/* breadcrumbs */}
 
