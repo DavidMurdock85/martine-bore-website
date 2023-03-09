@@ -5,13 +5,8 @@ import React from "react";
 export const PrivateGallery: React.FC = () => {
   return (
     <Flex flexDirection="column" className="private-gallery-parent">
-      
       <Row flexDirection="row">
-        {/*Featured Antiques - Title*/}
-
         <Col flexDirection="column" xs={12} md={6} lg={6}>
-          {/*Featured Antiques - Image */}
-
           <Flex
             flexDirection="row"
             justifyContent="center"
@@ -26,7 +21,6 @@ export const PrivateGallery: React.FC = () => {
             />
           </Flex>
         </Col>
-
         <Col flexDirection="column" xs={12} md={6} lg={6}>
           <Flex
             flexDirection="row"
@@ -37,9 +31,6 @@ export const PrivateGallery: React.FC = () => {
           >
             Private Gallery
           </Flex>
-
-          {/*Featured Antiques - Section Text */}
-
           <Flex
             flexDirection="row"
             className="private-gallery-text"
@@ -51,10 +42,7 @@ export const PrivateGallery: React.FC = () => {
             assortment of design. contact us at 604-912-0292.
           </Flex>
         </Col>
-
-        {/*Featured Antiques - Section Product Images*/}
       </Row>
-
     </Flex>
   );
 };

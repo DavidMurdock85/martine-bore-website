@@ -7,8 +7,6 @@ import { Navigation } from "@mb/components/Navigation";
 export const Banner: React.FC = () => {
   return (
     <Flex flexDirection="column" className="banner-parent">
-      {/*Banner Logo - Home Link*/}
-
       <Nav.Link href="/" className="banner-logo">
         <Flex
           flexDirection="row"
@@ -24,7 +22,6 @@ export const Banner: React.FC = () => {
           />
         </Flex>
       </Nav.Link>
-
       <Flex flexDirection="row" className="banner-nav">
         <Navigation />
       </Flex>

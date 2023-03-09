@@ -8,9 +8,9 @@ export const Social: React.FC = () => {
   return (
     <Base className="social-parent" pl={1} pt={1}>
       <Base className="social-svg">
-      <Link href="https://www.instagram.com/martineboreantiques/">
-        <FontAwesomeIcon icon={faInstagram} />
-      </Link>
+        <Link href="https://www.instagram.com/martineboreantiques/">
+          <FontAwesomeIcon icon={faInstagram} />
+        </Link>
       </Base>
     </Base>
   );
