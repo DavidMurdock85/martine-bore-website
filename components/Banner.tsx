@@ -2,12 +2,13 @@ import { Flex } from "@mb/components/layout";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Image from "next/image";
+import { Shipping } from "@mb/components/Shipping";
 import { Navigation } from "@mb/components/Navigation";
 
 export const Banner: React.FC = () => {
   return (
     <Flex flexDirection="column" className="banner-parent">
-      {/*Banner Logo - Home Link*/}
+      <Shipping />
 
       <Nav.Link href="/" className="banner-logo">
         <Flex
@@ -27,10 +28,6 @@ export const Banner: React.FC = () => {
 
       <Flex flexDirection="row" className="banner-nav">
         <Navigation />
-      </Flex>
-
-      <Flex>
-        
       </Flex>
     </Flex>
   );

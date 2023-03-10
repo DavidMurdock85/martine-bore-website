@@ -6,9 +6,7 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { Nav } from "react-bootstrap";
 
-export const AdminWrapper: React.FC = ({
-  children,
-}) => {
+export const AdminWrapper: React.FC = ({ children }) => {
   const auth = useAuth();
   const router = useRouter();
 
@@ -19,34 +17,19 @@ export const AdminWrapper: React.FC = ({
       </NextHead>
       <Base tag="h1">Admin Tools</Base>
       <Flex xflexDirection="column">
-        <Nav.Link
-          className="basic-nav-link"
-          href="/admin"
-        >
+        <Nav.Link className="basic-nav-link" href="/admin">
           Back to Admin Landing
         </Nav.Link>
-        <Nav.Link
-          className="basic-nav-link"
-          href="/"
-        >
+        <Nav.Link className="basic-nav-link" href="/">
           Back to Homepage
         </Nav.Link>
-        <Nav.Link
-          className="basic-nav-link"
-          href="/admin/listings/new"
-        >
+        <Nav.Link className="basic-nav-link" href="/admin/listings/new">
           New Listing
         </Nav.Link>
-        <Nav.Link
-          className="basic-nav-link"
-          href="/admin/listings/incomplete"
-        >
+        <Nav.Link className="basic-nav-link" href="/admin/listings/incomplete">
           Incomplete Listings
         </Nav.Link>
-        <Nav.Link
-          className="basic-nav-link"
-          href="/admin/login"
-        >
+        <Nav.Link className="basic-nav-link" href="/admin/login">
           Login
         </Nav.Link>
       </Flex>

@@ -24,21 +24,13 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
         {description && <meta name="meta-description" content={description} />}
         <link rel="icon" href="/favicon.ico" />
       </NextHead>
-
-      {/* Banner */}
-
       <Flex flexDirection="row">
         <Banner />
       </Flex>
-
       <Col>
-        {/* Homepage Image */}
         <Flex className="homepage-image-parent" flexDirection="row" m={1}>
           {children}
         </Flex>
-
-        {/*Footer*/}
-
         <Flex flexDirection="column">
           <Footer />
         </Flex>

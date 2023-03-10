@@ -31,95 +31,57 @@ const DropDownOnHover: React.FC<DropDownOnHoverProps> = ({
 };
 
 export const Navigation: React.FC = (props: any) => {
-  
   return (
     <Navbar id="header" className="nav-parent" bg="light" expand="lg">
-      {/*  Nav - Navbar Toggle */}
-
       <Navbar.Toggle className="nav-toggle" aria-controls="basic-navbar-nav" />
-
-      {/*  Nav - Navbar Colapse */}
-
       <Navbar.Collapse id="nav-colapse">
-
         <Flex flexDirection="row" className="m-auto" tag="ol">
-          {/*  Nav - Navigation Menus */}
-
           <Nav className="nav-menus">
-            {/* Nav - Paintings */}
-
             <Nav.Link className="nav-link" href="/categories/paintings">
               <Flex className="nav-titles" tag="li">
                 Paintings
               </Flex>
             </Nav.Link>
-
-            {/*  Nav - Glass */}
-
             <Nav.Link className="nav-link" href="/categories/glass">
               <Flex className="nav-titles" tag="li">
                 Glass
               </Flex>
             </Nav.Link>
-
-            {/*  Nav Link - Jewelry*/}
-
             <Nav.Link className="nav-link" href="/categories/jewelry">
               <Flex className="nav-titles" tag="li">
                 Jewelry
               </Flex>
             </Nav.Link>
-
-            {/*  Nav Link - Sculpture */}
-
             <Nav.Link className="nav-link" href="/categories/sculptures">
               <Flex className="nav-titles" tag="li">
                 Sculptures
               </Flex>
             </Nav.Link>
-
-            {/*  Nav Link - Furniture */}
-
             <Nav.Link className="nav-link" href="/categories/furniture">
               <Flex className="nav-titles" tag="li">
                 Furniture
               </Flex>
             </Nav.Link>
-
-            {/*  Nav Link - Objet D'Art */}
-
             <Nav.Link className="nav-link" href="/categories/objet-d-art">
               <Flex className="nav-titles" tag="li">
                 Objet d&apos;art
               </Flex>
             </Nav.Link>
-
-            {/*  Nav Link - Ceramics */}
-
             <Nav.Link className="nav-link" href="/categories/ceramics">
               <Flex className="nav-titles" tag="li">
                 Ceramics
               </Flex>
             </Nav.Link>
-
-            {/*  Nav Link - Porcelain */}
-
             <Nav.Link className="nav-link" href="/categories/porcelain">
               <Flex className="nav-titles" tag="li">
                 Porcelain
               </Flex>
             </Nav.Link>
-
-            {/*  Nav Link - Silver */}
-
             <Nav.Link className="nav-link" href="/categories/silver">
               <Flex className="nav-titles" tag="li">
                 Silver
               </Flex>
             </Nav.Link>
-
-            {/*  Nav Link - Clocks */}
-
             <Nav.Link className="nav-link" href="/categories/clocks">
               <Flex className="nav-titles" tag="li">
                 Clocks
@@ -128,7 +90,6 @@ export const Navigation: React.FC = (props: any) => {
           </Nav>
         </Flex>
       </Navbar.Collapse>
-
     </Navbar>
   );
 };

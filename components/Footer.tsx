@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-import { Center, Col, Flex, Row } from "@mb/components/layout";
+import { Col, Flex, Row } from "@mb/components/layout";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "@mb/components/elements";
@@ -9,8 +9,6 @@ import { Link } from "@mb/components/elements";
 export const Footer: React.FC = () => {
   return (
     <Flex flexDirection="column" className="footer-parent">
-      {/*back to top link*/}
-
       <Flex flexDirection="row" justifyContent="center" pt={2}>
         <Flex flexDirection="column" className="footer-links-parent">
           <Flex flexDirection="row" tag="a" href="#header">
@@ -21,9 +19,6 @@ export const Footer: React.FC = () => {
           </Flex>
         </Flex>
       </Flex>
-
-      {/*footer - body*/}
-
       <Row
         flexDirection="row"
         justifyContent="center"
@@ -44,7 +39,6 @@ export const Footer: React.FC = () => {
             <Flex flexDirection="row" tag="h4">
               Find Us
             </Flex>
-
             <Flex flexDirection="row">
               <Flex flexDirection="column" tag="p">
                 <Flex flexDirection="row">
@@ -55,12 +49,10 @@ export const Footer: React.FC = () => {
               </Flex>
             </Flex>
           </Flex>
-
           <Flex flexDirection="column" className="footer-hours">
             <Flex flexDirection="row" tag="h4">
               Hours
             </Flex>
-
             <Flex flexDirection="row">
               <Flex flexDirection="column" tag="p">
                 <Flex flexDirection="row">
@@ -72,11 +64,7 @@ export const Footer: React.FC = () => {
               </Flex>
             </Flex>
           </Flex>
-
           <Flex flexDirection="row">Parking Available in the Back</Flex>
-
-          {/*  footer- Social */}
-
           <Flex flexDirection="column" mt={2}>
             <Flex flexDirection="row" tag="h4">
               Social Media
@@ -88,7 +76,6 @@ export const Footer: React.FC = () => {
             </Flex>
           </Flex>
         </Col>
-
         <Col
           flexDirection="column"
           justifyContent="center"
@@ -107,7 +94,6 @@ export const Footer: React.FC = () => {
           </Row>
         </Col>
       </Row>
-
       <Flex
         flexDirection="row"
         justifyContent="flex-end"
