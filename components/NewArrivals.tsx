@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Col, Flex, Row } from "@mb/components/layout";
 import { Link } from "@mb/components/elements";
 import { ProductItem } from "@mb/pages/categories/[categoryId]";
@@ -20,9 +20,12 @@ export const NewArrivals: React.FC = () => {
     }
   };
 
+  useEffect(() => {
+    fetchCategory();
+  }, []);
+
   return (
     <Flex flexDirection="column" className="new-arrivals-parent" m={2}>
-      
       <Row
         flexDirection="row"
         justifyContent="center"
@@ -44,15 +47,11 @@ export const NewArrivals: React.FC = () => {
         </Col>
       </Row>
 
-      {/*
       <Row flexDirection="row" justifyContent="center">
         <Link href="/categories/new-arrivals">
           <Flex>- click for a full list of our new arrivals -</Flex>
         </Link>
       </Row>
-
-      */}
-
     </Flex>
   );
 };
