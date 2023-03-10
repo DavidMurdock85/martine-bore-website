@@ -8,7 +8,7 @@ export const About: React.FC = () => {
       <Row
         flexDirection="row"
         justifyContent="center"
-        className="our-story-title"
+        className="about-title"
         tag="h2"
         m={2}
       >

@@ -8,7 +8,6 @@ import { Breadcrumb } from "@mb/components/Breadcrumbs";
 import { CategoryBreadcrumb, Product } from "@mb/services/types";
 import { API_BASE_URL, IMAGES_BASE_URL } from "@mb/utils/constants";
 
-
 // declaring a special function product page of type NextPage
 const ProductPage: NextPage = () => {
   //get nextJSRouter which will be used to fetch info from the url path that has been queried
@@ -77,7 +76,6 @@ const ProductPage: NextPage = () => {
         {/*product section*/}
 
         <Row className="product" noGutters>
-         
           {/*product images*/}
 
           <Col className="product-item-image" xs={12} sm={6}>

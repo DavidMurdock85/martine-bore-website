@@ -22,9 +22,17 @@ export const NewArrivals: React.FC = () => {
 
   return (
     <Flex flexDirection="column" className="new-arrivals-parent" m={2}>
-      <Row flexDirection="row" justifyContent="center" tag="h2" m={3}>
-        <Flex flexDirection="row">New Arrivals</Flex>
+      
+      <Row
+        flexDirection="row"
+        justifyContent="center"
+        className="new-arrivals-title"
+        tag="h2"
+        m={2}
+      >
+        New Arrivals
       </Row>
+
       <Row flexDirection="row">
         <Col flexDirection="column" xs={12} md={6} lg={6}>
           <Row mt={2}>
@@ -35,11 +43,16 @@ export const NewArrivals: React.FC = () => {
           </Row>
         </Col>
       </Row>
+
+      {/*
       <Row flexDirection="row" justifyContent="center">
         <Link href="/categories/new-arrivals">
           <Flex>- click for a full list of our new arrivals -</Flex>
         </Link>
       </Row>
+
+      */}
+
     </Flex>
   );
 };

@@ -1,7 +1,6 @@
 .about-parent {
   background-color: white;
   font-family: "Josefin Sans";
-  
 
   .about-image{
     display: block;
@@ -10,6 +9,9 @@
   }
   .about-title {
     color: black;
+    background-color: #d9d9d9;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
   }
   .about-text {
     color: black;
