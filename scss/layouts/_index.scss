@@ -1,0 +1,220 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import "~bootstrap/scss/bootstrap";
+
+/* 
+Mobile Devices 320px - 480px 
+
+increment by 1
+*/
+
+@include for-mobile-devices-only {
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-size: 0.6rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  a {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  li{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: black;
+  }
+}
+
+/* 
+Tablets 481px - 768px 
+
+increase by 2
+increment by 2
+*/
+@include for-tablets-only {
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  a {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  li{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+  }
+}
+
+/* 
+Laptops 769px - 1024px 
+
+increase by 2
+increment by 2
+*/
+
+@include for-laptop-only {
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  a {
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  li{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+  }
+}
+
+/*
+Desktops 1025px - 1200px
+
+increase by 4
+increment by 3
+*/
+@include for-desktop-only {
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  a {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  li{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+  }
+}
+
+/* 
+Largers Devices 1201px + 
+
+increase by 2
+increment by 3
+
+*/
+
+@include for-larger-device-only {
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  h6 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  a {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  li{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+  }
+}
+
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}

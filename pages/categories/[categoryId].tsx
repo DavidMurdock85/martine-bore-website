@@ -1,25 +1,28 @@
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect, useState } from "react";
+import { NextPage } from "next";
+import { useRouter } from "next/router";
+import { faEdit, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Breadcrumb } from "@mb/components/Breadcrumbs";
 import { Image } from "@mb/components/elements";
-import { Base, Col, Flex, FlexRight, Row, Split } from "@mb/components/layout";
+import { Base, Col, Flex, FlexRight, Row } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
 import { useAuth } from "@mb/providers/AuthProvider";
 import { deleteListing } from "@mb/services/AdminService";
 import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
 import { IMAGES_BASE_URL } from "@mb/utils/constants";
-import { NextPage } from "next";
-import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
 
 // Product Item
 interface ProductItemProps {
-  onDelete: () => void;
+  onDelete?: () => void;
   product: Product;
 }
 
-const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
+export const ProductItem: React.FC<ProductItemProps> = ({
+  onDelete,
+  product,
+}) => {
   const router = useRouter();
   const loggedIn = useAuth().state.loggedIn;
 
@@ -39,17 +42,42 @@ const ProductItem: React.FC<ProductItemProps> = ({ onDelete, product }) => {
         router.push(`/products/${route}`);
       }}
     >
-      { loggedIn && <FlexRight className='delete' pb={1} onClick={async (e: React.MouseEvent) => {
-        e.stopPropagation();
-        const confirmDelete = confirm("Are you sure you want to delete this listing?");
-        if(confirmDelete) {
-          await deleteListing(id);
-          onDelete();
-        }
-      }}><FontAwesomeIcon icon={ faTimes }/></FlexRight> }
+      {loggedIn && (
+        <FlexRight flexDirection="row">
+          <Flex
+            tag="a"
+            className="edit"
+            mr={1}
+            pb={1}
+            href={`/admin/listings/${route}`}
+          >
+            <FontAwesomeIcon icon={faEdit} />
+          </Flex>
+          <Flex
+            className="delete"
+            pb={1}
+            onClick={async (e: React.MouseEvent) => {
+              e.stopPropagation();
+              const confirmDelete = confirm(
+                "Are you sure you want to delete this listing?"
+              );
+              if (confirmDelete) {
+                await deleteListing(id);
+                onDelete && onDelete();
+              }
+            }}
+          >
+            <FontAwesomeIcon icon={faTimes} />
+          </Flex>
+        </FlexRight>
+      )}
       <Base className="image-border-deco">
-        {images && (
-          <Image className="product-image" src={`${IMAGES_BASE_URL}/${images[0].original}`} alt={title || ""} />
+        {images.length > 0 && (
+          <Image
+            className="product-image"
+            src={`${IMAGES_BASE_URL}/${images[0].original}`}
+            alt={title || ""}
+          />
         )}
       </Base>
 
@@ -78,11 +106,13 @@ const ProductCategory: NextPage = () => {
   const fetchCategory = async () => {
     // try catch wraps code and will catch err if err occurs
     try {
-      const fetchedCategory: Category = await get(`/categories/${categoryId}`)
+      const fetchedCategory: Category = await get(`/categories/${categoryId}`);
 
       setCategory(fetchedCategory);
 
-      const fetchedProducts: Product[] = await get(`/categories/${fetchedCategory.id}/products`);
+      const fetchedProducts: Product[] = await get(
+        `/categories/${fetchedCategory.id}/products`
+      );
 
       setProducts(fetchedProducts);
     } catch (err) {
@@ -96,28 +126,41 @@ const ProductCategory: NextPage = () => {
     fetchCategory();
   }, [categoryId]);
 
-  const { breadcrumbs, title } = category;
+  const { breadcrumbs, title, metaTitle, metaDescription } = category;
 
   return (
-    <PageWrapper title={title} description={title}>
+    <PageWrapper title={metaTitle} description={metaDescription}>
       <Flex className="product-category" expand="width" flexDirection="column">
-        <Split expand="width">
-          <Base tag="h6" className="breadcrumbs-text">
-            <Breadcrumb breadcrumbItems={breadcrumbs || []} />
-          </Base>
-          {/*<Base tag="h6" className="sorting-filtering-text">Sorting and Filtering</Base>*/}
-        </Split>
-        <Base tag="h2" className="product-category-title">
+        {/* breadcrumbs */}
+
+        <Base tag="h6" className="breadcrumbs-text">
+          <Breadcrumb breadcrumbItems={breadcrumbs || []} />
+        </Base>
+
+        {/*category titles*/}
+
+        <Base tag="h1" className="product-category-title">
           {title}
         </Base>
+
+        {/*product - image, descriptions*/}
+
         <Row mt={2}>
           {products.length > 0 &&
             products.map((product, index: number) => (
-              <ProductItem key={index} product={product} onDelete={() => {
-                setProducts(products.filter(item => {
-                  return item.id !== product.id;
-                }))
-              }}/>
+              <ProductItem
+                key={index}
+                product={product}
+                /*product - delete function admin tools*/
+
+                onDelete={() => {
+                  setProducts(
+                    products.filter((item) => {
+                      return item.id !== product.id;
+                    })
+                  );
+                }}
+              />
             ))}
         </Row>
       </Flex>

@@ -1,99 +1,109 @@
-import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
+import React from "react";
+import Nav from "react-bootstrap/Nav";
+import { Col, Flex, Row } from "@mb/components/layout";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "@mb/components/elements";
-import React from "react";
-
-import { Base, Col, Flex, FlexRight, Row } from "./layout";
 
 export const Footer: React.FC = () => {
   return (
-    <>
-      {/*footer - top*/}
-
-      <Base tag="h6" pt={3} className="backtotop">
-        <Base tag="a" href="#header">
-          Back to Top
-        </Base>
-      </Base>
-
-      <Row tag="footer" className="footer" p={{ xs: 2, md: 8 }}>
-
-        {/*footer-links*/}
-
-        <Col className="footer-col">
-          <Base pl={2} pt={2}>
-            <Base className="title" tag="h5">
-              Helpful Links
-            </Base>
-            <Flex className="footer-links" flexDirection="column">
-              <Base tag="h6" className="footer-link">
-                <Link href="/about">About Us</Link>
-              </Base>
-              <Base tag="h6" className="footer-link">
-                <Link href="/contact">Contact</Link>
-              </Base>
-              <Base tag="h6" className="footer-link">
-                <Link href="/services">Services</Link>
-              </Base>
-            </Flex>
-          </Base>
-        </Col>
-
-        {/*footer-location*/}
-
-        <Col>
-          <Base pl={2} pt={2}>
-            <Base className="title" tag="h5">
+    <Flex flexDirection="column" className="footer-parent">
+      <Flex flexDirection="row" justifyContent="center" pt={2}>
+        <Flex flexDirection="column" className="footer-links-parent">
+          <Flex flexDirection="row" tag="a" href="#header">
+            Back to Top
+          </Flex>
+          <Flex flexDirection="row" tag="a">
+            <Nav.Link href="/">Home</Nav.Link>
+          </Flex>
+        </Flex>
+      </Flex>
+      <Row
+        flexDirection="row"
+        justifyContent="center"
+        className="footer-body-parent"
+        pl={2}
+        pt={1}
+        pr={2}
+        pb={2}
+      >
+        <Col
+          xs={12}
+          md={6}
+          flexDirection="column"
+          className="footer-text-parent"
+          p={4}
+        >
+          <Flex flexDirection="column" className="footer-contact" pb={2}>
+            <Flex flexDirection="row" tag="h4">
               Find Us
-            </Base>
-            <Base tag="h6">1462 Marine Dr, West Vancouver, BC</Base>
-            <Base tag="h6">info@martineboreantiques.com</Base>
-            <Base tag="h6">(604) 912-0292</Base>
-          </Base>
-        </Col>
-
-        {/*footer-social media*/}
-
-        <Col>
-          <Base pl={2} pt={2}>
-            <Base className="title" tag="h5">
-              Follow Us
-            </Base>
-            <Flex className="footer-social" flexDirection="row">
-              <Base mr={2} tag="h6">
-                <Link href="https://www.facebook.com/MartineB2226A/">
-                  <FontAwesomeIcon icon={faFacebook} />
-                </Link>
-              </Base>
-              <Base mr={2} tag="h6">
-                <Link href="https://twitter.com/mibantiqueshop2?lang=en">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </Link>
-              </Base>
-              <Base mr={2} tag="h6">
-                <Link href="https://www.instagram.com/martineboreantiques/">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </Link>
-              </Base>
             </Flex>
-          </Base>
-        </Col>
-
-        {/*footer-hours*/}
-
-        <Col className="footer-col">
-          <Base pt={2}>
-            <Base className="title" tag="h5">
+            <Flex flexDirection="row">
+              <Flex flexDirection="column" tag="p">
+                <Flex flexDirection="row">
+                  1462 Marine Dr, West Vancouver, BC
+                </Flex>
+                <Flex flexDirection="row">info@martineboreantiques.com</Flex>
+                <Flex flexDirection="row">(604) 912-0292</Flex>
+              </Flex>
+            </Flex>
+          </Flex>
+          <Flex flexDirection="column" className="footer-hours">
+            <Flex flexDirection="row" tag="h4">
               Hours
-            </Base>
-            <Base tag="h6">Tuesday - Saturday 10:00 to 5:30</Base>
-            <Base tag="h6">Sunday and Monday by appoinment or chance</Base>
-          </Base>
+            </Flex>
+            <Flex flexDirection="row">
+              <Flex flexDirection="column" tag="p">
+                <Flex flexDirection="row">
+                  Tuesday - Saturday 10:00 to 5:30
+                </Flex>
+                <Flex flexDirection="row">
+                  Sunday and Monday by appointment
+                </Flex>
+              </Flex>
+            </Flex>
+          </Flex>
+          <Flex flexDirection="row">Parking Available in the Back</Flex>
+          <Flex flexDirection="column" mt={2}>
+            <Flex flexDirection="row" tag="h4">
+              Social Media
+            </Flex>
+            <Flex flexDirection="row" className="nav-social" mt={1}>
+              <Link href="https://www.instagram.com/martineboreantiques/">
+                <FontAwesomeIcon icon={faInstagram} />
+              </Link>
+            </Flex>
+          </Flex>
+        </Col>
+        <Col
+          flexDirection="column"
+          justifyContent="center"
+          xs={12}
+          md={6}
+          className="footer-image"
+        >
+          <Row flexDirection="row" justifyContent="center" m={2}>
+            <Image
+              src="/location-image.jpg"
+              alt="map of martine bore antiques location"
+              width="750px"
+              height="750px"
+              priority
+            />
+          </Row>
         </Col>
       </Row>
-      <FlexRight pb={1} pr={1}>
-        <Base tag="a" href="/admin/login">Admin Tools</Base>
-      </FlexRight>
-    </>
+      <Flex
+        flexDirection="row"
+        justifyContent="flex-end"
+        className="footer-admin"
+        pb={1}
+        pr={1}
+        mr={3}
+      >
+        <Nav.Link href="/admin">Admin Tools</Nav.Link>
+      </Flex>
+    </Flex>
   );
 };

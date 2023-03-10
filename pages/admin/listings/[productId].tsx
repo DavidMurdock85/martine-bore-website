@@ -3,55 +3,43 @@ import { Image } from "@mb/components/elements";
 import { Base, Center, Col, Flex, Row } from "@mb/components/layout";
 import {
   addImagesToListing,
-  createNewListing,
-  NewListing,
+  Listing,
+  updateListing,
 } from "@mb/services/AdminService";
 import { get } from "@mb/services/FetchService";
-import { Category, Product } from "@mb/services/types";
+import { Category } from "@mb/services/types";
+import { IMAGES_BASE_URL } from "@mb/utils/constants";
 import { Formik } from "formik";
+import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { useDropzone } from "react-dropzone";
 
-// create listing
-const CreateListing: React.FC = () => {
-  // set product
-  const [submitted, setSubmitted] = useState<Product[]>([]);
-
-  // set categories
+const EditListing: React.FC = () => {
   const [categories, setCategories] = useState<Category[]>([]);
-
-  // set images
   const [images, setImages] = useState<any[]>([]);
+  const [listing, setListing] = useState<Listing>({ categoryId: 1, id: 1 });
 
-  // fetch categories
-  const fetchCategories = async () => {
-    setCategories(await get<Category[]>("/categories"));
-  };
+  //get nextJSRouter which will be used to fetch info from the url path that has been queried
+  const nextJSRouter = useRouter();
 
-  // on submit create new listing
-  const onSubmit = async (values: NewListing) => {
+  // tying productId to the value from the url path thats been queried
+  const { productId } = nextJSRouter.query;
+
+  const onSubmit = async (values: Listing) => {
     try {
-      // await created new listing
-      const createdListing = await createNewListing(values);
+      const updatedListing = await updateListing(values);
+      if (images.length > 0) {
+        await addImagesToListing(updatedListing.id, images);
+      }
 
-      // await added images
-      const addedImages = await addImagesToListing(createdListing.id, images);
-
-      //
-      setSubmitted(
-        submitted.concat({
-          ...createdListing,
-          images: addedImages,
-        })
-      );
+      window.location.href = `/products/${updatedListing.route}`;
     } catch (err) {
       console.log(err);
     }
   };
 
-  // get
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     accept: "image/*",
     onDrop: (acceptedFiles) => {
@@ -64,64 +52,53 @@ const CreateListing: React.FC = () => {
     },
   });
 
-  //
   useEffect(() => {
-    fetchCategories();
+    (async () => {
+      setCategories(await get<Category[]>("/categories"));
+    })();
   }, []);
 
-  //
+  useEffect(() => {
+    (async () => {
+      if (productId) {
+        setListing(await get<Listing>(`/products/${productId}`));
+      }
+    })();
+  }, [productId]);
 
   return (
     <AdminWrapper>
       <Base className="new-product">
-        {submitted && (
-          <Flex>
-            {submitted.map((submitted) => {
-              return (
-                <Base
-                  key={submitted.id}
-                  tag="a"
-                  href={`/products/${submitted.route}`}
-                >
-                  {submitted.title}
-                </Base>
-              );
-            })}
-          </Flex>
-        )}
         <Flex flexDirection="column" alignItems="center" mt={4}>
           <Formik
-            initialValues={{
-              categoryId: 1,
-              title: "",
-              period: "",
-              date: "",
-              origin: "",
-              maker: "",
-              medium: "",
-              description: "",
-              dimensions: "",
-              price: "",
-            }}
+            initialValues={listing}
+            enableReinitialize={true}
             onSubmit={onSubmit}
             validateOnChange={false}
           >
-            {({ errors, touched, handleChange, handleBlur, handleSubmit }) => (
+            {({
+              errors,
+              touched,
+              handleChange,
+              handleBlur,
+              handleSubmit,
+              values,
+            }) => (
               <Form
                 className="contact-us-form"
                 noValidate
                 onSubmit={handleSubmit}
               >
                 <Flex flexDirection="column" alignItems="flex-start" mb={4}>
-                  <Base tag="h2">Add a new listing</Base>
-                  <Base tag="p">
-                    Use this form to add a new product listing
-                  </Base>
+                  <Base tag="h2">Edit listing: {listing.title}</Base>
+                  <Base tag="p">Use this form to edit a product listing</Base>
                 </Flex>
+
                 <Form.Group controlId="title">
                   <Form.Label>Title</Form.Label>
                   <Form.Control
                     as="input"
+                    value={values.title}
                     onChange={handleChange}
                     onBlur={handleBlur}
                   />
@@ -131,6 +108,7 @@ const CreateListing: React.FC = () => {
                   <Form.Label>Meta Title</Form.Label>
                   <Form.Control
                     as="input"
+                    value={values.metaTitle}
                     onChange={handleChange}
                     onBlur={handleBlur}
                   />
@@ -140,15 +118,28 @@ const CreateListing: React.FC = () => {
                   <Form.Label>Meta Description</Form.Label>
                   <Form.Control
                     as="textarea"
+                    value={values.metaDescription}
                     onChange={handleChange}
                     onBlur={handleBlur}
                   />
                 </Form.Group>
 
+                <Form.Group controlId="id">
+                  <Form.Label>Product ID</Form.Label>
+                  <Form.Control
+                    as="input"
+                    value={values.id}
+                    disabled={true}
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                  />
+                </Form.Group>
                 <Form.Group controlId="categoryId">
                   <Form.Label>Category</Form.Label>
                   <Form.Control
                     as="select"
+                    value={values.categoryId}
+                    disabled={true}
                     onChange={handleChange}
                     onBlur={handleBlur}
                   >
@@ -171,6 +162,7 @@ const CreateListing: React.FC = () => {
                       <Form.Label>Period</Form.Label>
                       <Form.Control
                         as="input"
+                        value={values.period}
                         onChange={handleChange}
                         onBlur={handleBlur}
                       />
@@ -181,6 +173,7 @@ const CreateListing: React.FC = () => {
                       <Form.Label>Medium</Form.Label>
                       <Form.Control
                         as="input"
+                        value={values.medium}
                         onChange={handleChange}
                         onBlur={handleBlur}
                       />
@@ -193,6 +186,7 @@ const CreateListing: React.FC = () => {
                       <Form.Label>Date</Form.Label>
                       <Form.Control
                         as="input"
+                        value={values.date}
                         onChange={handleChange}
                         onBlur={handleBlur}
                       />
@@ -203,6 +197,7 @@ const CreateListing: React.FC = () => {
                       <Form.Label>Dimensions</Form.Label>
                       <Form.Control
                         as="input"
+                        value={values.dimensions}
                         onChange={handleChange}
                         onBlur={handleBlur}
                       />
@@ -215,6 +210,7 @@ const CreateListing: React.FC = () => {
                       <Form.Label>Origin</Form.Label>
                       <Form.Control
                         as="input"
+                        value={values.origin}
                         onChange={handleChange}
                         onBlur={handleBlur}
                       />
@@ -225,6 +221,7 @@ const CreateListing: React.FC = () => {
                       <Form.Label>Maker</Form.Label>
                       <Form.Control
                         as="input"
+                        value={values.maker}
                         onChange={handleChange}
                         onBlur={handleBlur}
                       />
@@ -235,6 +232,7 @@ const CreateListing: React.FC = () => {
                   <Form.Label>Description</Form.Label>
                   <Form.Control
                     as="textarea"
+                    value={values.description}
                     onChange={handleChange}
                     onBlur={handleBlur}
                   />
@@ -243,10 +241,27 @@ const CreateListing: React.FC = () => {
                   <Form.Label>Price</Form.Label>
                   <Form.Control
                     as="input"
+                    value={values.price}
                     onChange={handleChange}
                     onBlur={handleBlur}
                   />
                 </Form.Group>
+                {images && (
+                  <Flex flexDirection="column" mt={1}>
+                    <Base>Existing Images</Base>
+                    <Flex className="images" mt={1}>
+                      {listing.images?.map((image, index) => {
+                        return (
+                          <Image
+                            key={index}
+                            src={`${IMAGES_BASE_URL}/${image.thumbnail}`}
+                            alt=""
+                          />
+                        );
+                      })}
+                    </Flex>
+                  </Flex>
+                )}
                 <Center className="dropzone" {...getRootProps()} mt={4}>
                   <input {...getInputProps()} />
                   {isDragActive ? (
@@ -262,13 +277,13 @@ const CreateListing: React.FC = () => {
                 {images && (
                   <Flex className="images" mt={1}>
                     {images.map((image, index) => (
-                      <Image key={index} src={image.preview} alt="test" />
+                      <Image key={index} src={image.preview} alt="" />
                     ))}
                   </Flex>
                 )}
                 <Flex mt={2} flexDirection="rowReverse">
                   <Button type="submit" className="submit">
-                    Create
+                    Update
                   </Button>
                 </Flex>
               </Form>
@@ -280,4 +295,4 @@ const CreateListing: React.FC = () => {
   );
 };
 
-export default CreateListing;
+export default EditListing;

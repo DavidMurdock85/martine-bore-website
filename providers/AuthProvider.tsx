@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 import React, { useEffect, useReducer } from "react";
 
 export interface AuthState {
-  loggedIn: boolean;
+  loggedIn?: boolean;
   user?: { id: string };
 }
 
@@ -23,7 +23,7 @@ const AuthContext: React.Context<AuthContextProps> = React.createContext(null);
 
 const AuthProvider: React.FC = (props: any) => {
   const router = useRouter();
-  const [state, dispatch] = useReducer(reducer, { loggedIn: false });
+  const [state, dispatch] = useReducer(reducer, {});
 
   // code for pre-loading the user's information if we have their token in
   // localStorage goes here
@@ -32,7 +32,7 @@ const AuthProvider: React.FC = (props: any) => {
     if (expToken && (new Date(expToken) < new Date())) {
       const refreshToken = getLocalStorage(StorageKey.OAuthRefreshTokenExp);
       if (refreshToken && new Date(refreshToken) < new Date()) {
-        // router.push("/");
+        // router.push("/admin/login");
       }
       /* refreshAuthToken(getLocalStorage(StorageKey.OAuthRefreshToken)).catch((err) => {
         router.push("/");
@@ -42,6 +42,8 @@ const AuthProvider: React.FC = (props: any) => {
         type: "loginUser",
         payload: { user: { id: getLocalStorage(StorageKey.UserId) } },
       });
+    } else {
+      // router.push("/admin/login");
     }
   }, []);
 

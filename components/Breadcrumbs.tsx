@@ -28,7 +28,6 @@ export function Breadcrumb({ breadcrumbItems }: BreadcrumbProps) {
     </Flex>
   );
 }
-
 function BreadcrumbItem({
   url,
   name,

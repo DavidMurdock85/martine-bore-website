@@ -1,23 +1,34 @@
-import { Base } from "@mb/components/layout";
-import { IMAGES_BASE_URL } from "@mb/utils/constants";
-import Image from "next/image";
+import { Flex } from "@mb/components/layout";
 import React from "react";
+import Nav from "react-bootstrap/Nav";
+import Image from "next/image";
+import { Shipping } from "@mb/components/Shipping";
+import { Navigation } from "@mb/components/Navigation";
 
 export const Banner: React.FC = () => {
   return (
-    <Base className="banner-style">
-      <Base className="banner-image-deco">
-        <Image
-          src={`${IMAGES_BASE_URL}/homepage-images/logo.png`}
-          alt="martine bore logo in gold"
-          width="225px"
-          height="205px"
-          className="banner-image"
-        />
-      </Base>
-      <Base tag="h5" className="banner-subtitle">
-        Metro Vancouvers Source of Fine Antiques, Jewelry and Art Since 1986
-      </Base>
-    </Base>
+    <Flex flexDirection="column" className="banner-parent">
+      <Shipping />
+
+      <Nav.Link href="/" className="banner-logo">
+        <Flex
+          flexDirection="row"
+          justifyContent="center"
+          className="banner-logo"
+        >
+          <Image
+            src="/martine-logo.png"
+            alt="martine bore antiques logo"
+            width="180px"
+            height="160px"
+            className="banner-logo"
+          />
+        </Flex>
+      </Nav.Link>
+
+      <Flex flexDirection="row" className="banner-nav">
+        <Navigation />
+      </Flex>
+    </Flex>
   );
 };

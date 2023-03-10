@@ -1,8 +1,7 @@
+import NextHead from "next/head";
+import { Flex, Col } from "@mb/components/layout";
 import { Banner } from "@mb/components/Banner";
 import { Footer } from "@mb/components/Footer";
-import { Base } from "@mb/components/layout";
-import { Navigation } from "@mb/components/Navigation";
-import NextHead from "next/head";
 
 interface PageWrapperProps {
   title?: string;
@@ -10,20 +9,32 @@ interface PageWrapperProps {
 }
 export const PageWrapper: React.FC<PageWrapperProps> = ({
   children,
-  description,
   title,
+  description,
 }) => {
   return (
-    <Base fluid={true} className="martine-bore-antiques">
+    <Flex
+      flexDirection="column"
+      justifyContent="center"
+      fluid={true}
+      className="page-wrapper-parent"
+    >
       <NextHead>
-        {description && <meta name="description" content={description} />}
         {title && <title>{title}</title>}
+        {description && <meta name="meta-description" content={description} />}
         <link rel="icon" href="/favicon.ico" />
       </NextHead>
-      <Banner />
-      <Navigation />
-      <Base>{children}</Base>
-      <Footer />
-    </Base>
+      <Flex flexDirection="row">
+        <Banner />
+      </Flex>
+      <Col>
+        <Flex className="homepage-image-parent" flexDirection="row" m={1}>
+          {children}
+        </Flex>
+        <Flex flexDirection="column">
+          <Footer />
+        </Flex>
+      </Col>
+    </Flex>
   );
 };

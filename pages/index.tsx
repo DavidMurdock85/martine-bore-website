@@ -1,19 +1,58 @@
-import { Base } from "@mb/components/layout";
-import { PageWrapper } from "@mb/components/PageWrapper";
-import { IMAGES_BASE_URL } from "@mb/utils/constants";
-import Image from "next/image";
 import React from "react";
-
 import type { NextPage } from "next";
+import Image from "next/image";
+import { Flex, Col, Row } from "@mb/components/layout";
+import { PageWrapper } from "@mb/components/PageWrapper";
+import { NewArrivals } from "@mb/components/NewArrivals";
+import { About } from "@mb/components/About";
+import { Buying } from "@mb/components/Buying";
+import { PrivateGallery } from "@mb/components/PrivateGallery";
+
+
 const Home: NextPage = () => {
+
   return (
+    
     <PageWrapper
-      description="A second generation antique dealer in the hear tof West Vancouver Ambleside District"
-      title="Martine Boré Antiques Ltd."
+      title="Martine Boré Antiques Ltd."  
+      description="A second generation antique dealer in the heart of West Vancouver Ambleside District"
     >
-      <Base className="home-image">
-        <Image src={`${IMAGES_BASE_URL}/homepage-images/main-image.jpeg`} alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." width="2000px" height="1500px" />
-      </Base>
+
+ <Col>
+ 
+ <Image 
+        src={`/main-image.jpeg`} 
+        alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." 
+        width="2000px" 
+        height="1500px"
+        className="" />
+
+ {/* New Arrivals */}
+
+ <Flex flexDirection="row">
+ <NewArrivals />
+        </Flex>
+
+        {/* About Us */}
+
+        <Flex flexDirection="row">
+          <About />
+        </Flex>
+
+        {/* Buying */}
+
+        <Flex flexDirection="row">
+          <Buying />
+        </Flex>
+
+        {/* Private Gallery */}
+
+        <Flex flexDirection="row">
+          <PrivateGallery />
+        </Flex>
+    
+</Col>
+         
     </PageWrapper>
   )
 }
