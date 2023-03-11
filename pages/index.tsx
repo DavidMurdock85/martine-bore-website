@@ -1,7 +1,7 @@
 import React from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
-import { Flex, Col, Row } from "@mb/components/layout";
+import { Flex, Col } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
 import { NewArrivals } from "@mb/components/NewArrivals";
 import { About } from "@mb/components/About";
