@@ -12,47 +12,32 @@ import { PrivateGallery } from "@mb/components/PrivateGallery";
 const Home: NextPage = () => {
 
   return (
-    
     <PageWrapper
       title="Martine Boré Antiques Ltd."  
       description="A second generation antique dealer in the heart of West Vancouver Ambleside District"
     >
-
- <Col>
- 
- <Image 
-        src={`/main-image.jpeg`} 
-        alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." 
-        width="2000px" 
-        height="1500px"
-        className="" />
-
- {/* New Arrivals */}
-
- <Flex flexDirection="row">
- <NewArrivals />
+      <Col>
+        <Flex>
+          <Image 
+            src={`/main-image.jpeg`} 
+            alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." 
+            width="2000px" 
+            height="1500px"
+          />
+         </Flex>
+        <Flex flexDirection="row">
+          <NewArrivals />
         </Flex>
-
-        {/* About Us */}
-
         <Flex flexDirection="row">
           <About />
         </Flex>
-
-        {/* Buying */}
-
         <Flex flexDirection="row">
           <Buying />
         </Flex>
-
-        {/* Private Gallery */}
-
         <Flex flexDirection="row">
           <PrivateGallery />
         </Flex>
-    
-</Col>
-         
+      </Col>
     </PageWrapper>
   )
 }

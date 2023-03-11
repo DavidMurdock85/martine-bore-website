@@ -36,15 +36,11 @@ export const NewArrivals: React.FC = () => {
         New Arrivals
       </Row>
 
-      <Row flexDirection="row">
-        <Col flexDirection="column" xs={12} md={6} lg={6}>
-          <Row mt={2}>
+      <Row flexDirection="row" className="new-arrivals-products" xs={12} md={6} lg={6}>
             {products.length > 0 &&
               products.map((product, index: number) => (
                 <ProductItem key={index} product={product} />
               ))}
-          </Row>
-        </Col>
       </Row>
 
       <Row flexDirection="row" justifyContent="center">
