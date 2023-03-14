@@ -16,33 +16,40 @@ import { Button } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { useDropzone } from "react-dropzone";
 
+// Define the EditListing functional component
 const EditListing: React.FC = () => {
+  // Set up state variables using the useState hook
   const [categories, setCategories] = useState<Category[]>([]);
   const [images, setImages] = useState<any[]>([]);
   const [listing, setListing] = useState<Listing>({ categoryId: 1, id: 1 });
 
-  //get nextJSRouter which will be used to fetch info from the url path that has been queried
+  // Use the useRouter hook to access the router object
   const nextJSRouter = useRouter();
 
-  // tying productId to the value from the url path thats been queried
+  // Destructure the productId from the router's query object
   const { productId } = nextJSRouter.query;
 
+  // Define the onSubmit function, which is called when the form is submitted
   const onSubmit = async (values: Listing) => {
     try {
+      // Call the updateListing function and store the result in updatedListing
       const updatedListing = await updateListing(values);
+      // If images have been uploaded, call the addImagesToListing function
       if (images.length > 0) {
         await addImagesToListing(updatedListing.id, images);
       }
-
+      // Redirect the user to the updated listing's page
       window.location.href = `/products/${updatedListing.route}`;
     } catch (err) {
       console.log(err);
     }
   };
 
+  // Set up the useDropzone hook to handle file uploads
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     accept: "image/*",
     onDrop: (acceptedFiles) => {
+      // When files are dropped, create preview URLs and add the files to the images array
       const additionalImages = acceptedFiles.map((file) =>
         Object.assign(file, {
           preview: URL.createObjectURL(file),
@@ -52,12 +59,14 @@ const EditListing: React.FC = () => {
     },
   });
 
+  // Use the useEffect hook to fetch categories from the API on component mount
   useEffect(() => {
     (async () => {
       setCategories(await get<Category[]>("/categories"));
     })();
   }, []);
 
+  // Use the useEffect hook to fetch the listing with the given productId when it changes
   useEffect(() => {
     (async () => {
       if (productId) {

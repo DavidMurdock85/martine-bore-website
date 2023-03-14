@@ -13,22 +13,28 @@ import { get } from "@mb/services/FetchService";
 import { Category, Product } from "@mb/services/types";
 import { IMAGES_BASE_URL } from "@mb/utils/constants";
 
-// Product Item
+
+// Define an interface for the props that this component accepts
 interface ProductItemProps {
-  onDelete?: () => void;
-  product: Product;
+  onDelete?: () => void;  // Optional function that takes no arguments and returns nothing
+  product: Product;       // Required object of type Product
 }
 
+// Define the ProductItem component as a function that takes in ProductItemProps as its props
 export const ProductItem: React.FC<ProductItemProps> = ({
   onDelete,
   product,
 }) => {
+  
+  // Import the useRouter hook from the Next.js framework
   const router = useRouter();
+  
+  // Use the useAuth hook to get the loggedIn state value from the authentication context
   const loggedIn = useAuth().state.loggedIn;
 
+  // Destructure the properties of the product object for easier use within the component
   const { id, images, route, title } = product;
-
-  // this is returning product image and title from categories
+  
   return (
     <Col
       className="product-item"
@@ -88,62 +94,57 @@ export const ProductItem: React.FC<ProductItemProps> = ({
   );
 };
 
-// declaring a special function product page of type NextPage
 const ProductCategory: NextPage = () => {
-  //get nextJSRouter which will be used to fetch info from the url path that has been queried
+  
+  // Get the Next.js router object
   const nextJSRouter = useRouter();
 
-  // tying categoryId to the value from the url path thats been queried
+  // Get the categoryId from the query params
   const { categoryId } = nextJSRouter.query;
 
-  //console.log(categoryId);
-
-  //declaring local state for category tied to react.
+  // Set up state variables for category and products
   const [category, setCategory] = useState<Partial<Category>>({});
   const [products, setProducts] = useState<Product[]>([]);
 
-  // fetch category from express backend api and await response
+  // Define a function to fetch the category and products from the API
   const fetchCategory = async () => {
-    // try catch wraps code and will catch err if err occurs
+   
     try {
+      // Fetch the category by ID from the API
       const fetchedCategory: Category = await get(`/categories/${categoryId}`);
-
+      // Set the category state variable to the fetched category
       setCategory(fetchedCategory);
 
+      // Fetch the products for the category from the API
       const fetchedProducts: Product[] = await get(
         `/categories/${fetchedCategory.id}/products`
       );
-
+      // Set the products state variable to the fetched products
       setProducts(fetchedProducts);
     } catch (err) {
-      //console log err if it occurs
+      // Log any errors to the console
       console.log(err);
     }
   };
 
-  // useEffect takes two parameters, a callback function, an a dependency array. useEffect runs callback function inside useEffect to call fetchProduct when productId changes.
+  // Use the useEffect hook to fetch the category and products whenever the categoryId changes
   useEffect(() => {
     fetchCategory();
   }, [categoryId]);
 
+  // Destructure the category object for easier use within the component
   const { breadcrumbs, title, metaTitle, metaDescription } = category;
-
   return (
     <PageWrapper title={metaTitle} description={metaDescription}>
       <Flex className="product-category" expand="width" flexDirection="column">
-        {/* breadcrumbs */}
 
         <Base tag="h6" className="breadcrumbs-text">
           <Breadcrumb breadcrumbItems={breadcrumbs || []} />
         </Base>
 
-        {/*category titles*/}
-
         <Base tag="h1" className="product-category-title">
           {title}
         </Base>
-
-        {/*product - image, descriptions*/}
 
         <Row mt={2}>
           {products.length > 0 &&
@@ -151,8 +152,7 @@ const ProductCategory: NextPage = () => {
               <ProductItem
                 key={index}
                 product={product}
-                /*product - delete function admin tools*/
-
+               
                 onDelete={() => {
                   setProducts(
                     products.filter((item) => {

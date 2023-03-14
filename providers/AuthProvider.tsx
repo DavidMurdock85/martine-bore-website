@@ -8,65 +8,50 @@ import { API_BASE_URL } from "@mb/utils/constants";
 import { useRouter } from "next/router";
 import React, { useEffect, useReducer } from "react";
 
+// Define an interface for the authentication state
 export interface AuthState {
-  loggedIn?: boolean;
-  user?: { id: string };
+  loggedIn?: boolean; // Whether the user is currently logged in or not
+  user?: { id: string }; // User information (e.g. user ID)
 }
 
+// Define an interface for the authentication context properties
 export interface AuthContextProps {
-  state: AuthState;
-  login: (username: string, password: string) => Promise<any>;
+  state: AuthState; // Current authentication state
+  login: (username: string, password: string) => Promise<any>; // Function to log in the user
 }
 
-// @ts-ignore
+// Create a new context for the authentication state and properties
+// @ts-ignore 
 const AuthContext: React.Context<AuthContextProps> = React.createContext(null);
 
+// Create a provider component that wraps the app and provides the authentication context
 const AuthProvider: React.FC = (props: any) => {
-  const router = useRouter();
-  const [state, dispatch] = useReducer(reducer, {});
+  const router = useRouter(); // Get the current router instance
+  const [state, dispatch] = useReducer(reducer, {}); // Use a reducer to manage the authentication state
 
-  // code for pre-loading the user's information if we have their token in
-  // localStorage goes here
+  // Check if there is an expired OAuth token and refresh it if possible
+  // Otherwise, check if there is a saved user ID and log them in automatically
   useEffect(() => {
     const expToken = getLocalStorage(StorageKey.OAuthTokenExp);
     if (expToken && (new Date(expToken) < new Date())) {
       const refreshToken = getLocalStorage(StorageKey.OAuthRefreshTokenExp);
       if (refreshToken && new Date(refreshToken) < new Date()) {
-        // router.push("/admin/login");
+        // TODO: implement refresh token logic
       }
-      /* refreshAuthToken(getLocalStorage(StorageKey.OAuthRefreshToken)).catch((err) => {
-        router.push("/");
-      }); */
     } else if (getLocalStorage(StorageKey.UserId)) {
       dispatch({
         type: "loginUser",
         payload: { user: { id: getLocalStorage(StorageKey.UserId) } },
       });
     } else {
-      // router.push("/admin/login");
+      // TODO: handle the case where the user is not logged in
     }
   }, []);
 
-  /* const refreshAuthToken = async function (refreshToken: string) {
-    const response = await fetch(`${baseAuthUrl}/oauth/token`, {
-      body: `client_id=${clientId}&client_secret=${clientSecret}&grant_type=refresh_token&refresh_token=${refreshToken}`,
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      method: "post",
-    });
-    if (response.ok) {
-      loginUser(await response.json());
-    } else {
-      throw await response.json();
-    }
-  }; */
-
+  // Log in the user and update the authentication state
   const loginUser = function (authResponse: any) {
     setLocalStorage(StorageKey.OAuthToken, authResponse.accessToken);
     setLocalStorage(StorageKey.OAuthTokenExp, authResponse.accessTokenExpiresAt);
-    // setLocalStorage(StorageKey.OAuthRefreshToken, authResponse.refreshToken);
-    // setLocalStorage(StorageKey.OAuthRefreshTokenExp, authResponse.refreshTokenExpiresAt);
     setLocalStorage(StorageKey.UserId, authResponse.user.id);
     dispatch({
       type: "loginUser",
@@ -82,6 +67,7 @@ const AuthProvider: React.FC = (props: any) => {
    * @param username
    * @param password
    */
+  // Attempt to log in the user using the provided credentials
   const login = async (username: string, password: string): Promise<void> => {
     try {
       const response = await fetch(`${API_BASE_URL}/auth/token`, {
@@ -96,18 +82,16 @@ const AuthProvider: React.FC = (props: any) => {
 
       if (response.ok) {
         const authResponse = await response.json();
-        loginUser(authResponse);
+        loginUser(authResponse); // Log in the user and update the authentication state
       } else {
-        throw response.json();
+        throw response.json(); // Throw an error if the login request failed
       }
     } catch (err) {
       throw new Error("Email and/or password did not match our records");
     }
   };
 
-  /**
-   * Logout by clearing cookie/localStorage and active auth data
-   */
+  // Log out the user and clear their authentication data
   const logout = () => {
     dispatch({
       type: "logoutUser",
@@ -116,10 +100,7 @@ const AuthProvider: React.FC = (props: any) => {
     clearLocalStorage();
   };
 
-  // clear the token in localStorage and the user data
-  // note, I'm not bothering to optimize this `value` with React.useMemo here
-  // because this is the top-most component rendered in our app and it will very
-  // rarely re-render/cause a performance problem.
+
   return <AuthContext.Provider value={{ state, login, logout }} {...props} />;
 };
 
