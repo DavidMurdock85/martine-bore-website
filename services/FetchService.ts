@@ -2,8 +2,10 @@ import { getLocalStorage, StorageKey } from "@mb/services/LocalStorageService";
 import { API_BASE_URL } from "@mb/utils/constants";
 import assign from "deep-assign";
 
+// Set the base URL for API calls
 const baseApiUrl = API_BASE_URL;
 
+// Async function to make a GET request
 async function get<T>(path: string, options?: any): Promise<T> {
   return fetchWithDefaults(
     path,
@@ -11,11 +13,12 @@ async function get<T>(path: string, options?: any): Promise<T> {
       {
         method: "get",
       },
-      options,
-    ),
+      options
+    )
   );
 }
 
+// Async function to make a POST request
 async function post(path: string, options?: any): Promise<any> {
   return fetchWithDefaults(
     path,
@@ -26,11 +29,12 @@ async function post(path: string, options?: any): Promise<any> {
         },
         method: "post",
       },
-      options,
-    ),
+      options
+    )
   );
 }
 
+// Async function to make a POST request with a file
 async function postFile(path: string, options?: any): Promise<any> {
   return fetchWithDefaults(
     path,
@@ -38,11 +42,12 @@ async function postFile(path: string, options?: any): Promise<any> {
       {
         method: "post",
       },
-      options,
-    ),
+      options
+    )
   );
 }
 
+// Async function to make a PUT request
 async function put(path: string, options?: any): Promise<any> {
   return fetchWithDefaults(
     path,
@@ -53,11 +58,12 @@ async function put(path: string, options?: any): Promise<any> {
         },
         method: "put",
       },
-      options,
-    ),
+      options
+    )
   );
 }
 
+// Async function to make a DELETE request
 async function del(path: string, options?: any): Promise<any> {
   return fetchWithDefaults(
     path,
@@ -65,26 +71,28 @@ async function del(path: string, options?: any): Promise<any> {
       {
         method: "delete",
       },
-      options,
-    ),
+      options
+    )
   );
 }
 
+// Async function to make a fetch request with default headers and options
 async function fetchWithDefaults(path: string, options?: any): Promise<any> {
+  // Make the fetch request with the specified path and options
   const response = await fetch(
     `${baseApiUrl}${path}`,
     assign(
       {
-        // credentials: "include",
         headers: {
           Accept: "application/json",
           Authorization: `Bearer ${getLocalStorage(StorageKey.OAuthToken)}`,
         },
       },
-      options,
-    ),
+      options
+    )
   );
 
+  // If the response is OK, return the JSON data
   if (response.ok) {
     switch (response.status) {
       case 204:
@@ -93,10 +101,9 @@ async function fetchWithDefaults(path: string, options?: any): Promise<any> {
         return response.json();
     }
   } else {
+    // If the response is not OK, throw an error with the response data and an error object
     switch (response.status) {
       case 401:
-        // TODO figure what should actually happen here? Currently 204 and 401 have
-        // the same behavior, that doesn't seem correct
         throw new Error("Unauthorized");
       default:
         throw {
@@ -107,4 +114,5 @@ async function fetchWithDefaults(path: string, options?: any): Promise<any> {
   }
 }
 
+// Export the functions to be used in other modules
 export { del, get, post, postFile, put };
