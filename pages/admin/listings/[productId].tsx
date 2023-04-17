@@ -5,6 +5,7 @@ import {
   addImagesToListing,
   Listing,
   updateListing,
+  deleteImage,
 } from "@mb/services/AdminService";
 import { get } from "@mb/services/FetchService";
 import { Category } from "@mb/services/types";
@@ -255,22 +256,35 @@ const EditListing: React.FC = () => {
                     onBlur={handleBlur}
                   />
                 </Form.Group>
+
                 {images && (
                   <Flex flexDirection="column" mt={1}>
                     <Base>Existing Images</Base>
                     <Flex className="images" mt={1}>
                       {listing.images?.map((image, index) => {
                         return (
-                          <Image
-                            key={index}
-                            src={`${IMAGES_BASE_URL}/${image.thumbnail}`}
-                            alt=""
-                          />
+                          <Base key={index}>
+                            <Image
+                              src={`${IMAGES_BASE_URL}/${image.thumbnail}`}
+                              alt=""
+                            />
+
+                            {/*button to handle deletion of an individual image in a listing*/}
+                            <Button
+                              className="image-removal"
+                              onClick={() => {
+                                deleteImage(image.id);
+                              }}
+                            >
+                              x
+                            </Button>
+                          </Base>
                         );
                       })}
                     </Flex>
                   </Flex>
                 )}
+
                 <Center className="dropzone" {...getRootProps()} mt={4}>
                   <input {...getInputProps()} />
                   {isDragActive ? (

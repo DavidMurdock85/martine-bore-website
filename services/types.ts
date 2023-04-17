@@ -1,11 +1,8 @@
-// ProdcutImage Interface Types
-
 export interface ProductImage {
+  id: number;
   original: string;
   thumbnail: string;
 }
-
-// Product Interface Types
 
 export interface Product {
   id: number;
@@ -27,14 +24,10 @@ export interface Product {
   productId?: string;
 }
 
-// Breadcrumb Interface Types
-
 export interface CategoryBreadcrumb {
   name: string;
   url: string;
 }
-
-// Catagory Interface Types
 
 export interface Category {
   id: number;

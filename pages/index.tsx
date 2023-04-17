@@ -1,13 +1,13 @@
 import React from "react";
 import type { NextPage } from "next";
 import Image from "next/image";
-import { Flex, Col } from "@mb/components/layout";
+import { Col } from "@mb/components/layout";
 import { PageWrapper } from "@mb/components/PageWrapper";
 import { NewArrivals } from "@mb/components/NewArrivals";
 import { About } from "@mb/components/About";
 import { Buying } from "@mb/components/Buying";
 import { PrivateGallery } from "@mb/components/PrivateGallery";
-
+import { ContactForm } from "@mb/components/ContactForm";
 
 const Home: NextPage = () => {
 
@@ -17,26 +17,18 @@ const Home: NextPage = () => {
       description="A second generation antique dealer in the heart of West Vancouver Ambleside District"
     >
       <Col>
-        <Flex>
           <Image 
             src={`/main-image.jpeg`} 
             alt="A photo of the Martine Boré Antiques Gallery in Ambleside West Vancouver." 
             width="2000px" 
             height="1500px"
           />
-         </Flex>
-        <Flex flexDirection="row">
           <NewArrivals />
-        </Flex>
-        <Flex flexDirection="row">
           <About />
-        </Flex>
-        <Flex flexDirection="row">
           <Buying />
-        </Flex>
-        <Flex flexDirection="row">
           <PrivateGallery />
-        </Flex>
+          <ContactForm />
+         
       </Col>
     </PageWrapper>
   )

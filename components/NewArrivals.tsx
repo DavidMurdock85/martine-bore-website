@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Col, Flex, Row } from "@mb/components/layout";
+import { Flex, Row, Col } from "@mb/components/layout";
 import { Link } from "@mb/components/elements";
 import { ProductItem } from "@mb/pages/categories/[categoryId]";
 import { Product } from "@mb/services/types";
@@ -9,12 +9,11 @@ export const NewArrivals: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
 
   const fetchCategory = async () => {
-    // try catch wraps code and will catch err if err occurs
     try {
       const fetchedProducts: Product[] = await get(`/categories/1/products`);
 
       //future - change slice to pick for random indexes...random  numbers and arrays...generate 4 random numbers.
-      setProducts(fetchedProducts.slice(0, 3));
+      setProducts(fetchedProducts.slice(0, 4));
     } catch (err) {
       console.log(err);
     }
@@ -25,9 +24,9 @@ export const NewArrivals: React.FC = () => {
   }, []);
 
   return (
-    <Flex flexDirection="column" className="new-arrivals-parent" m={2}>
+    <Flex flexDirection="column" className="new-arrivals-parent">
+      <Col>
       <Row
-        flexDirection="row"
         justifyContent="center"
         className="new-arrivals-title"
         tag="h2"
@@ -36,18 +35,24 @@ export const NewArrivals: React.FC = () => {
         New Arrivals
       </Row>
 
-      <Row flexDirection="row" className="new-arrivals-products" xs={12} md={6} lg={6}>
-            {products.length > 0 &&
-              products.map((product, index: number) => (
-                <ProductItem key={index} product={product} />
-              ))}
+      <Row
+        className="new-arrivals-products"
+        xs={12}
+        md={6}
+        lg={6}
+      >
+        {products.length > 0 &&
+          products.map((product, index: number) => (
+            <ProductItem key={index} product={product} />
+          ))}
       </Row>
 
-      <Row flexDirection="row" justifyContent="center">
+      <Row justifyContent="center">
         <Link href="/categories/new-arrivals">
           <Flex>- click for a full list of our new arrivals -</Flex>
         </Link>
       </Row>
+      </Col>
     </Flex>
   );
 };
