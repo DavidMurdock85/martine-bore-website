@@ -5,11 +5,12 @@ export const Shipping: React.FC = () => {
   return (
     <Row
       flexDirection="row"
-      justifyContent="flex-end"
+      justifyContent="center"
       className="shipping-parent"
+      tag="h6"
     
     >
-      <Flex  mr={7} mt={1} mb={1}> we offer worldwide shipping</Flex>
+      <Flex  mr={7} mt={1} mb={1}>we ship worldwide</Flex>
     
     </Row>
   );

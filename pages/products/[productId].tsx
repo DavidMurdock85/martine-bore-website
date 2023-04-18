@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { useEffect, useState } from "react";
 import ImageGallery from "react-image-gallery";
 import { NextPage } from "next";
@@ -8,33 +9,25 @@ import { Breadcrumb } from "@mb/components/Breadcrumbs";
 import { CategoryBreadcrumb, Product } from "@mb/services/types";
 import { API_BASE_URL, IMAGES_BASE_URL } from "@mb/utils/constants";
 
-
-// Define a React component for the product page
 const ProductPage: NextPage = () => {
-  
   // Use the useRouter hook from next/router to get the productId from the query string
   const nextJSRouter = useRouter();
   const { productId } = nextJSRouter.query;
 
   // Initialize a state for the product and set it as an empty object
   const [product, setProduct] = useState<Partial<Product>>({});
-
-  // Define a function to fetch the product data from the API
+  
   const fetchProduct = async () => {
-    // Construct the URL for the product API endpoint using the productId
     const url = `${API_BASE_URL}/products/${productId}`;
 
     try {
-      // Fetch the product data from the API using the constructed URL
       const response = await fetch(url);
 
-      // If the response is OK, extract the JSON data and update the product state with it
       if (response.ok) {
         const json = await response.json();
         setProduct(json);
       }
     } catch (err) {
-      // Log any errors that occur while fetching the product data
       console.log(err);
     }
   };
@@ -46,7 +39,6 @@ const ProductPage: NextPage = () => {
     }
   }, [productId]);
 
-  // Initialize an empty array for the local breadcrumbs
   let localBreadcrumbs: CategoryBreadcrumb[] = [];
 
   // If the product has a category, add a breadcrumb for the product to the beginning of its category breadcrumbs
@@ -56,14 +48,12 @@ const ProductPage: NextPage = () => {
     ].concat(product.category.breadcrumbs);
   }
 
-
   return (
     <PageWrapper
       title={product.metaTitle}
       description={product.metaDescription}
     >
       <Base>
-       
         <Base expand="width" mt={2}>
           <Base tag="h6" className="">
             <Breadcrumb breadcrumbItems={localBreadcrumbs} />
@@ -71,7 +61,7 @@ const ProductPage: NextPage = () => {
         </Base>
 
         <Row className="product" noGutters>
-
+          
           <Col className="product-item-image" xs={12} sm={6}>
             <ImageGallery
               items={
@@ -91,7 +81,6 @@ const ProductPage: NextPage = () => {
 
           <Col className="product-item-text" xs={12} sm={6}>
             <Base className="product-item-text-sections" px={4}>
-
               <Base mt={3} className="product-page-title">
                 <Base tag="h1" mb={4}>
                   {product.title}
