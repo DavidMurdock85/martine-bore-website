@@ -1,5 +1,4 @@
 //@ts-nocheck
-
 import "@mb/scss/styles.scss";
 import { AuthProvider } from "@mb/providers/AuthProvider";
 import SSRProvider from "react-bootstrap/SSRProvider";

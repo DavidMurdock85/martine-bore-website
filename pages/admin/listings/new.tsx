@@ -92,7 +92,7 @@ const CreateListing: React.FC = () => {
         <Flex flexDirection="column" alignItems="center" mt={4}>
           <Formik
             initialValues={{
-              categoryId: 1,
+              //categoryId: 1,
               title: "",
               period: "",
               date: "",

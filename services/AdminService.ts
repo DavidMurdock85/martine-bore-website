@@ -3,7 +3,7 @@ import { Product, ProductImage } from "@mb/services/types";
 
 export interface Listing {
   id: number;
-  categoryId: number;
+  categoryId?: number;
   metaTitle?: string;
   metaDescription?: string;
   images?: ProductImage[];

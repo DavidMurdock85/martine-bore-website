@@ -11,6 +11,7 @@ export const PageWrapper: React.FC<PageWrapperProps> = ({
   children,
   title,
   description,
+  
 }) => {
   return (
     <Flex
