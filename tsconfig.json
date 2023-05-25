@@ -13,8 +13,23 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "types": ["jest", "node", "@types/testing-library__jest-dom"],
+    "baseUrl": ".", //should this be rootDir?
+    "paths": {
+      "@mb/*": ["*"]
+    }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/products/[productId].tsx.skip",
+    "db/database-query.js",
+    ".vscode/Breadcrumbs.tsx",
+    "Body.test.tsx",
+    "./jest.setup.ts",
+    "./node_modules/cypress"
+  ],
+  "exclude": ["node_modules", "cypress", "./cypress.config.ts"]
 }
