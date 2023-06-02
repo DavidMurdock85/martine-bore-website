@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react'
 import { Buying } from './Buying'
 
 describe('Buying component', () => {
-  it('renders the component', () => {
+  test('renders the component', () => {
     render(<Buying />)
 
     // Test the presence of specific text content

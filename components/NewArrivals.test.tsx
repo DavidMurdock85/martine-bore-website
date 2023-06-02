@@ -1,81 +1,80 @@
-import React from "react";
-import { render, screen, waitFor } from "@testing-library/react";
-//import { act } from "react-dom/test-utils";
-import { NewArrivals } from "./NewArrivals";
-import { get } from "@mb/services/FetchService" 
+import React from 'react';
+import { render, screen, waitFor } from '@testing-library/react';
+import { NewArrivals } from './NewArrivals';
+import { Product, Category, ProductImage } from "@mb/services/types";
+import * as FetchService from '../services/FetchService';
 
-jest.mock("@mb/services/FetchService", () => ({
-  get: jest.fn().mockResolvedValue([
-    { id: 1, name: "Product 1" },
-    { id: 2, name: "Product 2" },
-    { id: 3, name: "Product 3" },
-    { id: 4, name: "Product 4" },
-  ]),
-}));
+jest.mock('../services/FetchService');
 
-it("fetches and displays products correctly", async () => {
-  render(<NewArrivals />);
-  await waitFor(() => screen.getByText("New Arrivals"));
+describe('NewArrivals', () => {
+  it('renders the new arrivals section correctly', async () => {
+    // Arrange
+    const mockedCategory: Category = {
+      id: 1,
+      metaTitle: 'Test Category',
+      metaDescription: 'This is a test category',
+      route: '/test-category',
+      title: 'Test Category',
+      breadcrumbs: [],
+      list: ['item1', 'item2', 'item3'],
+    };
 
-  const productItems = screen.getAllByTestId("product-item");
+    const mockedProductImage: ProductImage = {
+      id: 1,
+      original: 'https://example.com/image1.jpg',
+      thumbnail: 'https://example.com/image1-thumb.jpg',
+    };
 
-  expect(productItems).toHaveLength(4);
+    const mockedProducts: Product[] = [
+      { 
+        id: 1, 
+        title: 'Product 1', 
+        price: '1', 
+        category: mockedCategory, 
+        images: [mockedProductImage] 
+      },
+      { 
+        id: 2, 
+        title: 'Product 2', 
+        price: '2', 
+        category: mockedCategory, 
+        images: [mockedProductImage] 
+      },
+      { 
+        id: 3, 
+        title: 'Product 3', 
+        price: '3', 
+        category: mockedCategory, 
+        images: [mockedProductImage] 
+      },
+      { 
+        id: 4, 
+        title: 'Product 4', 
+        price: '4', 
+        category: mockedCategory, 
+        images: [mockedProductImage] 
+      },
+    ];
 
-  const mockedProducts = [
-    { id: 1, name: "Product 1" },
-    { id: 2, name: "Product 2" },
-    { id: 3, name: "Product 3" },
-    { id: 4, name: "Product 4" },
-  ];
-
-  mockedProducts.forEach((product, index) => {
-    expect(productItems[index]).toHaveTextContent(product.name);
-  });
-});
-
-/*
-describe("NewArrivals", () => {
-  
-  beforeEach(() => {
-    jest.clearAllMocks();
-  });
-
-
-it("fetches and displays products correctly", async () => {
-  render(<NewArrivals />);
-  await waitFor(() => screen.getByText("New Arrivals"));
-
-  const productItems = screen.getAllByTestId("product-item");
-
-  expect(productItems).toHaveLength(4);
-
-  const mockedProducts = [
-    { id: 1, name: "Product 1" },
-    { id: 2, name: "Product 2" },
-    { id: 3, name: "Product 3" },
-    { id: 4, name: "Product 4" },
-  ];
-
-  mockedProducts.forEach((product, index) => {
-    expect(productItems[index]).toHaveTextContent(product.name);
-  });
-});
-
-  it("renders the new arrivals section", async () => {
-    await act(async () => {
-      render(<NewArrivals />);
+    (FetchService.get as jest.Mock).mockResolvedValue({
+      data: mockedProducts
     });
 
-    expect(screen.getByText("New Arrivals")).toBeInTheDocument();
-  });
+    // Act
 
-  it("renders product items after fetching products", async () => {
-    await act(async () => {
-      render(<NewArrivals />);
+    console.log()
+
+    render(<NewArrivals />);
+
+    // Assert
+    await waitFor(() => {
+      const headingElement = screen.getByText('New Arrivals');
+      const productElements = screen.getAllByTestId('new-arrivals-product-items');
+      const linkElement = screen.getByRole('link', { name: /click for a full list/i });
+
+      expect(headingElement).toBeInTheDocument();
+      expect(productElements).toHaveLength(4);
+      expect(linkElement).toBeInTheDocument();
     });
-
-    expect(await screen.findAllByTestId("product-item")).toHaveLength(4);
   });
 });
-
-*/

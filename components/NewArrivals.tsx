@@ -5,11 +5,14 @@ import { Product } from "@mb/services/types";
 import { get } from "@mb/services/FetchService";
 
 export const NewArrivals: React.FC = () => {
+  
   const [products, setProducts] = useState<Product[]>([]);
 
   const fetchCategory = async () => {
     try {
       const fetchedProducts: Product[] = await get(`/categories/1/products`);
+
+      if (Array.isArray(fetchedProducts)) {
 
       // Fisher-Yates shuffle algorithm
       for (let i = fetchedProducts.length - 1; i > 0; i--) {
@@ -19,6 +22,8 @@ export const NewArrivals: React.FC = () => {
           fetchedProducts[i],
         ];
       }
+      
+    }
 
       setProducts(fetchedProducts.slice(0, 4));
     } catch (err) {
@@ -30,15 +35,17 @@ export const NewArrivals: React.FC = () => {
     fetchCategory();
   }, []);
 
+  console.log('products:', products);
+
   return (
     <div className="container flex flex-col">
       <div className="flex flex-col">
         <h2 className="flex flex-row justify-center m-2">New Arrivals</h2>
 
-        <div className="flex flex-row" /*xs={12} md={6} lg={6}*/>
+        <div  className="flex flex-row">
           {products.length > 0 &&
             products.map((product, index: number) => (
-              <ProductItem key={index} product={product} />
+              <ProductItem data-testid="new-arrivals-product-items" key={index} product={product}/>
             ))}
         </div>
 

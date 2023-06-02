@@ -4,7 +4,7 @@ import '@testing-library/jest-dom/extend-expect'
 import { About } from './About'
 
 describe('About', () => {
-  it('renders the About section with correct content', () => {
+  test('renders the About section with correct content', () => {
     const { getByText, getByAltText } = render(<About />)
     const image = getByAltText('second gallery at martine boré antiques')
     const heading = getByText('About Us')

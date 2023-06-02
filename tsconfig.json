@@ -27,7 +27,7 @@
     "pages/products/[productId].tsx.skip",
     "db/database-query.js",
     ".vscode/Breadcrumbs.tsx",
-    "Body.test.tsx",
+    //should jest files go here?
     "./jest.setup.ts",
     "./node_modules/cypress"
   ],

@@ -9,15 +9,15 @@ export const Banner: React.FC = () => {
       <Link href="/">
         <div className="flex justify-center">
           <Image
-            src="/martine-logo.png"
+            src={('/martine-logo.png')}
             alt="martine bore antiques logo"
             width={160}
             height={140}
           />
         </div>
       </Link>
-      <div className="flex justify-start">
-        <Navigation />
+      <div data-testid="navigation" className="flex justify-start">
+        <Navigation/>
       </div>
     </div>
   );

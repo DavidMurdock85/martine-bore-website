@@ -3,7 +3,7 @@ import { render } from '@testing-library/react'
 import { Notices } from './Notices'
 
 describe('Notices Component', () => {
-  it('renders the notices correctly', () => {
+  test('renders the notices correctly', () => {
     const { getByText } = render(<Notices />)
 
     expect(getByText('Notices')).toBeInTheDocument()
