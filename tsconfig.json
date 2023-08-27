@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "types": ["jest", "node", "@types/testing-library__jest-dom"],
-    "baseUrl": ".", //should this be rootDir?
+    "baseUrl": ".", 
     "paths": {
       "@mb/*": ["*"]
     }
@@ -27,7 +27,6 @@
     "pages/products/[productId].tsx.skip",
     "db/database-query.js",
     ".vscode/Breadcrumbs.tsx",
-    //should jest files go here?
     "./jest.setup.ts",
     "./node_modules/cypress"
   ],

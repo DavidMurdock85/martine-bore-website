@@ -1,9 +1,15 @@
-import React from "react";
+import React from 'react'
+import { Typography } from '@mb/components/layout/Typography'
 
 export const Shipping: React.FC = () => {
   return (
-    <h6 className="flex flex-row justify-center">
-      <div className="flex mr-7 mt-1 mb-1">we ship worldwide</div>
-    </h6>
-  );
-};
+    <>
+      <Typography
+        className="flex justify-center mt-5 text-yellow-500 font-extralight"
+        variant="h3"
+      >
+        We offer World Wide Shipping
+      </Typography>
+    </>
+  )
+}

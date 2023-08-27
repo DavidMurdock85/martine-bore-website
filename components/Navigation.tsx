@@ -1,93 +1,181 @@
-import React from 'react'
+import { useState } from 'react'
+import { Typography } from '@mb/components/layout/Typography'
 import Link from 'next/link'
-import { Popover } from '@headlessui/react'
 
-export const Navigation: React.FC = () => {
+export const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
   return (
-    <Popover as="nav" className="relative ml-4">
-      <Popover.Button
-        as="button"
-        role="button"
-        aria-label={'menu'}
-        className=" text-black hover:text-black m-0.5 "
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          className="w-8 h-8"
-        >
-          <path
-            fillRule="evenodd"
-            d="M3 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.5A.75.75 0 013.75 9h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-            clipRule="evenodd"
-          />
-        </svg>
-      </Popover.Button>
+    <nav className="bg-slate-100 lg:flex justify-center mb-3">
+      <div className="">
+        <div className="lg:hidden ml-4 m-0.5">
+          <button
+            onClick={toggleMenu}
+            className="text-slate-500 focus:outline-none focus:bg-slate-100 focus:text-slate-500"
+          >
+            {isMenuOpen ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                className="w-6 h-6"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.5A.75.75 0 013.75 9h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                className="w-6 h-6"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M3 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.5A.75.75 0 013.75 9h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            )}
+          </button>
+        </div>
+        <div className="hidden lg:flex space-x-3">
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/paintings"
+          >
+            <Typography variant="h5">Paintings</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/glass"
+          >
+            <Typography variant="h5">Glass</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/jewelry"
+          >
+            <Typography variant="h5">Jewelry</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/sculptures"
+          >
+            <Typography variant="h5">Sculptures</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/furniture"
+          >
+            <Typography variant="h5">Furniture</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/objet-d-art"
+          >
+            <Typography variant="h5">Objet d&apos;art</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/ceramics"
+          >
+            <Typography variant="h5">Ceramics</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/porcelain"
+          >
+            <Typography variant="h5">Porcelain</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/silver"
+          >
+            <Typography variant="h5">Silver</Typography>
+          </Link>
+          <Link
+            className="text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/clocks"
+          >
+            <Typography variant="h5">Clocks</Typography>
+          </Link>
+        </div>
+      </div>
+      {isMenuOpen && (
+        <div className="lg:hidden space-y-3">
+          <Link
+            className=" flex justify-center  text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/paintings"
+          >
+            <Typography variant="h3">Paintings</Typography>
+          </Link>
+          <Link
+            className=" flex flex-row justify-center text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/glass"
+          >
+            <Typography variant="h3">Glass</Typography>
+          </Link>
+          <Link
+            className="flex flex-row justify-center  text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/jewelry"
+          >
+            <Typography variant="h3">Jewelry</Typography>
+          </Link>
 
-      <Popover.Panel className="absolute z-10 bg-white ml-1 mt-4 w-32 rounded">
-        <ul className="">
-          <li className=" flex flex-row justify-center  text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link
-              role="link"
-              aria-label={'Paintings'}
-              as="a"
-              href="/categories/paintings"
-              data-testid="paintings"
-            >
-              Paintings
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center   text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link as="a" href="/categories/glass" data-testid="glass">
-              Glass
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center   text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link as="a" href="/categories/jewelry" data-testid="jewelry">
-              Jewelry
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center   text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link as="a" href="/categories/sculptures" data-testid="sculptures">
-              Sculptures
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center  text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link as="a" href="/categories/furniture" data-testid="furniture">
-              Furniture
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center  text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link
-              as="a"
-              href="/categories/objet-d-art"
-              data-testid="objet-d-art"
-            >
-              Objet d&apos;art
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center  text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link as="a" href="/categories/ceramics" data-testid="ceramics">
-              Ceramics
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center  text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link as="a" href="/categories/porcelain" data-testid="porcelain">
-              Porcelain
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center  text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link as="a" href="/categories/silver" data-testid="silver">
-              Silver
-            </Link>
-          </li>
-          <li className=" flex flex-row justify-center  text-blue-500 hover:text-blue-700 hover:bg-slate-200 m-1">
-            <Link as="a" href="/categories/clocks" data-testid="clocks">
-              Clocks
-            </Link>
-          </li>
-        </ul>
-      </Popover.Panel>
-    </Popover>
+          <Link
+            className="flex flex-row justify-center text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/sculptures"
+          >
+            <Typography variant="h3">Sculptures</Typography>
+          </Link>
+
+          <Link
+            className=" flex flex-row justify-center  text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/furniture"
+          >
+            <Typography variant="h3">Furniture</Typography>
+          </Link>
+
+          <Link
+            className=" flex flex-row justify-center  text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/objet-d-art"
+          >
+            <Typography variant="h3">Objet d&apos;art</Typography>
+          </Link>
+
+          <Link
+            className=" flex flex-row justify-center   text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/ceramics"
+          >
+            <Typography variant="h3">Ceramics</Typography>
+          </Link>
+
+          <Link
+            className="flex flex-row justify-center  text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/porcelain"
+          >
+            <Typography variant="h3">Porcelain</Typography>
+          </Link>
+          <Link
+            className="flex flex-row justify-center   text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/silver"
+          >
+            <Typography variant="h3">Silver</Typography>
+          </Link>
+          <Link
+            className=" flex flex-row justify-center  text-slate-500 font-extralight hover:text-blue-700 hover:bg-slate-200 m-1"
+            href="/categories/clocks"
+          >
+            <Typography variant="h3">Clocks</Typography>
+          </Link>
+        </div>
+      )}
+    </nav>
   )
 }

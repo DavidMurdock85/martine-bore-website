@@ -4,25 +4,47 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",],
   theme: {
-
-    // screen breakpoints 
+    // breakpoints 
     screens: {
       // mobile
-      'sm': { 'min': '320px', 'max': '480px' },
+      'sm': '320px',
+      // mobile - medium
+      'sm-m': '375px',
+      // mobile - large
+      'sm-l': '425px',
       // tablet
-      'md': { 'min': '481px', 'max': '768px' },
+      'md': '481px',
       // laptop
-      'lg': { 'min': '769px', 'max': '1024px' },
+      'lg': '769px',
       // desktop
-      'xl': { 'min': '1025px', 'max': '1200px' },
+      'xl': '1025px',
       // larger device
-      '2xl': { 'min': '1201' },
+      '2xl': '1201px',
     },
+
+    fontSize: {
+      tiny: '0.4rem',
+      smlr: '0.6rem',
+      sm: '0.8rem',
+      md: '1rem',
+      lg: '1.1rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+    },
+
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      colors: {
+
+      },
+
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 

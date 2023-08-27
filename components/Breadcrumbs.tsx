@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react'
+import { Typography } from '@mb/components/layout/Typography'
 
 interface BreadcrumbProps {
-  breadcrumbItems: Array<BreadcrumbItemProps>;
+  breadcrumbItems: Array<BreadcrumbItemProps>
 }
 
 interface BreadcrumbItemProps {
-  url: string;
-  name: string;
+  url: string
+  name: string
 }
 
 export function Breadcrumb({ breadcrumbItems }: BreadcrumbProps) {
@@ -23,7 +24,7 @@ export function Breadcrumb({ breadcrumbItems }: BreadcrumbProps) {
         </div>
       ))}
     </nav>
-  );
+  )
 }
 
 function BreadcrumbItem({
@@ -31,24 +32,22 @@ function BreadcrumbItem({
   name,
   index,
 }: {
-  url: string;
-  name: string;
-  index: number;
+  url: string
+  name: string
+  index: number
 }) {
   return (
-    <h6
+    <Typography
+      variant="h5"
       itemProp="itemListElement"
       itemScope
       itemType="https://schema.org/ListItem"
       key={index}
-      className=""
     >
-      <a itemProp="item" href={url} className="">
-        <span itemProp="name" className="">
-          {name}
-        </span>
+      <a itemProp="item" href={url}>
+        <span itemProp="name">{name}</span>
       </a>
       <meta itemProp="position" content={index.toString()} />
-    </h6>
-  );
+    </Typography>
+  )
 }

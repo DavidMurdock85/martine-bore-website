@@ -1,33 +1,45 @@
-import React from "react";
-import Image from "next/image";
+import { Typography } from '@mb/components/layout/Typography'
+import { ImageAbout } from '@mb/components/ImageAbout'
 
 export const About: React.FC = () => {
   return (
-    <div className="flex flex-col bg-slate-100 mt-4 shadow-lg border-solid border-2 border-slate-200 rounded">
-      <div>
-        <h2 className="flex flex-row justify-center mt-6 mb-6">About Us</h2>
-        <div className="flex flex-row m-2">
-          <div className="flex flex-row">
-            <Image
-              src="/about-image.jpeg"
-              alt="second gallery at martine boré antiques"
-              width={1220}
-              height={1080}
-            />
-          </div>
-          <div className="flex flex-col">
-            <h3 className="flex flex-row justify-center m-2">
-              A Family Tradition
-            </h3>
-            <p className="flex flex-row ml-4 mt-3 text-base sm:text-sm md:text-md ">
-              Martine Boré Antiques Ltd. is a second generation antique business
-              located in Ambleside West Vancouver. The Boré family antique
-              business has been West Vancouvers source of antiques and fine art
-              since the mid 1980s.
-            </p>
+    <>
+      <div className="bg-slate-100 border-slate-100 border-2">
+        <div className="ml-5 mr-5 mb-5 mt-5 border border-yellow-500">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2">
+            <div className="">
+              <ImageAbout/>
+            </div>
+
+            <div className="">
+              <Typography
+                className="flex justify-center font-extralight text-slate-500"
+                variant="h2"
+              >
+                A Boré Family Tradition
+              </Typography>
+
+              <Typography
+                className="ml-4 mt-3 text-slate-500"
+                variant="body"
+              >
+                <span className="text-yellow-500">
+                  Martine Boré Antiques Ltd.
+                </span>
+                is a second generation antique business located in Ambleside
+                West Vancouver. The Boré family antique business has been West
+                Vancouvers source of antiques and fine art since the mid 1980s.
+                The Bore family business continues to bring a European
+                sensibility to the the Vancouver collecting community offering a
+                wide range of antiques and fine art sourced directly from Europe
+                as well as many locally esteemed collections built with love
+                over generations by collectors who share their passion fine
+                European antiques and art.
+              </Typography>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-};
+    </>
+  )
+}

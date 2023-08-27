@@ -1,62 +1,72 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import { ProductItem } from "@mb/pages/categories/[categoryId]";
-import { Product } from "@mb/services/types";
-import { get } from "@mb/services/FetchService";
+import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
+import { ProductItem } from '@mb/pages/categories/[categoryId]'
+import { Product } from '@mb/types/types'
+import { get } from '@mb/services/FetchService'
+import { Typography } from '@mb/components/layout/Typography'
 
 export const NewArrivals: React.FC = () => {
-  
-  const [products, setProducts] = useState<Product[]>([]);
+  const [products, setProducts] = useState<Product[]>([])
 
   const fetchCategory = async () => {
     try {
-      const fetchedProducts: Product[] = await get(`/categories/1/products`);
+      const fetchedProducts: Product[] = await get(`/categories/1/products`)
 
-      if (Array.isArray(fetchedProducts)) {
+      console.log(fetchedProducts)
 
       // Fisher-Yates shuffle algorithm
       for (let i = fetchedProducts.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [fetchedProducts[i], fetchedProducts[j]] = [
+        const j = Math.floor(Math.random() * (i + 1))
+        ;[fetchedProducts[i], fetchedProducts[j]] = [
           fetchedProducts[j],
           fetchedProducts[i],
-        ];
+        ]
       }
-      
-    }
 
-      setProducts(fetchedProducts.slice(0, 4));
+      setProducts(fetchedProducts.slice(0, 4))
     } catch (err) {
-      console.log(err);
+      console.log(err)
     }
-  };
+  }
 
   useEffect(() => {
-    fetchCategory();
-  }, []);
+    fetchCategory()
+  }, [])
 
-  console.log('products:', products);
+  console.log('products:', products)
 
   return (
-    <div className="container flex flex-col">
-      <div className="flex flex-col">
-        <h2 className="flex flex-row justify-center m-2">New Arrivals</h2>
+    <div className="grid grid-col-4  mt-2">
+      <div className="border-slate-300 border m-1">
+        <Typography
+          variant="h2"
+          className="grid justify-center mt-2 mb-2 text-yellow-500 font-extralight"
+        >
+          New Arrivals
+        </Typography>
 
-        <div  className="flex flex-row">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
           {products.length > 0 &&
             products.map((product, index: number) => (
-              <ProductItem data-testid="new-arrivals-product-items" key={index} product={product}/>
+              <ProductItem
+                data-testid="new-arrivals-product-items"
+                key={index}
+                product={product}
+              />
             ))}
         </div>
 
-        <div className="flex flex-row justify-center">
-          <Link href="/categories/new-arrivals">
-            <div className=" text-blue-500 hover:text-blue-700  hover:bg-slate-200">
+        <div className="grid justify-center">
+          <Typography
+            className=" text-blue-500 hover:text-blue-700  hover:bg-slate-400 mt-2 mb-3"
+            variant="h5"
+          >
+            <Link href="/categories/new-arrivals">
               click for a full list of our new arrivals
-            </div>
-          </Link>
+            </Link>
+          </Typography>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

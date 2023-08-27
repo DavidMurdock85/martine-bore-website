@@ -1,5 +1,5 @@
 import { del, post, postFile, put } from "@mb/services/FetchService";
-import { Product, ProductImage } from "@mb/services/types";
+import { Product, ProductImage } from "@mb/types/types";
 
 export interface Listing {
   id: number;
