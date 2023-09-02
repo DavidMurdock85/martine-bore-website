@@ -25,11 +25,13 @@ const SignIn: React.FC = () => {
         onSubmit={async (values: any) => {
           setLoading(true)
           try {
+            console.log(auth);
             // Call the auth.login method to attempt login
             await auth.login(values.user.username, values.user.password)
             // If successful, redirect to admin page
             router.push('/admin')
           } catch (err) {
+            console.log(err);
             // If unsuccessful, set the error message
             setAlert('Failed to sign in')
           } finally {

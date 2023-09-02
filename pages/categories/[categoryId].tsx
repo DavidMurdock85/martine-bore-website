@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { NextPage } from 'next'
-import Image from 'next/image'
+// import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { PageWrapper } from '@mb/components/PageWrapper'
 import { useAuth } from '@mb/providers/AuthProvider'
@@ -87,7 +87,7 @@ export const ProductItem: React.FC<ProductItemProps> = ({
 
       <div className="m-1">
         {images.length > 0 && (
-          <Image
+          <img
             src={`${IMAGES_BASE_URL}/${images[0].original}`}
             alt={title || ''}
             width={750}

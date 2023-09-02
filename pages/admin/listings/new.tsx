@@ -1,5 +1,4 @@
 import { AdminWrapper } from '@mb/components/AdminWrapper'
-import Image from 'next/image'
 import Link from 'next/link'
 import {
   addImagesToListing,
@@ -54,7 +53,7 @@ const CreateListing: React.FC = () => {
 
   // get
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
-    accept: 'image/*',
+    // accept: {'': ['image/*']},
     onDrop: (acceptedFiles) => {
       const additionalImages = acceptedFiles.map((file) =>
         Object.assign(file, {
@@ -89,7 +88,7 @@ const CreateListing: React.FC = () => {
         <div className="flex flex-col items-center mt-4">
           <Formik
             initialValues={{
-              //categoryId: 1,
+              // categoryId: 1,
               title: '',
               period: '',
               date: '',
@@ -103,7 +102,7 @@ const CreateListing: React.FC = () => {
             onSubmit={onSubmit}
             validateOnChange={false}
           >
-            {({ errors, touched, handleChange, handleBlur, handleSubmit }) => (
+            {({ handleChange, handleBlur, handleSubmit }) => (
               <Form
                 className="contact-us-form"
                 noValidate
@@ -255,7 +254,7 @@ const CreateListing: React.FC = () => {
                 {images && (
                   <div className="mt-1">
                     {images.map((image, index) => (
-                      <Image key={index} src={image.preview} alt="test" />
+                      <img key={index} src={image.preview} alt="test" />
                     ))}
                   </div>
                 )}
