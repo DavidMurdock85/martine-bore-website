@@ -49,6 +49,7 @@ const EditListing: React.FC = () => {
 
   // Set up the useDropzone hook to handle file uploads
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    
     accept: 'image/*',
     onDrop: (acceptedFiles) => {
       // When files are dropped, create preview URLs and add the files to the images array
@@ -88,8 +89,8 @@ const EditListing: React.FC = () => {
             validateOnChange={false}
           >
             {({
-              errors,
-              touched,
+              //errors,
+              //touched,
               handleChange,
               handleBlur,
               handleSubmit,
