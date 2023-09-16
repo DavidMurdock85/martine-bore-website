@@ -49,8 +49,9 @@ const EditListing: React.FC = () => {
 
   // Set up the useDropzone hook to handle file uploads
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
+
+    //accept: 'image/*',
     
-    accept: 'image/*',
     onDrop: (acceptedFiles) => {
       // When files are dropped, create preview URLs and add the files to the images array
       const additionalImages = acceptedFiles.map((file) =>
@@ -287,7 +288,7 @@ const EditListing: React.FC = () => {
                   </div>
                 )}
 
-                <div className="flex" {...getRootProps()} mt={4}>
+                <div className="flex mt-4" {...getRootProps()} >
                   <input {...getInputProps()} />
                   {isDragActive ? (
                     <div className="flex">Drop the files here ...</div>

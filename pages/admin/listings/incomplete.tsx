@@ -7,6 +7,7 @@ import React, { useEffect, useState } from 'react'
 import { Typography } from '@mb/components/layout/Typography'
 
 const Incomplete: React.FC = () => {
+  
   //const auth: any = useAuth()
   const [incompleteListings, setIncompleteListings] = useState<Product[]>([])
 
