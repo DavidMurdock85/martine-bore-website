@@ -1,18 +1,15 @@
 import { AdminWrapper } from '@mb/components/AdminWrapper'
 import Link from 'next/link'
-//import { useAuth } from '@mb/providers/AuthProvider'
 import { get } from '@mb/services/FetchService'
 import { Product } from '@mb/types/types'
 import React, { useEffect, useState } from 'react'
 import { Typography } from '@mb/components/layout/Typography'
 
 const Incomplete: React.FC = () => {
-  
-  //const auth: any = useAuth()
   const [incompleteListings, setIncompleteListings] = useState<Product[]>([])
 
   useEffect(() => {
-    ;(async () => {
+    (async () => {
       setIncompleteListings(await get<Product[]>('/products/incomplete'))
     })()
   }, [])

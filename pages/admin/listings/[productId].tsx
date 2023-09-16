@@ -90,8 +90,6 @@ const EditListing: React.FC = () => {
             validateOnChange={false}
           >
             {({
-              //errors,
-              //touched,
               handleChange,
               handleBlur,
               handleSubmit,
