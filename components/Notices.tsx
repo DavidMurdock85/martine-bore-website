@@ -9,13 +9,13 @@ export const Notices: React.FC = () => {
           <div className="flex flex-col">
             <div className="">
               <Typography
-                className="flex justify-center font-extralight"
+                className="flex justify-center font-extralight  text-slate-700"
                 variant="h2"
               >
                 Message Board
               </Typography>
 
-              <Typography className="flex justify-center m-2" variant="body">
+              <Typography className="flex justify-center m-2  text-slate-700" variant="body">
                 The Fall Season is upon us. Were thinking about rich hues of
                 gold and the smell of old antique furniture. What inspirations
                 do you get from the fall season?

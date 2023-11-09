@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       description="A second generation antique dealer in the heart of West Vancouver Ambleside District"
     >
       <div className="flex flex-col ml-4 mr-4 relative z-0">
-        <div className="">
+        <div className="flex flex-row justify-center">
           <ImageMain />
         </div>
         <div className="mt-4 mb-1">

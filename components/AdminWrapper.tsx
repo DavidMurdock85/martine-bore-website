@@ -23,21 +23,6 @@ export const AdminWrapper: React.FC<AdminWrapperProps> = ({ children }) => {
             Back to Homepage
           </Link>
         </li>
-        <li className="flex flex-row">
-          <Link href="/admin/listings/new" className="">
-            New Listing
-          </Link>
-        </li>
-        <li className="flex flex-row">
-          <Link href="/admin/listings/incomplete" className="">
-            Incomplete Listings
-          </Link>
-        </li>
-        <li className="flex flex-row">
-          <Link href="/admin/login" className="">
-            Login
-          </Link>
-        </li>
       </ul>
       <div>{children}</div>
       <Footer />

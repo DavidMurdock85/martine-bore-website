@@ -40,7 +40,7 @@ export const NewArrivals: React.FC = () => {
       <div className="border-slate-300 border m-1">
         <Typography
           variant="h2"
-          className="grid justify-center mt-2 mb-2 text-yellow-500 font-extralight"
+          className="grid justify-center mt-2 mb-2 text-yellow-700 font-extralight"
         >
           New Arrivals
         </Typography>
