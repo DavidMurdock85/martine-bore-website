@@ -8,7 +8,7 @@ export const ContactForm: React.FC = () => {
       <div className="flex flex-col w-1/2 mt-3">
         <div className="m-1">
           <Typography
-            className="flex justify-center text-yellow-500 font-extralight"
+            className="flex justify-center text-yellow-700 font-extralight"
             variant="h2"
           >
             Contact Us

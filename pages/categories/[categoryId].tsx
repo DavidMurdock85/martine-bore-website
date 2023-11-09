@@ -142,7 +142,7 @@ const ProductCategory: NextPage = () => {
     <PageWrapper title={metaTitle} description={metaDescription}>
       <Typography
         variant="h2"
-        className="bg-slate-100  flex justify-center mt-3 mb-3 text-yellow-500 font-extralight"
+        className="bg-slate-100  flex justify-center mt-3 mb-3 text-yellow-700 font-extralight"
       >
         {title}
       </Typography>

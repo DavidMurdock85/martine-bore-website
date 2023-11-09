@@ -14,14 +14,14 @@ export const Banner: React.FC = () => {
           </div>
           <div className="flex flex-col justify-center">
             <Typography
-              className="text-yellow-500 font-extralight"
+              className="text-yellow-700 font-extralight"
               variant="banner-title"
             >
               Martine Boré Antiques
             </Typography>
-            <hr className="border-slate-300" />
+            <hr className="border-slate-500" />
             <Typography
-              className="flex flex-row justify-center text-yellow-500 font-extralight"
+              className="flex flex-row justify-center text-yellow-700 font-extralight"
               variant="banner-sub"
             >
               West Vancouver

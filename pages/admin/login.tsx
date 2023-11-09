@@ -25,13 +25,13 @@ const SignIn: React.FC = () => {
         onSubmit={async (values: any) => {
           setLoading(true)
           try {
-            console.log(auth);
+            console.log(auth)
             // Call the auth.login method to attempt login
             await auth.login(values.user.username, values.user.password)
             // If successful, redirect to admin page
             router.push('/admin')
           } catch (err) {
-            console.log(err);
+            console.log(err)
             // If unsuccessful, set the error message
             setAlert('Failed to sign in')
           } finally {
@@ -67,7 +67,10 @@ const SignInForm: React.FC<any> = (props: any) => {
       {({ errors, touched, handleChange, handleBlur, handleSubmit }) => (
         <Form className="sign-in-form" noValidate onSubmit={handleSubmit}>
           <div className="flex flex-row">
-            <Form.Group className="username" controlId="user.username">
+            <Form.Group
+              className="username flex flex-col"
+              controlId="user.username"
+            >
               <Form.Label>Username</Form.Label>
               <Form.Control
                 type="text"
@@ -88,7 +91,10 @@ const SignInForm: React.FC<any> = (props: any) => {
           </div>
           <div className="flex flex-row">
             <div>
-              <Form.Group className="password" controlId="user.password">
+              <Form.Group
+                className="password flex flex-col"
+                controlId="user.password"
+              >
                 <Form.Label>Password</Form.Label>
                 <Form.Control
                   type="password"

@@ -83,7 +83,7 @@ const CreateListing: React.FC = () => {
             })}
           </div>
         )}
-        <div className="flex flex-col items-center mt-4">
+        <div className="flex flex-col w-100 p-10 mt-4">
           <Formik
             initialValues={{
               // categoryId: 1,
@@ -110,14 +110,8 @@ const CreateListing: React.FC = () => {
                   <Typography variant="h2">Add a new listing</Typography>
                 </div>
 
-                <div className="flex justify-center mb-2">
-                  <Typography variant="body">
-                    Use this form to add a new product listing
-                  </Typography>
-                </div>
-
                 <div className="flex flex-col">
-                  <Form.Group className="flex mb-2" controlId="title">
+                  <Form.Group className="flex flex-col mb-2" controlId="title">
                     <Form.Label className="mr-24">
                       <Typography variant="h4">Title</Typography>
                     </Form.Label>
@@ -125,11 +119,14 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
 
-                  <Form.Group className="flex mb-2" controlId="metaTitle">
+                  <Form.Group
+                    className="flex flex-col  mb-2"
+                    controlId="metaTitle"
+                  >
                     <Form.Label className="mr-14">
                       <Typography variant="h4">Meta Title</Typography>
                     </Form.Label>
@@ -137,11 +134,14 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
 
-                  <Form.Group className="flex mb-2" controlId="metaDescription">
+                  <Form.Group
+                    className="flex flex-col  mb-2"
+                    controlId="metaDescription"
+                  >
                     <Form.Label className="mr-3">
                       <Typography variant="h4">Meta Description</Typography>
                     </Form.Label>
@@ -149,11 +149,11 @@ const CreateListing: React.FC = () => {
                       as="textarea"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className=" bg-slate-200 h-40 border border-slate-500"
                     />
                   </Form.Group>
                   <Form.Group
-                    className="flex justify-start mb-2"
+                    className="flex flex-col  mb-2"
                     controlId="categoryId"
                   >
                     <Form.Label className="mr-2">
@@ -163,7 +163,7 @@ const CreateListing: React.FC = () => {
                       as="select"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     >
                       {categories.map((category: Category) => {
                         return (
@@ -175,7 +175,7 @@ const CreateListing: React.FC = () => {
                     </Form.Control>
                   </Form.Group>
                   <Form.Group
-                    className="flex justify-start mb-2"
+                    className="flex flex-col  mb-2"
                     controlId="period"
                   >
                     <Form.Label className="mr-2">
@@ -185,12 +185,12 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
 
                   <Form.Group
-                    className="flex justify-center mb-2"
+                    className="flex flex-col  mb-2"
                     controlId="medium"
                   >
                     <Form.Label className="mr-2">
@@ -200,14 +200,11 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
 
-                  <Form.Group
-                    className="flex justify-center mb-2"
-                    controlId="date"
-                  >
+                  <Form.Group className="flex flex-col  mb-2" controlId="date">
                     <Form.Label className="mr-2">
                       <Typography variant="h4">Date</Typography>
                     </Form.Label>
@@ -215,11 +212,11 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
                   <Form.Group
-                    className="flex justify-center mb-2"
+                    className="flex flex-col  mb-2"
                     controlId="dimensions"
                   >
                     <Form.Label className="mr-2">
@@ -229,11 +226,11 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
                   <Form.Group
-                    className="flex justify-center mb-2"
+                    className="flex flex-col  mb-2"
                     controlId="origin"
                   >
                     <Form.Label className="mr-2">
@@ -243,14 +240,11 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
 
-                  <Form.Group
-                    className="flex justify-center mb-2"
-                    controlId="maker"
-                  >
+                  <Form.Group className="flex flex-col  mb-2" controlId="maker">
                     <Form.Label className="mr-2">
                       <Typography variant="h4">Maker</Typography>
                     </Form.Label>
@@ -258,12 +252,12 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
 
                   <Form.Group
-                    className="flex justify-center mb-2"
+                    className="flex flex-col mb-2"
                     controlId="description"
                   >
                     <Form.Label className="mr-2">
@@ -273,13 +267,10 @@ const CreateListing: React.FC = () => {
                       as="textarea"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border h-40 border-slate-500"
                     />
                   </Form.Group>
-                  <Form.Group
-                    className="flex justify-center mb-2"
-                    controlId="price"
-                  >
+                  <Form.Group className="flex flex-col mb-2" controlId="price">
                     <Form.Label className="mr-2">
                       <Typography variant="h4">Price</Typography>
                     </Form.Label>
@@ -287,23 +278,29 @@ const CreateListing: React.FC = () => {
                       as="input"
                       onChange={handleChange}
                       onBlur={handleBlur}
-                      className="bg-slate-300 border border-slate-500"
+                      className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
                 </div>
 
-                <div className="flex items-center mt-4" {...getRootProps()}>
-                  <input {...getInputProps()} />
-                  {isDragActive ? (
-                    <Typography variant="body" className="">
-                      Drop the files here ...
-                    </Typography>
-                  ) : (
-                    <Typography variant="body" className="">
-                      Drag and drop images here, or click here to select.
-                    </Typography>
-                  )}
+                <div className='flex justify-center h-40'>
+                  <div
+                    className="flex justify-center items-center mt-4 border border-slate-500 w-1/2"
+                    {...getRootProps()}
+                  >
+                    <input {...getInputProps()} />
+                    {isDragActive ? (
+                      <Typography variant="body">
+                        Drop the files here ...
+                      </Typography>
+                    ) : (
+                      <Typography variant="body" className="text-blue-500">
+                        Drag and drop images here, or click here to select.
+                      </Typography>
+                    )}
+                  </div>
                 </div>
+
                 {images && (
                   <div className="mt-1">
                     {images.map((image, index) => (
@@ -313,7 +310,7 @@ const CreateListing: React.FC = () => {
                 )}
                 <div className="flex justify-center mt-4 mb-4">
                   <Button type="submit" className="submit">
-                    <Typography variant="h3">Create</Typography>
+                    <Typography variant="h3">Click to Create Listing</Typography>
                   </Button>
                 </div>
               </Form>

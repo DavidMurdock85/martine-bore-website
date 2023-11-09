@@ -8,19 +8,19 @@ export const Buying: React.FC = () => {
       <div className="grid grid-col-1 mt-3">
         <div className="border-slate-300 border m-1">
           <Typography
-            className="grid justify-center text-yellow-500 font-extralight"
+            className="grid justify-center text-yellow-700 font-extralight"
             variant="h2"
           >
             We&apos;re Buying
           </Typography>
 
           <Typography
-            className="grid justify-center m-1 text-slate-500"
+            className="grid justify-center m-1 text-slate-700"
             variant="body"
           >
-            We are actively seeking new works of Jewelry, Paintings, Silver,
-            Bronze, Crystal, Porcelain, China, Stemware, Chandeliers and
-            Furniture. To veiw a full buying list click the link below.
+            We are actively seeking new acquisitions of Fine Jewelry, Paintings,
+            Silver, Bronze, Crystal, Porcelain, China, Stemware, Chandeliers and
+            Furniture. To view a full buying list please click the link below.
           </Typography>
 
           {/*how can i fix placement of popover panel?*/}
