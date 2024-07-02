@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen, act } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { Navigation } from '../../components/Navigation'
+import { Navigation } from '../../components/header/navigation'
 
 describe('Navigation', () => {
   it('should display the navigation menu when clicked', () => {

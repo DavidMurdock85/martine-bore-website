@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { NextPage } from 'next'
-// import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { PageWrapper } from '@mb/components/PageWrapper'
 import { useAuth } from '@mb/providers/AuthProvider'
@@ -10,24 +9,17 @@ import { Category, Product } from '@mb/types/types'
 import { IMAGES_BASE_URL } from '@mb/utils/constants'
 import { Typography } from '@mb/components/layout/Typography'
 
-// Define an interface for the props that this component accepts
 interface ProductItemProps {
-  onDelete?: () => void // Optional function that takes no arguments and returns nothing
-  product: Product // Required object of type Product
+  onDelete?: () => void
+  product: Product
 }
 
-// Define the ProductItem component as a function that takes in ProductItemProps as its props
 export const ProductItem: React.FC<ProductItemProps> = ({
   onDelete,
   product,
 }) => {
-  // Import the useRouter hook from the Next.js framework
   const router = useRouter()
-
-  // Use the useAuth hook to get the loggedIn state value from the authentication context
-
   const loggedIn = useAuth().state?.loggedIn
-
   const { id, images, route, title } = product
 
   return (
@@ -84,8 +76,7 @@ export const ProductItem: React.FC<ProductItemProps> = ({
           </div>
         </div>
       )}
-
-      <div className="m-1">
+      <div className="m-2">
         {images.length > 0 && (
           <img
             src={`${IMAGES_BASE_URL}/${images[0].original}`}
@@ -99,55 +90,37 @@ export const ProductItem: React.FC<ProductItemProps> = ({
     </div>
   )
 }
-
 const ProductCategory: NextPage = () => {
-  // Get the Next.js router object
   const nextJSRouter = useRouter()
-
-  // Get the categoryId from the query params
   const { categoryId } = nextJSRouter.query
-
-  // Set up state variables for category and products
   const [category, setCategory] = useState<Partial<Category>>({})
   const [products, setProducts] = useState<Product[]>([])
-
-  // Define a function to fetch the category and products from the API
   const fetchCategory = async () => {
     try {
-      // Fetch the category by ID from the API
       const fetchedCategory: Category = await get(`/categories/${categoryId}`)
-      // Set the category state variable to the fetched category
       setCategory(fetchedCategory)
-
-      // Fetch the products for the category from the API
       const fetchedProducts: Product[] = await get(
         `/categories/${fetchedCategory.id}/products`
       )
-      // Set the products state variable to the fetched products
       setProducts(fetchedProducts)
     } catch (err) {
-      // Log any errors to the console
       console.log(err)
     }
   }
-
-  // Use the useEffect hook to fetch the category and products whenever the categoryId changes
   useEffect(() => {
     fetchCategory()
   }, [categoryId])
-
-  // Destructure the category object for easier use within the component
   const { title, metaTitle, metaDescription } = category
+  
   return (
     <PageWrapper title={metaTitle} description={metaDescription}>
       <Typography
         variant="h2"
-        className="bg-slate-100  flex justify-center mt-3 mb-3 text-yellow-700 font-extralight"
+        className="bg-white flex justify-center text-yellow-700"
       >
         {title}
       </Typography>
-
-      <div className="bg-amber-50">
+      <div className="bg-white">
         <div className="flex flex-wrap">
           {products.length > 0 &&
             products.map((product, index: number) => (

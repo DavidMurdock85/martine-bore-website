@@ -1,4 +1,4 @@
-import { AdminWrapper } from '@mb/components/AdminWrapper'
+import { AdminWrapper } from '@mb/components/footer/admin/AdminWrapper'
 import Link from 'next/link'
 import { get } from '@mb/services/FetchService'
 import { Product } from '@mb/types/types'
