@@ -21,7 +21,9 @@ module.exports = {
       // larger device
       '2xl': '1201px',
     },
-
+    fontFamily: {
+      sans: ['GeistSans'],
+    },
     fontSize: {
       tiny: '0.4rem',
       smlr: '0.6rem',

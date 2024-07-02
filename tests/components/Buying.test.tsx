@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import { Buying } from '../../components/Buying'
+import { Buying } from '../../components/main/buying/Buying'
 
 describe('Buying component', () => {
   test('renders the component', () => {

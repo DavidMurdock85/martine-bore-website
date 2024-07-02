@@ -2,7 +2,6 @@ export interface ProductImage {
   id: number;
   original: string;
   thumbnail: string;
-  //added width and height
   width: number;
   height: number;
 }

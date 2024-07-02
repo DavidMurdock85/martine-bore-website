@@ -1,6 +1,6 @@
 import React from 'react'
 import { render, screen, waitFor } from '@testing-library/react'
-import { NewArrivals } from '../../components/NewArrivals'
+import { NewArrivals } from '../../components/main/NewArrivals'
 import { Product } from '@mb/types/types'
 import * as FetchService from '../../services/FetchService'
 

@@ -8,31 +8,23 @@ import Form from 'react-bootstrap/Form'
 import Spinner from 'react-bootstrap/Spinner'
 import * as Yup from 'yup'
 
-// SignIn component that renders a SignInForm and handles the submission
 const SignIn: React.FC = () => {
-  // Get the authentication object and router object from context
   const auth: any = useAuth()
   const router: any = useRouter()
-  // State to hold error message
   const [alert, setAlert] = useState<string>()
-  // State to indicate if form is loading or not
   const [loading, setLoading] = useState<boolean>(false)
 
   return (
     <div className="flex flex-col my-4">
-      {/* Render the SignInForm component */}
       <SignInForm
         onSubmit={async (values: any) => {
           setLoading(true)
           try {
             console.log(auth)
-            // Call the auth.login method to attempt login
             await auth.login(values.user.username, values.user.password)
-            // If successful, redirect to admin page
             router.push('/admin')
           } catch (err) {
             console.log(err)
-            // If unsuccessful, set the error message
             setAlert('Failed to sign in')
           } finally {
             setLoading(false)
@@ -46,9 +38,7 @@ const SignIn: React.FC = () => {
   )
 }
 
-// SignInForm component that displays the form fields and handles form submission
 const SignInForm: React.FC<any> = (props: any) => {
-  // Get props from parent component
   const { alert, loading, onSubmit, setAlert } = props
   return (
     <Formik

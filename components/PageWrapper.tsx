@@ -1,7 +1,6 @@
 import NextHead from 'next/head'
-import { Banner } from '@mb/components/Banner'
-
-import { Footer } from '@mb/components/Footer'
+import { Banner } from '@mb/components/header/Banner'
+import { Footer } from '@mb/components/footer/Footer'
 interface PageWrapperProps {
   children?: any
   title?: string

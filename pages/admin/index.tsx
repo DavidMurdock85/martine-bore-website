@@ -1,4 +1,4 @@
-import { AdminWrapper } from '@mb/components/AdminWrapper'
+import { AdminWrapper } from '@mb/components/footer/admin/AdminWrapper'
 import Link from 'next/link'
 
 const AdminLanding: React.FC = () => {

@@ -4,4 +4,8 @@
 
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
-@layer base {}
+@layer base {
+    html {
+      font-family: "GeistSans";
+    }
+  }

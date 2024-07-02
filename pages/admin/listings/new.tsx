@@ -1,4 +1,4 @@
-import { AdminWrapper } from '@mb/components/AdminWrapper'
+import { AdminWrapper } from '@mb/components/footer/admin/AdminWrapper'
 import Link from 'next/link'
 import {
   addImagesToListing,
@@ -14,32 +14,17 @@ import Form from 'react-bootstrap/Form'
 import { useDropzone } from 'react-dropzone'
 import { Typography } from '@mb/components/layout/Typography'
 
-// create listing
 const CreateListing: React.FC = () => {
-  // set product
   const [submitted, setSubmitted] = useState<Product[]>([])
-
-  // set categories
   const [categories, setCategories] = useState<Category[]>([])
-
-  // set images
   const [images, setImages] = useState<any[]>([])
-
-  // fetch categories
   const fetchCategories = async () => {
     setCategories(await get<Category[]>('/categories'))
   }
-
-  // on submit create new listing
   const onSubmit = async (values: NewListing) => {
     try {
-      // await created new listing
       const createdListing = await createNewListing(values)
-
-      // await added images
       const addedImages = await addImagesToListing(createdListing.id, images)
-
-      //
       setSubmitted(
         submitted.concat({
           ...createdListing,
@@ -50,10 +35,7 @@ const CreateListing: React.FC = () => {
       console.log(err)
     }
   }
-
-  // get
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
-    // accept: {'': ['image/*']},
     onDrop: (acceptedFiles) => {
       const additionalImages = acceptedFiles.map((file) =>
         Object.assign(file, {
@@ -63,8 +45,6 @@ const CreateListing: React.FC = () => {
       setImages(images.concat(additionalImages))
     },
   })
-
-  //
   useEffect(() => {
     fetchCategories()
   }, [])
@@ -86,7 +66,6 @@ const CreateListing: React.FC = () => {
         <div className="flex flex-col w-100 p-10 mt-4">
           <Formik
             initialValues={{
-              // categoryId: 1,
               title: '',
               period: '',
               date: '',
@@ -109,7 +88,6 @@ const CreateListing: React.FC = () => {
                 <div className="flex justify-center mb-2">
                   <Typography variant="h2">Add a new listing</Typography>
                 </div>
-
                 <div className="flex flex-col">
                   <Form.Group className="flex flex-col mb-2" controlId="title">
                     <Form.Label className="mr-24">
@@ -122,7 +100,6 @@ const CreateListing: React.FC = () => {
                       className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
-
                   <Form.Group
                     className="flex flex-col  mb-2"
                     controlId="metaTitle"
@@ -188,7 +165,6 @@ const CreateListing: React.FC = () => {
                       className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
-
                   <Form.Group
                     className="flex flex-col  mb-2"
                     controlId="medium"
@@ -203,7 +179,6 @@ const CreateListing: React.FC = () => {
                       className="bg-slate-200 border border-slate-500"
                     />
                   </Form.Group>
-
                   <Form.Group className="flex flex-col  mb-2" controlId="date">
                     <Form.Label className="mr-2">
                       <Typography variant="h4">Date</Typography>
@@ -283,7 +258,7 @@ const CreateListing: React.FC = () => {
                   </Form.Group>
                 </div>
 
-                <div className='flex justify-center h-40'>
+                <div className="flex justify-center h-40">
                   <div
                     className="flex justify-center items-center mt-4 border border-slate-500 w-1/2"
                     {...getRootProps()}
@@ -310,7 +285,9 @@ const CreateListing: React.FC = () => {
                 )}
                 <div className="flex justify-center mt-4 mb-4">
                   <Button type="submit" className="submit">
-                    <Typography variant="h3">Click to Create Listing</Typography>
+                    <Typography variant="h3">
+                      Click to Create Listing
+                    </Typography>
                   </Button>
                 </div>
               </Form>
